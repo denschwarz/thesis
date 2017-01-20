@@ -1,0 +1,157 @@
+\documentclass[12pt, a4paper, twoside]{article}
+
+\usepackage[ngerman, english]{babel}
+\usepackage[ansinew]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2cm]{geometry}
+\usepackage[onehalfspacing]{setspace}
+\usepackage[section]{placeins} %Bilder rutschen nicht aus section
+\usepackage[markup=nocolor,deletedmarkup=xout]{changes}
+\usepackage{cancel} 
+\usepackage{chngcntr}
+\usepackage{lscape}
+\usepackage[normal]{caption} %style für Bildunterschriften
+\usepackage{multicol} 
+\usepackage{epstopdf}
+\usepackage{textcomp}
+
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\counterwithin{equation}{section}
+
+\usepackage{typearea}
+\usepackage[style=ieee, maxbibnames=100, sorting=none, backend=bibtex]{biblatex}
+\usepackage[babel, german=quotes]{csquotes}
+
+\renewbibmacro*{author}{%
+	\ifboolexpr{
+ 	 test \ifuseauthor
+	and
+	not test {\ifnameundef{author}}
+}
+	{%
+		\printnames{author}%
+		\iffieldundef{authortype}
+		{}
+		{%
+			\setunit{\addcomma\space}%
+			\usebibmacro{authorstrg}%
+		}%
+	}
+	{\global\undef\bbx@lasthash}%
+} 
+
+
+\addbibresource{Master_Bib.bib}
+
+
+\usepackage{hyperref}
+\urlstyle{same}
+
+%\usepackage{titlesec} % for other styles of section (subsection) headers 
+
+%\titleformat{\section}{\normalfont\fontsize{17}{18}\bfseries}{\thesection}{1em}{}
+%\titleformat{name=\section,numberless}{\normalfont\fontsize{17}{18}\bfseries}{}{0em}{}
+%\titleformat{\subsection}{\normalfont\fontsize{12}{15}\bfseries}{\thesubsection}{1em}{}
+
+
+\begin{document}
+%----------------------------------------------------------------
+%------------------DECKBLATT-------------------------------------
+%----------------------------------------------------------------
+\selectlanguage{ngerman}
+\pagenumbering{roman}
+\thispagestyle{empty}
+\textbf{
+\begin{center}
+\large
+Deutscher Titel 
+\\[2cm]
+Englischer Titel
+\\[3cm]
+\end{center}
+\begin{center}
+von\\
+Dennis Schwarz\\
+geboren am\\
+28.07.1991
+\\[2cm]
+Masterarbeit im Studiengang Physik\\
+Universit"at Hamburg
+\\[2cm]
+2017
+\\[2cm]
+\end{center}
+1. Gutachter: Prof. Dr. Johannes Haller\\
+2. Gutachter: 
+}
+
+\clearpage
+{\pagestyle{empty} \cleardoublepage}
+%----------------------------------------------------------------
+%----------------------------------------------------------------
+\noindent\textbf{Zusammenfassung}\\
+\selectlanguage{english}
+\noindent\textbf{Abstract}\\
+
+\clearpage
+
+%\renewcommand{\figurename}{Figure} %Damit es "Figure." hei§t
+%\renewcommand{\tablename}{Table} %Damit es "Table" hei§t
+%\renewcommand{\listfigurename}{List of Figures}
+%\renewcommand{\contentsname}{Contents} %Damit es "Contents" hei§t
+\tableofcontents
+
+\cleardoublepage
+
+
+\pagenumbering{arabic}
+\selectlanguage{english}
+%----------------------------------------------------------------
+%-------------------Hier Inhalt----------------------------------
+%----------------------------------------------------------------
+\include{Introduction}
+\include{Theory}
+\include{Experiment}
+\include{Reconstruction}
+\include{Analysis}
+
+
+%----------------------------------------------------------------
+%----------Hier Literaturverzeichnis-----------------------------
+%----------------------------------------------------------------
+%Einträge erscheinen nur, wenn sie auch zitiert werden!!!
+\printbibliography[title={Bibliography}]
+
+%----------------------------------------------------------------
+%------------------Unterschrift----------------------------------
+%----------------------------------------------------------------
+\cleardoublepage
+\noindent Hiermit bestätige ich, dass die vorliegende Arbeit von mir selbstst"andig verfasst wurde und ich keine anderen als die angegebenen Hilfsmittel -- insbesondere keine im Quellenverzeichnis nicht benannten Internet-Quellen -- benutzt habe und die Arbeit von mir vorher nicht einem anderen Prüfungsverfahren eingereicht wurde. Die eingereichte schriftliche Fassung entspricht der auf dem elektronischen Speichermedium. Ich bin damit einverstanden, dass die Masterarbeit veröffentlicht wird.\\
+\newline
+\newline
+\newline
+\begin{tabular*}{\textwidth}{lll}
+	\hline
+	Ort, Datum & \hspace{10.4cm} & Unterschrift  \\
+\end{tabular*}
+
+\cleardoublepage
+%----------------------------------------------------------------
+%---------------------Danksagung---------------------------------
+%----------------------------------------------------------------
+\section*{Danksagung}
+
+%----------------------------------------------------------------
+%----------------------------------------------------------------
+%----------------------------------------------------------------
+
+\end{document}  

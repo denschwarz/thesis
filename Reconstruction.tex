@@ -1,0 +1,81 @@
+\section{Reconstruction}
+\subsection{Coordinate system}
+	The coordinate system used in the CMS experiment is based on cartesian and right-handed coordinates. The origin is set in the center of the CMS detector. To define the direction of the axes other fix points are set. The $x$-axis point in the direction of the center of the LHC ring, the $y$-axis points up and the $z$-axis is defined parallel to the beam axis. Important variables used in analysis of CMS data are the angles $\phi$ and $\theta$. $\phi$ is defined as the angle in the $x$-$y$-plane measured from the $x$-axis and $\theta$ describes the angle from a given point to the beam axis. Because the LHC is a hadron collider and physical events are therefore not symmetric in $\theta$ it is useful to construct the Lorentz invariant variable $\eta$:
+	
+	\begin{equation}
+	\eta = - \ln \left[\tan\left( \frac{\theta}{2}\right) \right]
+	\end{equation} 
+
+	\noindent The distance $\Delta R$ between two objects $i$ and $j$ is calculated using the differences $\Delta \phi = \phi_i - \phi_j$ and $\Delta \eta = \eta_i - \eta_j$:
+	
+	\begin{equation}
+	\Delta R = \sqrt{\Delta \phi ^2 + \Delta \eta ^2}
+	\end{equation}
+	%ERKLÄREN WARUM DELTA R GEEIGNET IST? -> IN PHI UND ETA ABHÄNGIG VON PT, NICHT GESAMTIMPULS!
+	\noindent An important quantity used in this analysis is the transversal momentum $p_T$ which is constructed out of the $x$ and $y$-components ($p_x$ and $p_y$) of the total momentum of an object:
+	
+	\begin{equation}
+	p_T = \sqrt{p_x^2 + p_y^2}
+	\end{equation} 
+
+	\noindent It is practical to not consider the $z$ component in a hadron collider because it depends on the initial state of interacting partons which is unknown. The $p_T$ sum of all objects is expected to be $0$ in every event. If it is not the $p_T$ may be reconstructed wrong for some objects or objects left the CMS experiment undetected.
+\subsection{Particle Flow}
+\subsection{Electrons}
+	Electrons are reconstructed in the tracker and electromagnetic calorimeter.
+\subsection{Muons}
+	Since the energy of muons cannot be measured in the calorimeters, a muon is identified by hits in the muon chambers. Combining informations from the muon system and the inner tracker leads to a very precise measurement of muons in the CMS detector. Therefore muons are very reliable objects in CMS data analyses. An object is announced a muon if %KRITERIEN MUON
+\subsection{Jets}
+	Jets are objects to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize. This results in an particle shower consisting of hadrons. To reconstruct the initial quark one needs to sum up all particles from the final shower. This is done using different jet algorithms.
+\subsubsection{anti-$k_T$ algorithm}
+
+	%ITERATIVE ALOGRITHM
+	%EXPLAIN kT
+	
+	Here $d_{ij}$ describes a effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis.
+	\begin{equation}
+	d_{ij} = min (k_{T,i}^{-2}, k_{T,j}^{-2})  \frac{\Delta R_{ij}^2}{R^2}
+	\label{dij}
+	\end{equation}
+	
+	\begin{equation}
+	d_{iB} = k_{T,i}^{-2}
+	\label{iB}
+	\end{equation}
+	
+	%WELCHE TEILCHEN WERDEN ZUERST GECLUSTERT?
+	
+\subsubsection{XCone algorithm}
+	XCone is an exclusive jet algorithm, returning conical jets. It is well suited for analysis where the final state and therefore the expected number of jets is known since it returns a fixed number of jets. Thus, a physical final state has direct influence on the jet finding. \\
+	Starting with a fixed number of jet axes $N$ the algorithm calculates the direction of these axes by minimizing the N-jettiness variable. N-jettiness is a measure for how N-jet-like an event looks. The definition is written down in Eq. \ref{njettines}.
+	\begin{equation}
+	\label{njettines}
+	\end{equation}
+	% DEFINE N-JETTINESS
+	Once the minimizing process converges, all particles inside a radius $R$ from a jet axis are added to one jet.
+
+\subsubsection{b-Jets}
+	In this analysis jets originating from a bottom quark are identified to reduce background. To identify a jet as an b-jet the "Combined Secondary Vertex" (CSV) algorithm is used. Since b-hadrons have a large lifetime of $1.5\;\text{ps}$ they travel about $450\;\text{\textmu m}$ in the detector before decaying. This leads to a secondary vertex at the spatial point where the hadron decays which can be reconstructed in the tracking system. Additionally the composition of hadrons in a b-jet is different from other jets.
+	%ALLES AUßER secondary vertex NOCHMAL NACHLESEN 	
+	These properties are taken advantage of in the CSV algorithm. 
+	
+\subsection{$\cancel{E}_T$ and $S_T$}
+	With the information of mentioned objects two important variables are defined. The missing transverse energy $\cancel{E}_T$ is defined to estimate the energy carried away by neutrinos which leave the experiment undetected. Summing up all transverse momenta of each particle in the final state returns the $p_T$ of the system in the initial state which is $p_T = 0$. Thus the transverse energy of all undetected particles is defined as the absolute value of the negative sum over all transverse momenta of detected objects (Eq. \ref{MET}). Since every object, independent from it's $\eta$, has to be taken into account for this variable, $\cancel{E}_T$ is independent from the selection applied.
+	
+	\begin{equation}
+		\cancel{E}_T = \left| - \sum_{\textrm{leptons, jets}}^{} \vec{p}_T \right|
+		\label{MET}
+	\end{equation}
+	
+	\noindent Another important variable to describe an event is $S_T$. $S_T$ is defined to be the scalar sum of all transverse momenta of reconstructed objects plus the missing transverse energy mentioned above (Eq. \ref{ST}). Different from $\cancel{E}_T$ only objects surviving the selection are considered.
+	
+	\begin{equation}
+		S_T = \left( \sum_{\textrm{leptons, jets}}^{} \vert \vec{p}_T \vert \right) + \cancel{E}_T
+		\label{ST}
+	\end{equation}
+	
+	In this analysis additionally a definition for $S_T$ is used which just takes leptonic activity into account. It is referred to as $S_T^{\text{lep}}$ (see Eq. \ref{STlep}).
+	
+	\begin{equation}
+		S_T^\text{lep} = \left( \sum_{\textrm{leptons}}^{} \vert \vec{p}_T \vert \right) + \cancel{E}_T
+		\label{STlep}
+	\end{equation}	
