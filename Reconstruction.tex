@@ -26,10 +26,12 @@
 	Since the energy of muons cannot be measured in the calorimeters, a muon is identified by hits in the muon chambers. Combining informations from the muon system and the inner tracker leads to a very precise measurement of muons in the CMS detector. Therefore muons are very reliable objects in CMS data analyses. An object is announced a muon if %KRITERIEN MUON
 \subsection{Jets}
 	Jets are objects to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize. This results in an particle shower consisting of hadrons. To reconstruct the initial quark one needs to sum up all particles from the final shower. This is done using different jet algorithms.
-\subsubsection{anti-$k_T$ algorithm}
+\subsubsection{Anti-$k_T$ Jet Algorithm}
 
 	%ITERATIVE ALOGRITHM
 	%EXPLAIN kT
+	
+	\cite{antikt}
 	
 	Here $d_{ij}$ describes a effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis.
 	\begin{equation}
@@ -44,10 +46,11 @@
 	
 	%WELCHE TEILCHEN WERDEN ZUERST GECLUSTERT?
 	
-\subsubsection{XCone algorithm}
-	XCone is an exclusive jet algorithm, returning conical jets. It is well suited for analysis where the final state and therefore the expected number of jets is known since it returns a fixed number of jets. Thus, a physical final state has direct influence on the jet finding. \\
+\subsubsection{XCone Jet Algorithm}
+	XCone \cite{xcone} is an exclusive jet algorithm, returning conical jets. It is well suited for analysis where the final state and therefore the expected number of jets is known since it returns a fixed number of jets. Thus, a physical final state has direct influence on the jet finding. \\
 	Starting with a fixed number of jet axes $N$ the algorithm calculates the direction of these axes by minimizing the N-jettiness variable. N-jettiness is a measure for how N-jet-like an event looks. The definition is written down in Eq. \ref{njettines}.
 	\begin{equation}
+	\tilde{\tau}_N = \sum_i \min\{\rho_\text{jet}(p_i, n_1), \dots, \rho_\text{jet}(p_i, n_N), \rho_\text{beam}(p_i)\}
 	\label{njettines}
 	\end{equation}
 	% DEFINE N-JETTINESS
@@ -59,7 +62,7 @@
 	These properties are taken advantage of in the CSV algorithm. 
 	
 \subsection{$\cancel{E}_T$ and $S_T$}
-	With the information of mentioned objects two important variables are defined. The missing transverse energy $\cancel{E}_T$ is defined to estimate the energy carried away by neutrinos which leave the experiment undetected. Summing up all transverse momenta of each particle in the final state returns the $p_T$ of the system in the initial state which is $p_T = 0$. Thus the transverse energy of all undetected particles is defined as the absolute value of the negative sum over all transverse momenta of detected objects (Eq. \ref{MET}). Since every object, independent from it's $\eta$, has to be taken into account for this variable, $\cancel{E}_T$ is independent from the selection applied.
+	With the information of mentioned objects two important variables are defined. The missing transverse energy $\cancel{E}_T$ is defined to estimate the energy carried away by particles which leave the experiment undetected, like neutrinos. Summing up all transverse momenta of each particle in the final state returns the $p_T$ of the system in the initial state which is $p_T = 0$. Thus the transverse energy of all undetected particles is defined as the absolute value of the negative sum over all transverse momenta of detected objects (Eq. \ref{MET}). Since every object, independent from it's $\eta$, has to be taken into account for this variable, $\cancel{E}_T$ is independent from the selection applied.
 	
 	\begin{equation}
 		\cancel{E}_T = \left| - \sum_{\textrm{leptons, jets}}^{} \vec{p}_T \right|
@@ -73,7 +76,7 @@
 		\label{ST}
 	\end{equation}
 	
-	In this analysis additionally a definition for $S_T$ is used which just takes leptonic activity into account. It is referred to as $S_T^{\text{lep}}$ (see Eq. \ref{STlep}).
+	\noindent Additionally, a definition for $S_T$ which just takes leptonic activity into account is used in this analysis. It is similarly defined and referred to as $S_T^{\text{lep}}$ (see Eq. \ref{STlep}).
 	
 	\begin{equation}
 		S_T^\text{lep} = \left( \sum_{\textrm{leptons}}^{} \vert \vec{p}_T \vert \right) + \cancel{E}_T

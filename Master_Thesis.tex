@@ -22,35 +22,35 @@
 \usepackage{multicol} 
 \usepackage{epstopdf}
 \usepackage{textcomp}
-
+\usepackage{url}
 \counterwithin{figure}{section}
 \counterwithin{table}{section}
 \counterwithin{equation}{section}
 
 \usepackage{typearea}
-\usepackage[style=ieee, maxbibnames=100, sorting=none, backend=bibtex]{biblatex}
+\usepackage[style=phys, maxbibnames=100, sorting=none, backend=bibtex]{biblatex}
 \usepackage[babel, german=quotes]{csquotes}
 
-\renewbibmacro*{author}{%
-	\ifboolexpr{
- 	 test \ifuseauthor
-	and
-	not test {\ifnameundef{author}}
-}
-	{%
-		\printnames{author}%
-		\iffieldundef{authortype}
-		{}
-		{%
-			\setunit{\addcomma\space}%
-			\usebibmacro{authorstrg}%
-		}%
-	}
-	{\global\undef\bbx@lasthash}%
-} 
+%\renewbibmacro*{author}{% 
+%	\ifboolexpr{
+% 	 test \ifuseauthor
+%	and
+%	not test {\ifnameundef{author}}
+%}
+%	{%
+%		\printnames{author}%
+%		\iffieldundef{authortype}
+%		{}
+%		{%
+%			\setunit{\addcomma\space}%
+%			\usebibmacro{authorstrg}%
+%		}%
+%	}
+%	{\global\undef\bbx@lasthash}%
+%} 
 
 
-\addbibresource{Master_Bib.bib}
+\addbibresource{MasterBib.bib}
 
 
 \usepackage{hyperref}
@@ -129,7 +129,7 @@ Universit"at Hamburg
 %----------Hier Literaturverzeichnis-----------------------------
 %----------------------------------------------------------------
 %Einträge erscheinen nur, wenn sie auch zitiert werden!!!
-\printbibliography[title={Bibliography}]
+\printbibliography
 
 %----------------------------------------------------------------
 %------------------Unterschrift----------------------------------

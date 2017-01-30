@@ -16,6 +16,102 @@
   {}
 \endgroup
 
+\entry{antikt}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Cacciari}{C.}%
+     {Matteo}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Salam}{S.}%
+     {Gavin~P.}{G.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Soyez}{S.}%
+     {Gregory}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CM+1}
+  \strng{fullhash}{CMSGPSG1}
+  \verb{doi}
+  \verb 10.1088/1126-6708/2008/04/063
+  \endverb
+  \verb{eprint}
+  \verb arXiv:0802.1189
+  \endverb
+  \field{howpublished}{JHEP 0804:063,2008}
+  \field{title}{The anti-kt jet clustering algorithm}
+  \field{year}{2008}
+\endentry
+
+\entry{xcone}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Stewart}{S.}%
+     {Iain~W.}{I.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tackmann}{T.}%
+     {Frank~J.}{F.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thaler}{T.}%
+     {Jesse}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vermilion}{V.}%
+     {Christopher~K.}{C.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilkason}{W.}%
+     {Thomas~F.}{T.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SIW+1}
+  \strng{fullhash}{SIWTFJTJVCKWTF1}
+  \verb{doi}
+  \verb 10.1007/JHEP11(2015)072
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1508.01516
+  \endverb
+  \field{title}{XCone: N-jettiness as an Exclusive Cone Jet Algorithm}
+  \field{year}{2015}
+\endentry
+
+\entry{xconetop}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Thaler}{T.}%
+     {Jesse}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilkason}{W.}%
+     {Thomas~F.}{T.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TJWTF1}
+  \strng{fullhash}{TJWTF1}
+  \verb{doi}
+  \verb 10.1007/JHEP12(2015)051
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1508.01518
+  \endverb
+  \field{title}{Resolving Boosted Jets with XCone}
+  \field{year}{2015}
+\endentry
+
 \lossort
 \endlossort
 
