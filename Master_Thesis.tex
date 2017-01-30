@@ -23,6 +23,7 @@
 \usepackage{epstopdf}
 \usepackage{textcomp}
 \usepackage{url}
+\usepackage{blindtext} %use blindtext
 \counterwithin{figure}{section}
 \counterwithin{table}{section}
 \counterwithin{equation}{section}
@@ -73,9 +74,9 @@
 \textbf{
 \begin{center}
 \large
-Deutscher Titel 
+Messung der Jetmassenverteilung in kollimierten Top-Quark Zerfällen
 \\[2cm]
-Englischer Titel
+Measurement of the Jet Mass Distribution in Boosted Top Quark Decays
 \\[3cm]
 \end{center}
 \begin{center}
@@ -91,17 +92,21 @@ Universit"at Hamburg
 \\[2cm]
 \end{center}
 1. Gutachter: Prof. Dr. Johannes Haller\\
-2. Gutachter: 
+2. Gutachter: Prof. Dr. Peter Schleper
 }
 
 \clearpage
 {\pagestyle{empty} \cleardoublepage}
 %----------------------------------------------------------------
 %----------------------------------------------------------------
-\noindent\textbf{Zusammenfassung}\\
-\selectlanguage{english}
-\noindent\textbf{Abstract}\\
+\begin{abstract}
+\blindtext
+\end{abstract}
 
+\selectlanguage{english}
+\begin{abstract}
+\blindtext
+\end{abstract}
 \clearpage
 
 %\renewcommand{\figurename}{Figure} %Damit es "Figure." hei§t
@@ -123,14 +128,11 @@ Universit"at Hamburg
 \include{Experiment}
 \include{Reconstruction}
 \include{Analysis}
-
-
 %----------------------------------------------------------------
 %----------Hier Literaturverzeichnis-----------------------------
 %----------------------------------------------------------------
-%Einträge erscheinen nur, wenn sie auch zitiert werden!!!
+% Einträge erscheinen nur, wenn sie auch zitiert werden!!!
 \printbibliography
-
 %----------------------------------------------------------------
 %------------------Unterschrift----------------------------------
 %----------------------------------------------------------------

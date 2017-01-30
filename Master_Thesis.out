@@ -5,25 +5,30 @@
 \BOOKMARK [2][-]{subsection.2.2}{Unfolding}{section.2}% 5
 \BOOKMARK [1][-]{section.3}{Experiment}{}% 6
 \BOOKMARK [2][-]{subsection.3.1}{Large Hadron Collider}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.2}{CMS detector}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{CMS Detector}{section.3}% 8
 \BOOKMARK [3][-]{subsubsection.3.2.1}{Tracker}{subsection.3.2}% 9
 \BOOKMARK [3][-]{subsubsection.3.2.2}{Calorimeters}{subsection.3.2}% 10
 \BOOKMARK [3][-]{subsubsection.3.2.3}{Solenoid}{subsection.3.2}% 11
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Muon system}{subsection.3.2}% 12
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Muon System}{subsection.3.2}% 12
 \BOOKMARK [3][-]{subsubsection.3.2.5}{Trigger}{subsection.3.2}% 13
 \BOOKMARK [1][-]{section.4}{Reconstruction}{}% 14
-\BOOKMARK [2][-]{subsection.4.1}{Coordinate system}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Coordinate System}{section.4}% 15
 \BOOKMARK [2][-]{subsection.4.2}{Particle Flow}{section.4}% 16
 \BOOKMARK [2][-]{subsection.4.3}{Electrons}{section.4}% 17
 \BOOKMARK [2][-]{subsection.4.4}{Muons}{section.4}% 18
 \BOOKMARK [2][-]{subsection.4.5}{Jets}{section.4}% 19
 \BOOKMARK [3][-]{subsubsection.4.5.1}{Anti-kT Jet Algorithm}{subsection.4.5}% 20
-\BOOKMARK [3][-]{subsubsection.4.5.2}{XCone Jet Algorithm}{subsection.4.5}% 21
-\BOOKMARK [3][-]{subsubsection.4.5.3}{b-Jets}{subsection.4.5}% 22
-\BOOKMARK [2][-]{subsection.4.6}{E-8.5-.25exT and ST}{section.4}% 23
-\BOOKMARK [1][-]{section.5}{Analysis}{}% 24
-\BOOKMARK [2][-]{subsection.5.1}{Selection}{section.5}% 25
-\BOOKMARK [2][-]{subsection.5.2}{Jet studies}{section.5}% 26
-\BOOKMARK [3][-]{subsubsection.5.2.1}{XCone strategy}{subsection.5.2}% 27
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Comparison of different jet algorithms}{subsection.5.2}% 28
-\BOOKMARK [2][-]{subsection.5.3}{Unfolding}{section.5}% 29
+\BOOKMARK [3][-]{subsubsection.4.5.2}{HOTVR Jet Algorithm}{subsection.4.5}% 21
+\BOOKMARK [3][-]{subsubsection.4.5.3}{XCone Jet Algorithm}{subsection.4.5}% 22
+\BOOKMARK [3][-]{subsubsection.4.5.4}{b-Jets}{subsection.4.5}% 23
+\BOOKMARK [2][-]{subsection.4.6}{E-8.5-.25exT and ST}{section.4}% 24
+\BOOKMARK [1][-]{section.5}{Analysis}{}% 25
+\BOOKMARK [2][-]{subsection.5.1}{Data and MC Simulation}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.2}{Selection}{section.5}% 27
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Pre-Selection}{subsection.5.2}% 28
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Suppress Background}{subsection.5.2}% 29
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Measurement Phase Space}{subsection.5.2}% 30
+\BOOKMARK [2][-]{subsection.5.3}{Jet Studies}{section.5}% 31
+\BOOKMARK [3][-]{subsubsection.5.3.1}{XCone Strategy}{subsection.5.3}% 32
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Comparison of Different Jet Algorithms}{subsection.5.3}% 33
+\BOOKMARK [2][-]{subsection.5.4}{Unfolding}{section.5}% 34

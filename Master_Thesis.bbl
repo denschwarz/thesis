@@ -16,6 +16,41 @@
   {}
 \endgroup
 
+\entry{CMSslice}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Barney}{B.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BD1}
+  \strng{fullhash}{BD1}
+  \field{howpublished}{\url
+  {https://cms-docdb.cern.ch/cgi-bin/PublicDocDB/RetrieveFile?docid=5581&filename=PictureforPoint5_oct04_allp.jpg&version=1}}
+  \field{note}{[Online; accessed January 30, 2017]}
+  \field{title}{{CMS slice}}
+\endentry
+
+\entry{particleflow}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Beaudette}{B.}%
+     {Florian}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BF1}
+  \strng{fullhash}{BF1}
+  \verb{eprint}
+  \verb arXiv:1401.8155
+  \endverb
+  \field{howpublished}{Proceedings of the CHEF2013 Conference - Eds. J.C.
+  Brient, R. Salerno, and Y. Sirois - p295 (2013), ISBN 978-2-7302-1624-1}
+  \field{title}{The CMS Particle Flow Algorithm}
+  \field{year}{2014}
+\endentry
+
 \entry{antikt}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -45,6 +80,38 @@
   \field{howpublished}{JHEP 0804:063,2008}
   \field{title}{The anti-kt jet clustering algorithm}
   \field{year}{2008}
+\endentry
+
+\entry{hotvr}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Lapsien}{L.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kogler}{K.}%
+     {Roman}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haller}{H.}%
+     {Johannes}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LT+1}
+  \strng{fullhash}{LTKRHJ1}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-016-4443-8
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1606.04961
+  \endverb
+  \field{howpublished}{Eur. Phys. J. C 76, 600 (2016)}
+  \field{title}{A new tagger for hadronically decaying heavy particles at the
+  LHC}
+  \field{year}{2016}
 \endentry
 
 \entry{xcone}{article}{}

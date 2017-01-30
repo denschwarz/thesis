@@ -1,5 +1,5 @@
 \section{Reconstruction}
-\subsection{Coordinate system}
+\subsection{Coordinate System}
 	The coordinate system used in the CMS experiment is based on cartesian and right-handed coordinates. The origin is set in the center of the CMS detector. To define the direction of the axes other fix points are set. The $x$-axis point in the direction of the center of the LHC ring, the $y$-axis points up and the $z$-axis is defined parallel to the beam axis. Important variables used in analysis of CMS data are the angles $\phi$ and $\theta$. $\phi$ is defined as the angle in the $x$-$y$-plane measured from the $x$-axis and $\theta$ describes the angle from a given point to the beam axis. Because the LHC is a hadron collider and physical events are therefore not symmetric in $\theta$ it is useful to construct the Lorentz invariant variable $\eta$:
 	
 	\begin{equation}
@@ -20,18 +20,20 @@
 
 	\noindent It is practical to not consider the $z$ component in a hadron collider because it depends on the initial state of interacting partons which is unknown. The $p_T$ sum of all objects is expected to be $0$ in every event. If it is not the $p_T$ may be reconstructed wrong for some objects or objects left the CMS experiment undetected.
 \subsection{Particle Flow}
+	CMS uses a special algorithm called particle flow \cite{particleflow} to combine information from tracker and calorimeters and thus reconstruct objects to a high precision. Tracks from the inner tracker are extrapolated into the calorimeters. If a shower fits to the track, information from these two subdetectors are combined. Since only charged particles will interact with the tracking system, showers from neutral hadrons and photons cannot be associated with a track.
 \subsection{Electrons}
 	Electrons are reconstructed in the tracker and electromagnetic calorimeter.
 \subsection{Muons}
 	Since the energy of muons cannot be measured in the calorimeters, a muon is identified by hits in the muon chambers. Combining informations from the muon system and the inner tracker leads to a very precise measurement of muons in the CMS detector. Therefore muons are very reliable objects in CMS data analyses. An object is announced a muon if %KRITERIEN MUON
 \subsection{Jets}
-	Jets are objects to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize. This results in an particle shower consisting of hadrons. To reconstruct the initial quark one needs to sum up all particles from the final shower. This is done using different jet algorithms.
+	Jets are objects, used to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize. This results in a particle shower consisting of hadrons. To reconstruct the initial quark one needs to sum up all particles from the final shower. To combine the tracks in a well defined way jet algorithms are used.
+
 \subsubsection{Anti-$k_T$ Jet Algorithm}
 
 	%ITERATIVE ALOGRITHM
 	%EXPLAIN kT
 	
-	\cite{antikt}
+	In CMS the common way to cluster jets from the detected particles is to use an iterative jet algorithm, especially the Anti-$k_T$ (AK) algorithm \cite{antikt}.
 	
 	Here $d_{ij}$ describes a effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis.
 	\begin{equation}
@@ -45,16 +47,33 @@
 	\end{equation}
 	
 	%WELCHE TEILCHEN WERDEN ZUERST GECLUSTERT?
+
+\subsubsection{HOTVR Jet Algorithm}
+	Another approach to cluster jets is the 'heavy object tagger with variable R' (HOTVR) \cite{hotvr}. This algorithm does not use a constant radius parameter $R$ but a $p_T$ dependent effective $R_\text{eff}$ (see eq. \ref{reff}). Thus the $R_\text{eff}$ decreases with increasing $p_T$ leading to smaller jets when the decay products are expected to be more close because of the Lorentz boost. The $p_T$ dependence is scaled with a parameter $\rho$ with a default value of $600\;\text{GeV}$. Additionally upper and lower boundaries for the jet radius can be set. The default values are $R_\text{min} = 0.1$ and $R_\text{max} = 1.5$.
 	
+	\begin{equation}
+	\label{reff}
+	  R_\text{eff} =
+	   \begin{cases}
+	     R_\text{min} & \text{for } \rho / p_T < R_\text{min} \\
+	     R_\text{max} & \text{for } \rho / p_T > R_\text{max} \\
+	     \rho / p_T & \text{else}  
+	   \end{cases}
+	\end{equation}
+	
+	\noindent This effective $R$ is then used with the equations of the Anti-$k_T$ algorithm described earlier (see eq. \ref{dij} - \ref{iB}).
+
 \subsubsection{XCone Jet Algorithm}
+\label{sssec:xcone}
 	XCone \cite{xcone} is an exclusive jet algorithm, returning conical jets. It is well suited for analysis where the final state and therefore the expected number of jets is known since it returns a fixed number of jets. Thus, a physical final state has direct influence on the jet finding. \\
-	Starting with a fixed number of jet axes $N$ the algorithm calculates the direction of these axes by minimizing the N-jettiness variable. N-jettiness is a measure for how N-jet-like an event looks. The definition is written down in Eq. \ref{njettines}.
+	Starting with a fixed number of jet axes $N$ the algorithm calculates the direction of these axes by minimizing the N-jettiness variable. N-jettiness is a measure for how N-jet-like an event looks. The definition is shown in Eq. \ref{njettines}.
 	\begin{equation}
 	\tilde{\tau}_N = \sum_i \min\{\rho_\text{jet}(p_i, n_1), \dots, \rho_\text{jet}(p_i, n_N), \rho_\text{beam}(p_i)\}
 	\label{njettines}
 	\end{equation}
 	% DEFINE N-JETTINESS
-	Once the minimizing process converges, all particles inside a radius $R$ from a jet axis are added to one jet.
+	Once the minimizing process converges, all particles inside a radius $R$ from a jet axis are added to one jet. \\	
+	\\ Since the N-jettiness variable is often used to du theory calculations of particle physics events, the XCone algorithm is easier to include in these calculations.
 
 \subsubsection{b-Jets}
 	In this analysis jets originating from a bottom quark are identified to reduce background. To identify a jet as an b-jet the "Combined Secondary Vertex" (CSV) algorithm is used. Since b-hadrons have a large lifetime of $1.5\;\text{ps}$ they travel about $450\;\text{\textmu m}$ in the detector before decaying. This leads to a secondary vertex at the spatial point where the hadron decays which can be reconstructed in the tracking system. Additionally the composition of hadrons in a b-jet is different from other jets.
