@@ -16,6 +16,64 @@
   {}
 \endgroup
 
+\entry{SM}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {CERN}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{howpublished}{\url
+  {https://webfest.web.cern.ch/sites/webfest.web.cern.ch/files/styles/large/public/Standard_model_infographic.png?itok=sZoMRgso}}
+  \field{note}{[Online; accessed January 31, 2017]}
+  \field{title}{{The Standard Model of Particle Physics}}
+\endentry
+
+\entry{pdg2016}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Patrignani}{P.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PC+1}
+  \strng{fullhash}{PC+1}
+  \verb{doi}
+  \verb 10.1088/1674-1137/40/10/100001
+  \endverb
+  \field{number}{10}
+  \field{pages}{100001}
+  \field{title}{{Review of Particle Physics}}
+  \field{volume}{C40}
+  \field{journaltitle}{Chin. Phys.}
+  \field{year}{2016}
+\endentry
+
+\entry{feynman}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ellis}{E.}%
+     {Joshua}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EJ1}
+  \strng{fullhash}{EJ1}
+  \verb{doi}
+  \verb 10.1016/j.cpc.2016.08.019
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1601.05437
+  \endverb
+  \field{title}{{TikZ-Feynman: Feynman diagrams with TikZ}}
+  \field{year}{2016}
+\endentry
+
 \entry{CMSslice}{misc}{}
   \name{author}{1}{}{%
     {{}%
@@ -47,7 +105,7 @@
   \endverb
   \field{howpublished}{Proceedings of the CHEF2013 Conference - Eds. J.C.
   Brient, R. Salerno, and Y. Sirois - p295 (2013), ISBN 978-2-7302-1624-1}
-  \field{title}{The CMS Particle Flow Algorithm}
+  \field{title}{{The CMS Particle Flow Algorithm}}
   \field{year}{2014}
 \endentry
 
@@ -78,7 +136,7 @@
   \verb arXiv:0802.1189
   \endverb
   \field{howpublished}{JHEP 0804:063,2008}
-  \field{title}{The anti-kt jet clustering algorithm}
+  \field{title}{{The anti-kt jet clustering algorithm}}
   \field{year}{2008}
 \endentry
 
@@ -109,8 +167,8 @@
   \verb arXiv:1606.04961
   \endverb
   \field{howpublished}{Eur. Phys. J. C 76, 600 (2016)}
-  \field{title}{A new tagger for hadronically decaying heavy particles at the
-  LHC}
+  \field{title}{{A new tagger for hadronically decaying heavy particles at the
+  LHC}}
   \field{year}{2016}
 \endentry
 
@@ -150,7 +208,7 @@
   \verb{eprint}
   \verb arXiv:1508.01516
   \endverb
-  \field{title}{XCone: N-jettiness as an Exclusive Cone Jet Algorithm}
+  \field{title}{{XCone: N-jettiness as an Exclusive Cone Jet Algorithm}}
   \field{year}{2015}
 \endentry
 
@@ -175,7 +233,7 @@
   \verb{eprint}
   \verb arXiv:1508.01518
   \endverb
-  \field{title}{Resolving Boosted Jets with XCone}
+  \field{title}{{Resolving Boosted Jets with XCone}}
   \field{year}{2015}
 \endentry
 

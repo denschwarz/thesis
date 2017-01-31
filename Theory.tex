@@ -9,21 +9,71 @@
 	\begin{figure}[tb]
 		\centering
 		\includegraphics [width=\textwidth]{../Plots/Standard_Model.png}
-		%from: http://www.stfc.ac.uk/stfc/cache/file/8E510467-ACAF-4734-9FEAE2766B53FD1A.png
-		\caption{}
+		\caption{Particle content of the standard model \cite{SM}}
 		\label{SM}
 	\end{figure}
 		 
-\subsubsection{Top quark}
+\subsubsection{Top Quark}
 	The top quark is the heaviest particle in the standard model and therefore offers a large phase space for decays and has a life time of approximately $0.5 \times 10^{-24}\;\text{s}$. Because of the short life time the top quark does not form bound hadronic states and thus measurement of the bare quark are possible. This provides a special access to parameters of the standard model. Especially the top quark mass is an essential parameter to check the standard model for consistency. The Higgs mechanism relates the masses of the top quark with the masses of the W and Higgs boson. Measuring these masses with high precision gives the possibility to check the standard model for consistency.
+	\\
+	Additionally the top quark is important for searches of new physics since is is often part of the final state and/or a relevant background. \\
+	At the LHC the production of the top quark is dominated by gluon fusion processes (FEYNMAN!!!)
+	\\
 	
-	Additionally the top quark is important for searches of new physics since is is often part of the final state and/or a relevant background.
+	The top quark decays via the weak interaction with a probability of almost $100\%$ into a bottom quark and a $W$ boson. While the bottom quark is seen as a jet in the detector, the $W$ boson decays further into a quark anti-quark pair or into a lepton and a neutrino. These two cases are called hadronically respectively hadronically top quark decay (see fig. \ref{fig:decay}). Looking at the $t\bar{t}$ production, these two possible decays for each top quark corresponds to three channels for the $t\bar{t}$ process. 
+	\begin{itemize}
+	\item both top quarks decay into quarks (full hadronic)
+	\item one top quark decays hadronically, the other one leptonically (lep+jets)
+	\item both top quarks decay leptonically (dilepton)
+	\end{itemize}
+	The full hadronic and lepton+jets channels are dominant and occur $45.7\%$ respectively $43.8\%$ of the time. $10.5\%$ of all $t\bar{t}$ events result in two leptonically decaying top quarks. \cite{pdg2016}.
 	% LIVE TIME -> no hadronisation
 	% YUKAWA ? 
-
+	% DECAY AND PRODUCTION
 	% MC Templates, MC Mass
 	% ENERGY SCALE
-	% RUNNING MASS
+	% RUNNING MASS	
+	\begin{figure}
+	\begin{subfigure}{.5\textwidth}
+		\begin{tikzpicture}
+		\begin{feynman}
+		\vertex(a) {\(t\)};
+		\vertex[right=of a] (b);
+		\vertex[above right=of b] (f1){\(b\)};
+		\vertex[below right=of b] (c);
+		\vertex[above right=of c] (f2){\(\nu\)};
+		\vertex[below right=of c] (f3){\(\overline l\)};
+		\diagram* {
+		(a)-- [fermion] (b)-- [fermion] (f1),
+		(b)-- [boson,edge label'=\(W\)] (c),
+		(c)-- [fermion] (f2),
+		(c)-- [anti fermion] (f3),};
+		\end{feynman}
+		\end{tikzpicture}
+		\caption{}
+	\end{subfigure}
+	\begin{subfigure}{.5\textwidth}
+		\begin{tikzpicture}
+		\begin{feynman}
+		\vertex(a) {\(t\)};
+		\vertex[right=of a] (b);
+		\vertex[above right=of b] (f1){\(b\)};
+		\vertex[below right=of b] (c);
+		\vertex[above right=of c] (f2){\(q\)};
+		\vertex[below right=of c] (f3){\(\overline q\)};
+		\diagram* {
+		(a)-- [fermion] (b)-- [fermion] (f1),
+		(b)-- [boson,edge label'=\(W\)] (c),
+		(c)-- [fermion] (f2),
+		(c)-- [anti fermion] (f3),};
+		\end{feynman}
+		\end{tikzpicture}
+		\caption{}
+	\end{subfigure}
+	\caption{Feynman diagrams \cite{feynman} of a leptonically (a) and hadronically (b) decaying top quark.}
+	\label{fig:decay}
+	\end{figure}
+	
 \subsection{Unfolding}
 	Most analyses at LHC measure distributions of appropriate variables and then compare the obtained results in data with event simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with an unknown detector function. Studying the difference in MC between particle level and reconstruction level it is possible to calculate the probabilities that a measured value in a bin $x_i$ is originating from bin $y_i$ on particle level. The resulting matrix can then be applied to real data to obtain data on particle level. This can then be compared with theory calculations.
 	% COMPARE TO THEORY
