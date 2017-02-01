@@ -38,7 +38,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.5}Trigger}{9}{subsection.3.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Reconstruction}{10}{chapter.4}
+\contentsline {chapter}{\numberline {4}Reconstruction of Objects}{10}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Coordinate System}{10}{section.4.1}
 \defcounter {refsection}{0}\relax 
@@ -50,7 +50,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Jets}{11}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Anti-$k_T$ Jet Algorithm}{11}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Anti-$k_T$ Jet Algorithm}{12}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.2}HOTVR Jet Algorithm}{12}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
@@ -79,3 +79,7 @@
 \contentsline {subsection}{\numberline {5.3.4}Comparison of Different Jet Algorithms}{19}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.4}Unfolding}{19}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Results}{19}{section.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Summary and Outlook}{20}{chapter.6}
