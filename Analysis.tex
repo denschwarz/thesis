@@ -23,6 +23,15 @@
 	\label{MC_Tab}	
 	\end{table}
 	\end{landscape}
+	
+	
+\subsection{Jet Studies}
+	For this analysis it is crucial to choose a suitable jet algorithm and cone size. A similar analysis has been performed by CMS on LHC's 2012 data set with a center-of-mass energy of $8\;\text{TeV}$ with Cambridge-Aachen jets with a radius parameter of $R=1.2$. This large radius was chosen to compensate for low statistics in the boosted $t\bar{t}$ regime. Since the cross-section of $t\bar{t}$ production is much higher at a center-of-mass energy of $13\;\text{TeV}$ it has to be studied, how the jet radius parameter $R$ influences the measured distribution and what influence different jet algorithms have.
+	%CITE TORBEN
+\subsubsection{XCone Strategy}
+	The XCone jet algorithm described in section \ref{sssec:xcone} has already been tested resolving $t\bar{t}$ decays. Studies for hadronically decaying top quark pairs are presented in a paper from Thaler and Wilkason \cite{xconetop}. Here, the XCone algorithm is tuned to the $t\bar{t}$ final state, expecting six jets. Using the information that it is expected to find three jets from each top quark, a promising approach to reconstruct the top quark decays was made with a strategy using two clustering steps. Firstly, the event is divided in two parts. This is done by require the XCone algorithm to find exactly two jets with a radius parameter $R=\infty$. Thus, every particle in the event is clustered into one of the jets. The goal of this first step is to separate the two top quarks into independent jets. Now, a second clustering step finding three jets is run where separate lists of particles from each fat jet are used as an input. Thus, in each fat jet, three smaller jets with $R=0.4$ are found. These three small jets are then combined and used as the final top jets. \\
+	\\ In this analysis the lepton+jets channel is used. Therefore the jet originating from the hadronically decaying top quark is identified while calculating the distance between each jet and the lepton. Additionally studies with a method where the fat jet originating from the leptonically decaying top quark is divided into two instead of three jets is presented. This approach was made because the neutrino from the $W$ decay cannot be seen in the detector. Nevertheless it proved to be handy to use the $3+3$ method for data and therefore also for MC samples after detector simulation.   
+	
 \subsection{Selection}
 	To obtain a data set consisting of mostly $t\bar{t}$ events in the lepton+jets channel, a selection is applied to simulation and data. The selection can be divided into three main steps. Firstly, a Pre-Selection with very loose cuts is used to sort out non-relevant events and therefore reduce the size of the data set (see section \ref{sssec:PreSel}). Secondly, a selection is made to suppress background processes (see section \ref{sssec:BackSel}). Thirdly, the final phase space is defined (see section \ref{sssec:FinalSel}).
 \subsubsection{Pre-Selection}
@@ -43,15 +52,5 @@
 	\end{itemize}
 \subsubsection{Measurement Phase Space}
 \label{sssec:FinalSel}
-
-	
-	
-\subsection{Jet Studies}
-	For this analysis it is crucial to choose a suitable jet algorithm and cone size. A similar analysis has been performed by CMS on LHC's 2012 data set with a center-of-mass energy of $8\;\text{TeV}$ with Cambridge-Aachen jets with a radius parameter of $R=1.2$. This large radius was chosen to compensate for low statistics in the boosted $t\bar{t}$ regime. Since the cross-section of $t\bar{t}$ production is much higher at a center-of-mass energy of $13\;\text{TeV}$ it has to be studied, how the jet radius parameter $R$ influences the measured distribution and what influence different jet algorithms have.
-	%CITE TORBEN
-\subsubsection{XCone Strategy}
-	The XCone jet algorithm described in section \ref{sssec:xcone} has already been tested resolving $t\bar{t}$ decays. Studies for hadronically decaying top quark pairs are presented in a paper from Thaler and Wilkason \cite{xconetop}. Here, the XCone algorithm is tuned to the $t\bar{t}$ final state, expecting six jets. Using the information that it is expected to find three jets from each top quark, a promising approach to reconstruct the top quark decays was made with a strategy using two clustering steps. Firstly, the event is divided in two parts. This is done by require the XCone algorithm to find exactly two jets with a radius parameter $R=\infty$. Thus, every particle in the event is clustered into one of the jets. The goal of this first step is to separate the two top quarks into independent jets. Now, a second clustering step finding three jets is run where separate lists of particles from each fat jet are used as an input. Thus, in each fat jet, three smaller jets with $R=0.4$ are found. These three small jets are then combined and used as the final top jets. \\
-	\\ In this analysis the lepton+jets channel is used. Therefore the jet originating from the hadronically decaying top quark is identified while calculating the distance between each jet and the lepton. Additionally studies with a method where the fat jet originating from the leptonically decaying top quark is divided into two instead of three jets is presented. This approach was made because the neutrino from the $W$ decay cannot be seen in the detector. Nevertheless it proved to be handy to use the $3+3$ method for data and therefore also for MC samples after detector simulation.   
-	
 \subsubsection{Comparison of Different Jet Algorithms}
 \subsection{Unfolding}
