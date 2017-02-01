@@ -1,4 +1,4 @@
-\documentclass[12pt, a4paper, twoside]{article}
+\documentclass[12pt, a4paper, twoside]{report}
 
 \usepackage[ngerman, english]{babel}
 \usepackage[ansinew]{inputenc}
@@ -29,9 +29,9 @@
 \usepackage{tikz-feynman}
 \tikzfeynmanset{compat=1.0.0}
 
-\counterwithin{figure}{section}
-\counterwithin{table}{section}
-\counterwithin{equation}{section}
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter}
+\counterwithin{equation}{chapter}
 
 \usepackage{typearea}
 \usepackage[style=phys, maxbibnames=100, sorting=none, backend=bibtex]{biblatex}
@@ -104,20 +104,13 @@ Universit"at Hamburg
 {\pagestyle{empty} \cleardoublepage}
 %----------------------------------------------------------------
 %----------------------------------------------------------------
-\begin{abstract}
+\section*{Zusammenfassung}
 \blindtext
-\end{abstract}
-
 \selectlanguage{english}
-\begin{abstract}
+\section*{Abstract}
 \blindtext
-\end{abstract}
 \clearpage
 
-%\renewcommand{\figurename}{Figure} %Damit es "Figure." hei§t
-%\renewcommand{\tablename}{Table} %Damit es "Table" hei§t
-%\renewcommand{\listfigurename}{List of Figures}
-%\renewcommand{\contentsname}{Contents} %Damit es "Contents" hei§t
 \tableofcontents
 
 \cleardoublepage

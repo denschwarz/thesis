@@ -1,5 +1,5 @@
-\section{Theory}
-\subsection{Standard model of particle physics}
+\chapter{Theory}
+\section{Standard model of particle physics}
 	The standard models of particles is a quantum field theory describing elementary particles and their interaction. All particles contained in this theory have been discovered and experiments have confirmed predictions of the standard model at very high precision. In Fig. \ref{SM} all elementary particles and their basic properties are displayed. The particles can be ordered in groups by their properties. Firstly one distinguishes particles depending on their spin. Spin-$\frac{1}{2}$ particles are called fermions, Spin-$1$ and Spin-$0$ particles represent the bosons. Fermions are the building block of matter while bosons carry the fundamental forces included in the standard model. Quarks and leptons are sub groups of the fermions are divided by their possible interaction with forces. While the quarks are affected by the strong force, carried by the gluon, the leptons are not.
 	% QED
 	% QCD
@@ -13,20 +13,97 @@
 		\label{SM}
 	\end{figure}
 		 
-\subsubsection{Top Quark}
-	The top quark is the heaviest particle in the standard model and therefore offers a large phase space for decays and has a life time of approximately $0.5 \times 10^{-24}\;\text{s}$. Because of the short life time the top quark does not form bound hadronic states and thus measurement of the bare quark are possible. This provides a special access to parameters of the standard model. Especially the top quark mass is an essential parameter to check the standard model for consistency. The Higgs mechanism relates the masses of the top quark with the masses of the W and Higgs boson. Measuring these masses with high precision gives the possibility to check the standard model for consistency.
+\subsection{Top Quark}
+	The top quark is an up type quark from the third generation and carries electromagnetic charge of $Q=+\frac{2}{3}e$. With a mass of $173\;\text{GeV}$ tt is the heaviest particle in the standard model, therefore offers a large phase space for decays and thus has a life time of approximately $0.5 \times 10^{-24}\;\text{s}$. Because of the short life time the top quark does not form bound hadronic states and thus measurement of the bare quark are possible. This provides a special access to parameters of the standard model. Especially the top quark mass is an essential parameter to check the standard model for consistency. The Higgs mechanism relates the masses of the top quark with the masses of the W and Higgs boson. Measuring these masses with high precision gives the possibility to check the standard model for consistency.
 	\\
-	Additionally the top quark is important for searches of new physics since is is often part of the final state and/or a relevant background. \\
-	At the LHC the production of the top quark is dominated by gluon fusion processes (FEYNMAN!!!)
+	Additionally the top quark is important for searches of new physics since is is often part of the final state and/or a relevant background. 
 	\\
+	In hadron colliders, the production of a $t\bar{t}$ pair happens via $g\bar{q}$ annihilation or gluon fusion. At the centre-of-mass energy of $13\;\text{TeV}$ from the LHC, gluon fusion is by far the dominant process. Top quarks can also be produced in single production, but has, being a electroweak process, a much smaller cross section. Hence, this analysis will focus on pair produced top quarks and will treat single top production as a background process.
+	\begin{figure}
+		\centering
+		\begin{subfigure}{.4\textwidth}
+		\begin{tikzpicture}
+		\begin{feynman}	
+		\vertex(a);
+		\vertex[right=of a] (b);
+		\vertex[below left=of a] (i1){\(g\)};
+		\vertex[above left=of a] (i2){\(g\)};		
+		\vertex[below right=of b] (f1){\(\overline t\)};				
+		\vertex[above right=of b] (f2){\(t\)};		
+		\diagram* {
+		(a)-- [gluon,edge label'=\(g\)] (b),
+		(i1)-- [gluon] (a) -- [gluon] (i2),
+		(f1)-- [fermion] (b) -- [fermion] (f2),
+		};
+		\end{feynman}
+		\end{tikzpicture}
+		\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.4\textwidth}
+		\begin{tikzpicture}
+		\begin{feynman}	
+		\vertex(a);
+		\vertex[right=of a] (b);
+		\vertex[below left=of a] (i1){\(q\)};
+		\vertex[above left=of a] (i2){\(\overline q\)};		
+		\vertex[below right=of b] (f1){\(\overline t\)};				
+		\vertex[above right=of b] (f2){\(t\)};		
+		\diagram* {
+		(a)-- [gluon,edge label'=\(g\)] (b),
+		(i1)-- [fermion] (a) -- [fermion] (i2),
+		(f1)-- [fermion] (b) -- [fermion] (f2),
+		};
+		\end{feynman}
+		\end{tikzpicture}
+		\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.4\textwidth}
+		\begin{tikzpicture}
+		\begin{feynman}	
+		\vertex(a);
+		\vertex[below=of a] (b);
+		\vertex[above left=of a] (i1){\(g\)};
+		\vertex[below left=of b] (i2){\(g\)};		
+		\vertex[above right=of a] (f1){\(t\)};				
+		\vertex[below right=of b] (f2){\(\overline{t}\)};		
+		\diagram* {
+		(b)-- [fermion] (a),
+		(i1)-- [gluon] (a) -- [fermion] (f1),
+		(i2)-- [gluon] (b) -- [anti fermion] (f2),
+		};
+		\end{feynman}
+		\end{tikzpicture}
+		\caption{}
+		\end{subfigure}
+		\begin{subfigure}{.4\textwidth}
+		\begin{tikzpicture}
+		\begin{feynman}	
+		\vertex(a);
+		\vertex[below=of a] (b);
+		\vertex[above left=of a] (i1){\(g\)};
+		\vertex[below left=of b] (i2){\(g\)};		
+		\vertex[above right=of a] (f1){\(t\)};				
+		\vertex[below right=of b] (f2){\(\overline{t}\)};		
+		\diagram* {
+		(b)-- [gluon] (a),
+		(i1)-- [gluon] (a) -- [fermion] (f1),
+		(i2)-- [gluon] (b) -- [anti fermion] (f2),
+		};
+		\end{feynman}
+		\end{tikzpicture}
+		\caption{}
+		\end{subfigure}
+		\caption{Feynman diagrams \cite{feynman} showing the production of top quark pairs. Displayed are the gluon-gluon fusion (a), the quark anti-quark annihilation (b) and the t-channel (c+d).}
+		\label{fig:production}
+	\end{figure}	
 	
-	The top quark decays via the weak interaction with a probability of almost $100\%$ into a bottom quark and a $W$ boson. While the bottom quark is seen as a jet in the detector, the $W$ boson decays further into a quark anti-quark pair or into a lepton and a neutrino. These two cases are called hadronically respectively hadronically top quark decay (see fig. \ref{fig:decay}). Looking at the $t\bar{t}$ production, these two possible decays for each top quark corresponds to three channels for the $t\bar{t}$ process. 
+	The top quark decays via the weak interaction with a probability of almost $100\%$ into a bottom quark and a $W$ boson. While the bottom quark is seen as a jet in the detector, the $W$ boson decays further into a quark anti-quark pair (see fig. \ref{fig:decaya}) or into a lepton and a neutrino. These two cases are called hadronically respectively hadronically top quark decay (see fig. \ref{fig:decayb}). Looking at the $t\bar{t}$ production, these two possible decays for each top quark corresponds to three channels for the $t\bar{t}$ process. 
 	\begin{itemize}
 	\item both top quarks decay into quarks (full hadronic)
 	\item one top quark decays hadronically, the other one leptonically (lep+jets)
 	\item both top quarks decay leptonically (dilepton)
 	\end{itemize}
-	The full hadronic and lepton+jets channels are dominant and occur $45.7\%$ respectively $43.8\%$ of the time. $10.5\%$ of all $t\bar{t}$ events result in two leptonically decaying top quarks. \cite{pdg2016}.
+	The full hadronic and lepton+jets channels are dominant and occur $45.7\%$ respectively $43.8\%$ of the time. $10.5\%$ of all $t\bar{t}$ events result in two leptonically decaying top quarks \cite{pdg2016}. This analysis will focus on the lepton+jets channel which is pictured in figure \ref{fig:semilep}.
 	% LIVE TIME -> no hadronisation
 	% YUKAWA ? 
 	% DECAY AND PRODUCTION
@@ -39,10 +116,11 @@
 		\begin{feynman}
 		\vertex(a) {\(t\)};
 		\vertex[right=of a] (b);
-		\vertex[above right=of b] (f1){\(b\)};
-		\vertex[below right=of b] (c);
-		\vertex[above right=of c] (f2){\(\nu\)};
-		\vertex[below right=of c] (f3){\(\overline l\)};
+		\vertex[above right=1.5cm of b] (c);
+		\vertex[below right=3cm of b] (f1){\(b\)};
+		\vertex[below right=1.5cm of c] (f3){\(\overline l\)};
+		\vertex[above right=1.5cm of c] (f2){\(\nu\)};
+
 		\diagram* {
 		(a)-- [fermion] (b)-- [fermion] (f1),
 		(b)-- [boson,edge label'=\(W\)] (c),
@@ -51,16 +129,17 @@
 		\end{feynman}
 		\end{tikzpicture}
 		\caption{}
+		\label{fig:decaya}
 	\end{subfigure}
 	\begin{subfigure}{.5\textwidth}
 		\begin{tikzpicture}
 		\begin{feynman}
 		\vertex(a) {\(t\)};
 		\vertex[right=of a] (b);
-		\vertex[above right=of b] (f1){\(b\)};
-		\vertex[below right=of b] (c);
-		\vertex[above right=of c] (f2){\(q\)};
-		\vertex[below right=of c] (f3){\(\overline q\)};
+		\vertex[below right=3cm of b] (f1){\(b\)};
+		\vertex[above right=of b] (c);
+		\vertex[above right=1.5cm of c] (f2){\(q\)};
+		\vertex[below right=1.5cm of c] (f3){\(\overline q\)};
 		\diagram* {
 		(a)-- [fermion] (b)-- [fermion] (f1),
 		(b)-- [boson,edge label'=\(W\)] (c),
@@ -74,7 +153,42 @@
 	\label{fig:decay}
 	\end{figure}
 	
-\subsection{Unfolding}
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}
+		\begin{feynman}	
+		\vertex[blob] (a) {};
+		%\vertex (a);
+		\vertex[right=of a] (b);
+		\vertex[left=of a] (c);
+		\vertex[above right=3.5cm of b] (bb){\(b\)};
+		\vertex[right=of b] (bW);
+		\vertex[left=of c] (cW);
+		\vertex[below left=3.5cm of c] (cb){\(\overline b\)};
+		\vertex[above right=of bW] (bq){\(q\)};		
+		\vertex[below right=of bW] (baq){\(\overline q\)};				
+		\vertex[above left=of cW] (cl){\(l\)};		
+		\vertex[below left=of cW] (cnu){\(\overline \nu\)};
+		\diagram* {
+		(a)-- [fermion,edge label'=\(t\)] (b),
+		(a)-- [anti fermion,edge label'=\(\overline t\)] (c),
+		(b)-- [fermion] (bb),
+		(b)-- [boson,edge label'=\(W^+\)] (bW),
+		(c)-- [anti fermion] (cb),
+		(c)-- [boson,edge label'=\(W^-\)] (cW),
+		(bW)-- [fermion] (bq),
+		(bW)-- [anti fermion] (baq),
+		(cW)-- [fermion] (cl),
+		(cW)-- [anti fermion] (cnu),
+		};
+		\end{feynman}
+		\end{tikzpicture}
+		\caption{Feynman diagram \cite{feynman} displaying an event from the lepton+jets channel. The centred circle indicates a mechanism to produce a $t\bar{t}$ pair.}
+		\label{fig:semilep}
+	\end{figure}
+	
+
+\section{Unfolding}
 	Most analyses at LHC measure distributions of appropriate variables and then compare the obtained results in data with event simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with an unknown detector function. Studying the difference in MC between particle level and reconstruction level it is possible to calculate the probabilities that a measured value in a bin $x_i$ is originating from bin $y_i$ on particle level. The resulting matrix can then be applied to real data to obtain data on particle level. This can then be compared with theory calculations.
 	% COMPARE TO THEORY
 	% WELL DEFINED MASS

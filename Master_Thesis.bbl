@@ -32,6 +32,26 @@
   \field{title}{{The Standard Model of Particle Physics}}
 \endentry
 
+\entry{feynman}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ellis}{E.}%
+     {Joshua}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EJ1}
+  \strng{fullhash}{EJ1}
+  \verb{doi}
+  \verb 10.1016/j.cpc.2016.08.019
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1601.05437
+  \endverb
+  \field{title}{{TikZ-Feynman: Feynman diagrams with TikZ}}
+  \field{year}{2016}
+\endentry
+
 \entry{pdg2016}{article}{}
   \true{moreauthor}
   \name{author}{1}{}{%
@@ -51,26 +71,6 @@
   \field{title}{{Review of Particle Physics}}
   \field{volume}{C40}
   \field{journaltitle}{Chin. Phys.}
-  \field{year}{2016}
-\endentry
-
-\entry{feynman}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Ellis}{E.}%
-     {Joshua}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{EJ1}
-  \strng{fullhash}{EJ1}
-  \verb{doi}
-  \verb 10.1016/j.cpc.2016.08.019
-  \endverb
-  \verb{eprint}
-  \verb arXiv:1601.05437
-  \endverb
-  \field{title}{{TikZ-Feynman: Feynman diagrams with TikZ}}
   \field{year}{2016}
 \endentry
 
