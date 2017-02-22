@@ -5,22 +5,35 @@
 	\begin{landscape}
 	\begin{table}
 	\centering
-	 \begin{tabular}{|l|l|l|r|}
+	 \begin{tabular}{|l|l|r|l|r|}
 	 	\hline
-	 	Sample & Cross Section [pb] & MC Generator & Number of Events \\
+	 	Process & Sample & Cross Section [pb] & MC Generator & Number of Events \\
 	 	\hline
-	 	$t\bar{t}$ & & & \\
-		\hline
-	 	$W$+jets & & & \\
-	 	$Z$+jets & & & \\
-	 	QCD (muon enriched) & & & \\
-	 	QCD (EM enriched) & & & \\
-	 	$WW$ & & & \\
-	 	$WZ$ & & & \\
-	 	$ZZ$ & & & \\
+	 	$t\bar{t}$ & $0 < M_{t\bar{t}} < 700$ & 831.76 & & \\
+	 	$t\bar{t}$ & $700 < M_{t\bar{t}} < 1000$ & 76.605 & & \\
+	 	$t\bar{t}$ & $1000 < M_{t\bar{t}} < \infty$ & 20.578 & & \\
+	 	\hline
+		Single Top &t-channel  & & & \\
+		Single Top & t-channel (anti top) & & & \\
+		Single Top & tW-channel & & & \\
+		Single Top & tW-channel (anti top) & & & \\
+		Single Top & s-channel & & & \\
+		$W$+jets & $100 < S_T < 200$ & & & \\
+	 	$W$+jets & $200 < S_T < 400$ & & & \\
+	 	$W$+jets & $400 < S_T < 600$ & & & \\
+	 	$W$+jets & $600 < S_T < 800$ & & & \\
+	 	$W$+jets & $800 < S_T < 1200$ & & & \\
+	 	$W$+jets & $1200 < S_T < 2500$ & & & \\
+	 	$W$+jets & $2500 < S_T < \infty$ & & & \\
+	 	$Z$+jets & & & & \\
+	 	QCD (muon enriched) & & & & \\
+	 	QCD (EM enriched) & & & & \\
+	 	$WW$& & & & \\
+	 	$WZ$& & & & \\
+	 	$ZZ$& & & & \\
 	 	 \hline
 	 \end{tabular}
-	\caption{Summary of data sets and MC samples used in this analysis. Cross section, MC generator and number of events are displayed for each sample.}
+	\caption{Summary of data sets and MC samples used in this analysis. Assumed cross section, MC generator and number of events are displayed for each sample.}
 	\label{MC_Tab}	
 	\end{table}
 	\end{landscape}
@@ -34,9 +47,11 @@
 \subsection{XCone Strategy}
 	The XCone jet algorithm described in section \ref{sec:xcone} has already been tested resolving $t\bar{t}$ decays. Studies for hadronically decaying top quark pairs are presented in a paper from Thaler and Wilkason \cite{xconetop}. Here, the XCone algorithm is tuned to the $t\bar{t}$ final state, expecting six jets. Using the information that it is expected to find three jets from each top quark, a promising approach to reconstruct the top quark decays was made with a strategy using two clustering steps. Firstly, the event is divided in two parts. This is done by require the XCone algorithm to find exactly two jets with a radius parameter $R=\infty$. Thus, every particle in the event is clustered into one of the jets. The goal of this first step is to separate the two top quarks into independent jets. Now, a second clustering step finding three jets is run where separate lists of particles from each fat jet are used as an input. Thus, in each fat jet, three smaller jets with $R=0.4$ are found. These three small jets are then combined and used as the final top jets. \\
 	\\ In this analysis the lepton+jets channel is used. Therefore the jet originating from the hadronically decaying top quark is identified while calculating the distance between each jet and the lepton. Additionally studies with a method where the fat jet originating from the leptonically decaying top quark is divided into two instead of three jets is presented. This approach was made because the neutrino from the $W$ decay cannot be seen in the detector. Nevertheless it proved to be handy to use the $3+3$ method for data and therefore also for MC samples after detector simulation.   
-	
+\subsection{Comparing Jet Algorithms}
+
 \section{Selection}
 	To obtain a data set consisting of mostly $t\bar{t}$ events in the lepton+jets channel, a selection is applied to simulation and data. The selection can be divided into three main steps. Firstly, a Pre-Selection with very loose cuts is used to sort out non-relevant events and therefore reduce the size of the data set (see section \ref{sec:PreSel}). Secondly, a selection is made to suppress background processes (see section \ref{sec:BackSel}). Thirdly, the final phase space is defined (see section \ref{sec:FinalSel}).
+% PRESEL UND SUPPRESS ZUSAMMEN?
 \subsection{Pre-Selection}
 \label{sec:PreSel}
 	In the lepton+jets channel of the $t\bar{t}$ process one expects to find exactly one muon or electron, two small jets from the hadronically decaying $W$ boson, two b-jets and missing transverse energy since the neutrino cannot be detected. This Pre-Selection is designed to remove events from the data set that are surely uninteresting for this analysis. Thus, very loose cuts are applied. For an event to be considered for this analysis, it has to contain
@@ -58,7 +73,10 @@
 	\end{itemize}
 \subsection{Measurement Phase Space}
 \label{sec:FinalSel}
-\subsection{Comparison of Different Jet Algorithms}
+	\begin{itemize}
+	\item $p_T^{\text{1st topjet}} > 400\;\text{GeV}$ 
+	\item $M^{\text{1st topjet}} > M^{\text{2nd topjet}}$
+	\end{itemize}
 
 \section{Unfolding}
 \section{Results}
