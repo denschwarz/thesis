@@ -32,26 +32,6 @@
   \field{title}{{The Standard Model of Particle Physics}}
 \endentry
 
-\entry{feynman}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Ellis}{E.}%
-     {Joshua}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{EJ1}
-  \strng{fullhash}{EJ1}
-  \verb{doi}
-  \verb 10.1016/j.cpc.2016.08.019
-  \endverb
-  \verb{eprint}
-  \verb arXiv:1601.05437
-  \endverb
-  \field{title}{{TikZ-Feynman: Feynman diagrams with TikZ}}
-  \field{year}{2016}
-\endentry
-
 \entry{pdg2016}{article}{}
   \true{moreauthor}
   \name{author}{1}{}{%
@@ -71,6 +51,59 @@
   \field{title}{{Review of Particle Physics}}
   \field{volume}{C40}
   \field{journaltitle}{Chin. Phys.}
+  \field{year}{2016}
+\endentry
+
+\entry{topmass_combination}{misc}{}
+  \name{author}{4}{}{%
+    {{}%
+     {ATLAS}{A.}%
+     {The}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {CDF}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {CMS}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Collaborations}{C.}%
+     {D0}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AT+1}
+  \strng{fullhash}{ATCCCD1}
+  \verb{eprint}
+  \verb arXiv:1403.4427
+  \endverb
+  \field{title}{First combination of Tevatron and LHC measurements of the
+  top-quark mass}
+  \field{year}{2014}
+\endentry
+
+\entry{feynman}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ellis}{E.}%
+     {Joshua}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EJ1}
+  \strng{fullhash}{EJ1}
+  \verb{doi}
+  \verb 10.1016/j.cpc.2016.08.019
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1601.05437
+  \endverb
+  \field{title}{{TikZ-Feynman: Feynman diagrams with TikZ}}
   \field{year}{2016}
 \endentry
 
