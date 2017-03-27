@@ -245,6 +245,45 @@
   \field{year}{2015}
 \endentry
 
+\entry{tunfold}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Schmitt}{S.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SS1}
+  \strng{fullhash}{SS1}
+  \verb{doi}
+  \verb 10.1088/1748-0221/7/10/T10003
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1205.6201
+  \endverb
+  \field{title}{TUnfold: an algorithm for correcting migration effects in high
+  energy physics}
+  \field{year}{2012}
+\endentry
+
+\entry{torben_paper}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {CMS}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CC1}
+  \strng{fullhash}{CC1}
+  \verb{eprint}
+  \verb arXiv:1703.06330
+  \endverb
+  \field{title}{Measurement of the jet mass in highly boosted t-tbar events
+  from pp collisions at sqrt(s) = 8 TeV}
+  \field{year}{2017}
+\endentry
+
 \entry{xconetop}{article}{}
   \name{author}{2}{}{%
     {{}%

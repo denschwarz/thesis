@@ -14,7 +14,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Standard model of particle physics}{2}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Top Quark}{2}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Top Quark}{3}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Unfolding}{6}{section.2.2}
 \defcounter {refsection}{0}\relax 
@@ -26,60 +26,64 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Tracker}{7}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Calorimeters}{7}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Calorimeters}{8}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Electromagnetic Calorimeter}{8}{section*.9}
+\contentsline {subsubsection}{Electromagnetic Calorimeter}{9}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hadronic Calorimeter}{8}{section*.10}
+\contentsline {subsubsection}{Hadronic Calorimeter}{9}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Solenoid}{8}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Solenoid}{9}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Muon System}{8}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.4}Muon System}{9}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.5}Trigger}{9}{subsection.3.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Reconstruction of Objects}{10}{chapter.4}
+\contentsline {chapter}{\numberline {4}Reconstruction of Objects}{11}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Coordinate System}{10}{section.4.1}
+\contentsline {section}{\numberline {4.1}Coordinate System}{11}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Particle Flow}{11}{section.4.2}
+\contentsline {section}{\numberline {4.2}Particle Flow}{12}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Electrons}{11}{section.4.3}
+\contentsline {section}{\numberline {4.3}Electrons}{12}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Muons}{11}{section.4.4}
+\contentsline {section}{\numberline {4.4}Muons}{12}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Jets}{11}{section.4.5}
+\contentsline {section}{\numberline {4.5}Jets}{12}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Anti-$k_T$ Jet Algorithm}{12}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Anti-$k_T$ Jet Algorithm}{13}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}HOTVR Jet Algorithm}{12}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.2}HOTVR Jet Algorithm}{13}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}XCone Jet Algorithm}{12}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.3}XCone Jet Algorithm}{13}{subsection.4.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.4}b-Jets}{13}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.4}b-Jets}{14}{subsection.4.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.5}$\cancel {E}_T$ and $S_T$}{13}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.5}$\cancel {E}_T$ and $S_T$}{14}{subsection.4.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Analysis}{15}{chapter.5}
+\contentsline {chapter}{\numberline {5}Analysis}{16}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Data and MC Simulation}{15}{section.5.1}
+\contentsline {section}{\numberline {5.1}Analysis Strategy}{16}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Jet Studies}{17}{section.5.2}
+\contentsline {section}{\numberline {5.2}Previous Results}{16}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}XCone Strategy}{17}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Data and MC Simulation}{16}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Comparing Jet Algorithms}{18}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.4}Jet Studies on Particle Level}{18}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Selection}{18}{section.5.3}
+\contentsline {subsection}{\numberline {5.4.1}Selection on particle level}{18}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Pre-Selection}{18}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.4.2}XCone Strategy}{18}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Suppress Background}{18}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.4.3}Comparing Jet Algorithms}{19}{subsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Measurement Phase Space}{19}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.5}Selection on Reconstruction Level}{19}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Unfolding}{19}{section.5.4}
+\contentsline {subsection}{\numberline {5.5.1}Baseline Selection}{19}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Results}{19}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.2}Measurement Phase Space}{20}{subsection.5.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Summary and Outlook}{20}{chapter.6}
+\contentsline {section}{\numberline {5.6}Unfolding}{20}{section.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.7}Results}{20}{section.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Summary and Outlook}{21}{chapter.6}

@@ -1,7 +1,7 @@
 \chapter{Analysis}
 
 \section{Analysis Strategy}
-
+	This analysis aims for boosted $t\bar{t}$ where all decay products from the top decays merge into a single jet. To measure in this phase space a selection of events is applied. The detailed selection is presented in section \ref{sec:selection}. In the required phase space the distribution of the jet mass of a top quark decaying into quarks ($t\rightarrow W^{+} b \rightarrow b q \bar{q}'$) is measured. Following a unfolding is performed using the TUnofld \cite{tunfold} software package. The goal is to compare data unfolded to particle level with first principle calculations.
 \section{Previous Results}
 	A measurement of the top quark mass in highly boosted $t\bar{t}$ events has already been performed by CMS with the $8\;\text{TeV}$ dataset corresponding to an integrated luminosity of $19.7\;\text{fb}^{-1}$ \cite{torben_paper}.
 \section{Data and MC Simulation}
@@ -44,22 +44,29 @@
 	\end{landscape}
 	
 	
-\section{Jet Studies}
-	For this analysis it is crucial to choose a suitable jet algorithm and cone size. A similar analysis has been performed by CMS on LHC's 2012 data set with a center-of-mass energy of $8\;\text{TeV}$ with Cambridge-Aachen jets with a radius parameter of $R=1.2$. This large radius was chosen to compensate for low statistics in the boosted $t\bar{t}$ regime. Since the cross-section of $t\bar{t}$ production is much higher at a center-of-mass energy of $13\;\text{TeV}$ it has to be studied, how the jet radius parameter $R$ influences the measured distribution and what influence different jet algorithms have. The goal is to select a jet algorithm which returns jets in which all decay products of a hadronically decaying top quark are merged. In this case, the jet mass $M_\text{jet}$ is sensitive to the top quark mass $M_\text{top}$.
+\section{Jet Studies on Particle Level}
+	For this analysis it is crucial to choose a suitable jet algorithm and cone size. The previous mentioned analysis \cite{torben_paper} uses Cambridge-Aachen jets with the radius parameter set to $R=1.2$ for its measurement. This large radius was chosen to compensate for low statistics in the boosted $t\bar{t}$ regime. Since the cross-section of $t\bar{t}$ production is much higher at a center-of-mass energy of $13\;\text{TeV}$ it has to be studied, how the jet radius parameter $R$ influences the measured distribution and what influence different jet algorithms have. The goal is to select a jet algorithm which returns jets in which all decay products of a hadronically decaying top quark are merged. In this case, the jet mass $M_\text{jet}$ is sensitive to the top quark mass $M_\text{top}$.
 	\\
 	The jet studies are performed with a $t\bar{t}$ simulation using the information of MC simulations at particle level. The detailed selection is described in Section \ref{sec:GenSel}.
 	%CITE TORBEN
 
 \subsection{Selection on particle level}
 \label{sec:GenSel}
-	Only events are considered where one top quark decays leptonically into $t\rightarrow Wb\rightarrow \mu \nu b$ or $t\rightarrow Wb\rightarrow e \nu b$ while the hadronically decaying top quark carries a transverse momentum greater $300\;\text{GeV}$. On this $t\bar{t}$ sample a selection is applied to select boosted top quarks.
-
+	Only events are considered where one top quark decays leptonically into $t\rightarrow W^{+} b\rightarrow \mu^{+} \nu_{\mu} b$ or $t\rightarrow W^{+} b\rightarrow e^{+} \nu_e b$ while the hadronically decaying top quark carries a transverse momentum greater $300\;\text{GeV}$. On this $t\bar{t}$ sample, a selection is applied to select boosted top quarks:
+	\begin{itemize}
+	\item $p_T^{\text{1st jet}} > 400\;\text{GeV}$ 
+	\item $M^{\text{1st jet}} > M^{\text{2nd jet}}$
+	\end{itemize}
+	Where the first jet refers to the leading jet in $p_T$. The first jet is expected to be originating from the hadronically decaying top quark. When using jets clustered with the XCone jet algorithm the first jet already refers to the jet identified as originating from the hadronically decaying top quark because a distance requirement to the lepton is used in the jet finding (see section \ref{sec:XCone_strat}).
+	
 \subsection{XCone Strategy}
+\label{sec:XCone_strat}
 	The XCone jet algorithm described in section \ref{sec:xcone} has already been tested resolving $t\bar{t}$ decays. Studies for hadronically decaying top quark pairs are presented in a paper from Thaler and Wilkason \cite{xconetop}. Here, the XCone algorithm is tuned to the $t\bar{t}$ final state, expecting six jets. Using the information that it is expected to find three jets from each top quark, a promising approach to reconstruct the top quark decays was made with a strategy using two clustering steps. Firstly, the event is divided in two parts. This is done by require the XCone algorithm to find exactly two jets with a radius parameter $R=\infty$. Thus, every particle in the event is clustered into one of the jets. The goal of this first step is to separate the two top quarks into independent jets. Now, a second clustering step finding three jets is run where separate lists of particles from each fat jet are used as an input. Thus, in each fat jet, three smaller jets with $R=0.4$ are found. These three small jets are then combined and used as the final top jets. \\
-	\\ In this analysis the lepton+jets channel is used. Therefore the jet originating from the hadronically decaying top quark is identified while calculating the distance between each jet and the lepton. Additionally studies with a method where the fat jet originating from the leptonically decaying top quark is divided into two instead of three jets is presented. This approach was made because the neutrino from the $W$ decay cannot be seen in the detector. Nevertheless it proved to be handy to use the $3+3$ method for data and therefore also for MC samples after detector simulation.   
+	\\ In this analysis the lepton+jets channel is used. Therefore the jet originating from the hadronically decaying top quark is identified while calculating the distance between each jet and the lepton. Additionally studies with a method where the fat jet originating from the leptonically decaying top quark is divided into two instead of three jets is presented('$2+3$'). This approach was made because the neutrino from the $W$ decay cannot be seen in the detector. Nevertheless it proved to be handy to use the '$3+3$' method for data and therefore also for MC samples after detector simulation.   
 \subsection{Comparing Jet Algorithms}
 
-\section{Selection}
+\section{Selection on Reconstruction Level}
+\label{sec:selection}
 	To obtain a data set consisting of mostly $t\bar{t}$ events in the lepton+jets channel, a selection is applied to simulation and data. The selection can be divided into two steps. Firstly, a baseline selection is used to suppress background processes (see section \ref{sec:PreSel}). Secondly, the final phase space is defined (see section \ref{sec:FinalSel}) to select $t\bar{t}$ events with boosted top quarks. This is crucial for this analysis because the goal is to reconstruct the top quark with one jet. This can only be done if all of its decay products merge into one jet.
 % PRESEL UND SUPPRESS ZUSAMMEN?
 \subsection{Baseline Selection}

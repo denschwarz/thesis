@@ -7,7 +7,9 @@
 	% ANDERE EXPERIMENTE
 \section{CMS Detector}
 \label{sec:cms}
-	The 'Compact Muon Solenoid' (CMS) experiment is one of the multi purpose detectors at LHC. 
+	The 'Compact Muon Solenoid' (CMS) experiment is a multi purpose detectors at LHC. It is designed to measure momentum and energy of particles produced in proton-proton interactions. The CMS detector is built in layers of subdetectors with different purposes described in following sections \ref{sec:tracker} - \ref{sec:muonsystem}.
+	
+	A very important part besides the detector systems is the Trigger, described in section \ref{sec:trigger}, providing fast decisions if an event is stored or discarded.
 	% FULL VIEW OF CMS?
 	% AUSMAßE
 	% ZWIEBELFORM, ZYLINDER
@@ -22,9 +24,11 @@
 \label{sec:tracker}
 	%ABMAßE TRACKER, ANZAHL LAYER USW
 	The purpose of the tracking system is to measure the momentum of created particles. It is taken advantage of the Lorentz force which changes the momentum of charged particles in a magnetic field. Paths of those particles are therefore bended with a bending radius proportional to the momentum in a constant magnetic field. Therefore a solenoid provides a constant magnetic field of about $4\;\text{T}$ inside the tracker. Per path one spatial point per layer is measured. These points are the input for a track finding algorithm. The largest uncertainties of the measured momenta rise from the spatial resolution of the tracker. Therefore a pixel structure is used which can measure the position of a passing charged particle within a resolution of ????.
-	%ALGORITHMUS ANSPRECHEN
 	%GENAUIGKEIT
 	%MATERIAL
+	%ALGORITHMUS ANSPRECHEN
+	All measured spatial points are then put into a track finding algorithm returning track and momentum of every recorded object.
+
 \subsection{Calorimeters}
 	To define the type of particle one has to measure not only momentum but also energy. Therefore outside the tracker a colorimetry system with two types of calorimeters is installed. The underlying principle of this subdetector is to absorb all of the energy a particle carries. This energy is then transformed into a light signal. The intensity of the light signal is proportional to the energy of the incoming particle. For this approach one needs to use scintillating materials. It also has to be dense enough to stop a incoming particle to transform all its energy into the light signal. At the end the light is collected and measured with photo multipliers.
 	%FUNKTIONSWEISE 
@@ -49,6 +53,7 @@
 	%AUFBAU MUON SYSTEM
 	In cooperation with the inner tracker it is possible to reconstruct muon momenta with high precision.
 \subsection{Trigger}
+\label{sec:trigger}
 	At the interaction points, proton bunches are brought to collision every $25\;\text{ns}$. Per crossing about ????
 	%INTERACTIONNUMBER
 	interactions take place. This adds up to about ???
