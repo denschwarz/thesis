@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.11)  27 MAR 2017 18:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.11)  4 APR 2017 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1515,209 +1515,204 @@ Chapter 1.
 
  (./Theory.tex
 Chapter 2.
-<../Plots/Standard_Model.png, id=236, 803.0pt x 602.25pt>
-File: ../Plots/Standard_Model.png Graphic file (type png)
-
-<use ../Plots/Standard_Model.png>
-Package pdftex.def Info: ../Plots/Standard_Model.png used on input line 14.
-(pdftex.def)             Requested size: 448.13095pt x 336.109pt.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 32.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 32.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 32.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 38.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 38.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 38.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 50.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 50.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 50.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 56.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 56.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 56.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 68.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 68.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 68.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 74.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 74.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 74.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 86.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 86.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 86.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 92.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 92.
-
-
-Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 92.
-
 [2
 
 
 
-]
-Underfull \vbox (badness 4168) has occurred while \output is active []
+] <../Plots/Standard_Model.png, id=243, 803.0pt x 602.25pt>
+File: ../Plots/Standard_Model.png Graphic file (type png)
+
+<use ../Plots/Standard_Model.png>
+Package pdftex.def Info: ../Plots/Standard_Model.png used on input line 25.
+(pdftex.def)             Requested size: 448.13095pt x 336.109pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <../Plots/Standard_Model.png>]
-Underfull \vbox (badness 4454) has occurred while \output is active []
 
- [4]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 107.
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 42.
 
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 42.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 42.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 48.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 48.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 48.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 60.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 60.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 60.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 66.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 66.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 66.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 78.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 78.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 78.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 84.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 84.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 84.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 96.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 96.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 96.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
+tance' requires LuaTeX. It will be ignored. on input line 102.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
+stance' requires LuaTeX. It will be ignored. on input line 102.
+
+
+Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
+distance' requires LuaTeX. It will be ignored. on input line 102.
+
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 117.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 122.
+tance' requires LuaTeX. It will be ignored. on input line 133.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 122.
+stance' requires LuaTeX. It will be ignored. on input line 133.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 122.
+distance' requires LuaTeX. It will be ignored. on input line 133.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 129.
+tance' requires LuaTeX. It will be ignored. on input line 140.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 129.
+stance' requires LuaTeX. It will be ignored. on input line 140.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 129.
+distance' requires LuaTeX. It will be ignored. on input line 140.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 142.
+tance' requires LuaTeX. It will be ignored. on input line 153.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 142.
+stance' requires LuaTeX. It will be ignored. on input line 153.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 142.
+distance' requires LuaTeX. It will be ignored. on input line 153.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 148.
+tance' requires LuaTeX. It will be ignored. on input line 159.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 148.
+stance' requires LuaTeX. It will be ignored. on input line 159.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 148.
+distance' requires LuaTeX. It will be ignored. on input line 159.
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 119--157
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 130--168
 []$[]$ $[]$ 
  []
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 165.
+tance' requires LuaTeX. It will be ignored. on input line 176.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 165.
+stance' requires LuaTeX. It will be ignored. on input line 176.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 165.
+distance' requires LuaTeX. It will be ignored. on input line 176.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 177.
+tance' requires LuaTeX. It will be ignored. on input line 188.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 177.
+stance' requires LuaTeX. It will be ignored. on input line 188.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 177.
+distance' requires LuaTeX. It will be ignored. on input line 188.
 
-[5]) [6]
+[4] [5]) [6]
 \openout2 = `Experiment.aux'.
 
  (./Experiment.tex
 Chapter 3.
-<../Plots/CMS_Slice.png, id=290, 3011.25pt x 2182.40344pt>
+<../Plots/CMS_Slice.png, id=291, 3011.25pt x 2182.40344pt>
 File: ../Plots/CMS_Slice.png Graphic file (type png)
 
 <use ../Plots/CMS_Slice.png>
@@ -2140,11 +2135,11 @@ Package logreq Info: Writing requests to 'Master_Thesis.run.xml'.
 Here is how much of TeX's memory you used:
  29224 strings out of 494901
  559782 string characters out of 6178617
- 968272 words of memory out of 5000000
+ 980272 words of memory out of 5000000
  31765 multiletter control sequences out of 15000+600000
  63123 words of font info for 114 fonts, out of 8000000 for 9000
  18 hyphenation exceptions out of 8191
- 68i,15n,100p,1537b,2833s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,14n,100p,1158b,2833s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
@@ -2156,10 +2151,10 @@ hare/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on Master_Thesis.pdf (31 pages, 4314130 bytes).
+Output written on Master_Thesis.pdf (31 pages, 4314706 bytes).
 PDF statistics:
- 505 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
+ 506 PDF objects out of 1000 (max. 8388607)
+ 447 compressed objects within 5 object streams
  105 named destinations out of 1000 (max. 500000)
  331 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,9 +1,20 @@
 \chapter{Theory}
 \section{Standard model of particle physics}
-	The standard model of particle physics is a quantum field theory describing elementary particles, their interaction and provides the affiliated equations of motion. All particles contained in this theory have been discovered and experiments have confirmed predictions of the standard model at very high precision. These elementary particles and their basic properties are displayed in Fig. \ref{SM}. They can be ordered in groups by their properties. Firstly one distinguishes particles depending on their spin. Spin-$\frac{1}{2}$ particles are called fermions, Spin-$1$ and Spin-$0$ particles represent the bosons. Fermions are the building blocks of matter while bosons carry the three fundamental forces included in the standard model. Quarks and leptons are sub groups of the fermions are divided by their possible interaction with forces. While the quarks are affected by the strong force, carried by the gluon, the leptons are not. The strong force only couples to particles carrying a so-called colour charge. The quarks and the gluon itself are the only candidates affected by the strong force. Photons are the particle carrying the electromagnetic force. All particles besides the photon, gluon, Higgs boson and the neutrinos can interact with this force due to their electrical charge. The third force described in the standard model is the weak force. It is carried by the $W$ and $Z$ bosons. This force only affects left-handed fermions and right-handed anti-fermions. 
-	
+	The standard model of particle physics is a quantum field theory describing elementary particles, their interaction and provides the affiliated equations of motion. All particles contained in this theory have been discovered and various experiments have confirmed predictions of the standard model at very high precision. All known elementary particles of the standard model and their properties - mass, electromagnetic and colour charge and their spin - are displayed in Fig. \ref{SM}. They are ordered in two fundamental groups by their spin. spin-$\frac{1}{2}$ particles are called fermions, particles with integer spin represent the bosons. 
+	\\
+	Fermions are further divided into quarks and leptons. While quarks are affected by the strong force, leptons are not. Both subgroups consist of three generations with two particles in each group. Each generation of quarks contain one up-type and one down-type quark distinguished by their electromagnetic charge. For leptons a generation is built from a particle with charge of $1e$ and an neutral neutrino. The first generation of quarks and leptons then are the building blocks of atoms. All other particles have a larger mass and therefore a finite lifetime. Additionally every fermion has a anti-partner which has the same mass but charge are multiplied by $-1$. 
+	\\	
+	Bosons are the carriers of the three fundamental forces included in the standard model. Every interaction of two particles is described by a boson emitted from one and absorbed by the other particle. The boson of the strong force is a massless gluon. It couples to particles carrying a so-called colour charge. Thus, quarks and the gluon itself are the only candidates affected by the strong force. 
+	% CONFINEMENT
+	\\	
+	Photons carry the electromagnetic force. All particles besides the photon, gluon, Higgs boson and the neutrinos can interact with this force due to their electrical charge. 
+	\\
+	The third force described in the standard model is the weak force. It is carried by the $W$ and $Z$ bosons. This force only affects left-handed fermions and right-handed anti-fermions. 
+	\\
+	A hypothetical graviton is also included in Fig. \ref{SM} representing the last known fundamental force, gravity, which is not yet included in the standard model. 
+	\\
 	The remaining boson, the Higgs boson, was discovered the most recent in 2012. In the standard model without a Higgs mechanism, all bosons should be massless. In contradiction to this, the mass of the $W$ and $Z$ bosons are measured to values of ??(genaue Werte inkl Quelle)??. Therefore a theory was developed which solves this problem via spontaneous symmetry breaking. A field is predicted giving particles mass proportional to ther coupling strength to this field. This is also leading to an additional particle, the Higgs boson.
-	 
+
 	% QED
 	% QCD
 	% WEAK
@@ -12,18 +23,17 @@
 	\begin{figure}[tb]
 		\centering
 		\includegraphics [width=\textwidth]{../Plots/Standard_Model.png}
-		\caption{Display of the particle content of the standard model divided into groups of fermions, and their three generations, and bosons. Additionally a hypothetical boson ('graviton') for the not included gravity is shown.\cite{SM}}
+		\caption{Display of the particle content of the standard model divided into groups of fermions and their three generations and bosons. Additionally a hypothetical boson ('graviton') for the not included gravity is shown.\cite{SM}}
 		\label{SM}
 	\end{figure}
 		 
 \subsection{Top Quark}
 	The top quark is an up type quark belonging to the third generation and carrying electromagnetic charge of $Q=+\frac{2}{3}e$ \cite{pdg2016}. With its mass of about $173\;\text{GeV}$ the top quark is the heaviest particle in the standard model. Therefore it offers a large phase space for decays and  has a short life time of approximately $0.5 \times 10^{-24}\;\text{s}$ \cite{pdg2016}. Because of the short life time the top quark does not form bound hadronic states and thus measurement of the bare quark are possible. This provides a special access to parameters of the standard model. Especially the top quark mass is an essential parameter to check the standard model for consistency. The Higgs mechanism relates the masses of the top quark with the masses of the W and Higgs boson. This could be done, because the top quark plays an extraordinary role due to its high mass -- and therefore large coupling to the Higgs boson -- in this mechanism. Measuring these masses with high precision gives the possibility to check the standard model for consistency. 
 	\\
-	Additionally the top quark is important for searches of new physics since is is often part of the final state and/or a relevant background. 
+	Additionally the top quark is important for searches of new physics since is is often part of the final state and/or a dominant background. 
 	\\
 	In hadron colliders, the production of a $t\bar{t}$ pair happens via $g\bar{q}$ annihilation or gluon fusion. At the centre-of-mass energy of $13\;\text{TeV}$ from the LHC, gluon fusion is by far the dominant process. Top quarks can also be produced in single production, but has, being a electroweak process, a much smaller cross section. Hence, this analysis will focus on pair produced top quarks and will treat single top production as a background process.
-	\\
-	Measuring the top quark mass is usually performed via a template fit. Therefore $t\bar{t}$ events are simulated for different masses $m_\text{top}^{MC}$. Then a selection is applied to data and simulation with the goal to select preferably $t\bar{t}$ events. Finally the different simulation with different $m_\text{top}^{MC}$ are fitted to data.	The most precise mass measurement of this kind is archived combining results of the CMS, ATLAS, CDF, and D0 Collaborations. The result of this world average is a value of $173.34 \pm 0.27 (\text{stat}) \pm 0.71 (\text{sys})\;\text{GeV}$ \cite{topmass_combination}. 
+
 	\begin{figure}
 		\centering
 		\begin{subfigure}{.4\textwidth}
@@ -193,10 +203,8 @@
 		\label{fig:semilep}
 	\end{figure}
 	
-
+	Measuring the top quark mass is usually performed via a template fit. Therefore $t\bar{t}$ events are simulated for different masses $m_\text{top}^{MC}$. Then a selection is applied to data and simulation with the goal to select preferably $t\bar{t}$ events. Finally the different simulation with different $m_\text{top}^{MC}$ are fitted to data.	The most precise mass measurement of this kind is archived combining results of the CMS, ATLAS, CDF, and D0 collaborations. The result of this world average is a value of $173.34 \pm 0.27 (\text{stat}) \pm 0.71 (\text{sys})\;\text{GeV}$ \cite{topmass_combination}. Doing these kinds of measurements one relies on a correct simulation of $t\bar{t}$ events. Especially the mass parameter in Monte-Carlo generators can not be related to a mass one would calculate in an Lagrangian.
 \section{Unfolding}
-	Most analyses at LHC measure distributions of appropriate variables and then compare the obtained results in data with event simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with an unknown detector function. Studying the difference in MC between particle level and reconstruction level, it is possible to calculate the probabilities that a measured value in a bin $x_i$ is originating from bin $y_i$ on particle level. The resulting matrix can then be applied to real data to obtain data on particle level. This can then be compared with theory calculations.
-	% COMPARE TO THEORY
-	% WELL DEFINED MASS
-	% CORRECT FOR DETECTOR
+	Most analyses at LHC measure distributions of appropriate variables and then compare the obtained results in data with event simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with an unknown detector function. Studying the difference in MC between particle level and reconstruction level, it is possible to calculate the probabilities that a measured value in a bin $x_i$ is originating from bin $y_i$ on particle level. The resulting matrix can then be applied to real data to obtain data on particle level. The obtained distribution is corrected for detector effects by the unfolding and can then be compared with theory calculations. Additionally, measurements on particle level do not depend on simulation ambiguities like the mass parameter put into the Monte-Carlo generator.
+
 	
