@@ -3,16 +3,36 @@
 	The Large Hadron Collider (LHC) is a circular particle collider with a circumference of $27\;\text{km}$. 
 	
 	Four Experiments are placed at each interaction point of LHC.
-	% LHC FAKTEN
-	% ANDERE EXPERIMENTE
+	
+	A very important parameter of a particle collider is its luminosity. It gives an estimate how many collisions take place per area and second. It is calculated vie Eq. \ref{eq:lumi}. To get an estimate of the number of events produced by a given process one has to multiply the integrated luminosity (see Eq. \ref{eq:intlumi}) with the cross section of this particular process (see Eq. \ref{eq:number})
+	
+	\begin{equation}
+	L = \frac{}{}
+	\label{eq:lumi}
+	\end{equation} 
+	\begin{equation}
+	L_\text{int} = \int L dt
+	\label{eq:intlumi}
+	\end{equation} 
+	\begin{equation}
+	N = L_\text{int} \sigma
+	\label{eq:number}
+	\end{equation} 
+	
+	%todo LHC FAKTEN
+	%todo Bild von LHC
+	%todo Lumi einfuehren und Formel angeben
+	%todo ANDERE EXPERIMENTE
 \section{CMS Detector}
 \label{sec:cms}
 	The 'Compact Muon Solenoid' (CMS) experiment is a multi purpose detectors at LHC. It is designed to measure momentum and energy of particles produced in proton-proton interactions. The CMS detector is built in layers of subdetectors with different purposes described in following sections \ref{sec:tracker} - \ref{sec:muonsystem}.
 	
 	A very important part besides the detector systems is the Trigger, described in section \ref{sec:trigger}, providing fast decisions if an event is stored or discarded.
-	% FULL VIEW OF CMS?
-	% AUSMAßE
-	% ZWIEBELFORM, ZYLINDER
+	%todo FULL VIEW OF CMS?
+	%todo AUSMAßE
+	%todo ZWIEBELFORM, ZYLINDER
+	%todo PLOT: Collected Lumi von meinem Datensatz!
+
 	\begin{figure}[tb]
 		\centering
 		\includegraphics [width=.8\textwidth]{../Plots/CMS_Slice.png}
@@ -22,11 +42,11 @@
 	
 \subsection{Tracker}
 \label{sec:tracker}
-	%ABMAßE TRACKER, ANZAHL LAYER USW
+	%todo ABMAßE TRACKER, ANZAHL LAYER USW
 	The purpose of the tracking system is to measure the momentum of created particles. It is taken advantage of the Lorentz force which changes the momentum of charged particles in a magnetic field. Paths of those particles are therefore bended with a bending radius proportional to the momentum in a constant magnetic field. Therefore a solenoid provides a constant magnetic field of about $4\;\text{T}$ inside the tracker. Per path one spatial point per layer is measured. These points are the input for a track finding algorithm. The largest uncertainties of the measured momenta rise from the spatial resolution of the tracker. Therefore a pixel structure is used which can measure the position of a passing charged particle within a resolution of ????.
-	%GENAUIGKEIT
-	%MATERIAL
-	%ALGORITHMUS ANSPRECHEN
+	%todo GENAUIGKEIT
+	%todo MATERIAL
+	%todo ALGORITHMUS ANSPRECHEN
 	All measured spatial points are then put into a track finding algorithm returning track and momentum of every recorded object.
 
 \subsection{Calorimeters}
