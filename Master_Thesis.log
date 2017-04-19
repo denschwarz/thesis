@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.7)  18 APR 2017 11:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.7)  19 APR 2017 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -783,27 +783,42 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-)))
+))) (/home/schwarzd/texmf/tex/latex/tikz-feynman.sty
+Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
 
-! LaTeX Error: File `tikz-feynman.sty' not found.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+LaTeX Warning: You have requested, on input line 31, version
+               `2013/12/13' of package tikz,
+               but only version
+               `2010/10/13 v2.10 (rcs-revision 1.76)'
+               is available.
 
-Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2011/06/02 v2.1 LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks38
+\pgfopts@list@add@b@toks=\toks39
+)
+(/home/schwarzd/texmf/tex/latex/tikzlibraryfeynman.code.tex
+! I can't find file `tikzlibraryarrows.meta.code.tex'.
+<argument> ...nput tikzlibrary\pgf@temp .code.tex 
+                                                  \catcode `\@ =\csname tikz...
+l.37 }
+      
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name
 ! Emergency stop.
-<read *> 
-         
-l.30 \tikzfeynmanset
-                    {compat=1.0.0}^^M
-*** (cannot \read from terminal in nonstop modes)
+<argument> ...nput tikzlibrary\pgf@temp .code.tex 
+                                                  \catcode `\@ =\csname tikz...
+l.37 }
+      
+*** (job aborted, file error in nonstop mode)
 
  
 Here is how much of TeX's memory you used:
- 14364 strings out of 494976
- 253748 string characters out of 6179138
- 316068 words of memory out of 5000000
- 17264 multiletter control sequences out of 15000+600000
+ 14415 strings out of 494976
+ 255491 string characters out of 6179138
+ 318350 words of memory out of 5000000
+ 17304 multiletter control sequences out of 15000+600000
  4808 words of font info for 17 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,0n,92p,428b,75s stack positions out of 5000i,500n,10000p,200000b,80000s
