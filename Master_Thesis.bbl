@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.6 $
+% $ biblatex version 2.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,95 +16,23 @@
   {}
 \endgroup
 
-\entry{SM}{misc}{}
+\entry{lhc}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {CERN}{C.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{C1}
-  \strng{fullhash}{C1}
-  \field{howpublished}{\url
-  {https://webfest.web.cern.ch/sites/webfest.web.cern.ch/files/styles/large/public/Standard_model_infographic.png?itok=sZoMRgso}}
-  \field{note}{[Online; accessed January 31, 2017]}
-  \field{title}{{The Standard Model of Particle Physics}}
-\endentry
-
-\entry{pdg2016}{article}{}
-  \true{moreauthor}
-  \name{author}{1}{}{%
-    {{}%
-     {Patrignani}{P.}%
-     {C.}{C.}%
+     {Marcastel}{M.}%
+     {Fabienne}{F.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{PC+1}
-  \strng{fullhash}{PC+1}
-  \verb{doi}
-  \verb 10.1088/1674-1137/40/10/100001
+  \strng{namehash}{MF1}
+  \strng{fullhash}{MF1}
+  \field{note}{\href{https://cds.cern.ch/record/1621583}{\texttt{OPEN-PHO-CHART-2013-001}}}
+  \field{title}{{CERN's Accelerator Complex. La chaîne des accélérateurs du
+  CERN}}
+  \verb{url}
+  \verb https://cds.cern.ch/record/1621583
   \endverb
-  \field{number}{10}
-  \field{pages}{100001}
-  \field{title}{{Review of Particle Physics}}
-  \field{volume}{C40}
-  \field{journaltitle}{Chin. Phys.}
-  \field{year}{2016}
-\endentry
-
-\entry{feynman}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Ellis}{E.}%
-     {Joshua}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{EJ1}
-  \strng{fullhash}{EJ1}
-  \verb{doi}
-  \verb 10.1016/j.cpc.2016.08.019
-  \endverb
-  \verb{eprint}
-  \verb arXiv:1601.05437
-  \endverb
-  \field{title}{{TikZ-Feynman: Feynman diagrams with TikZ}}
-  \field{year}{2016}
-\endentry
-
-\entry{topmass_combination}{misc}{}
-  \name{author}{4}{}{%
-    {{}%
-     {ATLAS}{A.}%
-     {The}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {CDF}{C.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {CMS}{C.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Collaborations}{C.}%
-     {D0}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{AT+1}
-  \strng{fullhash}{ATCCCD1}
-  \verb{eprint}
-  \verb arXiv:1403.4427
-  \endverb
-  \field{title}{First combination of Tevatron and LHC measurements of the
-  top-quark mass}
-  \field{year}{2014}
+  \field{year}{2013}
 \endentry
 
 \entry{CMSslice}{misc}{}
