@@ -1,56 +1,106 @@
 \chapter{Theory}
-	The goal of particle physics is to explain the universe we observe with basic building blocks which are not further divisible. Starting with quantum mechanics in the early 20th century, physicists have developed a theory answering many questions about the development of the universe. Up to now the resulting standard model of particle physics is the most precisely tested physical theory. In the following the basics of this theory will be described. A special focus is set to the elementary particle which plays the most important role in this analysis - the top quark.
+	The goal of particle physics is to explain the universe we observe with basic building blocks which are not further divisible. Starting with quantum mechanics in the early 20th century, physicists have developed a theory answering many questions about the development of the universe. Up to now the resulting standard model of particle physics is the most precisely tested physical theory. In the following the basics of this theory will be described. A special focus is set to the elementary particle which plays the most important role in this analysis - the top quark. Additionally the procedure of unfolding in particle physics is introduced and described.
 \section{Standard model of particle physics}
 	The standard model of particle physics is a quantum field theory describing elementary particles, their interaction and provides the affiliated equations of motion. All particles contained in this theory have been discovered and various experiments have confirmed predictions of the standard model at very high precision. All known elementary particles of the standard model and their properties - mass, electromagnetic and colour charge and their spin - are displayed in Fig. \ref{SM}. They are ordered in two fundamental groups by their spin. spin-$\frac{1}{2}$ particles are called fermions, particles with integer spin are named bosons. 
 	\\
 	Fermions are further divided into quarks and leptons. While quarks are affected by the strong force, leptons are not. Both subgroups consist of three generations with two particles in each group. Each generation of quarks contain one up-type and one down-type quark distinguished by their electromagnetic charge. For leptons a generation is built from a particle with charge of $1e$ and an neutral neutrino. The first generation of quarks and leptons then are the building blocks of atoms. All other particles have a larger mass and therefore a finite lifetime. Additionally every fermion has a anti-partner which has the same mass but opposite charge. 
 	\\	
 	Bosons are the carriers of the three fundamental forces included in the standard model. Every interaction of two particles is described by a boson emitted from one and absorbed by the other particle. Thus a boson changes energy and momentum of an absorbing or emitting particle. For each force a charge is introduced. Only particles carrying the charge connected to a force can interact with the corresponding boson. Thus, the amount of charge carried by a particle is proportional to the probability of emitting or absorbing a boson. 
-	\begin{figure}[tb]
+	\begin{figure}[htb]
 		\centering
-		\includegraphics [width=\textwidth, trim = {0 0 0 3.5cm}, clip=true]{../Images/Standard_Model_of_Elementary_Particles.pdf}
+		\includegraphics [width=.8\textwidth, trim = {0 0 0 3.5cm}, clip=true]{../Images/Standard_Model_of_Elementary_Particles.pdf}
 		\caption{Display of the particle content of the standard model divided into groups of fermions and their three generations and bosons. For every particle mass, electromagnetic charge and spin is shown. Although neutrinos are supposed to be massless in the SM, experiments show that they carry mass. Thus, the upper limit of the neutrino masses are specified. \cite{SM}}
 		\label{SM}
 	\end{figure}
+	
 	%todo Gruppen angeben?
-	\subsubsection{Quantum Electro Dynamics (QED)}
-	In the history of the standard model the QED was the first mechanism to describe interactions. The charge of QED is the electromagnetic charge and usually stated in units of elementary charge $e$. To construct a quantum field theory ,the basic idea is to take the Lagrangian for particles described by Dirac spinors and require local gauge invariance. Equation \ref{eq:qedlag} shows the Lagrangian of the Dirac equation. 
+	\subsection{Quantum Electro Dynamics (QED)}
+	In the history of the standard model the QED was the first mechanism to describe interactions. The charge of QED is the electromagnetic charge and usually stated in units of elementary charge $e$. To construct a quantum field theory ,the basic idea is to take the Lagrange density for particles described by Dirac spinors and require local gauge invariance. The QED requires the Lagrange density to be invariant under transformations of a $U(1)$ group. Equation \ref{eq:qedlag} shows the Lagrange density of the Dirac equation. 
 	
 	\begin{equation}
 	\mathcal{L} = \underbrace{\bar{\psi} i \gamma^\mu \partial_\mu \psi}_{\text{kinetic term}} - \underbrace{m \bar{\psi} \psi}_{\text{mass term}}
 	\label{eq:qedlag}
 	\end{equation}
 	%todo Gamma beschreiben?
-	Here, $\psi$ denotes the Dirac spinors and $m$ the mass corresponding to the Dirac spinor. While the mass term $m \bar{\psi} \psi$ is invariant under a transformation $\psi \rightarrow \psi'$, the derivative $\partial_\mu \psi$ is not. In order to construct a symmetric Lagrangian one introduces a new vector field $A_\mu(x)$ and defines a covariant derivative $D_\mu$:
+	Here, $\psi$ denotes the Dirac spinors and $m$ the mass corresponding to the Dirac spinor. While the mass term $m \bar{\psi} \psi$ is invariant under a transformation $\psi \rightarrow \psi'$ the derivative $\partial_\mu \psi$ is not. The transformation reads
+	\begin{equation}
+	\psi \rightarrow \psi' = e^{i q \alpha} \psi,
+	\label{eq:trafo}
+	\end{equation}
+	where the parameter $q$ will later be identified with a coupling strength and $\alpha = \alpha(x)$ denotes a phase dependent on space-time coordinates. In order to construct a symmetric Lagrange density one introduces a new vector field $A_\mu(x)$ and defines a covariant derivative $D_\mu$:
 	\begin{equation}
 	D_\mu = \partial_\mu + i q A_\mu(x)
 	\end{equation}
-	where the parameter $q$ will later be identified with a coupling strength. With the new introduced covariant derivative the Lagrangian reads:
+	With the new introduced covariant derivative the Lagrange density reads:
 	\begin{equation}
 	\mathcal{L} = \underbrace{\bar{\psi} i \gamma^\mu \partial_\mu \psi}_{\text{kinetic term}} - \underbrace{m \bar{\psi} \psi}_{\text{mass term}} - \underbrace{q \bar{\psi} \gamma^\mu \psi A_\mu(x)}_{\text{interaction term}}.
 	\end{equation}
-	Thus, by requiring the Lagrangian to be symmetric under gauge transformations a new vector field is predicted. This vector field can be associated with the photon. Additionally the coupling between fermions $\psi$ and photon $A_\mu$ are included.
-	\subsubsection{Quantum Chromo Dynamics (QCD)}
-	The boson of the strong force is a massless gluon. It couples to particles carrying a so-called colour charge. Colour charge exists in three states for particles: red, green and blue. Additionally every colour has its anti-colour carried by anti-particles. The gluon itself carries one colour and one anti-colour simultaneously. Thus, quarks and the gluon itself are the only candidates affected by the strong force. The theory behind the strong force, QCD, is constructed very similarly to QED.
-	%todo Generatoren vertauschen nicht (im Gegensatz zu QED)
-	%todo confinement
-	\subsubsection{Weak Interaction}
-	The third force described in the standard model is the weak force. It is carried by the $W^\pm$ and $Z$ bosons. Because all weak bosons carry a mass, the interaction only takes place on short distances since the bosons decay very quickly.
+	Thus, by requiring the Lagrange density to be symmetric under gauge transformations a new vector field is predicted. This vector field is then associated with the photon. Because no mass term for the Photon field occurs, it is predicted to be massless. Additionally the coupling between fermions $\psi$ and photon $A_\mu$ are included.
+	\subsection{Quantum Chromo Dynamics (QCD)}
+	The theory behind QCD is developed analogously to QED. The main difference between QCD and QED is its charge space. The charge of QCD is called colour and exists in three states for particles: red, green and blue. Additionally every colour has its anti-colour carried by anti-particles. Thus, one has to consider rotations in the three dimensional colour space. Here it is important to take the generators $T_a$ of $SU(3)$ into account. Similar to QED a covariant derivative is defined to construct a symmetric Lagrange density. The covariant derivative for QCD reads:
+	\begin{equation}
+	D_\mu = \partial_\mu + i g_s T^a G^a_{\mu},
+	\end{equation}
+	where $g_s$ denotes the coupling of quarks to the strong force. Secondly eight new vector fields $G_a^\mu$ are introduced, which are associated with gluons, the bosons of the strong force. Because the generators of $SU(3)$ do not commute, not only interaction between quarks and gluons but also gluon-gluon interaction is allowed. In the following Eq. \ref{eq:qcd} the self interaction of gluons is combined with their kinetic energy term. The complete Lagrange density of QCD reads:
+	\begin{equation}
+	\mathcal{L} = \underbrace{\bar{\psi}(i \gamma^\mu \partial_\mu -m ) \psi}_{\text{mass and kinetic term guarks}} - \underbrace{g_s \bar{\psi}(\gamma^\mu T^a G^a_\mu) \psi}_{\text{quark-gluon interaction}} - \underbrace{\frac{1}{4} G^a_{\mu \nu}G^{a \mu \nu}}_{\substack{\text{kinetic term gluons} \\ \text{and gluon-gluon interaction}}}
+	\label{eq:qcd}
+	\end{equation}
+	Gluon-gluon interactions lead to a special effect in QCD: the force between two colour charges increases with their distance. Thus, the energy stored in the field between the two charges will increase as well. At some point the energy is large enough to produce new colour charged particles. Because of that, quarks can not exist freely but only in colour neutral bound states, which are called hadrons.
+	\subsection{Weak Interaction}
+	The third force described in the standard model is the weak force. It is carried by the $W^\pm$ and $Z^0$ bosons. Because all weak bosons carry a mass, the interaction only takes place on short distances since the bosons decay very quickly. The corresponding symmetry group is a $SU(2)_L$, where $L$ indicates a preferred coupling to left-handed particles and right-handed anti-particles. While $Z^0$ bosons also couple to right-handed particles, $W^\pm$ do not. Through the $W^\pm$ bosons particles can change their flavour. Therefore left-handed isospin doublets are defined. The quark sector then reads:
+	\begin{equation}
+	\begin{pmatrix}	u \\ d'	\end{pmatrix}_L,
+	\begin{pmatrix}	c \\ s'	\end{pmatrix}_L,
+	\begin{pmatrix}	t \\ b'	\end{pmatrix}_L
+	\end{equation}
+	The theory only allows these flavour changing processes only inside these doublets. Although, decays from one generation to another have experimentally been confirmed. The answer to this contradiction is, flavour states and mass states are not interchangeable. Weak interaction changes the flavour but the state one observes, the mass state, is a superposition of different flavour states. By definition flavour and mass state of up-type quarks are identical. For down-type quarks the Cabibbo-Kobayashi-Maskawa (CKM) matrix is introduced to account for the mixing of flavour states.
+	\begin{equation}
+	\begin{pmatrix}d'\\s'\\b'\end{pmatrix} = 
+	\begin{pmatrix}
+	V_{ud}&&V{us}&&V{ub} \\
+	V_{cd}&&V{cs}&&V{cb} \\
+	V_{td}&&V{ts}&&V{tb}
+	\end{pmatrix}
+	\begin{pmatrix}d\\s\\b\end{pmatrix}
+	\end{equation}
+	The probability that a quark of type $i$ will transform into a quark of type $j$ when it emits a $W^\pm$ is then calculable via $|V_{ij}|^2$. 
 	%todo Paritätsverletzung
-	\subsubsection{Electroweak Unification}	
-	To get a better understanding of the forces in the SM, it would be a large success to lead the different forces back to one fundamental mechanism. A first step towards a unification of all three interactions can be archived by combining QED with the weak force.
-	
-	\subsubsection{Higgs mechanism}
-	The remaining boson, the Higgs boson, was discovered the most recent in 2012. In the standard model without a Higgs mechanism, all bosons are predicted to be massless. In contradiction to this, the mass of the $W$ and $Z$ bosons are measured to values of $80\;\text{GeV}$ and $91\;\text{GeV}$, respectively \cite{pdg2016}. Therefore a theory was developed which solves this problem via spontaneous symmetry breaking. A field is introduced which where the lagrangian for local variations is not symmetric while the lagrangian of the field itself is. This leads to mass terms for electro-weak bosons and a new boson - the Higgs boson - in the standard model lagrangian. Additionally fermions get their mass through Yukawa coupling to the Higgs field proportional to their masses.
-
-
-	% HADRONISIERUNG -> Gluonen tragen selber Ladung und koppeln an sich selbst -> nur Farbneutrale Baryonen/Mesonen
-	% PROBLEME???
-
-		 
+	\subsection{Electroweak Unification}
+	\label{sec:elw}	
+	To get a better understanding of the forces in the SM, it would be a large success to lead the different forces back to one fundamental mechanism. A first step towards a unification of all three interactions can be archived by combining QED with the weak force. Electromagnetic charge $Q$ and weak isospin $T_3$ are combined to achieve a charge for the electroweak unification, called hypercharge $Y$:
+	\begin{equation}
+	Y = 2(Q-I_3).
+	\end{equation}
+	Again, the Lagrange density is required to be invariant under transformations of the resulting $SU(2) \times U(1)$ group. This results into four new massless bosons $W_1$, $W_2$, $W_3$ and $B$. 
+	\subsection{Higgs Mechanism and Spontaneous Symmetry Breaking}
+	\label{sec:higgs}
+	The bosons, $W_1$, $W_2$, $W_3$ and $B$, found above in section \ref{sec:elw} are massless. In contradiction to this, the mass of the $W$ and $Z$ bosons are measured to values of $80\;\text{GeV}$ and $91\;\text{GeV}$, respectively \cite{pdg2016}. Therefore a theory was developed which solves this problem via spontaneous symmetry breaking. A field is introduced which where the Lagrange density for local variations is not symmetric while the lagrangian of the field itself is. This leads to mass terms for electro-weak bosons and a new boson - the Higgs boson - in the standard model Lagrange density. After spontaneous symmetry breaking, $W_1$ and $W_2$ are combined to get the $W^\pm$ bosons of the weak interaction via Eq. \ref{eq:W}.
+	\begin{equation}
+	W^\pm = \frac{1}{\sqrt{2}}(W_1 \mp i W_2)
+	\label{eq:W}
+	\end{equation}
+	The other two fields $W_3$ and $B$ mix and result in the $Z^0$ boson from the weak and the photon $\gamma$ of the electromagnetic interaction:
+	\begin{equation}
+	\begin{pmatrix}\gamma \\ Z^0\end{pmatrix} =
+	\begin{pmatrix}
+	\cos \theta_W && \sin \theta_W \\
+	-\sin \theta_W && \cos \theta_W 
+	\end{pmatrix}
+	\begin{pmatrix}B \\ W_3\end{pmatrix}
+	\label{eq:Z}
+	\end{equation}	
+	with the weak mixing angle $\theta_W$, which also relates the masses $M_W$ and $M_Z$ of $W^\pm$ and $Z^0$ bosons via:
+	\begin{equation}
+	M_Z = \frac{M_W}{\cos \theta_W}
+	\end{equation}
+	Fermions get their mass through Yukawa coupling to the Higgs field proportional to their masses.
 \section{Top Quark}
 	%todo wo und wann entdeckt?
-	The top quark is an up type quark belonging to the third generation and carrying electromagnetic charge of $Q=+\frac{2}{3}e$ \cite{pdg2016}. With its mass of about $173\;\text{GeV}$ the top quark is the heaviest particle in the standard model. Therefore it offers a large phase space for decays and  has a short life time of approximately $0.5 \times 10^{-24}\;\text{s}$ \cite{pdg2016}. Because of the short life time the top quark does not form bound hadronic states and thus measurement of the bare quark are possible. This provides a special access to parameters of the standard model. Especially the top quark mass is an essential parameter to check the standard model for consistency. The Higgs mechanism relates the masses of the top quark with the masses of the W and Higgs boson. This could be done, because the top quark plays an extraordinary role due to its high mass -- and therefore large coupling to the Higgs boson -- in this mechanism. Measuring these masses with high precision gives the possibility to check the standard model for consistency. 
+	The top quark is an up type quark belonging to the third generation of the standard model and carrying electromagnetic charge of $Q=+\frac{2}{3}e$ \cite{pdg2016}. With its mass of about $173\;\text{GeV}$ the top quark is the heaviest particle in the standard model. It was first discovered in 1995 at Tevatron. 
+	%todo Vorhersage?
+	%todo Collaborations, ref!
+	Because of its large mass, it offers a large phase space for decays and  has a short life time of approximately $0.5 \times 10^{-24}\;\text{s}$ \cite{pdg2016}. Because of the short life time the top quark does not form bound hadronic states and thus measurement of the bare quark are possible. This provides a special access to parameters of the standard model. Especially the top quark mass is an essential parameter to check the standard model for consistency. The Higgs mechanism relates the masses of the top quark with the masses of the W and Higgs boson. This could be done, because the top quark plays an extraordinary role due to its high mass -- and therefore large coupling to the Higgs boson -- in this mechanism. Measuring these masses with high precision gives the possibility to check the standard model for consistency. 
 	\\
 	Additionally the top quark is important for searches of new physics since is is often part of the final state and/or a dominant background. 
 	\\
@@ -228,7 +278,7 @@
 	\end{figure}
 
 	
-	Measuring the top quark mass is usually performed via a template fit. Therefore $t\bar{t}$ events are simulated for different masses $m_\text{top}^{MC}$. Then a selection is applied to data and simulation with the goal to select preferably $t\bar{t}$ events. Finally the different simulation with different $m_\text{top}^{MC}$ are fitted to data.	The most precise mass measurement of this kind is archived combining results of the CMS, ATLAS, CDF, and D0 collaborations. The result of this world average is a value of $173.34 \pm 0.27 (\text{stat}) \pm 0.71 (\text{sys})\;\text{GeV}$ \cite{topmass_combination}. Doing these kinds of measurements one relies on a correct simulation of $t\bar{t}$ events. Especially the mass parameter in Monte-Carlo generators can not be related to a mass one would calculate in an Lagrangian.
+	Measuring the top quark mass is usually performed via a template fit. Therefore $t\bar{t}$ events are simulated for different masses $m_\text{top}^{MC}$. Then a selection is applied to data and simulation with the goal to select preferably $t\bar{t}$ events. Finally the different simulation with different $m_\text{top}^{MC}$ are fitted to data.	The most precise mass measurement of this kind is archived combining results of the CMS, ATLAS, CDF, and D0 collaborations. The result of this world average is a value of $173.34 \pm 0.27 (\text{stat}) \pm 0.71 (\text{sys})\;\text{GeV}$ \cite{topmass_combination}. Doing these kinds of measurements one relies on a correct simulation of $t\bar{t}$ events. Especially the mass parameter in Monte-Carlo generators can not be related to a mass one would calculate in a Lagrange density.
 \section{Unfolding}
 	Most analyses at LHC measure distributions of appropriate variables and then compare the obtained results in data with event simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with an unknown detector function. Studying the difference in MC between particle level and reconstruction level, it is possible to calculate the probabilities that a measured value in a bin $x_i$ is originating from bin $y_i$ on particle level. The resulting matrix can then be applied to real data to obtain data on particle level. The obtained distribution is corrected for detector effects by the unfolding and can then be compared with theory calculations. Additionally, measurements on particle level do not depend on simulation ambiguities like the mass parameter put into the Monte-Carlo generator.
 

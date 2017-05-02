@@ -1,4 +1,4 @@
-\documentclass[12pt, a4paper, twoside]{report}
+\documentclass[12pt, a4paper, twoside, openright]{report}
 
 \usepackage[ngerman, english]{babel}
 \usepackage[ansinew]{inputenc}
@@ -29,6 +29,7 @@
 \usepackage{verbatim}
 \usepackage{tikz-feynman}
 \tikzfeynmanset{compat=1.0.0}
+% ======================
 % for customised header and footer
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -36,7 +37,10 @@
 \fancyfoot[CE,CO]{\thepage}
 \fancyhead[LO]{\rightmark}
 \fancyhead[RE]{\leftmark}
-% %
+% redefine cleardoublepage: do not print fancy headline if page is empty before new chapter
+\let\mtcleardoublepage\cleardoublepage
+\renewcommand{\cleardoublepage}{\clearpage{\pagestyle{plain}\mtcleardoublepage}}
+% =======================
 % title style
 \usepackage{color}
 \definecolor{gray75}{gray}{0.75}
@@ -62,48 +66,22 @@
   {}
   {1em}
   {}
-% %                
-
-
+% =======================           
+% let figure, tables, etc stay in chapter
 \counterwithin{figure}{chapter}
 \counterwithin{table}{chapter}
 \counterwithin{equation}{chapter}
-
+% ======================= 
+% bibliography stuff
 \usepackage{typearea}
 \usepackage[style=ieee, maxbibnames=100, sorting=none, backend=bibtex]{biblatex}
 \usepackage[babel, german=quotes]{csquotes}
 
-%\renewbibmacro*{author}{% 
-%	\ifboolexpr{
-% 	 test \ifuseauthor
-%	and
-%	not test {\ifnameundef{author}}
-%}
-%	{%
-%		\printnames{author}%
-%		\iffieldundef{authortype}
-%		{}
-%		{%
-%			\setunit{\addcomma\space}%
-%			\usebibmacro{authorstrg}%
-%		}%
-%	}
-%	{\global\undef\bbx@lasthash}%
-%} 
-
-
 \addbibresource{MasterBib.bib}
-
+% =======================
 
 \usepackage{hyperref}
 \urlstyle{same}
-
-%\usepackage{titlesec} % for other styles of section (subsection) headers 
-
-%\titleformat{\section}{\normalfont\fontsize{17}{18}\bfseries}{\thesection}{1em}{}
-%\titleformat{name=\section,numberless}{\normalfont\fontsize{17}{18}\bfseries}{}{0em}{}
-%\titleformat{\subsection}{\normalfont\fontsize{12}{15}\bfseries}{\thesubsection}{1em}{}
-
 
 \begin{document}
 %----------------------------------------------------------------
@@ -113,8 +91,8 @@
 \pagenumbering{roman}
 \thispagestyle{empty}
 \include{Titlepage}
-\clearpage
-{\pagestyle{empty} \cleardoublepage}
+% clearpage without page number:
+{\clearpage{\pagestyle{empty}\mtcleardoublepage}} 
 %----------------------------------------------------------------
 %----------------------------------------------------------------
 \section*{Zusammenfassung}
