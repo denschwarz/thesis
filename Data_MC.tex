@@ -1,0 +1,44 @@
+\chapter{Data and Monte-Carlo Simulation}
+	In almost every particle physics analysis data is compared to simulations. Physicists have to rely on simulations because it is not possible to purely calculate the outcome one sees in the detector. In this section the used data set is described as well as the production of a Monte-Carlo Simulation of a given process.
+	\section{Data}
+	This Thesis analyses data recorded by the CMS detector in 2016 at a centre-of-mass energy of $13\;\text{TeV}$. The size of the data set corresponds to an integrated luminosity of ???. 
+	\section{Event Generator and Parton Shower}
+	\section{Monte-Carlo samples}
+	%todo MC hat auch GEN!
+	Additionally MC samples listed in table \ref{MC_Tab} are processed. The most important simulation for this analysis is of course the $t\bar{t}$ sample. The main background processes are $W$+jets and single-top production.
+	
+	\begin{landscape}
+	\begin{table}
+	\centering
+	 \begin{tabular}{|l|l|r|l|r|}
+	 	\hline
+	 	Process & Sample & Cross Section [pb] & MC Generator & Number of Events \\
+	 	\hline
+	 	$t\bar{t}$ & $0 < M_{t\bar{t}} < 700$ & 831.76 & & \\
+	 	$t\bar{t}$ & $700 < M_{t\bar{t}} < 1000$ & 76.605 & & \\
+	 	$t\bar{t}$ & $1000 < M_{t\bar{t}} < \infty$ & 20.578 & & \\
+	 	\hline
+		Single Top &t-channel  & & & \\
+		Single Top & t-channel (anti top) & & & \\
+		Single Top & tW-channel & & & \\
+		Single Top & tW-channel (anti top) & & & \\
+		Single Top & s-channel & & & \\
+		$W$+jets & $100 < S_T < 200$ & & & \\
+	 	$W$+jets & $200 < S_T < 400$ & & & \\
+	 	$W$+jets & $400 < S_T < 600$ & & & \\
+	 	$W$+jets & $600 < S_T < 800$ & & & \\
+	 	$W$+jets & $800 < S_T < 1200$ & & & \\
+	 	$W$+jets & $1200 < S_T < 2500$ & & & \\
+	 	$W$+jets & $2500 < S_T < \infty$ & & & \\
+	 	$Z$+jets & & & & \\
+	 	QCD (muon enriched) & & & & \\
+	 	QCD (EM enriched) & & & & \\
+	 	$WW$& & & & \\
+	 	$WZ$& & & & \\
+	 	$ZZ$& & & & \\
+	 	 \hline
+	 \end{tabular}
+	\caption{Summary of data sets and MC samples used in this analysis. Assumed cross section, MC generator and number of events are displayed for each sample.}
+	\label{MC_Tab}	
+	\end{table}
+	\end{landscape}

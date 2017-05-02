@@ -29,13 +29,48 @@
 \usepackage{verbatim}
 \usepackage{tikz-feynman}
 \tikzfeynmanset{compat=1.0.0}
+% for customised header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[CE,CO]{\thepage}
+\fancyhead[LO]{\rightmark}
+\fancyhead[RE]{\leftmark}
+% %
+% title style
+\usepackage{color}
+\definecolor{gray75}{gray}{0.75}
+\usepackage{titlesec}
+\titleformat{\chapter}[block]
+  {\normalfont\Huge\bfseries}
+  {\thechapter \hspace{20pt} \textcolor{gray75}{|} \hspace{20pt}}
+  {0pt}
+  {\Huge}
+\titlespacing*{\chapter}{0pt}{0cm}{1cm}
+\titleformat{\section}[block]
+  {\normalfont\Large\bfseries}
+  {\thesection}
+  {1em}
+  {}
+\titleformat{\subsection}[block]
+  {\normalfont\large\bfseries}
+  {\thesubsection}
+  {1em}
+  {}
+\titleformat{\subsubsection}[block]
+  {\normalfont\normalsize\bfseries}
+  {}
+  {1em}
+  {}
+% %                
+
 
 \counterwithin{figure}{chapter}
 \counterwithin{table}{chapter}
 \counterwithin{equation}{chapter}
 
 \usepackage{typearea}
-\usepackage[style=phys, maxbibnames=100, sorting=none, backend=bibtex]{biblatex}
+\usepackage[style=ieee, maxbibnames=100, sorting=none, backend=bibtex]{biblatex}
 \usepackage[babel, german=quotes]{csquotes}
 
 %\renewbibmacro*{author}{% 
@@ -77,44 +112,24 @@
 \selectlanguage{ngerman}
 \pagenumbering{roman}
 \thispagestyle{empty}
-\textbf{
-\begin{center}
-\large
-Messung der Jetmassenverteilung in kollimierten Top-Quark Zerfällen
-\\[2cm]
-Measurement of the Jet Mass Distribution in Boosted Top Quark Decays
-\\[3cm]
-\end{center}
-\begin{center}
-von\\
-Dennis Schwarz\\
-geboren am\\
-28.07.1991
-\\[2cm]
-Masterarbeit im Studiengang Physik\\
-Universit"at Hamburg
-\\[2cm]
-2017
-\\[2cm]
-\end{center}
-1. Gutachter: Prof. Dr. Johannes Haller\\
-2. Gutachter: Prof. Dr. Peter Schleper
-}
-
+\include{Titlepage}
 \clearpage
 {\pagestyle{empty} \cleardoublepage}
 %----------------------------------------------------------------
 %----------------------------------------------------------------
 \section*{Zusammenfassung}
+\thispagestyle{plain}
 \blindtext
 \selectlanguage{english}
 \section*{Abstract}
 \blindtext
+
 \clearpage
-
 \tableofcontents
+\addtocontents{toc}{~\hfill\textbf{Page}\par}
+\clearpage
+{\pagestyle{empty} \cleardoublepage}
 
-\cleardoublepage
 
 
 \pagenumbering{arabic}
@@ -126,13 +141,17 @@ Universit"at Hamburg
 \include{Theory}
 \include{Experiment}
 \include{Reconstruction}
+\include{Data_MC}
 \include{Analysis}
 \include{Summary}
+\pagestyle{plain}
 %----------------------------------------------------------------
 %----------Hier Literaturverzeichnis-----------------------------
 %----------------------------------------------------------------
 % Einträge erscheinen nur, wenn sie auch zitiert werden!!!
 \printbibliography
+%todo in bib style formatieren. z.B. darf "CMS Collaboration" nicht C. Collaboration werden
+%todo D0 richtig formatiert? 
 %----------------------------------------------------------------
 %------------------Unterschrift----------------------------------
 %----------------------------------------------------------------

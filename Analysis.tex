@@ -1,50 +1,13 @@
 \chapter{Analysis}
-
+	This section will cover the analysis performed for this thesis. A basic idea of the goals and strategy of this analysis is given in section \ref{sec:strategy}. Previous results, this analysis refers to, are presented in the following. Then a detailed look into event selections, studies on particle level, differences between jet algorithms and finally the unfolding process and its results follows in sections \ref{sec:jet_studies} to \ref{sec:results}.
 \section{Analysis Strategy}
+\label{sec:strategy}
 	This analysis aims for boosted $t\bar{t}$ where all decay products from the top decays merge into a single jet. To measure in this phase space a selection of events is applied. The detailed selection is presented in section \ref{sec:selection}. In the required phase space the distribution of the jet mass of a top quark decaying into quarks ($t\rightarrow W^{+} b \rightarrow b q \bar{q}'$) is measured. Following a unfolding is performed using the TUnofld \cite{tunfold} software package. The goal is to compare data unfolded to particle level with first principle calculations.
 \section{Previous Results}
 	A measurement of the top quark mass in highly boosted $t\bar{t}$ events has already been performed by CMS with the $8\;\text{TeV}$ dataset corresponding to an integrated luminosity of $19.7\;\text{fb}^{-1}$ \cite{torben_paper}.
-\section{Data and MC Simulation}
-	This Thesis analyses data recorded by the CMS detector in the years 2015 and 2016 at a centre-of-mass energy of $13\;\text{TeV}$. The size of the data set corresponds to an integrated luminosity of ???. Additionally MC samples listed in table \ref{MC_Tab} are processed. The most important simulation for this analysis is of course the $t\bar{t}$ sample. The main background processes are $W$+jets and single-top production.
-	
-	\begin{landscape}
-	\begin{table}
-	\centering
-	 \begin{tabular}{|l|l|r|l|r|}
-	 	\hline
-	 	Process & Sample & Cross Section [pb] & MC Generator & Number of Events \\
-	 	\hline
-	 	$t\bar{t}$ & $0 < M_{t\bar{t}} < 700$ & 831.76 & & \\
-	 	$t\bar{t}$ & $700 < M_{t\bar{t}} < 1000$ & 76.605 & & \\
-	 	$t\bar{t}$ & $1000 < M_{t\bar{t}} < \infty$ & 20.578 & & \\
-	 	\hline
-		Single Top &t-channel  & & & \\
-		Single Top & t-channel (anti top) & & & \\
-		Single Top & tW-channel & & & \\
-		Single Top & tW-channel (anti top) & & & \\
-		Single Top & s-channel & & & \\
-		$W$+jets & $100 < S_T < 200$ & & & \\
-	 	$W$+jets & $200 < S_T < 400$ & & & \\
-	 	$W$+jets & $400 < S_T < 600$ & & & \\
-	 	$W$+jets & $600 < S_T < 800$ & & & \\
-	 	$W$+jets & $800 < S_T < 1200$ & & & \\
-	 	$W$+jets & $1200 < S_T < 2500$ & & & \\
-	 	$W$+jets & $2500 < S_T < \infty$ & & & \\
-	 	$Z$+jets & & & & \\
-	 	QCD (muon enriched) & & & & \\
-	 	QCD (EM enriched) & & & & \\
-	 	$WW$& & & & \\
-	 	$WZ$& & & & \\
-	 	$ZZ$& & & & \\
-	 	 \hline
-	 \end{tabular}
-	\caption{Summary of data sets and MC samples used in this analysis. Assumed cross section, MC generator and number of events are displayed for each sample.}
-	\label{MC_Tab}	
-	\end{table}
-	\end{landscape}
-	
-	
 \section{Jet Studies on Particle Level}
+\label{sec:jet_studies}
+	%todo goal: distribution with nice peak!
 	For this analysis it is crucial to choose a suitable jet algorithm and cone size. The previous mentioned analysis \cite{torben_paper} uses Cambridge-Aachen jets with the radius parameter set to $R=1.2$ for its measurement. This large radius was chosen to compensate for low statistics in the boosted $t\bar{t}$ regime. Since the cross-section of $t\bar{t}$ production is much higher at a center-of-mass energy of $13\;\text{TeV}$ it has to be studied, how the jet radius parameter $R$ influences the measured distribution and what influence different jet algorithms have. The goal is to select a jet algorithm which returns jets in which all decay products of a hadronically decaying top quark are merged. In this case, the jet mass $M_\text{jet}$ is sensitive to the top quark mass $M_\text{top}$.
 	\\
 	The jet studies are performed with a $t\bar{t}$ simulation using the information of MC simulations at particle level. The detailed selection is described in Section \ref{sec:GenSel}.
@@ -96,3 +59,4 @@
 
 \section{Unfolding}
 \section{Results}
+\label{sex:results}

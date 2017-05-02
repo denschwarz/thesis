@@ -28,25 +28,20 @@
 \section{Muons}
 	Since the energy of muons cannot be measured in the calorimeters, a muon is identified by hits in the muon chambers. Combining informations from the muon system and the inner tracker leads to a very precise measurement of muons in the CMS detector. Therefore muons are very reliable objects in CMS data analyses. An object is announced a muon if %KRITERIEN MUON
 \section{Jets}
-	Jets are objects, used to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize. This results in a particle shower consisting of hadrons. To reconstruct the initial quark one needs to sum up all particles from the final shower. To combine the tracks in a well defined way jet algorithms are used.
-
+	Jets are objects, used to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize. This results in a particle shower consisting of hadrons. To reconstruct the initial quark one needs to sum up all particles from the final shower. To combine the tracks in a well defined way jet algorithms are used. Two important requirements for an jet algorithm are to be infrared and collinear safe. 
+	%todo Infrared and Collinear safe erklären
+	All presented jet algorithms in this thesis fulfil these requirements.
 \subsection{Anti-$k_T$ Jet Algorithm}
-
-	%ITERATIVE ALOGRITHM
-	%EXPLAIN kT
-	
-	In CMS the common way to cluster jets from the detected particles is to use an iterative jet algorithm, especially the Anti-$k_T$ (AK) algorithm \cite{antikt}.
-	
-	Here $d_{ij}$ describes a effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis.
+	In CMS the common way to cluster jets from the detected particles is to use iterative jet algorithms. Thus particles are clustered step by step until an abort criterion is reached. The most common and proven to be useful iterative jet algorithm is the Anti-$k_T$ (AK) algorithm \cite{antikt}. As an input a list of objects, reconstructed in the detector is given. The AK algorithm then calculates two quantities $d_{ij}$ (Eq. \ref{eq:dij}) and $d_{iB}$ (Eq. \ref{eq:iB}) for each pair of objects $i$ and $j$:
 	\begin{equation}
 	d_{ij} = min (k_{T,i}^{-2}, k_{T,j}^{-2})  \frac{\Delta R_{ij}^2}{R^2}
-	\label{dij}
+	\label{eq:dij}
 	\end{equation}
-	
 	\begin{equation}
-	d_{iB} = k_{T,i}^{-2}
-	\label{iB}
+	d_{iB} = k_{T,i}^{-2}.
+	\label{eq:iB}
 	\end{equation}
+	Here $d_{ij}$ describes a effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis. $k_T$ is the transverse momentum of an object, $\Delta R_{ij}$ denotes the distance between objects $i$ and $j$ an $R$ is a constant parameter that defines the radius of the resulting jet. When $d_{ij}$ is smaller than $d_{iB}$ both objects $i$ and $j$ are combined and both quantities are calculated again. At some point, $d_{iB}$ will be smaller than any $d_{ij}$, then object $i$ is called a jet and is removed from the list of objects. This procedure is repeated until the list of objects is empty.
 	
 	%WELCHE TEILCHEN WERDEN ZUERST GECLUSTERT?
 

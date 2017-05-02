@@ -1,4 +1,5 @@
 \chapter{Experiment}
+	For this analysis a data from a collision experiment is used. Protons are brought to collision in a circular particle accelerator. The outcome of the collisions is then measured with several detection systems. A description of the accelerator and the detector is presented in this section.
 \section{Large Hadron Collider}
 	The Large Hadron Collider (LHC) is a circular particle collider with a circumference of $27\;\text{km}$. At the LHC protons are accelerated to an energy of $6.5\;\text{TeV}$ and then brought to collision resulting in a center-of-mass energy of $\sqrt{s}=13\;\text{TeV}$. Because protons are composite particles, the actual collision involves quarks or gluons carrying only a fraction of this energy. 
 	
@@ -8,12 +9,12 @@
 	
 	A display of the LHC complex with its four experiments and preaccelerators is shown in fig. \ref{fig:lhc}.
 	
-	A very important parameter of a particle collider is its luminosity. It gives an estimate how many collisions take place per area and second. It is calculated vie Eq. \ref{eq:lumi}. To get an estimate of the number of events produced by a given process one has to multiply the integrated luminosity (see Eq. \ref{eq:intlumi}) with the cross section of this particular process (see Eq. \ref{eq:number})
-	
+	A very important parameter of a particle collider is its luminosity. It gives an estimate how many collisions take place per area and second. It is calculated via Eq. \ref{eq:lumi}. 
 	\begin{equation}
-	L = \frac{}{}
+	L = \frac{n N_1 N_2 f}{4 \pi \sigma_x \sigma_y}
 	\label{eq:lumi}
 	\end{equation} 
+	In this formula $n$ denotes the number of bunches in the accelerator, $N_1$ and $N_2$ are the number of protons in the two colliding bunches and $f$ is the collision frequency. The denominator gives the cross sectional area where $\sigma_x$ and $\sigma_y$ describes the spread of the proton beam in $x$ and $y$ direction, respectively. To get an estimate of the number of events produced by a given process one has to multiply the integrated luminosity (see Eq. \ref{eq:intlumi}) with the cross section of this particular process (see Eq. \ref{eq:number})
 	\begin{equation}
 	L_\text{int} = \int L dt
 	\label{eq:intlumi}
@@ -26,8 +27,8 @@
 	\begin{figure}
 		\centering
 		\includegraphics [width=\textwidth]{../Images/lhc.jpg}
-		\caption{Display the LHC complex with the LHC ring itself and every accelerator used to bring protons to the required energy for injection in the LHC ring \cite{fig:lhc}}
-		\label{SM}
+		\caption{Display the LHC complex with the LHC ring itself and every accelerator used to bring protons to the required energy for injection in the LHC ring \cite{lhc}}
+		\label{fig:lhc}
 	\end{figure}
 	%todo LHC FAKTEN
 	%todo Bild von LHC
@@ -37,7 +38,7 @@
 \label{sec:cms}
 	The 'Compact Muon Solenoid' (CMS) experiment is a multi purpose detectors at LHC. It is designed to measure momentum and energy of particles produced in proton-proton interactions. The CMS detector is built in layers of subdetectors with different purposes described in following sections \ref{sec:tracker} - \ref{sec:muonsystem}.
 	
-	A very important part besides the detector systems is the Trigger, described in section \ref{sec:trigger}, providing fast decisions if an event is stored or discarded.
+	A very important part besides the detector systems is the Trigger, described in section \ref{sec:trigger}, providing fast decisions if an event is discarded or interesting enough to be stored.
 	%todo FULL VIEW OF CMS?
 	%todo AUSMAßE
 	%todo ZWIEBELFORM, ZYLINDER

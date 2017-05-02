@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.3 $
+% $ biblatex version 2.6 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -15,6 +15,96 @@
       \aftergroup\endinput}
   {}
 \endgroup
+
+\entry{SM}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wikimedia~Commons}{W.~C.}%
+     {}{}%
+     {\relax}{r.}%
+     {}{}}%
+  }
+  \strng{namehash}{WCr1}
+  \strng{fullhash}{WCr1}
+  \field{howpublished}{\url
+  {https://commons.wikimedia.org/wiki/File:Standard_Model_of_Elementary_Particles.svg}}
+  \field{note}{[Online; accessed April 28, 2017]}
+  \field{title}{{The Standard Model of elementary particles}}
+\endentry
+
+\entry{pdg2016}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Patrignani}{P.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PC+1}
+  \strng{fullhash}{PC+1}
+  \verb{doi}
+  \verb 10.1088/1674-1137/40/10/100001
+  \endverb
+  \field{number}{10}
+  \field{title}{{Review of Particle Physics}}
+  \field{volume}{C40}
+  \field{journaltitle}{Chin. Phys.}
+  \field{year}{2016}
+\endentry
+
+\entry{feynman}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ellis}{E.}%
+     {Joshua}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EJ1}
+  \strng{fullhash}{EJ1}
+  \verb{doi}
+  \verb 10.1016/j.cpc.2016.08.019
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1601.05437
+  \endverb
+  \field{title}{{TikZ-Feynman: Feynman diagrams with TikZ}}
+  \field{year}{2016}
+\endentry
+
+\entry{topmass_combination}{misc}{}
+  \name{author}{4}{}{%
+    {{}%
+     {The~ATLAS}{T.~A.}%
+     {}{}%
+     {\relax}{r.}%
+     {}{}}%
+    {{}%
+     {CDF}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {CMS}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Collaborations}{C.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TArCC+1}
+  \strng{fullhash}{TArCCCD1}
+  \verb{eprint}
+  \verb arXiv:1403.4427
+  \endverb
+  \field{title}{First combination of Tevatron and LHC measurements of the
+  top-quark mass}
+  \field{year}{2014}
+\endentry
 
 \entry{lhc}{article}{}
   \name{author}{1}{}{%
@@ -88,7 +178,7 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{CM+1}
+  \strng{namehash}{CMSGPSG1}
   \strng{fullhash}{CMSGPSG1}
   \verb{doi}
   \verb 10.1088/1126-6708/2008/04/063
@@ -119,7 +209,7 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{LT+1}
+  \strng{namehash}{LTKRHJ1}
   \strng{fullhash}{LTKRHJ1}
   \verb{doi}
   \verb 10.1140/epjc/s10052-016-4443-8
@@ -161,7 +251,7 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{SIW+1}
+  \strng{namehash}{SIWTFJTJ+1}
   \strng{fullhash}{SIWTFJTJVCKWTF1}
   \verb{doi}
   \verb 10.1007/JHEP11(2015)072
@@ -197,13 +287,13 @@
 \entry{torben_paper}{misc}{}
   \name{author}{1}{}{%
     {{}%
-     {Collaboration}{C.}%
-     {CMS}{C.}%
+     {CMS~Collaboration}{C.~C.}%
      {}{}%
+     {\relax}{r.}%
      {}{}}%
   }
-  \strng{namehash}{CC1}
-  \strng{fullhash}{CC1}
+  \strng{namehash}{CCr1}
+  \strng{fullhash}{CCr1}
   \verb{eprint}
   \verb arXiv:1703.06330
   \endverb

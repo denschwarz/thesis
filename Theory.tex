@@ -1,30 +1,55 @@
 \chapter{Theory}
+	The goal of particle physics is to explain the universe we observe with basic building blocks which are not further divisible. Starting with quantum mechanics in the early 20th century, physicists have developed a theory answering many questions about the development of the universe. Up to now the resulting standard model of particle physics is the most precisely tested physical theory. In the following the basics of this theory will be described. A special focus is set to the elementary particle which plays the most important role in this analysis - the top quark.
 \section{Standard model of particle physics}
-	The standard model of particle physics is a quantum field theory describing elementary particles, their interaction and provides the affiliated equations of motion. All particles contained in this theory have been discovered and various experiments have confirmed predictions of the standard model at very high precision. All known elementary particles of the standard model and their properties - mass, electromagnetic and colour charge and their spin - are displayed in Fig. \ref{SM}. They are ordered in two fundamental groups by their spin. spin-$\frac{1}{2}$ particles are called fermions, particles with integer spin represent the bosons. 
+	The standard model of particle physics is a quantum field theory describing elementary particles, their interaction and provides the affiliated equations of motion. All particles contained in this theory have been discovered and various experiments have confirmed predictions of the standard model at very high precision. All known elementary particles of the standard model and their properties - mass, electromagnetic and colour charge and their spin - are displayed in Fig. \ref{SM}. They are ordered in two fundamental groups by their spin. spin-$\frac{1}{2}$ particles are called fermions, particles with integer spin are named bosons. 
 	\\
-	Fermions are further divided into quarks and leptons. While quarks are affected by the strong force, leptons are not. Both subgroups consist of three generations with two particles in each group. Each generation of quarks contain one up-type and one down-type quark distinguished by their electromagnetic charge. For leptons a generation is built from a particle with charge of $1e$ and an neutral neutrino. The first generation of quarks and leptons then are the building blocks of atoms. All other particles have a larger mass and therefore a finite lifetime. Additionally every fermion has a anti-partner which has the same mass but charge are multiplied by $-1$. 
+	Fermions are further divided into quarks and leptons. While quarks are affected by the strong force, leptons are not. Both subgroups consist of three generations with two particles in each group. Each generation of quarks contain one up-type and one down-type quark distinguished by their electromagnetic charge. For leptons a generation is built from a particle with charge of $1e$ and an neutral neutrino. The first generation of quarks and leptons then are the building blocks of atoms. All other particles have a larger mass and therefore a finite lifetime. Additionally every fermion has a anti-partner which has the same mass but opposite charge. 
 	\\	
-	Bosons are the carriers of the three fundamental forces included in the standard model. Every interaction of two particles is described by a boson emitted from one and absorbed by the other particle. The boson of the strong force is a massless gluon. It couples to particles carrying a so-called colour charge. Thus, quarks and the gluon itself are the only candidates affected by the strong force. 
-	% CONFINEMENT
-	\\	
-	Photons carry the electromagnetic force. All particles besides the photon, gluon, Higgs boson and the neutrinos can interact with this force due to their electrical charge. 
-	\\
-	The third force described in the standard model is the weak force. It is carried by the $W$ and $Z$ bosons. This force only affects left-handed fermions and right-handed anti-fermions. 
-	\\
-	A hypothetical graviton is also included in Fig. \ref{SM} representing the last known fundamental force, gravity, which is not yet included in the standard model. 
-	\\
-	The remaining boson, the Higgs boson, was discovered the most recent in 2012. In the standard model without a Higgs mechanism, all bosons should be massless. In contradiction to this, the mass of the $W$ and $Z$ bosons are measured to values of ??(genaue Werte inkl Quelle)??. Therefore a theory was developed which solves this problem via spontaneous symmetry breaking. A field is predicted giving particles mass proportional to ther coupling strength to this field. This is also leading to an additional particle, the Higgs boson.
+	Bosons are the carriers of the three fundamental forces included in the standard model. Every interaction of two particles is described by a boson emitted from one and absorbed by the other particle. Thus a boson changes energy and momentum of an absorbing or emitting particle. For each force a charge is introduced. Only particles carrying the charge connected to a force can interact with the corresponding boson. Thus, the amount of charge carried by a particle is proportional to the probability of emitting or absorbing a boson. 
+	\begin{figure}[tb]
+		\centering
+		\includegraphics [width=\textwidth, trim = {0 0 0 3.5cm}, clip=true]{../Images/Standard_Model_of_Elementary_Particles.pdf}
+		\caption{Display of the particle content of the standard model divided into groups of fermions and their three generations and bosons. For every particle mass, electromagnetic charge and spin is shown. Although neutrinos are supposed to be massless in the SM, experiments show that they carry mass. Thus, the upper limit of the neutrino masses are specified. \cite{SM}}
+		\label{SM}
+	\end{figure}
+	%todo Gruppen angeben?
+	\subsubsection{Quantum Electro Dynamics (QED)}
+	In the history of the standard model the QED was the first mechanism to describe interactions. The charge of QED is the electromagnetic charge and usually stated in units of elementary charge $e$. To construct a quantum field theory ,the basic idea is to take the Lagrangian for particles described by Dirac spinors and require local gauge invariance. Equation \ref{eq:qedlag} shows the Lagrangian of the Dirac equation. 
+	
+	\begin{equation}
+	\mathcal{L} = \underbrace{\bar{\psi} i \gamma^\mu \partial_\mu \psi}_{\text{kinetic term}} - \underbrace{m \bar{\psi} \psi}_{\text{mass term}}
+	\label{eq:qedlag}
+	\end{equation}
+	%todo Gamma beschreiben?
+	Here, $\psi$ denotes the Dirac spinors and $m$ the mass corresponding to the Dirac spinor. While the mass term $m \bar{\psi} \psi$ is invariant under a transformation $\psi \rightarrow \psi'$, the derivative $\partial_\mu \psi$ is not. In order to construct a symmetric Lagrangian one introduces a new vector field $A_\mu(x)$ and defines a covariant derivative $D_\mu$:
+	\begin{equation}
+	D_\mu = \partial_\mu + i q A_\mu(x)
+	\end{equation}
+	where the parameter $q$ will later be identified with a coupling strength. With the new introduced covariant derivative the Lagrangian reads:
+	\begin{equation}
+	\mathcal{L} = \underbrace{\bar{\psi} i \gamma^\mu \partial_\mu \psi}_{\text{kinetic term}} - \underbrace{m \bar{\psi} \psi}_{\text{mass term}} - \underbrace{q \bar{\psi} \gamma^\mu \psi A_\mu(x)}_{\text{interaction term}}.
+	\end{equation}
+	Thus, by requiring the Lagrangian to be symmetric under gauge transformations a new vector field is predicted. This vector field can be associated with the photon. Additionally the coupling between fermions $\psi$ and photon $A_\mu$ are included.
+	\subsubsection{Quantum Chromo Dynamics (QCD)}
+	The boson of the strong force is a massless gluon. It couples to particles carrying a so-called colour charge. Colour charge exists in three states for particles: red, green and blue. Additionally every colour has its anti-colour carried by anti-particles. The gluon itself carries one colour and one anti-colour simultaneously. Thus, quarks and the gluon itself are the only candidates affected by the strong force. The theory behind the strong force, QCD, is constructed very similarly to QED.
+	%todo Generatoren vertauschen nicht (im Gegensatz zu QED)
+	%todo confinement
+	\subsubsection{Weak Interaction}
+	The third force described in the standard model is the weak force. It is carried by the $W^\pm$ and $Z$ bosons. Because all weak bosons carry a mass, the interaction only takes place on short distances since the bosons decay very quickly.
+	%todo Paritätsverletzung
+	\subsubsection{Electroweak Unification}	
+	To get a better understanding of the forces in the SM, it would be a large success to lead the different forces back to one fundamental mechanism. A first step towards a unification of all three interactions can be archived by combining QED with the weak force.
+	
+	\subsubsection{Higgs mechanism}
+	The remaining boson, the Higgs boson, was discovered the most recent in 2012. In the standard model without a Higgs mechanism, all bosons are predicted to be massless. In contradiction to this, the mass of the $W$ and $Z$ bosons are measured to values of $80\;\text{GeV}$ and $91\;\text{GeV}$, respectively \cite{pdg2016}. Therefore a theory was developed which solves this problem via spontaneous symmetry breaking. A field is introduced which where the lagrangian for local variations is not symmetric while the lagrangian of the field itself is. This leads to mass terms for electro-weak bosons and a new boson - the Higgs boson - in the standard model lagrangian. Additionally fermions get their mass through Yukawa coupling to the Higgs field proportional to their masses.
+
 
 	% HADRONISIERUNG -> Gluonen tragen selber Ladung und koppeln an sich selbst -> nur Farbneutrale Baryonen/Mesonen
 	% PROBLEME???
-	\begin{figure}[tb]
-		\centering
-		\includegraphics [width=\textwidth]{../Plots/Standard_Model.png}
-		\caption{Display of the particle content of the standard model divided into groups of fermions and their three generations and bosons. Additionally a hypothetical boson ('graviton') for the not included gravity is shown.\cite{SM}}
-		\label{SM}
-	\end{figure}
+
 		 
-\subsection{Top Quark}
+\section{Top Quark}
+	%todo wo und wann entdeckt?
 	The top quark is an up type quark belonging to the third generation and carrying electromagnetic charge of $Q=+\frac{2}{3}e$ \cite{pdg2016}. With its mass of about $173\;\text{GeV}$ the top quark is the heaviest particle in the standard model. Therefore it offers a large phase space for decays and  has a short life time of approximately $0.5 \times 10^{-24}\;\text{s}$ \cite{pdg2016}. Because of the short life time the top quark does not form bound hadronic states and thus measurement of the bare quark are possible. This provides a special access to parameters of the standard model. Especially the top quark mass is an essential parameter to check the standard model for consistency. The Higgs mechanism relates the masses of the top quark with the masses of the W and Higgs boson. This could be done, because the top quark plays an extraordinary role due to its high mass -- and therefore large coupling to the Higgs boson -- in this mechanism. Measuring these masses with high precision gives the possibility to check the standard model for consistency. 
 	\\
 	Additionally the top quark is important for searches of new physics since is is often part of the final state and/or a dominant background. 
@@ -109,7 +134,7 @@
 		\label{fig:production}
 	\end{figure}	
 
-
+	%todo CKM Matrix als Grund für Zerfall?
 	The top quark decays via the weak interaction with a probability of almost $100\%$ into a bottom quark and a $W$ boson. While the bottom quark is seen as a jet in the detector, the $W$ boson decays further into a quark anti-quark pair (see fig. \ref{fig:decaya}) or into a lepton and a neutrino (see fig. \ref{fig:decayb}). Looking at the $t\bar{t}$ production, these two possible final states for each top quark corresponds to three channels for the $t\bar{t}$ process. 
 	\begin{itemize}
 	\item both top quarks decay into quarks (full hadronic)
@@ -201,7 +226,6 @@
 		\caption{Feynman diagram \cite{feynman} displaying an event from the lepton+jets channel. The centred circle indicates a mechanism to produce a $t\bar{t}$ pair.}
 		\label{fig:semilep}
 	\end{figure}
-\end{comment}
 
 	
 	Measuring the top quark mass is usually performed via a template fit. Therefore $t\bar{t}$ events are simulated for different masses $m_\text{top}^{MC}$. Then a selection is applied to data and simulation with the goal to select preferably $t\bar{t}$ events. Finally the different simulation with different $m_\text{top}^{MC}$ are fitted to data.	The most precise mass measurement of this kind is archived combining results of the CMS, ATLAS, CDF, and D0 collaborations. The result of this world average is a value of $173.34 \pm 0.27 (\text{stat}) \pm 0.71 (\text{sys})\;\text{GeV}$ \cite{topmass_combination}. Doing these kinds of measurements one relies on a correct simulation of $t\bar{t}$ events. Especially the mass parameter in Monte-Carlo generators can not be related to a mass one would calculate in an Lagrangian.
