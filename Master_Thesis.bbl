@@ -125,6 +125,36 @@
   \field{year}{2013}
 \endentry
 
+\entry{CMSfull}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {CMS~Collaboration}{C.~C.}%
+     {}{}%
+     {\relax}{r.}%
+     {}{}}%
+  }
+  \strng{namehash}{CCr1}
+  \strng{fullhash}{CCr1}
+  \field{howpublished}{\url{http://cms.web.cern.ch/news/cms-detector-design}}
+  \field{note}{[Online; accessed May 03, 2017]}
+  \field{title}{{CMS detctor design}}
+\endentry
+
+\entry{CMSlumi}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {CMS~Collaboration}{C.~C.}%
+     {}{}%
+     {\relax}{r.}%
+     {}{}}%
+  }
+  \strng{namehash}{CCr1}
+  \strng{fullhash}{CCr1}
+  \field{howpublished}{\url{https://cms-service-lumi.web.cern.ch/cms-service-lumi/publicplots/int_lumi_per_day_cumulative_pp_2016.png}}
+  \field{note}{[Online; accessed May 03, 2017]}
+  \field{title}{{Luminosity versus day}}
+\endentry
+
 \entry{CMSslice}{misc}{}
   \name{author}{1}{}{%
     {{}%

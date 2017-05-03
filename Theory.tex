@@ -6,6 +6,8 @@
 	Fermions are further divided into quarks and leptons. While quarks are affected by the strong force, leptons are not. Both subgroups consist of three generations with two particles in each group. Each generation of quarks contain one up-type and one down-type quark distinguished by their electromagnetic charge. For leptons a generation is built from a particle with charge of $1e$ and an neutral neutrino. The first generation of quarks and leptons then are the building blocks of atoms. All other particles have a larger mass and therefore a finite lifetime. Additionally every fermion has a anti-partner which has the same mass but opposite charge. 
 	\\	
 	Bosons are the carriers of the three fundamental forces included in the standard model. Every interaction of two particles is described by a boson emitted from one and absorbed by the other particle. Thus a boson changes energy and momentum of an absorbing or emitting particle. For each force a charge is introduced. Only particles carrying the charge connected to a force can interact with the corresponding boson. Thus, the amount of charge carried by a particle is proportional to the probability of emitting or absorbing a boson. 
+	\\
+	With the discovery of the Higgs boson in 2012, all particles of the standard model have been experimentally confirmed. Although, the theory is believed to be incomplete, because known phenomena like gravity and dark matter are not included, the standard model is very successful to describe outcomes of experiments with very high precision. A more detailed look on the different interactions is given in the sections below. 
 	\begin{figure}[htb]
 		\centering
 		\includegraphics [width=.8\textwidth, trim = {0 0 0 3.5cm}, clip=true]{../Images/Standard_Model_of_Elementary_Particles.pdf}
@@ -94,7 +96,7 @@
 	\begin{equation}
 	M_Z = \frac{M_W}{\cos \theta_W}
 	\end{equation}
-	Fermions get their mass through Yukawa coupling to the Higgs field proportional to their masses.
+	Fermions get their mass through Yukawa coupling to the Higgs field proportional to their masses. 
 \section{Top Quark}
 	%todo wo und wann entdeckt?
 	The top quark is an up type quark belonging to the third generation of the standard model and carrying electromagnetic charge of $Q=+\frac{2}{3}e$ \cite{pdg2016}. With its mass of about $173\;\text{GeV}$ the top quark is the heaviest particle in the standard model. It was first discovered in 1995 at Tevatron. 
@@ -183,9 +185,7 @@
 		\caption{Feynman diagrams \cite{feynman} showing the production of top quark pairs. Displayed are the gluon-gluon fusion (a), the quark anti-quark annihilation (b) and the t-channel (c+d).}
 		\label{fig:production}
 	\end{figure}	
-
-	%todo CKM Matrix als Grund für Zerfall?
-	The top quark decays via the weak interaction with a probability of almost $100\%$ into a bottom quark and a $W$ boson. While the bottom quark is seen as a jet in the detector, the $W$ boson decays further into a quark anti-quark pair (see fig. \ref{fig:decaya}) or into a lepton and a neutrino (see fig. \ref{fig:decayb}). Looking at the $t\bar{t}$ production, these two possible final states for each top quark corresponds to three channels for the $t\bar{t}$ process. 
+	The top quark decays via the weak interaction with a probability of almost $100\%$ into a bottom quark and a $W$ boson. This property arises from the entry in the CKM matrix $|V_{tb}|^2 \approx 0.998$ \cite{pdg2016}. While the bottom quark is seen as a jet in the detector, the $W^\pm$ boson further decays into a quark anti-quark pair (see fig. \ref{fig:decaya}) or into a lepton (anti-lepton) and an anti-neutrino (neutrino) (see fig. \ref{fig:decayb}). Looking at the $t\bar{t}$ production, these two possible final states for each top quark corresponds to three channels for the $t\bar{t}$ process. 
 	\begin{itemize}
 	\item both top quarks decay into quarks (full hadronic)
 	\item one top quark decays hadronically, the other one leptonically (lepton+jets)
@@ -209,7 +209,7 @@
 		\vertex[above right=1.5cm of b] (c);
 		\vertex[below right=3cm of b] (f1){\(b\)};
 		\vertex[below right=1.5cm of c] (f3){\(\overline l\)};
-		\vertex[above right=1.5cm of c] (f2){\(\nu\)};
+		\vertex[above right=1.5cm of c] (f2){\(\nu_l\)};
 
 		\diagram* {
 		(a)-- [fermion] (b)-- [fermion] (f1),
@@ -276,8 +276,6 @@
 		\caption{Feynman diagram \cite{feynman} displaying an event from the lepton+jets channel. The centred circle indicates a mechanism to produce a $t\bar{t}$ pair.}
 		\label{fig:semilep}
 	\end{figure}
-
-	
 	Measuring the top quark mass is usually performed via a template fit. Therefore $t\bar{t}$ events are simulated for different masses $m_\text{top}^{MC}$. Then a selection is applied to data and simulation with the goal to select preferably $t\bar{t}$ events. Finally the different simulation with different $m_\text{top}^{MC}$ are fitted to data.	The most precise mass measurement of this kind is archived combining results of the CMS, ATLAS, CDF, and D0 collaborations. The result of this world average is a value of $173.34 \pm 0.27 (\text{stat}) \pm 0.71 (\text{sys})\;\text{GeV}$ \cite{topmass_combination}. Doing these kinds of measurements one relies on a correct simulation of $t\bar{t}$ events. Especially the mass parameter in Monte-Carlo generators can not be related to a mass one would calculate in a Lagrange density.
 \section{Unfolding}
 	Most analyses at LHC measure distributions of appropriate variables and then compare the obtained results in data with event simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with an unknown detector function. Studying the difference in MC between particle level and reconstruction level, it is possible to calculate the probabilities that a measured value in a bin $x_i$ is originating from bin $y_i$ on particle level. The resulting matrix can then be applied to real data to obtain data on particle level. The obtained distribution is corrected for detector effects by the unfolding and can then be compared with theory calculations. Additionally, measurements on particle level do not depend on simulation ambiguities like the mass parameter put into the Monte-Carlo generator.

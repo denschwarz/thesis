@@ -1,15 +1,7 @@
 \chapter{Experiment}
-	For this analysis a data from a collision experiment is used. Protons are brought to collision in a circular particle accelerator. The outcome of the collisions is then measured with several detection systems. A description of the accelerator and the detector is presented in this section.
+	For this analysis data from a collision experiment is used. Protons are brought to collision in a circular particle accelerator. The outcome of the collisions is then measured with several detection systems. A description of the accelerator and the detector is presented in this chapter.
 \section{Large Hadron Collider}
-	The Large Hadron Collider (LHC) is a circular particle collider with a circumference of $27\;\text{km}$. At the LHC protons are accelerated to an energy of $6.5\;\text{TeV}$ and then brought to collision resulting in a center-of-mass energy of $\sqrt{s}=13\;\text{TeV}$. Because protons are composite particles, the actual collision involves quarks or gluons carrying only a fraction of this energy. 
-	
-	Protons are not injected directly into the LHC ring but run through several acceleration stages. The preaccelerators used for this purpose are old accelerators that can now be reused.
-	
-	Four Experiments are placed at each interaction point of LHC.
-	
-	A display of the LHC complex with its four experiments and preaccelerators is shown in fig. \ref{fig:lhc}.
-	
-	A very important parameter of a particle collider is its luminosity. It gives an estimate how many collisions take place per area and second. It is calculated via Eq. \ref{eq:lumi}. 
+	The Large Hadron Collider (LHC) is a circular particle collider with a circumference of $27\;\text{km}$. At the LHC protons, or in special runs heavy ions, are accelerated to an energy of $6.5\;\text{TeV}$ and then brought to collision resulting in a center-of-mass energy of $\sqrt{s}=13\;\text{TeV}$ almost reaching the design energy of $14\;\text{TeV}$. Because protons are composite particles, the actual collision involves quarks or gluons carrying only a fraction of this energy. How the total energy is distributed among the partons is described with parton-density-functions (pdf). Protons are organised in bunches with approximately $100$ billion protons per bunch. There are $2808$ spaces for bunches in the LHC ring with a separation of about $25\;\text{ns}$. Per bunch crossing multiple interactions take place. This results in pile-up, seen as additional energy deposited in a detected event.	Protons are taken from a hydrogen source and accelerated via superconducting cavities in various linear and circular accelerators before injected into the LHC ring. In circular accelerators, dipole magnets are used to keep protons on their required orbit. Quadrupole magnets are installed to focus the beam, while higher order magnets are used to correct for higher order effects like energy dependent deviations from the orbit. A very important parameter of a particle collider is its luminosity. It gives an estimate how many collisions take place per area and second, thus, how well the beam is focused at the interaction points. It is calculated via Eq. \ref{eq:lumi}. 
 	\begin{equation}
 	L = \frac{n N_1 N_2 f}{4 \pi \sigma_x \sigma_y}
 	\label{eq:lumi}
@@ -23,34 +15,29 @@
 	N = L_\text{int} \sigma
 	\label{eq:number}
 	\end{equation} 
-	
+	Four Experiments are placed at each interaction point of LHC. Besides CMS, which is described below in section \ref{sec:cms}, there is another multi-purpose detector with a brought physics program, called ATLAS\footnote{'A Toroidal LHC Apparatus'}. Additionally there are two more specialised experiments: LHCb\footnote{'Large Hadron Collider beauty'}, with a focus on $b$-physics and ALICE\footnote{'A Large Ion Collider Experiment'}, mainly aiming at research of quark-gluon plasma in heavy ion collisions. A display of the LHC complex with its four experiments and preaccelerators is shown in fig. \ref{fig:lhc}.
 	\begin{figure}
 		\centering
 		\includegraphics [width=\textwidth]{../Images/lhc.jpg}
 		\caption{Display the LHC complex with the LHC ring itself and every accelerator used to bring protons to the required energy for injection in the LHC ring \cite{lhc}}
 		\label{fig:lhc}
 	\end{figure}
-	%todo LHC FAKTEN
-	%todo Bild von LHC
-	%todo Lumi einfuehren und Formel angeben
-	%todo ANDERE EXPERIMENTE
+
 \section{CMS Detector}
 \label{sec:cms}
-	The 'Compact Muon Solenoid' (CMS) experiment is a multi purpose detectors at LHC. It is designed to measure momentum and energy of particles produced in proton-proton interactions. The CMS detector is built in layers of subdetectors with different purposes described in following sections \ref{sec:tracker} - \ref{sec:muonsystem}.
-	
-	A very important part besides the detector systems is the Trigger, described in section \ref{sec:trigger}, providing fast decisions if an event is discarded or interesting enough to be stored.
-	%todo FULL VIEW OF CMS?
-	%todo AUSMAßE
-	%todo ZWIEBELFORM, ZYLINDER
-	%todo PLOT: Collected Lumi von meinem Datensatz!
-
+	The 'Compact Muon Solenoid' (CMS) experiment is a multi purpose detectors at LHC. It is designed to measure momentum and energy of particles produced in proton-proton interactions. With a total weight of $14000\;\text{t}$, the mass of the CMS detector is dominated by a steel return yoke installed to lead the magnetic field originating from a solenoid. The detector has a cylindrical shape with a length of $28.7\;\text{m}$ and a diameter of $15.0\;\text{m}$. The CMS detector is built in onion-like layers of sub-detectors with different purposes described in following sections \ref{sec:tracker} - \ref{sec:muonsystem}. A very important part besides the detector systems is the Trigger, described in section \ref{sec:trigger}, providing fast decisions if an event is discarded or interesting enough to be stored. The design of CMS was chosen to cover a brought range of physics approaches. Nevertheless, a focus was set on the discovery of the Higgs boson, which was announced in 2012. In the data taking period this analysis examines, the CMS detector collected data corresponding to $37.76\;\text{fb}^{-1}$. A detailed view of the data taking is presented in Fig. \ref{fig:CMS_lumi}.
 	\begin{figure}[tb]
 		\centering
-		\includegraphics [width=.8\textwidth]{../Plots/CMS_Slice.png}
-		\caption{Slice through the CMS detector looking in direction of the beam pipe \cite{CMSslice}. Tracks of different particles on their way through the layers of the detector are displayed. From left to right, you can see the tracker, calorimeters, the superconducting solenoid and the muon system. These detector components, their purpose and how they work are described in the following sections \ref{sec:tracker} - \ref{sec:muonsystem}.}
-		\label{CMS}
+		\includegraphics [width=\textwidth]{../Plots/CMS_Full.png}
+		\caption{Full view of the CMS detector. \cite{CMSfull}}
+		\label{fig:CMS}
 	\end{figure}
-	
+	\begin{figure}[tb]
+		\centering
+		\includegraphics [width=.8\textwidth]{../Plots/CMS_Lumi.pdf}
+		\caption{Integrated luminosity recorded by CMS in comparison with the data delivered by LHC. \cite{CMSlumi}}
+		\label{fig:CMS_lumi}
+	\end{figure}	
 \subsection{Tracker}
 \label{sec:tracker}
 	%todo ABMAßE TRACKER, ANZAHL LAYER USW
@@ -62,19 +49,18 @@
 
 \subsection{Calorimeters}
 	To define the type of particle one has to measure not only momentum but also energy. Therefore outside the tracker a colorimetry system with two types of calorimeters is installed. The underlying principle of this subdetector is to absorb all of the energy a particle carries. This energy is then transformed into a light signal. The intensity of the light signal is proportional to the energy of the incoming particle. For this approach one needs to use scintillating materials. It also has to be dense enough to stop a incoming particle to transform all its energy into the light signal. At the end the light is collected and measured with photo multipliers.
-	%FUNKTIONSWEISE 
 \subsubsection{Electromagnetic Calorimeter}
-	The inner part of the calorimetry system is supposed to measure the energy of electrons and photons. The electormagnetic calorimeter of the CMS detector is designed to deliver a very good spatial resolution. With this, photons which are not seen in the tracker can be reconstructed with a high precision.
+	The inner part of the calorimetry system is supposed to measure the energy of electrons and photons. The electormagnetic calorimeter (ECAL) of the CMS detector is designed to deliver a very good spatial resolution. With this, photons which are not seen in the tracker can be reconstructed with a high precision.
 	
 	Since hadrons have a larger absorption length they mostly pass the electromagnetic calorimeter and are measured in the hadronic calorimeter.
-	%MATERIAL
-	%GROESSE
-	%GENAUIGKEIT
+	%todo MATERIAL
+	%todo GROESSE
+	%todo GENAUIGKEIT
 \subsubsection{Hadronic Calorimeter}
-	The hadronic calorimeter uses two alternating layers of different material. One is to absorb the energy of an incoming particle. The other one is made out of a scintillator.
-	%GENAUIGKEIT
-	%MATERIAL
-	%GROESSE
+	The hadronic calorimeter (HCAL) uses two alternating layers of different material. One is to absorb the energy of an incoming particle. The other one is made out of a scintillator.
+	%todo GENAUIGKEIT
+	%todo MATERIAL
+	%todo GROESSE
 	
 \subsection{Solenoid}
 	Outside the hadronic calorimeter a superconducting solenoid is installed and provides a magnetic field of about $4\;\text{T}$ inside the tracking system. The solenoid has a length of $13\;\text{m}$ and a diameter of $6\;\text{m}$. The purpose of the magnetic field is to bend paths of charged particles due to the Lorentz force. The bending radius then is directly connected to the momentum of the particle.  
@@ -87,12 +73,11 @@
 \label{sec:trigger}
 	At the interaction points, proton bunches are brought to collision every $25\;\text{ns}$. Per crossing about ????
 	%INTERACTIONNUMBER
-	interactions take place. This adds up to about ???
-	%COLLISIONS PER SECOND
-	interactions per second. It is impossible to store data with this rate and the total required storage capacity would is not feasible either. Additionally it would need a tremendous number of computing cores to analyse this data. Therefore a trigger system is installed to select only the interesting events to reduce the amount of data. For the computation system it is required to reduce the amount from ???? to ????.
+	interactions take place. It is impossible to store that amount of data with this rate and the total required storage capacity is not feasible either. Additionally it would need a tremendous number of computing cores to analyse this data. Therefore a trigger system is installed to select only the interesting events to reduce the amount of data. For the computation system it is required to reduce the amount from ???? to ????.
 	%RATE VOR UND NACH TRIGGER
  	To decide which events are worth storing and which will be neglected different criteria are defined.
  	% TRIGGER MENU
  	% DIFFERENT TRIGGER LEVELS
+ 	%todo anhand welcher detektor systeme entscheidet der trigger?
 	
 	

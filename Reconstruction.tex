@@ -1,5 +1,11 @@
 \chapter{Reconstruction of Objects}
-	From all kinds of information provided by the detector systems has to be interpreted as physical objects in order to analyse the recorded data. Therefore algorithms are run to link the information from the detector to usable objects like muons, electrons or jets. In this chapter these objects and how they are defined is described. 
+	From all kinds of information provided by the detector systems has to be interpreted as physical objects in order to analyse the recorded data. Therefore algorithms are run to link the information from the detector to usable objects like muons, electrons or jets. Objects are defined by their detection in different detector systems. Paths of all detectable objects through the detector are sketched in Fig. \ref{fig:CMS_reco}.
+		\begin{figure}[tb]
+			\centering
+			\includegraphics [width=.8\textwidth]{../Plots/CMS_Slice.png}
+			\caption{Slice through the CMS detector looking in direction of the beam pipe \cite{CMSslice}. Tracks of different particles on their way through the layers of the detector are displayed. From left to right, you can see the tracker, calorimeters, the superconducting solenoid and the muon system.}
+			\label{fig:CMS_reco}
+		\end{figure} 
 \section{Coordinate System}
 	The coordinate system used in the CMS experiment is based on cartesian and right-handed coordinates. The origin is set in the center of the CMS detector. To define the direction of the axes other fix points are set. The $x$-axis point in the direction of the center of the LHC ring, the $y$-axis points up and the $z$-axis is defined parallel to the beam axis. Important variables used in analysis of CMS data are the angles $\phi$ and $\theta$. $\phi$ is defined as the angle in the $x$-$y$-plane measured from the $x$-axis and $\theta$ describes the angle from a given point to the beam axis. Because the LHC is a hadron collider and physical events are therefore not symmetric in $\theta$ it is useful to construct the Lorentz invariant variable $\eta$:
 	
@@ -46,10 +52,10 @@
 	%WELCHE TEILCHEN WERDEN ZUERST GECLUSTERT?
 
 \subsection{HOTVR Jet Algorithm}
-	Another approach to cluster jets is the 'heavy object tagger with variable R' (HOTVR) \cite{hotvr}. This algorithm does not use a constant radius parameter $R$ but a $p_T$ dependent effective $R_\text{eff}$ (see eq. \ref{reff}). Thus the $R_\text{eff}$ decreases with increasing $p_T$ leading to smaller jets when the decay products are expected to be more close because of the Lorentz boost. The $p_T$ dependence is scaled with a parameter $\rho$ with a default value of $600\;\text{GeV}$. Additionally upper and lower boundaries for the jet radius can be set. The default values are $R_\text{min} = 0.1$ and $R_\text{max} = 1.5$.
+	Another approach to cluster jets is the 'heavy object tagger with variable R' (HOTVR) \cite{hotvr}. This algorithm does not use a constant radius parameter $R$ but a $p_T$ dependent effective $R_\text{eff}$ (see Eq. \ref{reff}). Thus the $R_\text{eff}$ decreases with increasing $p_T$ leading to smaller jets when the decay products are expected to be more close because of the Lorentz boost. The $p_T$ dependence is scaled with a parameter $\rho$ with a default value of $600\;\text{GeV}$. Additionally upper and lower boundaries for the jet radius can be set. The default values are $R_\text{min} = 0.1$ and $R_\text{max} = 1.5$ (see Eq. \ref{eq:HOTVR}).
 	
 	\begin{equation}
-	\label{reff}
+	\label{eq:HOTVR}
 	  R_\text{eff} =
 	   \begin{cases}
 	     R_\text{min} & \text{for } \rho / p_T < R_\text{min} \\
@@ -58,7 +64,7 @@
 	   \end{cases}
 	\end{equation}
 	
-	\noindent This effective $R$ is then used with the equations of the Anti-$k_T$ algorithm described earlier (see eq. \ref{dij} - \ref{iB}).
+	\noindent This effective $R$ is then used with the equations of the Anti-$k_T$ algorithm described earlier (see Eq. \ref{eq:dij} - \ref{eq:iB}).
 	%AUCH NOCH ANDERE EIGENSCHAFTEN (GEGEN SOFT RADIATION...)
 
 \subsection{XCone Jet Algorithm}
