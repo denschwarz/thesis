@@ -140,7 +140,7 @@
   \field{title}{{CMS detctor design}}
 \endentry
 
-\entry{CMSlumi}{misc}{}
+\entry{CMStracks}{misc}{}
   \name{author}{1}{}{%
     {{}%
      {CMS~Collaboration}{C.~C.}%
@@ -150,9 +150,9 @@
   }
   \strng{namehash}{CCr1}
   \strng{fullhash}{CCr1}
-  \field{howpublished}{\url{https://cms-service-lumi.web.cern.ch/cms-service-lumi/publicplots/int_lumi_per_day_cumulative_pp_2016.png}}
-  \field{note}{[Online; accessed May 03, 2017]}
-  \field{title}{{Luminosity versus day}}
+  \field{howpublished}{\url {http://cms.cern/detector/identifying-tracks}}
+  \field{note}{[Online; accessed May 04, 2017]}
+  \field{title}{{Identifying Tracks}}
 \endentry
 
 \entry{CMSslice}{misc}{}
@@ -291,6 +291,21 @@
   \endverb
   \field{title}{{XCone: N-jettiness as an Exclusive Cone Jet Algorithm}}
   \field{year}{2015}
+\endentry
+
+\entry{CMSlumi}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {CMS~Collaboration}{C.~C.}%
+     {}{}%
+     {\relax}{r.}%
+     {}{}}%
+  }
+  \strng{namehash}{CCr1}
+  \strng{fullhash}{CCr1}
+  \field{howpublished}{\url{https://cms-service-lumi.web.cern.ch/cms-service-lumi/publicplots/int_lumi_per_day_cumulative_pp_2016.png}}
+  \field{note}{[Online; accessed May 03, 2017]}
+  \field{title}{{Luminosity versus day}}
 \endentry
 
 \entry{tunfold}{article}{}

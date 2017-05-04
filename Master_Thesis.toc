@@ -40,9 +40,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Calorimeters}{16}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Electromagnetic Calorimeter}{17}{subsubsection*.9}
+\contentsline {subsubsection}{Electromagnetic Calorimeter}{16}{subsubsection*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hadronic Calorimeter}{17}{subsubsection*.10}
+\contentsline {subsubsection}{Hadronic Calorimeter}{17}{subsubsection*.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Solenoid}{17}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
@@ -76,32 +76,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Data}{25}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Event Generator and Parton Shower}{25}{section.5.2}
+\contentsline {section}{\numberline {5.2}Event Generator and Parton Shower}{26}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Monte-Carlo samples}{25}{section.5.3}
+\contentsline {section}{\numberline {5.3}Monte-Carlo samples}{26}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Analysis}{27}{chapter.6}
+\contentsline {chapter}{\numberline {6}Analysis}{29}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Analysis Strategy}{27}{section.6.1}
+\contentsline {section}{\numberline {6.1}Analysis Strategy}{29}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Previous Results}{27}{section.6.2}
+\contentsline {section}{\numberline {6.2}Previous Results}{29}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Jet Studies on Particle Level}{27}{section.6.3}
+\contentsline {section}{\numberline {6.3}Jet Studies on Particle Level}{29}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Selection on particle level}{28}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.1}Selection on particle level}{30}{subsection.6.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}XCone Strategy}{28}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.2}XCone Strategy}{30}{subsection.6.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.3}Comparing Jet Algorithms}{29}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.3}Comparing Jet Algorithms}{31}{subsection.6.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Selection on Reconstruction Level}{29}{section.6.4}
+\contentsline {section}{\numberline {6.4}Selection on Reconstruction Level}{31}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.1}Baseline Selection}{29}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.1}Baseline Selection}{31}{subsection.6.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.2}Measurement Phase Space}{30}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.2}Measurement Phase Space}{32}{subsection.6.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Unfolding}{30}{section.6.5}
+\contentsline {section}{\numberline {6.5}Unfolding}{32}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}Results}{30}{section.6.6}
+\contentsline {section}{\numberline {6.6}Results}{32}{section.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Summary and Outlook}{31}{chapter.7}
+\contentsline {chapter}{\numberline {7}Summary and Outlook}{33}{chapter.7}
