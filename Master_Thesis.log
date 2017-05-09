@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.11)  4 MAY 2017 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.11)  9 MAY 2017 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1781,58 +1781,56 @@ distance' requires LuaTeX. It will be ignored. on input line 262.
 
 ]
 Chapter 3.
-
-Underfull \vbox (badness 1270) has occurred while \output is active []
-
- [13]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
-
-<../Images/lhc.jpg, id=398, 1040.688pt x 735.7086pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+[13] <../Images/lhc.jpg, id=400, 1040.688pt x 735.7086pt>
 File: ../Images/lhc.jpg Graphic file (type jpg)
- <use ../Images/lhc.jpg>
+
+<use ../Images/lhc.jpg>
 Package pdftex.def Info: ../Images/lhc.jpg used on input line 22.
 (pdftex.def)             Requested size: 448.13095pt x 316.80879pt.
 
-<../Plots/CMS_Full.png, id=404, 3189.9175pt x 2253.41875pt>
+<../Plots/CMS_Full.png, id=406, 3189.9175pt x 2253.41875pt>
 File: ../Plots/CMS_Full.png Graphic file (type png)
 
 <use ../Plots/CMS_Full.png>
 Package pdftex.def Info: ../Plots/CMS_Full.png used on input line 32.
 (pdftex.def)             Requested size: 448.13095pt x 316.54239pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2318) has occurred while \output is active []
 
  [14 <../Images/lhc.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15 <../Plots/CMS_Full.png>]
-Overfull \hbox (8.61761pt too wide) in paragraph at lines 56--60
-[]\T1/ptm/m/n/12 Since hadrons have a larger ab-sorp-tion length they mostly pa
-ss the elec-tro-mag-netic calorime-
- []
+ [15 <../Plots/CMS_Full.png>] <../Images/tracker.png, id=430, 1718.42pt x 831.1
+05pt>
+File: ../Images/tracker.png Graphic file (type png)
 
-[16]) [17]
+<use ../Images/tracker.png>
+Package pdftex.def Info: ../Images/tracker.png used on input line 46.
+(pdftex.def)             Requested size: 448.13095pt x 216.72896pt.
+ [16 <../Images/tracker.png>] [17]) [18]
 \openout2 = `Reconstruction.aux'.
 
- (./Reconstruction.tex [18
 
-
-
-
-]
+(./Reconstruction.tex
 Chapter 4.
-<../Plots/CMS_Slice.png, id=441, 3011.25pt x 2182.40344pt>
+<../Plots/CMS_Slice.png, id=453, 3011.25pt x 2182.40344pt>
 File: ../Plots/CMS_Slice.png Graphic file (type png)
 
 <use ../Plots/CMS_Slice.png>
 Package pdftex.def Info: ../Plots/CMS_Slice.png used on input line 5.
 (pdftex.def)             Requested size: 358.50612pt x 259.81247pt.
- [19] [20 <../Plots/CMS_Slice.png>] [21]
+ [19
+
+
+
+
+] [20 <../Plots/CMS_Slice.png>] [21]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
@@ -1853,7 +1851,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 40.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4217) has occurred while \output is active []
 
  [22]
 Underfull \hbox (badness 10000) in paragraph at lines 77--81
@@ -2159,7 +2157,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 88.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2698) has occurred while \output is active []
 
  [23])
 [24]
@@ -2167,7 +2165,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  (./Data_MC.tex
 Chapter 5.
-<../Plots/CMS_Lumi.pdf, id=501, 578.16pt x 433.62pt>
+<../Plots/CMS_Lumi.pdf, id=513, 578.16pt x 433.62pt>
 File: ../Plots/CMS_Lumi.pdf Graphic file (type pdf)
 
 <use ../Plots/CMS_Lumi.pdf>
@@ -2258,7 +2256,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
 Package rerunfilecheck Info: File `Master_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BF11700727BCD985093E75162378FA49;3006.
+(rerunfilecheck)             Checksum: 10C05CF4E30CED631C0C1419A382BCA9;3006.
 
 
 LaTeX Warning: There were undefined references.
@@ -2269,13 +2267,13 @@ Package logreq Info: Writing requests to 'Master_Thesis.run.xml'.
  )
 (\end occurred when \iftrue on line 86 was incomplete) 
 Here is how much of TeX's memory you used:
- 29875 strings out of 494901
- 568831 string characters out of 6178617
- 990737 words of memory out of 5000000
- 32318 multiletter control sequences out of 15000+600000
+ 29886 strings out of 494901
+ 569035 string characters out of 6178617
+ 991737 words of memory out of 5000000
+ 32324 multiletter control sequences out of 15000+600000
  109520 words of font info for 169 fonts, out of 8000000 for 9000
  18 hyphenation exceptions out of 8191
- 68i,14n,100p,1645b,2858s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,14n,100p,1741b,2858s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/dennis/.texmf-var
 /fonts/pk/ljfour/jknappen/ec/ectt1200.600pk>{/usr/share/texlive/texmf-dist/font
 s/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
@@ -2288,10 +2286,10 @@ xlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Master_Thesis.pdf (45 pages, 7618251 bytes).
+Output written on Master_Thesis.pdf (45 pages, 7682921 bytes).
 PDF statistics:
- 780 PDF objects out of 1000 (max. 8388607)
- 657 compressed objects within 7 object streams
- 149 named destinations out of 1000 (max. 500000)
- 421 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 794 PDF objects out of 1000 (max. 8388607)
+ 669 compressed objects within 7 object streams
+ 153 named destinations out of 1000 (max. 500000)
+ 426 words of extra memory for PDF output out of 10000 (max. 10000000)
 

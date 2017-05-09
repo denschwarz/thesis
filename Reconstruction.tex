@@ -47,13 +47,12 @@
 	d_{iB} = k_{T,i}^{-2}.
 	\label{eq:iB}
 	\end{equation}
-	Here $d_{ij}$ describes a effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis. $k_T$ is the transverse momentum of an object, $\Delta R_{ij}$ denotes the distance between objects $i$ and $j$ an $R$ is a constant parameter that defines the radius of the resulting jet. When $d_{ij}$ is smaller than $d_{iB}$ both objects $i$ and $j$ are combined and both quantities are calculated again. At some point, $d_{iB}$ will be smaller than any $d_{ij}$, then object $i$ is called a jet and is removed from the list of objects. This procedure is repeated until the list of objects is empty.
-	
-	%WELCHE TEILCHEN WERDEN ZUERST GECLUSTERT?
+	Here $d_{ij}$ describes a effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis. $k_T$ is the transverse momentum of an object, $\Delta R_{ij}$ denotes the distance between objects $i$ and $j$ an $R$ is a constant parameter that defines the radius of the resulting jet. When $d_{ij}$ is smaller than $d_{iB}$ both objects $i$ and $j$ are combined and both quantities are calculated again. At some point, $d_{iB}$ will be smaller than any $d_{ij}$, then object $i$ is called a jet and is removed from the list of objects. This procedure is repeated until the list of objects is empty. With the anti-$k_T$ jet algorithm, particles with large transverse momenta are clustered first because $d_{ij}$ (Eq. \ref{eq:dij}) is easily smaller then $d{iB}$ for large $p_T$. The resulting jets are very circular. 
+	%todo plot mit AK shape.
+	%todo KT und CA auch erwähnen?
 
 \subsection{HOTVR Jet Algorithm}
-	Another approach to cluster jets is the 'heavy object tagger with variable R' (HOTVR) \cite{hotvr}. This algorithm does not use a constant radius parameter $R$ but a $p_T$ dependent effective $R_\text{eff}$ (see Eq. \ref{eq:HOTVR}). Thus the $R_\text{eff}$ decreases with increasing $p_T$ leading to smaller jets when the decay products are expected to be more close because of the Lorentz boost. The $p_T$ dependence is scaled with a parameter $\rho$ with a default value of $600\;\text{GeV}$. Additionally upper and lower boundaries for the jet radius can be set. The default values are $R_\text{min} = 0.1$ and $R_\text{max} = 1.5$.
-	
+	Another approach to cluster jets is the 'heavy object tagger with variable R' (HOTVR) \cite{hotvr}. This algorithm does not use a constant radius parameter $R$ but a $p_T$ dependent effective $R_\text{eff}$ (see Eq. \ref{eq:HOTVR}). Thus the $R_\text{eff}$ decreases with increasing $p_T$ leading to smaller jets when the decay products are expected to be more close because of the Lorentz boost. The $p_T$ dependence is scaled with a parameter $\rho$ with a default value of $600\;\text{GeV}$. Furthermore, upper and lower boundaries for the jet radius can be set. The default values are $R_\text{min} = 0.1$ and $R_\text{max} = 1.5$. 	
 	\begin{equation}
 	\label{eq:HOTVR}
 	  R_\text{eff} =
@@ -64,8 +63,9 @@
 	   \end{cases}
 	\end{equation}
 	
-	\noindent This effective $R$ is then used with the equations of the Anti-$k_T$ algorithm described earlier (see Eq. \ref{eq:dij} - \ref{eq:iB}).
-	%AUCH NOCH ANDERE EIGENSCHAFTEN (GEGEN SOFT RADIATION...)
+	\noindent This effective $R$ is then used with the equations of the Anti-$k_T$ algorithm described earlier (see Eq. \ref{eq:dij} - \ref{eq:iB}). Additionally, a mass-jump criterion is used.
+	%todo mass jump Kriterium, auch mit Formel
+	
 
 \subsection{XCone Jet Algorithm}
 \label{sec:xcone}
@@ -75,9 +75,9 @@
 	\tilde{\tau}_N = \sum_i \min\{\rho_\text{jet}(p_i, n_1), \dots, \rho_\text{jet}(p_i, n_N), \rho_\text{beam}(p_i)\}
 	\label{njettines}
 	\end{equation}
-	% DEFINE N-JETTINESS
+	%todo Eigenschaft mit aneinandergrenzenden Jets erklären
 	Once the minimizing process converges, all particles inside a radius $R$ from a jet axis are added to one jet. \\	
-	\\ Since the N-jettiness variable is often used to du theory calculations of particle physics events, the XCone algorithm is easier to include in these calculations.
+	\\ Since the N-jettiness variable is often used to do theory calculations of particle physics events, the XCone algorithm is easier to include in these calculations.
 
 \subsection{b-Jets}
 	In this analysis jets originating from a bottom quark are identified to reduce background. To identify a jet as an b-jet the "Combined Secondary Vertex" (CSV) algorithm is used. Since b-hadrons have a large lifetime of $1.5\;\text{ps}$ they travel about $450\;\text{\textmu m}$ in the detector before decaying. This leads to a secondary vertex at the spatial point where the hadron decays which can be reconstructed in the tracking system. Additionally the composition of hadrons in a b-jet is different from other jets.

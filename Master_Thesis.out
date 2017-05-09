@@ -11,9 +11,9 @@
 \BOOKMARK [0][-]{chapter.3}{Experiment}{}% 11
 \BOOKMARK [1][-]{section.3.1}{Large Hadron Collider}{chapter.3}% 12
 \BOOKMARK [1][-]{section.3.2}{CMS Detector}{chapter.3}% 13
-\BOOKMARK [2][-]{subsection.3.2.1}{Tracker}{section.3.2}% 14
-\BOOKMARK [2][-]{subsection.3.2.2}{Calorimeters}{section.3.2}% 15
-\BOOKMARK [2][-]{subsection.3.2.3}{Solenoid}{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Solenoid}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.2}{Tracker}{section.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.2.3}{Calorimeters}{section.3.2}% 16
 \BOOKMARK [2][-]{subsection.3.2.4}{Muon System}{section.3.2}% 17
 \BOOKMARK [2][-]{subsection.3.2.5}{Trigger}{section.3.2}% 18
 \BOOKMARK [0][-]{chapter.4}{Reconstruction of Objects}{}% 19

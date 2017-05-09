@@ -1,7 +1,7 @@
 \chapter{Experiment}
 	For this analysis data from a collision experiment is used. Protons are brought to collision in a circular particle accelerator. The outcome of the collisions is then measured with several detection systems. A description of the accelerator and the detector is presented in this chapter.
 \section{Large Hadron Collider}
-	The Large Hadron Collider (LHC) is a circular particle collider with a circumference of $26.7\;\text{km}$. At the LHC protons, or in special runs heavy ions, are accelerated to an energy of $6.5\;\text{TeV}$ and then brought to collision with a resulting center-of-mass energy of $\sqrt{s}=13\;\text{TeV}$, almost reaching the design energy of $14\;\text{TeV}$. Because protons are composite particles, the actual collision involves quarks or gluons, carrying only a fraction of this energy. How the total energy is distributed among the partons is described with parton-density-functions (pdf). Protons are organised in bunches with approximately $100$ billion protons per bunch. There are $2808$ spaces for bunches in the LHC ring with a separation of about $25\;\text{ns}$. Per bunch crossing multiple interactions take place. This results in pile-up, seen as additional energy deposited in a detected event.	Protons are taken from a hydrogen source and accelerated via superconducting cavities in various linear and circular accelerators before injected into the LHC ring. In circular accelerators, dipole magnets are used to keep protons on their required orbit. Quadrupole magnets are installed to focus the beam, while higher order magnets are used to correct for higher order effects like energy dependent deviations from the orbit. A very important parameter of a particle collider is its luminosity. It gives an estimate how many collisions take place per area and second, thus, how well the beam is focused at the interaction points. It is calculated via Eq. \ref{eq:lumi}. 
+	The Large Hadron Collider (LHC) is a circular particle collider with a circumference of $26.7\;\text{km}$ operating at CERN\footnote{Conseil europ\'{e}en pour la recherche nucl\'{e}aire}, Switzerland. At the LHC protons, or in special runs heavy ions, are accelerated to an energy of $6.5\;\text{TeV}$ and then brought to collision with a resulting center-of-mass energy of $\sqrt{s}=13\;\text{TeV}$, almost reaching the design energy of $14\;\text{TeV}$. Because protons are composite particles, the actual collision involves quarks or gluons, carrying only a fraction of this energy. How the total energy is distributed among the partons is described with parton-density-functions (pdf). Protons are organised in bunches with approximately $100$ billion protons per bunch. There are $2808$ spaces for bunches in the LHC ring with a separation of about $25\;\text{ns}$. Per bunch crossing multiple interactions take place. This results in pile-up, seen as additional energy deposited in a detected event.	Protons are taken from a hydrogen source and accelerated via superconducting cavities in various linear and circular accelerators before injected into the LHC ring. In circular accelerators, dipole magnets are used to keep protons on their required orbit. Quadrupole magnets are installed to focus the beam, while higher order magnets are used to correct for higher order effects like energy dependent deviations from the orbit. A very important parameter of a particle collider is its luminosity. It gives an estimate how many collisions take place per area and second, thus, how well the beam is focused at the interaction points. It is calculated via Eq. \ref{eq:lumi}. 
 	%todo instantane lumi Wert angeben
 	\begin{equation}
 	L = \frac{n N_1 N_2 f}{4 \pi \sigma_x \sigma_y}
@@ -16,7 +16,7 @@
 	N = L_\text{int} \sigma
 	\label{eq:number}
 	\end{equation} 
-	Four Experiments are placed at each interaction point of LHC. Besides CMS, which is described below in section \ref{sec:cms}, there is another multi-purpose detector with a brought physics program, called ATLAS\footnote{'A Toroidal LHC Apparatus'}. Additionally there are two more specialised experiments: LHCb\footnote{'Large Hadron Collider beauty'}, with a focus on $b$-physics and ALICE\footnote{'A Large Ion Collider Experiment'}, mainly aiming at research of quark-gluon plasma in heavy ion collisions. A display of the LHC complex with its four experiments and preaccelerators is shown in fig. \ref{fig:lhc}.
+	Four Experiments are placed at each interaction point of LHC. Besides CMS\footnote{Compact Muon Solenoid}, which is described below in section \ref{sec:cms}, there is another multi-purpose detector with a brought physics program, called ATLAS\footnote{A Toroidal LHC Apparatus}. Additionally there are two more specialised experiments: LHCb\footnote{Large Hadron Collider beauty}, with a focus on $b$-physics and ALICE\footnote{A Large Ion Collider Experiment}, mainly aiming at research of quark-gluon plasma in heavy ion collisions. A display of the LHC complex with its four experiments and preaccelerators is shown in fig. \ref{fig:lhc}.
 	\begin{figure}
 		\centering
 		\includegraphics [width=\textwidth]{../Images/lhc.jpg}
@@ -26,7 +26,7 @@
 
 \section{CMS Detector}
 \label{sec:cms}
-	The 'Compact Muon Solenoid' (CMS) experiment is a multi purpose detectors at LHC. It is designed to measure momentum and energy of particles produced in proton-proton interactions. With a total weight of $14000\;\text{t}$, the mass of the CMS detector is dominated by a steel return yoke installed to lead the magnetic field originating from a solenoid. The detector has a cylindrical shape with a length of $28.7\;\text{m}$ and a diameter of $15.0\;\text{m}$. The CMS detector is built in onion-like layers of sub-detectors with different purposes described in following sections \ref{sec:tracker} - \ref{sec:muonsystem}. A very important part besides the detector systems is the Trigger, described in section \ref{sec:trigger}, providing fast decisions if an event is discarded or interesting enough to be stored. The design of CMS was chosen to cover a brought range of physics approaches. Nevertheless, a focus was set on the discovery of the Higgs boson, which was announced in 2012. 
+	The 'Compact Muon Solenoid' (CMS) experiment is a multi purpose detector at LHC. It is designed to measure momentum and energy of particles produced in proton-proton interactions. With a total weight of $14000\;\text{t}$, the mass of the CMS detector is dominated by a steel return yoke installed to lead the magnetic field originating from a solenoid. The detector has a cylindrical shape with a length of $28.7\;\text{m}$ and a diameter of $15.0\;\text{m}$. The CMS detector is built in onion-like layers of sub-detectors with different purposes described in following sections \ref{sec:tracker} - \ref{sec:muonsystem}. A very important part besides the detector systems is the Trigger, described in section \ref{sec:trigger}, providing fast decisions if an event is discarded or interesting enough to be stored. The design of CMS was chosen to cover a brought range of physics approaches. Nevertheless, a focus was set on the discovery of the Higgs boson, which was announced in 2012. 
 	\begin{figure}[tb]
 		\centering
 		\includegraphics [width=\textwidth]{../Plots/CMS_Full.png}
@@ -34,14 +34,24 @@
 		\label{fig:CMS}
 	\end{figure}
 
+\subsection{Solenoid}
+	The CMS detector uses a magnetic field to bend paths of electromagnetic charged particles. With the resulting curvature radius and a given magnetic field strength, one is able to calculate the momenta of those particles. Therefore, a superconducting solenoid is installed to provide a magnetic field of $3.8\;\text{T}$ inside the tracking system (explained in section \ref{sec:tracker}). The solenoid has a length of $12.9\;\text{m}$ and a diameter of $5.9\;\text{m}$. Tracker and calorimeters are placed inside the solenoid, the muon system is installed around the magnet inside iron return yokes.	The Iron yokes are used to guide the magnetic flux outside the solenoid. The magnetic field on the outside is used to bend tracks of muons inside the muon system. 
+	
 \subsection{Tracker}
 \label{sec:tracker}
+	The purpose of the tracking system is to measure the momentum of created particles. It is taken advantage of the Lorentz force which changes the momentum of charged particles in a magnetic field. Paths of those particles are therefore bended with a bending radius proportional to the momentum in a constant magnetic field. The tracking system is installed at the innermost of the detector and covers, with a length of about $5.4\;\text{m}$ and radius of $1.1\;\text{m}$, a range of $| \eta | < 2.5$. The full tracker is constructed in multiple layers and sub systems. A full view of the tracking system is presented in Fig. \ref{fig:tracker}. All systems are described below. 
+	
+	\begin{figure}[tb]
+			\centering
+			\includegraphics [width=\textwidth]{../Images/tracker.png}
+			\caption{Sketch of the CMS tracking detector. All sub systems namely pixel and strip detector with inner barrel (TIB), outer barrel (TOB), inner endcaps (TID) and outer endcaps (TEC) are shown. Additionally the range in $\eta$, radius ($r$) and $z$-direction can be read off. \cite{CMStracker}}
+			\label{fig:tracker}
+	\end{figure}
+		
+	The innermost tracking system is a pixel detector consisting of three layers in the barel region with a distance to the beam axis of $4.4\;\text{cm}$, $7.3\;\text{cm}$ and $10.2\;\text{cm}$, respectively. Additionally two endcap discs are installed. Each of the $66$ million pixels extends to $100\;\text{\textmu m} \times 100\;\text{\textmu m}$. With a thought trough arrangement of pixels a resolution of $10\;\text{\textmu m}$ in the $r-\phi$-plane \cite{CMStracks} and $20\;\text{\textmu m}$ in $z$-direction is reached. Outside the pixel detector a silicon strip tracker is built. It is further divided into four sub systems: an inner barrel (TIB) with four layers, an outer barrel (TOB) with six layers, two inner endcaps (TID) consisting of three discs and two outer endcaps (TEC).
+	Per path of a particle one spatial point per layer is measured. These points are the input for a track finding algorithm. The largest uncertainties of the measured momenta rise from the spatial resolution of the tracker. 
+	
 
-	The purpose of the tracking system is to measure the momentum of created particles. It is taken advantage of the Lorentz force which changes the momentum of charged particles in a magnetic field. Paths of those particles are therefore bended with a bending radius proportional to the momentum in a constant magnetic field. Therefore a solenoid provides a constant magnetic field of about $3.8\;\text{T}$ inside the tracker. The tracking system is installed at the innermost of the detector and covers, with a length of about $5.4\;\text{m}$ and radius of $1.1\;\text{m}$, a range of $-2.5 < \eta < 2.5$. The full tracker is constructed in multiple layers and sub systems. 
-	
-	The innermost tracking system is a pixel detector consisting of three layers. Per path of a particle one spatial point per layer is measured. These points are the input for a track finding algorithm. The largest uncertainties of the measured momenta rise from the spatial resolution of the tracker. Therefore a pixel structure is used which can measure the position of a passing charged particle within a resolution of $10\;\text{\textmu m}$ \cite{CMStracks}. 
-	
-	Outside of the pixel detector, a strip tracker is installed.
 	
 	%todo ABMAßE TRACKER, ANZAHL LAYER USW
 	%todo Material, inner tracker, outer tracker
@@ -51,20 +61,19 @@
 \subsection{Calorimeters}
 	To define the type of particle one has to measure not only momentum but also energy. Therefore outside the tracker a colorimetry system with two types of calorimeters is installed. The underlying principle of this subdetector is to absorb all of the energy a particle carries. This energy is then transformed into a light signal. The intensity of the light signal is proportional to the energy of the incoming particle. For this approach one needs to use scintillating materials. It also has to be dense enough to stop a incoming particle to transform all its energy into the light signal. At the end the light is collected and measured with photo multipliers.
 \subsubsection{Electromagnetic Calorimeter}
-	The inner part of the calorimetry system is supposed to measure the energy of electrons and photons. The electormagnetic calorimeter (ECAL) of the CMS detector is designed to deliver a very good spatial resolution. With this, photons which are not seen in the tracker can be reconstructed with a high precision.
+	The inner part of the calorimetry system, the electromagnetic calorimeter (ECAL), is supposed to measure the energy of electrons and photons. It consists of $PbWO_4$ crystals and is designed to deliver a very good spatial resolution. With this, photons which are not seen in the tracker can be reconstructed with a high precision. Even the direction of photons can be resolved from shower reconstruction.
 	
-	Since hadrons have a larger absorption length they mostly pass the electromagnetic calorimeter and are measured in the hadronic calorimeter.
+
 	%todo MATERIAL
 	%todo GROESSE
 	%todo GENAUIGKEIT
 \subsubsection{Hadronic Calorimeter}
-	The hadronic calorimeter (HCAL) uses two alternating layers of different material. One is to absorb the energy of an incoming particle. The other one is made out of a scintillator.
+	Since hadrons have a larger absorption length they mostly pass the electromagnetic calorimeter and are measured in the hadronic calorimeter. The hadronic calorimeter (HCAL) uses two alternating layers of different material. One is to absorb the energy of an incoming particle. The other one is made out of a scintillator.
 	%todo GENAUIGKEIT
 	%todo MATERIAL
 	%todo GROESSE
 	
-\subsection{Solenoid}
-	Outside the hadronic calorimeter a superconducting solenoid is installed and provides a magnetic field of $3.8\;\text{T}$ inside the tracking system. The solenoid has a length of $13\;\text{m}$ and a diameter of $6\;\text{m}$. The purpose of the magnetic field is to bend paths of charged particles due to the Lorentz force. The bending radius then is directly connected to the momentum of the particle. Iron yokes are used to guide the magnetic flux outside the solenoid. The magnetic field on the outside is used to bend tracks of muons inside the muon system.  
+ 
 \subsection{Muon System}
 \label{sec:muonsystem}
 	Because muons are not absorbed in the calorimeters, it is possible to use an additional tracking detector for muons at the very outside of the detector. Muon chambers are embedded in the iron return yoke of the magnet. Thus a magnetic field of about $2\;\text{T}$ is present.

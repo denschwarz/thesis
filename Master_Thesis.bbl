@@ -140,6 +140,27 @@
   \field{title}{{CMS detctor design}}
 \endentry
 
+\entry{CMStracker}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Chatrchyan}{C.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CS+1}
+  \strng{fullhash}{CS+1}
+  \verb{doi}
+  \verb 10.1088/1748-0221/3/08/S08004
+  \endverb
+  \field{pages}{S08004}
+  \field{title}{{The CMS Experiment at the CERN LHC}}
+  \field{volume}{3}
+  \field{journaltitle}{JINST}
+  \field{year}{2008}
+\endentry
+
 \entry{CMStracks}{misc}{}
   \name{author}{1}{}{%
     {{}%
