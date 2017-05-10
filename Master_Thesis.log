@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.11)  9 MAY 2017 16:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.11)  10 MAY 2017 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1422,10 +1422,6 @@ Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
 utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
 luatex=false on input line 86.
 
-
-Package tikz-feynman Warning: The preamble requested version 1.0.0, but the sys
-tem version is 1.1.0. This may change some diagrams. on input line 86.
-
 Package biblatex Info: Input encoding 'ansinew' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'ansinew'.
@@ -1794,11 +1790,11 @@ File: ../Images/lhc.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../Images/lhc.jpg used on input line 22.
 (pdftex.def)             Requested size: 448.13095pt x 316.80879pt.
 
-<../Plots/CMS_Full.png, id=406, 3189.9175pt x 2253.41875pt>
-File: ../Plots/CMS_Full.png Graphic file (type png)
+<../Images/CMS_Full.png, id=406, 3189.9175pt x 2253.41875pt>
+File: ../Images/CMS_Full.png Graphic file (type png)
 
-<use ../Plots/CMS_Full.png>
-Package pdftex.def Info: ../Plots/CMS_Full.png used on input line 32.
+<use ../Images/CMS_Full.png>
+Package pdftex.def Info: ../Images/CMS_Full.png used on input line 32.
 (pdftex.def)             Requested size: 448.13095pt x 316.54239pt.
 
 Underfull \vbox (badness 2318) has occurred while \output is active []
@@ -1806,8 +1802,8 @@ Underfull \vbox (badness 2318) has occurred while \output is active []
  [14 <../Images/lhc.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15 <../Plots/CMS_Full.png>] <../Images/tracker.png, id=430, 1718.42pt x 831.1
-05pt>
+ [15 <../Images/CMS_Full.png>] <../Images/tracker.png, id=430, 1718.42pt x 831.
+105pt>
 File: ../Images/tracker.png Graphic file (type png)
 
 <use ../Images/tracker.png>
@@ -1819,18 +1815,18 @@ Package pdftex.def Info: ../Images/tracker.png used on input line 46.
 
 (./Reconstruction.tex
 Chapter 4.
-<../Plots/CMS_Slice.png, id=453, 3011.25pt x 2182.40344pt>
-File: ../Plots/CMS_Slice.png Graphic file (type png)
+<../Images/CMS_Slice.png, id=453, 3011.25pt x 2182.40344pt>
+File: ../Images/CMS_Slice.png Graphic file (type png)
 
-<use ../Plots/CMS_Slice.png>
-Package pdftex.def Info: ../Plots/CMS_Slice.png used on input line 5.
+<use ../Images/CMS_Slice.png>
+Package pdftex.def Info: ../Images/CMS_Slice.png used on input line 5.
 (pdftex.def)             Requested size: 358.50612pt x 259.81247pt.
  [19
 
 
 
 
-] [20 <../Plots/CMS_Slice.png>] [21]
+] [20 <../Images/CMS_Slice.png>] [21]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
@@ -2268,7 +2264,7 @@ Package logreq Info: Writing requests to 'Master_Thesis.run.xml'.
 (\end occurred when \iftrue on line 86 was incomplete) 
 Here is how much of TeX's memory you used:
  29886 strings out of 494901
- 569035 string characters out of 6178617
+ 569043 string characters out of 6178617
  991737 words of memory out of 5000000
  32324 multiletter control sequences out of 15000+600000
  109520 words of font info for 169 fonts, out of 8000000 for 9000
