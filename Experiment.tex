@@ -1,13 +1,16 @@
 \chapter{Experiment}
-	For this analysis data from a collision experiment is used. Protons are brought to collision in a circular particle accelerator. The outcome of the collisions is then measured with several detection systems. A description of the accelerator and the detector is presented in this chapter.
+\label{ch:Exp}
+	Starting with Rutherford \cite{Rutherford}, physicists use scattering experiments to dissolve processes at high energy scales to understand the basic building blocks and laws of nature. For this analysis, data from the currently worlds biggest collision experiment LHC is used. Here, protons are brought to collision in a circular particle accelerator. The outcome of the collisions is then measured with several detection systems. A description of the accelerator (section \ref{sec:lhc}) and the detector (section \ref{sec:cms}) is presented in this chapter.
+	%todo wirklich Rutherford zitieren?
 \section{Large Hadron Collider}
+\label{sec:lhc}
 	The Large Hadron Collider (LHC) is a circular particle collider with a circumference of $26.7\;\text{km}$ operating at CERN\footnote{Conseil europ\'{e}en pour la recherche nucl\'{e}aire}, Switzerland. At the LHC protons, or in special runs heavy ions, are accelerated to an energy of $6.5\;\text{TeV}$ and then brought to collision with a resulting center-of-mass energy of $\sqrt{s}=13\;\text{TeV}$, almost reaching the design energy of $14\;\text{TeV}$. Because protons are composite particles, the actual collision involves quarks or gluons, carrying only a fraction of this energy. How the total energy is distributed among the partons is described with parton-density-functions (pdf). Protons are organised in bunches with approximately $100$ billion protons per bunch. There are $2808$ spaces for bunches in the LHC ring with a separation of about $25\;\text{ns}$. Per bunch crossing multiple interactions take place. This results in pile-up, seen as additional energy deposited in a detected event.	Protons are taken from a hydrogen source and accelerated via superconducting cavities in various linear and circular accelerators before injected into the LHC ring. In circular accelerators, dipole magnets are used to keep protons on their required orbit. Quadrupole magnets are installed to focus the beam, while higher order magnets are used to correct for higher order effects like energy dependent deviations from the orbit. A very important parameter of a particle collider is its luminosity. It gives an estimate how many collisions take place per area and second, thus, how well the beam is focused at the interaction points. It is calculated via Eq. \ref{eq:lumi}. 
-	%todo instantane lumi Wert angeben
 	\begin{equation}
 	L = \frac{n N_1 N_2 f}{4 \pi \sigma_x \sigma_y}
 	\label{eq:lumi}
 	\end{equation} 
-	In this formula $n$ denotes the number of bunches in the accelerator, $N_1$ and $N_2$ are the number of protons in the two colliding bunches and $f$ is the collision frequency. The denominator gives the cross sectional area where $\sigma_x$ and $\sigma_y$ describes the spread of the proton beam in $x$ and $y$ direction, respectively. To get an estimate of the number of events produced by a given process one has to multiply the integrated luminosity (see Eq. \ref{eq:intlumi}) with the cross section of this particular process (see Eq. \ref{eq:number})
+	%todo ref zu lumi formel?
+	In this formula $n$ denotes the number of bunches in the accelerator, $N_1$ and $N_2$ are the number of protons in the two colliding bunches and $f$ is the collision frequency. The denominator gives the cross sectional area where $\sigma_x$ and $\sigma_y$ describes the spread of the proton beam in $x$ and $y$ direction, respectively. The design luminosity of LHC is $10^{34}\;\text{cm}^{-2}\text{s}^{-1}$ but was already exceed in the 2016 run. To get an estimate of the number of events produced by a given process one has to multiply the integrated luminosity (see Eq. \ref{eq:intlumi}) with the cross section of this particular process (see Eq. \ref{eq:number}).
 	\begin{equation}
 	L_\text{int} = \int L dt
 	\label{eq:intlumi}
@@ -20,17 +23,17 @@
 	\begin{figure}
 		\centering
 		\includegraphics [width=\textwidth]{../Images/lhc.jpg}
-		\caption{Display the LHC complex with the LHC ring itself and every accelerator used to bring protons to the required energy for injection in the LHC ring \cite{lhc}}
+		\caption{Display the LHC complex with the LHC ring itself and every accelerator used to bring protons to the required energy for injection in the LHC ring. \cite{lhc}}
 		\label{fig:lhc}
 	\end{figure}
 
 \section{CMS Detector}
 \label{sec:cms}
-	The 'Compact Muon Solenoid' (CMS) experiment is a multi purpose detector at LHC. It is designed to measure momentum and energy of particles produced in proton-proton interactions. With a total weight of $14000\;\text{t}$, the mass of the CMS detector is dominated by a steel return yoke installed to lead the magnetic field originating from a solenoid. The detector has a cylindrical shape with a length of $28.7\;\text{m}$ and a diameter of $15.0\;\text{m}$. The CMS detector is built in onion-like layers of sub-detectors with different purposes described in following sections \ref{sec:tracker} - \ref{sec:muonsystem}. A very important part besides the detector systems is the Trigger, described in section \ref{sec:trigger}, providing fast decisions if an event is discarded or interesting enough to be stored. The design of CMS was chosen to cover a brought range of physics approaches. Nevertheless, a focus was set on the discovery of the Higgs boson, which was announced in 2012. 
-	\begin{figure}[tb]
+	The 'Compact Muon Solenoid' (CMS) experiment is a multi purpose detector at LHC. It is designed to measure momentum and energy of particles produced in proton-proton interactions. With a total weight of $14000\;\text{t}$, the mass of the CMS detector is dominated by a steel return yoke installed to lead the magnetic field originating from a solenoid. The detector has a cylindrical shape with a length of $28.7\;\text{m}$ and a diameter of $15.0\;\text{m}$. The CMS detector is built in onion-like layers of sub-detectors with different purposes described in following sections \ref{sec:tracker} - \ref{sec:muonsystem}. The fact that different particles leave different signatures in the detector is utilised. How particles are reconstructed is detailed in chapter \ref{ch:Reco}. Besides the detector systems, a very important component is the Trigger, described in section \ref{sec:trigger}, providing fast decisions if an event is discarded or interesting enough to be stored. The design of CMS was chosen to cover a brought range of physics approaches. Nevertheless, a focus was set on the discovery of the Higgs boson, which was announced in 2012. Components, design and the general construction of the CMS detector are shown in Fig. \ref{fig:CMS}.  
+	\begin{figure}[htb]
 		\centering
-		\includegraphics [width=\textwidth]{../Images/CMS_Full.png}
-		\caption{Full view of the CMS detector. \cite{CMSfull}}
+		\includegraphics [width=.95\textwidth]{../Images/CMS_Full.png}
+		\caption{Full view of the CMS detector. Basic properties as weight and dimensions are summarised in a table in the left upper corner. Components of the detector are titled and shown in different colours. \cite{CMSfull}}
 		\label{fig:CMS}
 	\end{figure}
 
@@ -39,55 +42,38 @@
 	
 \subsection{Tracker}
 \label{sec:tracker}
-	The purpose of the tracking system is to measure the momentum of created particles. It is taken advantage of the Lorentz force which changes the momentum of charged particles in a magnetic field. Paths of those particles are therefore bended with a bending radius proportional to the momentum in a constant magnetic field. The tracking system is installed at the innermost of the detector and covers, with a length of about $5.4\;\text{m}$ and radius of $1.1\;\text{m}$, a range of $| \eta | < 2.5$. The full tracker is constructed in multiple layers and sub systems. A full view of the tracking system is presented in Fig. \ref{fig:tracker}. All systems are described below. 
-	
+	The purpose of the tracking system is to measure the momentum of created particles. It is taken advantage of the Lorentz force which changes the momentum of charged particles in a magnetic field. Paths of those particles are therefore bended with a bending radius proportional to the momentum in a constant magnetic field. The tracking system is installed at the innermost of the detector and covers, with a length of about $5.4\;\text{m}$ and radius of $1.1\;\text{m}$, a range of $| \eta | < 2.5$. The full tracker is constructed in multiple layers and sub systems. A full view of the tracking system is presented in Fig. \ref{fig:tracker}. All systems are described below. Per path of a particle one spatial point per layer is measured. These points are the input for a track finding algorithm. The largest uncertainties of the measured momenta rise from the spatial resolution of the tracker. Additionally the reconstruction depends on the momentum of the particle. If it gets too large, the tracks are barely bended and the bending radius cannot be measured with high precision. Accordingly, the uncertainty of a measurement grows with momentum of a particle. Moreover, tracker information is used to reconstruct primary and secondary vertices. A reliable detection of secondary vertices is crucial for b-tagging, which is explained in section $\ref{sec:btag}$.
 	\begin{figure}[tb]
 			\centering
-			\includegraphics [width=\textwidth]{../Images/tracker.png}
-			\caption{Sketch of the CMS tracking detector. All sub systems namely pixel and strip detector with inner barrel (TIB), outer barrel (TOB), inner endcaps (TID) and outer endcaps (TEC) are shown. Additionally the range in $\eta$, radius ($r$) and $z$-direction can be read off. \cite{CMStracker}}
+			\includegraphics [width=\textwidth]{../Images/Tracker.png}
+			\caption{Sketch of the CMS tracking detector. All sub systems namely pixel and strip detector with inner barrel (TIB), outer barrel (TOB), inner endcaps (TID) and outer endcaps (TEC) are shown. Additionally the range in $\eta$, radius ($r$) and $z$-direction can be read off. \cite{CMSdetector}}
 			\label{fig:tracker}
 	\end{figure}
-		
-	The innermost tracking system is a pixel detector consisting of three layers in the barel region with a distance to the beam axis of $4.4\;\text{cm}$, $7.3\;\text{cm}$ and $10.2\;\text{cm}$, respectively. Additionally two endcap discs are installed. Each of the $66$ million pixels extends to $100\;\text{\textmu m} \times 100\;\text{\textmu m}$. With a thought trough arrangement of pixels a resolution of $10\;\text{\textmu m}$ in the $r-\phi$-plane \cite{CMStracks} and $20\;\text{\textmu m}$ in $z$-direction is reached. Outside the pixel detector a silicon strip tracker is built. It is further divided into four sub systems: an inner barrel (TIB) with four layers, an outer barrel (TOB) with six layers, two inner endcaps (TID) consisting of three discs and two outer endcaps (TEC).
-	Per path of a particle one spatial point per layer is measured. These points are the input for a track finding algorithm. The largest uncertainties of the measured momenta rise from the spatial resolution of the tracker. 
-	
-
-	
-	%todo ABMAßE TRACKER, ANZAHL LAYER USW
-	%todo Material, inner tracker, outer tracker
-	%todo Bild von tracker
-	All measured spatial points are then put into a track finding algorithm returning track and momentum of every recorded object.
+	\\
+	The innermost tracking system is a pixel detector consisting of three layers in the barrel region with a distance to the beam axis of $4.4\;\text{cm}$, $7.3\;\text{cm}$ and $10.2\;\text{cm}$, respectively. Additionally two endcap discs are installed. Each of the $66$ million silicon pixels extends to $100\;\text{\textmu m} \times 100\;\text{\textmu m}$. With a thought trough arrangement of pixels a resolution of $10\;\text{\textmu m}$ in the $r-\phi$-plane and $20\;\text{\textmu m}$ in $z$-direction is reached.	Outside the pixel detector a silicon strip tracker is built. It is further divided into four sub systems: an inner barrel (TIB) with four layers, an outer barrel (TOB) with six layers, two inner endcaps (TID) consisting of three discs and two outer endcaps (TEC).\cite{CMSdetector}
 
 \subsection{Calorimeters}
-	To define the type of particle one has to measure not only momentum but also energy. Therefore outside the tracker a colorimetry system with two types of calorimeters is installed. The underlying principle of this subdetector is to absorb all of the energy a particle carries. This energy is then transformed into a light signal. The intensity of the light signal is proportional to the energy of the incoming particle. For this approach one needs to use scintillating materials. It also has to be dense enough to stop a incoming particle to transform all its energy into the light signal. At the end the light is collected and measured with photo multipliers.
+	To define the type of particle, one has to measure not only momentum but also energy. Therefore outside the tracker a colorimetry system with two types of calorimeters is installed. Additionally, showers seen in the calorimeters are used as seed for track finding algorithms. The underlying principle of this sub detector is to absorb and measure all of the energy a particle carries. Energy deposited in the calorimeter is then transformed into a light signal using scintillating materials. The intensity of the light signal is proportional to the energy of the incoming particle. For this approach one needs to use scintillating materials. It also has to be dense enough to stop a incoming particle to transform all its energy into the light signal. At the end the light is collected and measured with photo multipliers. Measurements from calorimeters typically get more precise with increasing energy. Therefore, they provide a good alternative method in cases where the measurement of the tracking system gets worse. The typical resolution of calorimeters is shown in Eq. \ref{eq:calo}.
+	\begin{equation}
+	\frac{\sigma_E}{E\left[\text{GeV}\right]} = \frac{a}{\sqrt{E\left[\text{GeV}\right]}} \oplus b \oplus \frac{c}{E\left[\text{GeV}\right]}
+	\label{eq:calo}
+	\end{equation}
+	In this formula $\frac{\sigma_E}{E}$ denotes the relative energy resolution depending on the energy $E$, a statistical term $a$, a constant term $b$ - including systematic errors or shower leakage - and a noise term $c$ containing electronics and pile-up noise. At high energies the $b$-term is dominant but can be reduced by adequate calibration. 
 \subsubsection{Electromagnetic Calorimeter}
-	The inner part of the calorimetry system, the electromagnetic calorimeter (ECAL), is supposed to measure the energy of electrons and photons. It consists of $PbWO_4$ crystals and is designed to deliver a very good spatial resolution. With this, photons which are not seen in the tracker can be reconstructed with a high precision. Even the direction of photons can be resolved from shower reconstruction.
-	
+	The inner part of the calorimetry system, the electromagnetic calorimeter (ECAL), is supposed to measure the energy of electrons and photons in a range up to $|\eta| < 3.0$. It consists of \chem{PbWO_4} crystals and is designed to deliver a very good spatial resolution. The crystals are $230\;\text{mm}$ long, which corresponds to $25.8$ times the radiation length of an electron, and have a face area of $22\;\text{mm} \times 22\;\text{mm}$. With this, photons, which are not seen in the tracker, can be reconstructed with a high precision. Even the direction of photons can be resolved from shower reconstruction. This design choice was driven by the decay of a Higgs boson into two photons ($H\rightarrow \gamma \gamma$) where the Higgs boson mass can be reconstructed from the four-momenta of the photon pair. A performance study presented in \cite{EGammaPerformance} names a resolution of less than $2\%$ for $45\;\text{GeV}$ electrons from $Z$ boson decays in the barrel region.
 
-	%todo MATERIAL
-	%todo GROESSE
-	%todo GENAUIGKEIT
 \subsubsection{Hadronic Calorimeter}
-	Since hadrons have a larger absorption length they mostly pass the electromagnetic calorimeter and are measured in the hadronic calorimeter. The hadronic calorimeter (HCAL) uses two alternating layers of different material. One is to absorb the energy of an incoming particle. The other one is made out of a scintillator.
-	%todo GENAUIGKEIT
-	%todo MATERIAL
-	%todo GROESSE
-	
+	Since hadrons have a larger absorption length they mostly pass the electromagnetic calorimeter and are absorbed and measured in the hadronic calorimeter (HCAL). Two alternating layers of different material are used. One is to absorb the energy of an incoming particle and consists of brass plates. The other one is made out of a plastic scintillator. The barrel part of the HCAL begins in a distance of $r=1.77\;\text{m}$ to the interaction point and reaches up to the solenoid at $r=2.95\;\text{m}$ covering a range of $|\eta| < 1.3$. The thickness corresponds to about ten times the hadronic interaction length. To cover a range of $1.3 < |\eta| < 3$, endcaps are installed. Additionally, forward calorimeters at a distance of $11.1\;\text{m}$ in $z$-direction to the interaction point are used to cover the range of $3 < |\eta| < 5$. To account for leakage a further outer calorimeter is installed outside the solenoid. 
+	%todo GENAUIGKEIT: referenzwert wie bei E= XX ist Aufloesung YY
+
  
 \subsection{Muon System}
 \label{sec:muonsystem}
-	Because muons are not absorbed in the calorimeters, it is possible to use an additional tracking detector for muons at the very outside of the detector. Muon chambers are embedded in the iron return yoke of the magnet. Thus a magnetic field of about $2\;\text{T}$ is present.
-	%AUFBAU MUON SYSTEM
-	In cooperation with the inner tracker it is possible to reconstruct muon momenta with high precision.
+	Because of the possibility to reconstruct muons with very high precision, they play an important role in the design of CMS. Thus, a whole system is installed just to identify and measure muons. Because muons at typical energies at LHC are minimal ionizing particles, they are not absorbed in the calorimeters. Therefore, it is possible to use an additional tracking detector for muons at the very outside of the detector. In the barrel part, drift tubes are embedded in the iron return yoke of the magnet where a magnetic field of about $2\;\text{T}$ is present. In addition, two endcaps with cathode strip chambers are installed. 
+	%todo Genauigkeit
+
 \subsection{Trigger}
 \label{sec:trigger}
-	At the interaction points, proton bunches are brought to collision every $25\;\text{ns}$. Per crossing about ????
-	%INTERACTIONNUMBER
-	interactions take place. It is impossible to store that amount of data with this rate and the total required storage capacity is not feasible either. Additionally it would need a tremendous number of computing cores to analyse this data. Therefore a trigger system is installed to select only the interesting events to reduce the amount of data. For the computation system it is required to reduce the amount from ???? to approximately $100\;\text{kHz}$.
-	%RATE VOR UND NACH TRIGGER
- 	To decide which events are worth storing and which will be neglected different criteria are defined.
- 	% TRIGGER MENU
- 	% DIFFERENT TRIGGER LEVELS
- 	%todo anhand welcher detektor systeme entscheidet der trigger?
-	
+	At the interaction points, proton bunches are brought to collision every $25\;\text{ns}$. At the design luminosity, per crossing about $20$ interactions take place. This adds up to $8 \times 10^8$ interactions per second.	It is impossible to store that amount of data with this rate and the total required storage capacity is not feasible either. Additionally it would need a tremendous number of computing cores to analyse this data. Therefore a trigger system is installed to select only the interesting events to reduce the amount of data. For the computation system it is required to reduce the rate by a factor of the order $10^6$ to a few $100\;\text{Hz}$. This is achieved with two trigger stages: a hardware based Level-1 (L1) Trigger\cite{L1} and a software based High-Level Trigger (HLT)\cite{HLT}. The L1 trigger is designed to deliver an output of about $30\;\text{kHz}$, the remaining reduction is done by the HLT.	To decide which events are worth storing and which will be neglected different criteria are defined. Fast components of the detector like calorimeter and muon system are read out and deliver information to the trigger system. Then the trigger makes decisions based on this information, for example store events with high energy muons or jets. CMS then provides a trigger menu where data streams are ordered by the type of object that fired the trigger.
+
 	

@@ -19,6 +19,7 @@
 \usepackage{chngcntr}
 \usepackage{lscape}
 \usepackage[normal]{caption} %style für Bildunterschriften
+\usepackage{textgreek} %greek letters in text format
 \usepackage{multicol} 
 \usepackage{epstopdf}
 \usepackage{textcomp}
@@ -29,6 +30,9 @@
 \usepackage{verbatim}
 \usepackage{tikz-feynman}
 \tikzfeynmanset{compat=1.1.0}
+% ======================
+% special format for chemical formulas
+\newcommand*\chem[1]{\ensuremath{\mathrm{#1}}}
 % ======================
 % customised header and footer
 \usepackage{fancyhdr}
@@ -120,6 +124,7 @@
 \include{Experiment}
 \include{Reconstruction}
 \include{Data_MC}
+\include{Unfolding}
 \include{Analysis}
 \include{Summary}
 \pagestyle{plain}

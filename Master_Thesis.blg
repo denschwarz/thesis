@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Master_Thesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: Titlepage.aux
@@ -10,8 +10,9 @@ A level-1 auxiliary file: Reconstruction.aux
 A level-1 auxiliary file: Data_MC.aux
 A level-1 auxiliary file: Analysis.aux
 A level-1 auxiliary file: Summary.aux
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -21,49 +22,51 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Master_Thesis-blx.bib
 Database file #2: MasterBib.bib
 Biblatex version: 3.3
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 18 entries,
-            6047 wiz_defined-function locations,
-            1232 strings with 10870 characters,
-and the built_in function-call counts, 45323 in all, are:
-= -- 1514
-> -- 1576
-< -- 318
-+ -- 417
-- -- 618
-* -- 3014
-:= -- 2901
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 21 entries,
+            6256 wiz_defined-function locations,
+            1302 strings with 12008 characters,
+and the built_in function-call counts, 89171 in all, are:
+= -- 5649
+> -- 1817
+< -- 376
++ -- 1740
+- -- 697
+* -- 6275
+:= -- 8536
 add.period$ -- 0
-call.type$ -- 18
-change.case$ -- 114
-chr.to.int$ -- 34
-cite$ -- 34
-duplicate$ -- 5207
-empty$ -- 5098
-format.name$ -- 999
-if$ -- 10343
+call.type$ -- 21
+change.case$ -- 147
+chr.to.int$ -- 30
+cite$ -- 40
+duplicate$ -- 9240
+empty$ -- 9074
+format.name$ -- 1114
+if$ -- 18846
 int.to.chr$ -- 0
-int.to.str$ -- 40
+int.to.str$ -- 52
 missing$ -- 0
-newline$ -- 391
-num.names$ -- 664
-pop$ -- 5497
+newline$ -- 531
+num.names$ -- 806
+pop$ -- 6713
 preamble$ -- 1
-purify$ -- 169
+purify$ -- 240
 quote$ -- 0
-skip$ -- 2709
+skip$ -- 2989
 stack$ -- 0
-substring$ -- 382
-swap$ -- 1543
-text.length$ -- 363
+substring$ -- 9370
+swap$ -- 2255
+text.length$ -- 412
 text.prefix$ -- 1
 top$ -- 1
-type$ -- 672
+type$ -- 702
 warning$ -- 0
-while$ -- 313
+while$ -- 985
 width$ -- 0
-write$ -- 372
+write$ -- 511

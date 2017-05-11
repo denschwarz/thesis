@@ -1,4 +1,5 @@
 \chapter{Analysis}
+\label{ch:Ana}
 	This chapter will cover the analysis performed for this thesis. A basic idea of the goals and strategy of this analysis is given in section \ref{sec:strategy}. Previous results, this analysis refers to, are presented in the following. Then a detailed look into event selections, studies on particle level, differences between jet algorithms and finally the unfolding process and its results follows in sections \ref{sec:jet_studies} to \ref{sec:results}.
 \section{Analysis Strategy}
 \label{sec:strategy}
@@ -21,7 +22,7 @@
 	\item $M^{\text{1st jet}} > M^{\text{2nd jet}}$
 	\end{itemize}
 	Where the first jet refers to the leading jet in $p_T$. The first jet is expected to be originating from the hadronically decaying top quark. When using jets clustered with the XCone jet algorithm the first jet already refers to the jet identified as originating from the hadronically decaying top quark because a distance requirement to the lepton is used in the jet finding (see section \ref{sec:XCone_strat}).
-	
+	%todo Selection in Tabellen zusammenfassen, siehe Teresa
 \subsection{XCone Strategy}
 \label{sec:XCone_strat}
 	The XCone jet algorithm described in section \ref{sec:xcone} has already been tested resolving $t\bar{t}$ decays. Studies for hadronically decaying top quark pairs are presented in a paper from Thaler and Wilkason \cite{xconetop}. Here, the XCone algorithm is tuned to the $t\bar{t}$ final state, expecting six jets. Using the information that it is expected to find three jets from each top quark, a promising approach to reconstruct the top quark decays was made with a strategy using two clustering steps. Firstly, the event is divided in two parts. This is done by require the XCone algorithm to find exactly two jets with a radius parameter $R=\infty$. Thus, every particle in the event is clustered into one of the jets. The goal of this first step is to separate the two top quarks into independent jets. Now, a second clustering step finding three jets is run where separate lists of particles from each fat jet are used as an input. Thus, in each fat jet, three smaller jets with $R=0.4$ are found. These three small jets are then combined and used as the final top jets. \\

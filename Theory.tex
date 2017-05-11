@@ -1,4 +1,5 @@
 \chapter{Theory}
+\label{ch:Theo}
 	The goal of particle physics is to explain the universe we observe with basic building blocks which are not further divisible. Starting with quantum mechanics in the early 20th century, physicists have developed a theory answering many questions about the development of the universe. Up to now the resulting standard model of particle physics is the most precisely tested physical theory. In the following the basics of this theory will be described. A special focus is set to the elementary particle which plays the most important role in this analysis - the top quark. Additionally the procedure of unfolding in particle physics is introduced and described.
 \section{Standard model of particle physics}
 	The standard model of particle physics is a quantum field theory describing elementary particles, their interaction and provides the affiliated equations of motion. All particles contained in this theory have been discovered and various experiments have confirmed predictions of the standard model at very high precision. All known elementary particles of the standard model and their properties - mass, electromagnetic and colour charge and their spin - are displayed in Fig. \ref{SM}. They are ordered in two fundamental groups by their spin. spin-$\frac{1}{2}$ particles are called fermions, particles with integer spin are named bosons. 
@@ -115,24 +116,6 @@
 		\begin{feynman}	
 		\vertex(a);
 		\vertex[right=of a] (b);
-		\vertex[below left=of a] (i1){\(g\)};
-		\vertex[above left=of a] (i2){\(g\)};		
-		\vertex[below right=of b] (f1){\(\overline t\)};				
-		\vertex[above right=of b] (f2){\(t\)};		
-		\diagram* {
-		(a)-- [gluon,edge label'=\(g\)] (b),
-		(i1)-- [gluon] (a) -- [gluon] (i2),
-		(f1)-- [fermion] (b) -- [fermion] (f2),
-		};
-		\end{feynman}
-		\end{tikzpicture}
-		\caption{}
-		\end{subfigure}
-		\begin{subfigure}{.4\textwidth}
-		\begin{tikzpicture}
-		\begin{feynman}	
-		\vertex(a);
-		\vertex[right=of a] (b);
 		\vertex[below left=of a] (i1){\(q\)};
 		\vertex[above left=of a] (i2){\(\overline q\)};		
 		\vertex[below right=of b] (f1){\(\overline t\)};				
@@ -150,11 +133,29 @@
 		\begin{tikzpicture}
 		\begin{feynman}	
 		\vertex(a);
+		\vertex[right=of a] (b);
+		\vertex[below left=of a] (i1){\(g\)};
+		\vertex[above left=of a] (i2){\(g\)};		
+		\vertex[below right=of b] (f1){\(\overline t\)};				
+		\vertex[above right=of b] (f2){\(t\)};		
+		\diagram* {
+		(a)-- [gluon,edge label'=\(g\)] (b),
+		(i1)-- [gluon] (a) -- [gluon] (i2),
+		(f1)-- [fermion] (b) -- [fermion] (f2),
+		};
+		\end{feynman}
+		\end{tikzpicture}
+		\caption{}
+		\end{subfigure}		
+		\begin{subfigure}{.4\textwidth}
+		\begin{tikzpicture}
+		\begin{feynman}	
+		\vertex(a);
 		\vertex[below=of a] (b);
-		\vertex[above left=of a] (i1){\(g\)};
-		\vertex[below left=of b] (i2){\(g\)};		
-		\vertex[above right=of a] (f1){\(t\)};				
-		\vertex[below right=of b] (f2){\(\overline{t}\)};		
+		\vertex[left=of a] (i1){\(g\)};
+		\vertex[left=of b] (i2){\(g\)};		
+		\vertex[right=of a] (f1){\(t\)};				
+		\vertex[right=of b] (f2){\(\overline{t}\)};		
 		\diagram* {
 		(b)-- [fermion] (a),
 		(i1)-- [gluon] (a) -- [fermion] (f1),
@@ -169,20 +170,20 @@
 		\begin{feynman}	
 		\vertex(a);
 		\vertex[below=of a] (b);
-		\vertex[above left=of a] (i1){\(g\)};
-		\vertex[below left=of b] (i2){\(g\)};		
-		\vertex[above right=of a] (f1){\(t\)};				
-		\vertex[below right=of b] (f2){\(\overline{t}\)};		
+		\vertex[left=of a] (i1){\(g\)};
+		\vertex[left=of b] (i2){\(g\)};		
+		\vertex[right=of a] (f1){\(t\)};				
+		\vertex[right=of b] (f2){\(\overline{t}\)};		
 		\diagram* {
-		(b)-- [gluon] (a),
-		(i1)-- [gluon] (a) -- [fermion] (f1),
-		(i2)-- [gluon] (b) -- [anti fermion] (f2),
+		(b)-- [fermion] (a),
+		(i1)-- [gluon] (b) -- [anti fermion] (f2),
+		(i2)-- [gluon] (a) -- [fermion] (f1),
 		};
 		\end{feynman}
 		\end{tikzpicture}
 		\caption{}
 		\end{subfigure}
-		\caption{Feynman diagrams \cite{feynman} showing the production of top quark pairs. Displayed are the gluon-gluon fusion (a), the quark anti-quark annihilation (b) and the t-channel (c+d).}
+		\caption{Feynman diagrams \cite{feynman} showing the production of top quark pairs. Displayed are quark anti-quark annihilation (a), and gluon-gluon fusion in the s-channel (b), t-channel  (c) and u-channel (d).}
 		\label{fig:production}
 	\end{figure}	
 	The top quark decays via the weak interaction with a probability of almost $100\%$ into a bottom quark and a $W$ boson. This property arises from the entry in the CKM matrix $|V_{tb}|^2 \approx 0.998$ \cite{pdg2016}. While the bottom quark is seen as a jet in the detector, the $W^\pm$ boson further decays into a quark anti-quark pair (see fig. \ref{fig:decaya}) or into a lepton (anti-lepton) and an anti-neutrino (neutrino) (see fig. \ref{fig:decayb}). Looking at the $t\bar{t}$ production, these two possible final states for each top quark corresponds to three channels for the $t\bar{t}$ process. 
@@ -258,7 +259,7 @@
 		\vertex[above right=of bW] (bq){\(q\)};		
 		\vertex[below right=of bW] (baq){\(\overline q\)};				
 		\vertex[above left=of cW] (cl){\(l\)};		
-		\vertex[below left=of cW] (cnu){\(\overline \nu\)};
+		\vertex[below left=of cW] (cnu){\(\overline \nu_l\)};
 		\diagram* {
 		(a)-- [fermion,edge label'=\(t\)] (b),
 		(a)-- [anti fermion,edge label'=\(\overline t\)] (c),
@@ -277,7 +278,5 @@
 		\label{fig:semilep}
 	\end{figure}
 	Measuring the top quark mass is usually performed via a template fit. Therefore $t\bar{t}$ events are simulated for different masses $m_\text{top}^{MC}$. Then a selection is applied to data and simulation with the goal to select preferably $t\bar{t}$ events. Finally the different simulation with different $m_\text{top}^{MC}$ are fitted to data.	The most precise mass measurement of this kind is archived combining results of the CMS, ATLAS, CDF, and D0 collaborations. The result of this world average is a value of $173.34 \pm 0.27 (\text{stat}) \pm 0.71 (\text{sys})\;\text{GeV}$ \cite{topmass_combination}. Doing these kinds of measurements one relies on a correct simulation of $t\bar{t}$ events. Especially the mass parameter in Monte-Carlo generators can not be related to a mass one would calculate in a Lagrange density.
-\section{Unfolding}
-	Most analyses at LHC measure distributions of appropriate variables and then compare the obtained results in data with event simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with an unknown detector function. Studying the difference in MC between particle level and reconstruction level, it is possible to calculate the probabilities that a measured value in a bin $x_i$ is originating from bin $y_i$ on particle level. The resulting matrix can then be applied to real data to obtain data on particle level. The obtained distribution is corrected for detector effects by the unfolding and can then be compared with theory calculations. Additionally, measurements on particle level do not depend on simulation ambiguities like the mass parameter put into the Monte-Carlo generator.
 
 	

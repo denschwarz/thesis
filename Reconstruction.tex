@@ -1,4 +1,5 @@
 \chapter{Reconstruction of Objects}
+\label{ch:Reco}
 	From all kinds of information provided by the detector systems has to be interpreted as physical objects in order to analyse the recorded data. Therefore algorithms are run to link the information from the detector to usable objects like muons, electrons or jets. Objects are defined by their detection in different detector systems. Paths of all detectable objects through the detector are sketched in Fig. \ref{fig:CMS_reco}.
 		\begin{figure}[tb]
 			\centering
@@ -38,7 +39,7 @@
 	%todo Infrared and Collinear safe erklären
 	All presented jet algorithms in this thesis fulfil these requirements.
 \subsection{Anti-$k_T$ Jet Algorithm}
-	In CMS the common way to cluster jets from the detected particles is to use iterative jet algorithms. Thus particles are clustered step by step until an abort criterion is reached. The most common and proven to be useful iterative jet algorithm is the Anti-$k_T$ (AK) algorithm \cite{antikt}. As an input a list of objects, reconstructed in the detector is given. The AK algorithm then calculates two quantities $d_{ij}$ (Eq. \ref{eq:dij}) and $d_{iB}$ (Eq. \ref{eq:iB}) for each pair of objects $i$ and $j$:
+	In CMS the common way to cluster jets from the detected particles is to use iterative jet algorithms. Thus particles are clustered step by step until an abort criterion is reached. The most common and proven to be useful iterative jet algorithm is the Anti-$k_T$ (AK) algorithm \cite{antikt}. As an input a list of objects, reconstructed in the detector is given. The Anti-$k_T$ algorithm then calculates two quantities $d_{ij}$ (Eq. \ref{eq:dij}) and $d_{iB}$ (Eq. \ref{eq:iB}) for each pair of objects $i$ and $j$:
 	\begin{equation}
 	d_{ij} = min (k_{T,i}^{-2}, k_{T,j}^{-2})  \frac{\Delta R_{ij}^2}{R^2}
 	\label{eq:dij}
@@ -47,7 +48,7 @@
 	d_{iB} = k_{T,i}^{-2}.
 	\label{eq:iB}
 	\end{equation}
-	Here $d_{ij}$ describes a effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis. $k_T$ is the transverse momentum of an object, $\Delta R_{ij}$ denotes the distance between objects $i$ and $j$ an $R$ is a constant parameter that defines the radius of the resulting jet. When $d_{ij}$ is smaller than $d_{iB}$ both objects $i$ and $j$ are combined and both quantities are calculated again. At some point, $d_{iB}$ will be smaller than any $d_{ij}$, then object $i$ is called a jet and is removed from the list of objects. This procedure is repeated until the list of objects is empty. With the anti-$k_T$ jet algorithm, particles with large transverse momenta are clustered first because $d_{ij}$ (Eq. \ref{eq:dij}) is easily smaller then $d{iB}$ for large $p_T$. The resulting jets are very circular. 
+	Here $d_{ij}$ describes a effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis. The variable $k_T$ is the transverse momentum of an object, $\Delta R_{ij}$ denotes the distance between objects $i$ and $j$ an $R$ is a constant parameter that defines the radius of the resulting jet. When $d_{ij}$ is smaller than $d_{iB}$ both objects $i$ and $j$ are combined and both quantities are calculated again. At some point, $d_{iB}$ will be smaller than any $d_{ij}$, then object $i$ is called a jet and is removed from the list of objects. This procedure is repeated until the list of objects is empty. With the anti-$k_T$ jet algorithm, particles with large transverse momenta are clustered first because $d_{ij}$ (Eq. \ref{eq:dij}) is easily smaller then $d{iB}$ for large $p_T$. The resulting jets are very circular. 
 	%todo plot mit AK shape.
 	%todo KT und CA auch erwähnen?
 
@@ -80,6 +81,7 @@
 	\\ Since the N-jettiness variable is often used to do theory calculations of particle physics events, the XCone algorithm is easier to include in these calculations.
 
 \subsection{b-Jets}
+\label{sec:btag}
 	In this analysis jets originating from a bottom quark are identified to reduce background. To identify a jet as an b-jet the "Combined Secondary Vertex" (CSV) algorithm is used. Since b-hadrons have a large lifetime of $1.5\;\text{ps}$ they travel about $450\;\text{\textmu m}$ in the detector before decaying. This leads to a secondary vertex at the spatial point where the hadron decays which can be reconstructed in the tracking system. Additionally the composition of hadrons in a b-jet is different from other jets.
 	%todo ALLES AUßER secondary vertex NOCHMAL NACHLESEN 	
 	%todo working points beschreiben
