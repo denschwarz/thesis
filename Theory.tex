@@ -1,12 +1,12 @@
 \chapter{Theory}
 \label{ch:Theo}
-	The goal of particle physics is to explain the universe we observe with basic building blocks which are not further divisible. Starting with quantum mechanics in the early 20th century, physicists have developed a theory answering many questions about the development of the universe. Up to now the resulting standard model of particle physics is the most precisely tested physical theory. In the following the basics of this theory will be described. A special focus is set to the elementary particle which plays the most important role in this analysis - the top quark. Additionally the procedure of unfolding in particle physics is introduced and described.
+	The goal of particle physics is to explain the universe we observe with basic building blocks and fundamental interactions between them. Starting with quantum mechanics in the early 20\textsuperscript{th} century, physicists have developed a theory answering many questions about the development and current state of the universe. Up to now the underlying standard model of particle physics is the most precisely tested physical theory. In the following, basics of this theory will be described. A special focus is set to the elementary particle which plays the most important role in this analysis - the top quark. Additionally, the goal and procedure of unfolding in particle physics is introduced and described.
 \section{Standard model of particle physics}
-	The standard model of particle physics is a quantum field theory describing elementary particles, their interaction and provides the affiliated equations of motion. All particles contained in this theory have been discovered and various experiments have confirmed predictions of the standard model at very high precision. All known elementary particles of the standard model and their properties - mass, electromagnetic and colour charge and their spin - are displayed in Fig. \ref{SM}. They are ordered in two fundamental groups by their spin. spin-$\frac{1}{2}$ particles are called fermions, particles with integer spin are named bosons. 
+	The standard model of particle physics is a quantum field theory describing elementary particles, their interactions and provides affiliated equations of motion. All particles contained in this theory have been discovered and various experiments have confirmed predictions of the standard model at very high precision. Elementary particles of the standard model and their properties - mass, electromagnetic charge and their spin - are displayed in Fig. \ref{SM}. They are ordered in two fundamental groups by their spin. Spin-$\frac{1}{2}$ particles are called fermions, particles with integer spin are named bosons. 
 	\\
-	Fermions are further divided into quarks and leptons. While quarks are affected by the strong force, leptons are not. Both subgroups consist of three generations with two particles in each group. Each generation of quarks contain one up-type and one down-type quark distinguished by their electromagnetic charge. For leptons a generation is built from a particle with charge of $1e$ and an neutral neutrino. The first generation of quarks and leptons then are the building blocks of atoms. All other particles have a larger mass and therefore a finite lifetime. Additionally every fermion has a anti-partner which has the same mass but opposite charge. 
+	Fermions are further divided into quarks and leptons. While quarks are affected by the strong force, leptons are not. Both subgroups consist of three generations with two particles in each group. Each generation of quarks contain one up-type and one down-type quark distinguished by their electromagnetic charge of $+\frac{2}{3}e$ and $-\frac{1}{3}e$, respectively. For leptons a generation is built from a particle with charge of $-1e$ and an neutral neutrino. The first generation of quarks and leptons then are the building blocks of atoms. All other particles have a larger mass and therefore a finite lifetime. Additionally every fermion has a anti-partner which has the same mass but opposite charge. 
 	\\	
-	Bosons are the carriers of the three fundamental forces included in the standard model. Every interaction of two particles is described by a boson emitted from one and absorbed by the other particle. Thus a boson changes energy and momentum of an absorbing or emitting particle. For each force a charge is introduced. Only particles carrying the charge connected to a force can interact with the corresponding boson. Thus, the amount of charge carried by a particle is proportional to the probability of emitting or absorbing a boson. 
+	Bosons are carriers of the three fundamental forces included in the standard model. Every interaction of two particles is described by a boson emitted from one and absorbed by the other particle. Thus, a boson changes energy and momentum of an absorbing or emitting particle. For each force a charge is introduced. Only particles carrying the charge connected to a force can interact with the corresponding boson. Hence, the amount of charge carried by a particle is proportional to the probability of emitting or absorbing a boson. 
 	\\
 	With the discovery of the Higgs boson in 2012, all particles of the standard model have been experimentally confirmed. Although, the theory is believed to be incomplete, because known phenomena like gravity and dark matter are not included, the standard model is very successful to describe outcomes of experiments with very high precision. A more detailed look on the different interactions is given in the sections below. 
 	\begin{figure}[htb]
@@ -38,7 +38,7 @@
 	\begin{equation}
 	\mathcal{L} = \underbrace{\bar{\psi} i \gamma^\mu \partial_\mu \psi}_{\text{kinetic term}} - \underbrace{m \bar{\psi} \psi}_{\text{mass term}} - \underbrace{q \bar{\psi} \gamma^\mu \psi A_\mu(x)}_{\text{interaction term}}.
 	\end{equation}
-	Thus, by requiring the Lagrange density to be symmetric under gauge transformations a new vector field is predicted. This vector field is then associated with the photon. Because no mass term for the Photon field occurs, it is predicted to be massless. Additionally the coupling between fermions $\psi$ and photon $A_\mu$ are included.
+	Thus, by requiring the Lagrange density to be symmetric under gauge transformations a new vector field is predicted. This vector field is then associated with the photon. Because no mass term for the Photon field occurs, it is predicted to be massless. Additionally the coupling between fermions $\psi$ and photon $A_\mu$ are included. \cite{ModernParticlePhysics}
 	\subsection{Quantum Chromo Dynamics (QCD)}
 	The theory behind QCD is developed analogously to QED. The main difference between QCD and QED is its charge space. The charge of QCD is called colour and exists in three states for particles: red, green and blue. Additionally every colour has its anti-colour carried by anti-particles. Thus, one has to consider rotations in the three dimensional colour space. Here it is important to take the generators $T_a$ of $SU(3)$ into account. Similar to QED a covariant derivative is defined to construct a symmetric Lagrange density. The covariant derivative for QCD reads:
 	\begin{equation}
@@ -183,7 +183,7 @@
 		\end{tikzpicture}
 		\caption{}
 		\end{subfigure}
-		\caption{Feynman diagrams \cite{feynman} showing the production of top quark pairs. Displayed are quark anti-quark annihilation (a), and gluon-gluon fusion in the s-channel (b), t-channel  (c) and u-channel (d).}
+		\caption{Feynman diagrams showing the production of top quark pairs. Displayed are quark anti-quark annihilation (a), and gluon-gluon fusion in the s-channel (b), t-channel  (c) and u-channel (d). Created with \cite{feynman}.}
 		\label{fig:production}
 	\end{figure}	
 	The top quark decays via the weak interaction with a probability of almost $100\%$ into a bottom quark and a $W$ boson. This property arises from the entry in the CKM matrix $|V_{tb}|^2 \approx 0.998$ \cite{pdg2016}. While the bottom quark is seen as a jet in the detector, the $W^\pm$ boson further decays into a quark anti-quark pair (see fig. \ref{fig:decaya}) or into a lepton (anti-lepton) and an anti-neutrino (neutrino) (see fig. \ref{fig:decayb}). Looking at the $t\bar{t}$ production, these two possible final states for each top quark corresponds to three channels for the $t\bar{t}$ process. 
@@ -240,7 +240,7 @@
 		\end{tikzpicture}
 		\caption{}
 	\end{subfigure}
-	\caption{Feynman diagrams \cite{feynman} of a leptonically (a) and hadronically (b) decaying top quark.}
+	\caption{Feynman diagrams \cite{feynman} of a leptonically (a) and hadronically (b) decaying top quark. Created with \cite{feynman}.}
 	\label{fig:decayb}
 	\end{figure}
 	
@@ -274,7 +274,7 @@
 		};
 		\end{feynman}
 		\end{tikzpicture}
-		\caption{Feynman diagram \cite{feynman} displaying an event from the lepton+jets channel. The centred circle indicates a mechanism to produce a $t\bar{t}$ pair.}
+		\caption{Feynman diagram \cite{feynman} displaying an event from the lepton+jets channel. The centred circle indicates a mechanism to produce a $t\bar{t}$ pair. Created with \cite{feynman}.}
 		\label{fig:semilep}
 	\end{figure}
 	Measuring the top quark mass is usually performed via a template fit. Therefore $t\bar{t}$ events are simulated for different masses $m_\text{top}^{MC}$. Then a selection is applied to data and simulation with the goal to select preferably $t\bar{t}$ events. Finally the different simulation with different $m_\text{top}^{MC}$ are fitted to data.	The most precise mass measurement of this kind is archived combining results of the CMS, ATLAS, CDF, and D0 collaborations. The result of this world average is a value of $173.34 \pm 0.27 (\text{stat}) \pm 0.71 (\text{sys})\;\text{GeV}$ \cite{topmass_combination}. Doing these kinds of measurements one relies on a correct simulation of $t\bar{t}$ events. Especially the mass parameter in Monte-Carlo generators can not be related to a mass one would calculate in a Lagrange density.
