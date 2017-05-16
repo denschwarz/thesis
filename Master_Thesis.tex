@@ -15,7 +15,7 @@
 \usepackage[onehalfspacing]{setspace}
 \usepackage[section]{placeins} %Bilder rutschen nicht aus section
 \usepackage[markup=nocolor,deletedmarkup=xout]{changes}
-\usepackage{cancel} 
+\usepackage{cancel}
 \usepackage{chngcntr}
 \usepackage{lscape}
 \usepackage[normal]{caption} %style für Bildunterschriften
@@ -27,7 +27,9 @@
 \usepackage{subcaption}
 \usepackage{tikz}
 \usepackage{verbatim}
-\usepackage{tikz-feynman}
+\usepackage{microtype} %bessere Zeilenumbrueche, z.B. ISBN in Literatur
+\usepackage{typearea}
+\usepackage{tikz-feynman} %Feynman Diagrams
 \tikzfeynmanset{compat=1.1.0}
 % ======================
 % special format for chemical formulas
@@ -76,11 +78,18 @@
 \counterwithin{equation}{chapter}
 % ======================= 
 % bibliography stuff
-\usepackage{typearea}
 \usepackage[style=ieee, maxbibnames=100, sorting=none, backend=bibtex]{biblatex}
+\addbibresource{MasterBib.bib}
+\ExecuteBibliographyOptions{% 
+firstinits=true, 
+maxbibnames=3, % Alle Autoren (kein et al.) 
+minalphanames=3, 
+maxalphanames=3, 
+}% 
+
 \usepackage[babel, german=quotes]{csquotes}
 
-\addbibresource{MasterBib.bib}
+
 % =======================
 
 \usepackage{hyperref}

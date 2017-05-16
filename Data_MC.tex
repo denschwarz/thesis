@@ -2,17 +2,20 @@
 \label{ch:MC}
 	In almost every particle physics analysis data is compared to simulations. Physicists have to rely on simulations because it is not possible to purely calculate the outcome one sees in the detector. In this chapter the used data set is described as well as the production of a Monte-Carlo Simulation of a given process.
 	\section{Data}
-	This Thesis analyses data recorded by the CMS detector in 2016 at a centre-of-mass energy of $13\;\text{TeV}$. The size of the data set corresponds to an integrated luminosity of $37.76\;\text{fb}^{-1}$. A detailed view of the data taking is presented in Fig. \ref{fig:CMS_lumi}.
+	This Thesis analyses data recorded by the CMS detector in 2016 at a centre-of-mass energy of $13\;\text{TeV}$. The size of the data set corresponds to an integrated luminosity of $37.76\;\text{fb}^{-1}$. A detailed view of the data taking is presented in Fig. \ref{fig:CMS_lumi}. Data used in CMS analyses is required to pass a quality criterion. For this, only selected runs are used where the accelerator and detector worked properly.
 	\begin{figure}[tb]
 		\centering
 		\includegraphics [width=.8\textwidth]{../Plots/CMS_Lumi.pdf}
-		\caption{Integrated luminosity recorded by CMS (orange) in comparison with the data delivered by LHC (blue). The growth of the dataset corresponding to $37.76\;\text{fb}^{-1}$ is shown for the data taking period of 2016. \cite{CMSlumi}}
+		\caption{Integrated luminosity recorded by CMS (orange) in comparison with the data delivered by LHC (blue). The growth of the dataset corresponding to $37.76\;\text{fb}^{-1}$ is shown for the data taking period of 2016. Taken from \cite{CMSlumi}.}
 		\label{fig:CMS_lumi}
 	\end{figure}
-	\section{Event Generator and Parton Shower}
+	
+\section{Event Generator and Parton Shower}
+\label{sec:Simulation}
 	Scattering outcomes of LHC experiments are complex and therefore cannot be calculated. To predict how a process distributes over a certain variable Monte Carlo simulations are used. 
 	%todo generator
 	%todo shower/hadronisation 
+	%todo Cut-off und top mass
 	\section{Monte-Carlo samples}
 	%todo MC hat auch GEN!
 	Additionally MC samples listed in table \ref{MC_Tab} are processed. The most important simulation for this analysis is of course the $t\bar{t}$ sample. The main background processes are $W$+jets and single-top production.

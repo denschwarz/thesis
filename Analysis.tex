@@ -26,7 +26,7 @@
 \subsection{XCone Strategy}
 \label{sec:XCone_strat}
 	The XCone jet algorithm described in section \ref{sec:xcone} has already been tested resolving $t\bar{t}$ decays. Studies for hadronically decaying top quark pairs are presented in a paper from Thaler and Wilkason \cite{xconetop}. Here, the XCone algorithm is tuned to the $t\bar{t}$ final state, expecting six jets. Using the information that it is expected to find three jets from each top quark, a promising approach to reconstruct the top quark decays was made with a strategy using two clustering steps. Firstly, the event is divided in two parts. This is done by require the XCone algorithm to find exactly two jets with a radius parameter $R=\infty$. Thus, every particle in the event is clustered into one of the jets. The goal of this first step is to separate the two top quarks into independent jets. Now, a second clustering step finding three jets is run where separate lists of particles from each fat jet are used as an input. Thus, in each fat jet, three smaller jets with $R=0.4$ are found. These three small jets are then combined and used as the final top jets. \\
-	\\ In this analysis the lepton+jets channel is used. Therefore the jet originating from the hadronically decaying top quark is identified while calculating the distance between each jet and the lepton. Additionally studies with a method where the fat jet originating from the leptonically decaying top quark is divided into two instead of three jets is presented('$2+3$'). This approach was made because the neutrino from the $W$ decay cannot be seen in the detector. Nevertheless it proved to be handy to use the '$3+3$' method for data and therefore also for MC samples after detector simulation.   
+	\\ In this analysis the lepton+jets channel is used. Therefore the jet originating from the hadronically decaying top quark is identified while calculating the distance between each jet and the lepton. Additionally studies with a method where the fat jet originating from the leptonically decaying top quark is divided into two instead of three jets is presented('$2+3$'). This approach was made because the neutrino from the $W$ decay cannot be seen in the detector. Nevertheless it proved handy to use the '$3+3$' method for data and therefore also for MC samples after detector simulation.   
 \subsection{Comparing Jet Algorithms}
 
 \section{Selection on Reconstruction Level}
@@ -60,4 +60,4 @@
 
 \section{Unfolding}
 \section{Results}
-\label{sex:results}
+\label{sec:results}

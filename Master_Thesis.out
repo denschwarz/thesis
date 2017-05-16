@@ -7,40 +7,43 @@
 \BOOKMARK [2][-]{subsection.2.1.4}{Electroweak Unification}{section.2.1}% 7
 \BOOKMARK [2][-]{subsection.2.1.5}{Higgs Mechanism and Spontaneous Symmetry Breaking}{section.2.1}% 8
 \BOOKMARK [1][-]{section.2.2}{Top Quark}{chapter.2}% 9
-\BOOKMARK [0][-]{chapter.3}{Experiment}{}% 10
-\BOOKMARK [1][-]{section.3.1}{Large Hadron Collider}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.2}{CMS Detector}{chapter.3}% 12
-\BOOKMARK [2][-]{subsection.3.2.1}{Solenoid}{section.3.2}% 13
-\BOOKMARK [2][-]{subsection.3.2.2}{Tracker}{section.3.2}% 14
-\BOOKMARK [2][-]{subsection.3.2.3}{Calorimeters}{section.3.2}% 15
-\BOOKMARK [2][-]{subsection.3.2.4}{Muon System}{section.3.2}% 16
-\BOOKMARK [2][-]{subsection.3.2.5}{Trigger}{section.3.2}% 17
-\BOOKMARK [0][-]{chapter.4}{Reconstruction of Objects}{}% 18
-\BOOKMARK [1][-]{section.4.1}{Coordinate System}{chapter.4}% 19
-\BOOKMARK [1][-]{section.4.2}{Particle Flow}{chapter.4}% 20
-\BOOKMARK [1][-]{section.4.3}{Electrons}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.4}{Muons}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.5}{Jets}{chapter.4}% 23
-\BOOKMARK [2][-]{subsection.4.5.1}{Anti-kT Jet Algorithm}{section.4.5}% 24
-\BOOKMARK [2][-]{subsection.4.5.2}{HOTVR Jet Algorithm}{section.4.5}% 25
-\BOOKMARK [2][-]{subsection.4.5.3}{XCone Jet Algorithm}{section.4.5}% 26
-\BOOKMARK [2][-]{subsection.4.5.4}{b-Jets}{section.4.5}% 27
-\BOOKMARK [1][-]{section.4.6}{E-8.5-.25exT and ST}{chapter.4}% 28
-\BOOKMARK [0][-]{chapter.5}{Data and Simulation}{}% 29
-\BOOKMARK [1][-]{section.5.1}{Data}{chapter.5}% 30
-\BOOKMARK [1][-]{section.5.2}{Event Generator and Parton Shower}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.3}{Monte-Carlo samples}{chapter.5}% 32
-\BOOKMARK [0][-]{chapter.6}{Unfolding}{}% 33
-\BOOKMARK [0][-]{chapter.7}{Analysis}{}% 34
-\BOOKMARK [1][-]{section.7.1}{Analysis Strategy}{chapter.7}% 35
-\BOOKMARK [1][-]{section.7.2}{Previous Results}{chapter.7}% 36
-\BOOKMARK [1][-]{section.7.3}{Jet Studies on Particle Level}{chapter.7}% 37
-\BOOKMARK [2][-]{subsection.7.3.1}{Selection on particle level}{section.7.3}% 38
-\BOOKMARK [2][-]{subsection.7.3.2}{XCone Strategy}{section.7.3}% 39
-\BOOKMARK [2][-]{subsection.7.3.3}{Comparing Jet Algorithms}{section.7.3}% 40
-\BOOKMARK [1][-]{section.7.4}{Selection on Reconstruction Level}{chapter.7}% 41
-\BOOKMARK [2][-]{subsection.7.4.1}{Baseline Selection}{section.7.4}% 42
-\BOOKMARK [2][-]{subsection.7.4.2}{Measurement Phase Space}{section.7.4}% 43
-\BOOKMARK [1][-]{section.7.5}{Unfolding}{chapter.7}% 44
-\BOOKMARK [1][-]{section.7.6}{Results}{chapter.7}% 45
-\BOOKMARK [0][-]{chapter.8}{Summary and Outlook}{}% 46
+\BOOKMARK [2][-]{subsection.2.2.1}{Production in Hadron Colliders and Decay}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Mass Measurements}{section.2.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Experiment}{}% 12
+\BOOKMARK [1][-]{section.3.1}{Large Hadron Collider}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.2}{CMS Detector}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.2.1}{Solenoid}{section.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.2.2}{Tracker}{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.3}{Calorimeters}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.4}{Muon System}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.5}{Trigger}{section.3.2}% 19
+\BOOKMARK [0][-]{chapter.4}{Reconstruction of Objects}{}% 20
+\BOOKMARK [1][-]{section.4.1}{Coordinate System}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{Particle Flow}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.3}{Electrons}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.4}{Muons}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.5}{Jets}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.5.1}{Anti-kT Jet Algorithm}{section.4.5}% 26
+\BOOKMARK [2][-]{subsection.4.5.2}{HOTVR Jet Algorithm}{section.4.5}% 27
+\BOOKMARK [2][-]{subsection.4.5.3}{XCone Jet Algorithm}{section.4.5}% 28
+\BOOKMARK [2][-]{subsection.4.5.4}{b-Jets}{section.4.5}% 29
+\BOOKMARK [1][-]{section.4.6}{E-8.5-.25exT and ST}{chapter.4}% 30
+\BOOKMARK [0][-]{chapter.5}{Data and Simulation}{}% 31
+\BOOKMARK [1][-]{section.5.1}{Data}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.2}{Event Generator and Parton Shower}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.3}{Monte-Carlo samples}{chapter.5}% 34
+\BOOKMARK [0][-]{chapter.6}{Unfolding}{}% 35
+\BOOKMARK [1][-]{section.6.1}{Regularised Unfolding with TUnfold}{chapter.6}% 36
+\BOOKMARK [0][-]{chapter.7}{Analysis}{}% 37
+\BOOKMARK [1][-]{section.7.1}{Analysis Strategy}{chapter.7}% 38
+\BOOKMARK [1][-]{section.7.2}{Previous Results}{chapter.7}% 39
+\BOOKMARK [1][-]{section.7.3}{Jet Studies on Particle Level}{chapter.7}% 40
+\BOOKMARK [2][-]{subsection.7.3.1}{Selection on particle level}{section.7.3}% 41
+\BOOKMARK [2][-]{subsection.7.3.2}{XCone Strategy}{section.7.3}% 42
+\BOOKMARK [2][-]{subsection.7.3.3}{Comparing Jet Algorithms}{section.7.3}% 43
+\BOOKMARK [1][-]{section.7.4}{Selection on Reconstruction Level}{chapter.7}% 44
+\BOOKMARK [2][-]{subsection.7.4.1}{Baseline Selection}{section.7.4}% 45
+\BOOKMARK [2][-]{subsection.7.4.2}{Measurement Phase Space}{section.7.4}% 46
+\BOOKMARK [1][-]{section.7.5}{Unfolding}{chapter.7}% 47
+\BOOKMARK [1][-]{section.7.6}{Results}{chapter.7}% 48
+\BOOKMARK [0][-]{chapter.8}{Summary and Outlook}{}% 49

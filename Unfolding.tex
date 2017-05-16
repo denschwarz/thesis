@@ -1,4 +1,35 @@
 \chapter{Unfolding}
 \label{ch:unfolding}
-	Most analyses at LHC measure distributions of appropriate variables and then compare the obtained results in data with event simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with an unknown detector function. Studying the difference in MC between particle level and reconstruction level, it is possible to calculate the probabilities that a measured value in a bin $x_i$ is originating from bin $y_i$ on particle level. The resulting matrix can then be applied to real data to obtain data on particle level. The obtained distribution is corrected for detector effects by the unfolding and can then be compared with theory calculations. Additionally, measurements on particle level do not depend on simulation ambiguities like the mass parameter put into the Monte-Carlo generator.
-	%todo Bild von unfolding zeigen
+%todo eigenes chapter oder in Theory?
+	Most analyses at LHC measure distributions of appropriate variables and then compare the obtained results in data with event simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with an unknown detector function. Studying the difference in MC between particle level and reconstruction level, it is possible to calculate the probabilities that a measured value in a bin $y_i$ is originating from bin $x_i$ on particle level. A visualisation of this problem is drawn in Fig. \ref{fig:Unfolding}.	
+	\begin{figure}[tb]
+		\centering
+		\includegraphics [width=.6\textwidth]{../Images/Unfolding.png}
+		\caption{Schematic view of an unfolding procedure. The goal is to unfold a measured distribution $\mathbf{y}$ to obtain a true distribution $\mathbf{x}$ without detector effects. Taken from \cite{tunfold}.}
+		\label{fig:Unfolding}
+	\end{figure}
+	The matrix $\mathbf{A}$ describing migrations from bins in $\mathbf{x}$ to bins in $\mathbf{y}$ can be calculated using simulations where both distributions $\mathbf{x}$ and $\mathbf{y}$ are known. Then, the migration matrix can be used obtain an estimate for data on particle level. Following Eq. \ref{eq:unfold} denotes the basic problem one has to solve:
+	\begin{equation}
+	\tilde{y}_i = \sum_{j=1}^{m} A_{ij}\tilde{x}_j, 1 \leq i \leq n
+	\label{eq:unfold}
+	\end{equation}
+	where $m$ and $n$ are the number of bins of the true and measured distributions, respectively. The tilde marks the statistical mean of $\mathbf{x}$ and $\mathbf{y}$. Here, one is interested in a distribution $x_j$ and not $\tilde{x}_j$ what makes this problem not trivial. If one only replaces $\tilde{y}_i \rightarrow y_i$ and $\tilde{x}_j \rightarrow x_j$ and solve for $x_j$ by inverting the matrix $\mathbf{A}$, statistical fluctuations of $\mathbf{y}$ would be amplified. Thus, fluctuations have to be damped with a regularisation.
+	
+\section{Regularised Unfolding with TUnfold}
+	The TUnfold software package \cite{tunfold} provides a framework for regularised unfolding procedures in high energy physics. Equation \ref{eq:unfold_lagrange} shows the Lagrangian implemented in TUnfold that is minimised.
+	\begin{eqnarray}
+	\label{eq:unfold_lagrange}
+	\mathcal{L}(x,\lambda) &=& \mathcal{L}_1 + \mathcal{L}_2 + \mathcal{L}_3 
+	\\ \nonumber \text{with}
+	\\ 
+	\label{eq:unfold_lagrange1}
+	\mathcal{L}_1 &=& (\mathbf{y} - \mathbf{Ax})^\intercal \mathbf{V_{yy}}^{-1} (\mathbf{y} - \mathbf{Ax}) 
+	\\
+	\label{eq:unfold_lagrange2}
+	\mathcal{L}_2 &=& \tau^2 (\mathbf{x} - f_b \mathbf{x}_0)^\intercal (\mathbf{L}^\intercal \mathbf{L}) (\mathbf{x} - f_b \mathbf{x}_0) 
+	\\
+	\label{eq:unfold_lagrange3}
+	\mathcal{L}_3 &=& \lambda (Y-\mathbf{e}^\intercal \mathbf{x}) \ \text{with} \ Y=\sum_{i} y_i \ \text{and} \ e_j = \sum_{i}A_{ij}
+	\end{eqnarray}
+	The first term $\mathcal{L}_1$ contains a standard least square minimisation where $\mathbf{V_{yy}}$ is the covariance matrix describing uncertainties. Secondly a regularisation with strength $\tau^2$ is used. A bias vector can be introduced using a factor $f_b$ and a vector $\mathbf{x}_0$ to suppress deviations of $\mathbf{x}$ from $f_b\mathbf{x}_0$. Additionally, three choices for the matrix $\mathbf{L}$ can be made to either regularise the size, first or second derivative of $\mathbf{x}$. The final term $\mathcal{L}_3$ expresses an optional area constraint, checking differences in event counts between input and output.
+ 
