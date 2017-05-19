@@ -40,11 +40,11 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot[CE,CO]{\thepage}
-\fancyhead[LO]{\rightmark}
-\fancyhead[RE]{\leftmark}
+\fancyhead[CO]{\rightmark}
+\fancyhead[CE]{\leftmark}
 % redefine cleardoublepage: do not print fancy headline if page is empty before new chapter
 \let\mtcleardoublepage\cleardoublepage
-\renewcommand{\cleardoublepage}{\clearpage{\pagestyle{plain}\mtcleardoublepage}}
+\renewcommand{\cleardoublepage}{\clearpage{\pagestyle{empty}\mtcleardoublepage}}
 % =======================
 % title style
 \usepackage{color}
@@ -127,6 +127,7 @@ maxalphanames=3,
 %----------------------------------------------------------------
 %-------------------Hier Inhalt----------------------------------
 %----------------------------------------------------------------
+%todo Ueberschriftren einheitlich gross/klein!
 \include{Introduction}
 \include{Theory}
 \include{Experiment}

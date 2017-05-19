@@ -122,7 +122,7 @@
   \entry{topCDF}{article}{}
     \name{author}{1}{}{%
       {{hash=rTCC}{%
-         prefix={/relax},
+         prefix={\relax},
          prefixi={r\bibinitperiod},
          family={The CDF\bibnamedelima Collaboration},
          familyi={T\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
@@ -619,6 +619,48 @@
     \endverb
     \field{title}{{Resolving Boosted Jets with XCone}}
     \field{year}{2015}
+  \endentry
+
+  \entry{softdrop}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LAJ}{%
+         family={Larkoski},
+         familyi={L\bibinitperiod},
+         given={Andrew\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Marzani},
+         familyi={M\bibinitperiod},
+         given={Simone},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Soyez},
+         familyi={S\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Thaler},
+         familyi={T\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LAJMSSG+1}
+    \strng{fullhash}{LAJMSSGTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP05(2014)146
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1402.2657
+    \endverb
+    \field{howpublished}{JHEP 1405 (2014) 146}
+    \field{title}{Soft Drop}
+    \field{year}{2014}
   \endentry
 \endsortlist
 \endinput
