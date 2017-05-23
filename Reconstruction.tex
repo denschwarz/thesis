@@ -29,25 +29,23 @@
 \section{Muons}
 	Muons have a very low probability to interact with the Calorimeters of CMS. Because of that, muons are identified by hits in the muon chambers. Combining informations from the muon system and the inner tracker leads to a very precise measurement of muons in the CMS detector. Therefore muons are very reliable objects in CMS data analyses. An object is announced a muon if %todo KRITERIEN MUON
 \section{Jets}
-	Jets are objects, used to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize. This results in a particle shower consisting of hadrons. To reconstruct the initial quark one needs to sum up all particles from the final shower. To combine the tracks in a well defined way jet algorithms are used. Two important requirements for an jet algorithm are to be infrared and collinear safe. 
-	%todo Infrared and Collinear safe erklären
-	All presented jet algorithms in this thesis fulfil these requirements.
-\subsection{Anti-$k_T$ Jet Algorithm}
-	In CMS the common way to cluster jets from the detected particles is to use iterative jet algorithms. Thus particles are clustered step by step until an abort criterion is reached. The most common and proven to be useful iterative jet algorithm is the Anti-$k_T$ (AK) algorithm \cite{antikt}. As an input a list of objects, reconstructed in the detector is given. The Anti-$k_T$ algorithm then calculates two quantities $d_{ij}$ (Eq. \ref{eq:dij}) and $d_{iB}$ (Eq. \ref{eq:iB}) for each pair of objects $i$ and $j$:
+	Jets are objects, used to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize. This results in a particle shower consisting of hadrons. To reconstruct the initial quark one needs to sum up all particles from the final shower. To combine the tracks in a well defined way jet algorithms are used. Two important requirements for an jet algorithm are to be infrared and collinear safe. The first criterion means, a jet should not change when including or excluding soft radiation. Collinear safety addresses collinear splitting of particles in a jet which should also not change the jet. All presented jet algorithms in this thesis fulfil these requirements.
+\subsection{Anti-$k_T$ and Cambridge/Aachen Jet Algorithms}
+	In CMS the common way to cluster jets from the detected particles is to use iterative jet algorithms. Thus particles are clustered step by step until an abort criterion is reached. The most common group of iterative jet algorithms are $k_T$-like algorithms. As an input, a list of objects reconstructed in the detector is given. The Algorithm then calculates two quantities $d_{ij}$ (Eq. \ref{eq:dij}) and $d_{iB}$ (Eq. \ref{eq:iB}) for each pair of objects $i$ and $j$:
 	\begin{equation}
-	d_{ij} = min (k_{T,i}^{-2}, k_{T,j}^{-2})  \frac{\Delta R_{ij}^2}{R^2}
+	d_{ij} = min (k_{T,i}^{n}, k_{T,j}^{n})  \frac{\Delta R_{ij}^2}{R^2}
 	\label{eq:dij}
 	\end{equation}
 	\begin{equation}
-	d_{iB} = k_{T,i}^{-2}.
+	d_{iB} = k_{T,i}^{-n}.
 	\label{eq:iB}
 	\end{equation}
-	Here $d_{ij}$ describes a effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis. The variable $k_T$ is the transverse momentum of an object, $\Delta R_{ij}$ denotes the distance between objects $i$ and $j$ an $R$ is a constant parameter that defines the radius of the resulting jet. When $d_{ij}$ is smaller than $d_{iB}$ both objects $i$ and $j$ are combined and both quantities are calculated again. At some point, $d_{iB}$ will be smaller than any $d_{ij}$, then object $i$ is called a jet and is removed from the list of objects. This procedure is repeated until the list of objects is empty. With the anti-$k_T$ jet algorithm, particles with large transverse momenta are clustered first because $d_{ij}$ (Eq. \ref{eq:dij}) is easily smaller then $d{iB}$ for large $p_T$. The resulting jets are very circular. 
+	Here, $d_{ij}$ describes a effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis. The variable $k_T$ is the transverse momentum of an object, $\Delta R_{ij}$ denotes the distance between objects $i$ and $j$ and $R$ is a constant parameter that defines the radius of the resulting jet. Changing the exponent $n$ influences the order of clustering. If $n=-2$, the algorithm is called Anti-$k_T$ \cite{antikt} and particles with high transverse momenta are clustered first. Using the Cambridge/Aachen \cite{CA1, CA2} algorithm, and therefore choosing $n=0$ will not weight the objects by momenta and provides a pure geometrical measure. When $d_{ij}$ is smaller than $d_{iB}$ both objects $i$ and $j$ are combined and both quantities are calculated again. At some point, $d_{iB}$ will be smaller than any $d_{ij}$, then object $i$ is called a jet and is removed from the list of objects. This procedure is repeated until the list of objects is empty. With the anti-$k_T$ jet algorithm, particles with large transverse momenta are clustered first because $d_{ij}$ (Eq. \ref{eq:dij}) is easily smaller then $d{iB}$ for large $p_T$. The resulting jets are very circular. 
 	%todo plot mit AK shape.
-	%todo KT und CA auch erwähnen?
+	%todo KT auch erwähnen?
 
 \subsection{HOTVR Jet Algorithm}
-	Another approach to cluster jets is the 'heavy object tagger with variable R' (HOTVR) \cite{hotvr}. This algorithm does not use a constant radius parameter $R$ but a $p_T$ dependent effective $R_\text{eff}$ (see Eq. \ref{eq:HOTVR}). Thus the $R_\text{eff}$ decreases with increasing $p_T$ leading to smaller jets when the decay products are expected to be more close because of the Lorentz boost. The $p_T$ dependence is scaled with a parameter $\rho$ with a default value of $600\;\text{GeV}$. Furthermore, upper and lower boundaries for the jet radius can be set. The default values are $R_\text{min} = 0.1$ and $R_\text{max} = 1.5$. 	
+	Another approach to cluster jets is the 'heavy object tagger with variable R' (HOTVR) \cite{hotvr}. This algorithm does not use a constant radius parameter $R$ but a $p_T$ dependent effective $R=R_\text{eff}(p_T)$ (see Eq. \ref{eq:HOTVR}). Thus the $R_\text{eff}$ decreases with increasing $p_T$ leading to smaller jets when the decay products are expected to be more close because of the Lorentz boost. The $p_T$ dependence is scaled with a parameter $\rho$ with a default value of $600\;\text{GeV}$. Furthermore, upper and lower boundaries for the jet radius can be set. The default values are $R_\text{min} = 0.1$ and $R_\text{max} = 1.5$. 	
 	\begin{equation}
 	\label{eq:HOTVR}
 	  R_\text{eff} =
@@ -78,12 +76,27 @@
 		\label{fig:XCone_overlap}
 	\end{figure} 
 	A more general advantage of XCone is that the N-jettiness variable is often used to do theory calculations of particle physics events, the XCone algorithm is easier to include in these calculations.
+	
+\subsection{Jet Energy Corrections}
+\label{sec:jec}
+	Jets found by clustering sequences are furthermore corrected to account for non linearities in the detector response and differences between data and simulation because of modelling \cite{JEC}. The approach is to factorize different sources of variance and scale momentum vectors of jets with a factor addressing each source. Thus, four factors are introduced which then result in one final $p_T$ and $\eta$ dependent correction factor as shown in Eq. \ref{eq:jec} and \ref{eq:cjec}.
+	\begin{equation}
+	p^{\text{corrected}} = C_{\text{JEC}} \cdot p^{\text{raw}}
+	\label{eq:jec}
+	\end{equation}
+	where
+	\begin{equation}
+	C_{\text{JEC}} = C_{\text{offset}} \cdot C_{\text{MC}} \cdot C_{\text{rel}} \cdot C_{\text{abs}}
+	\label{eq:cjec}
+	\end{equation}
+	Firstly, a factor is applied to address the additional energy in a jet because of pile-up ($C_{\text{offset}}$), which is not taken care of in simulation. The factor is constructed $p_T$ dependent to subtract a constant energy from a jet in data. Secondly, reconstructed jets are corrected to match the generated jet momentum. This is done by calculating a factor $R=\frac{p_T^{\text{rec}}}{p_T^{\text{gen}}}$ in different $p_T$ and $\eta$ regions and apply this to reconstructed jets as $C_{\text{MC}} = \frac{1}{<R>}$, where $<R>$ indicates a mean in the given region. Next, a relative correction $C_{\text{rel}}$ is applied which accounts for non linearities in the detector response. Therefore, a $\eta$ dependent correction factor is used. Lastly, an absolute factor $\cdot C_{\text{abs}}$ derived from data in $Z$ + jets and $\gamma$ + jets events to fit the absolute energy scale.
 
 \subsection{b-Jets}
 \label{sec:btag}
 	In this analysis jets originating from a bottom quark are identified to reduce background. To identify a jet as an b-jet the "Combined Secondary Vertex" (CSV) algorithm is used. Since b-hadrons have a large lifetime of $1.5\;\text{ps}$ they travel about $450\;\text{\textmu m}$ in the detector before decaying. This leads to a secondary vertex at the spatial point where the hadron decays which can be reconstructed in the tracking system. Additionally the composition of hadrons in a b-jet is different from other jets.
 	%todo ALLES AUßER secondary vertex NOCHMAL NACHLESEN 	
 	%todo working points beschreiben
+	%todo Quelle
 	These properties are taken advantage of in the CSV algorithm. 
 	
 \section{$\cancel{E}_T$ and $S_T$}

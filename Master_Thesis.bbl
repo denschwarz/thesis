@@ -19,15 +19,13 @@
 \sortlist[entry]{none/global/}
   \entry{SM}{misc}{}
     \name{author}{1}{}{%
-      {{hash=rWC}{%
-         prefix={\relax},
-         prefixi={r\bibinitperiod},
-         family={Wikimedia\bibnamedelima Commons},
-         familyi={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=W}{%
+         family={{Wikimedia Commons}},
+         familyi={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{WCr1}
-    \strng{fullhash}{WCr1}
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url
@@ -121,16 +119,13 @@
 
   \entry{topCDF}{article}{}
     \name{author}{1}{}{%
-      {{hash=rTCC}{%
-         prefix={\relax},
-         prefixi={r\bibinitperiod},
-         family={The CDF\bibnamedelima Collaboration},
-         familyi={T\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
-  C\bibinitperiod},
+      {{hash=T}{%
+         family={{The CDF Collaboration}},
+         familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{TCCr1}
-    \strng{fullhash}{TCCr1}
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -146,18 +141,18 @@
 
   \entry{topD0}{article}{}
     \name{author}{1}{}{%
-      {{hash=rSAeatDC}{%
+      {{hash=rSAeaTDC}{%
          prefix={\relax},
          prefixi={r\bibinitperiod},
          family={S.\bibnamedelima Abachi},
          familyi={S\bibinitperiod\bibinitdelim A\bibinitperiod},
-         given={et\bibnamedelima al. (the D0\bibnamedelima Collaboration)},
-         giveni={e\bibinitperiod\bibinitdelim a\bibinitperiod t\bibinitperiod
+         given={et\bibnamedelima al. (The D0\bibnamedelima Collaboration)},
+         giveni={e\bibinitperiod\bibinitdelim a\bibinitperiod T\bibinitperiod
   D\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{SAeatDCr1}
-    \strng{fullhash}{SAeatDCr1}
+    \strng{namehash}{SAeaTDCr1}
+    \strng{fullhash}{SAeaTDCr1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -170,6 +165,33 @@
     \field{title}{Search for High Mass Top Quark Production in p anti-p
   Collisions at S**(1/2) = 1.8 TeV}
     \field{year}{1994}
+  \endentry
+
+  \entry{ewfit}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=BM}{%
+         family={Baak},
+         familyi={B\bibinitperiod},
+         given={Max},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kogler},
+         familyi={K\bibinitperiod},
+         given={Roman},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BMKR1}
+    \strng{fullhash}{BMKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb arXiv:1306.0571
+    \endverb
+    \field{title}{The global electroweak Standard Model fit after the Higgs
+  discovery}
+    \field{year}{2013}
   \endentry
 
   \entry{feynman}{article}{}
@@ -230,6 +252,32 @@
     \field{year}{2014}
   \endentry
 
+  \entry{luminosity}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HW}{%
+         family={Herr},
+         familyi={H\bibinitperiod},
+         given={Werner},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Muratori},
+         familyi={M\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+    }
+    \strng{namehash}{HWMB1}
+    \strng{fullhash}{HWMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Concept of luminosity}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/941318
+    \endverb
+    \field{year}{2006}
+  \endentry
+
   \entry{lhc}{article}{}
     \name{author}{1}{}{%
       {{hash=MF}{%
@@ -254,15 +302,13 @@
 
   \entry{CMSfull}{misc}{}
     \name{author}{1}{}{%
-      {{hash=rCC}{%
-         prefix={\relax},
-         prefixi={r\bibinitperiod},
-         family={CMS\bibnamedelima Collaboration},
-         familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=T}{%
+         family={{The CMS Collaboration}},
+         familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CCr1}
-    \strng{fullhash}{CCr1}
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{http://cms.web.cern.ch/news/cms-detector-design}}
@@ -296,15 +342,13 @@
 
   \entry{EGammaPerformance}{article}{}
     \name{author}{1}{}{%
-      {{hash=rCC}{%
-         prefix={\relax},
-         prefixi={r\bibinitperiod},
-         family={CMS\bibnamedelima Collaboration},
-         familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=T}{%
+         family={{The CMS Collaboration}},
+         familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CCr1}
-    \strng{fullhash}{CCr1}
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -321,15 +365,13 @@
 
   \entry{L1}{book}{}
     \name{author}{1}{}{%
-      {{hash=rCC}{%
-         prefix={\relax},
-         prefixi={r\bibinitperiod},
-         family={CMS\bibnamedelima Collaboration},
-         familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=T}{%
+         family={{The CMS Collaboration}},
+         familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CCr1}
-    \strng{fullhash}{CCr1}
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{series}{Technical Design Report CMS}
@@ -342,18 +384,16 @@
 
   \entry{HLT}{book}{}
     \name{author}{1}{}{%
-      {{hash=rCC}{%
-         prefix={\relax},
-         prefixi={r\bibinitperiod},
-         family={CMS\bibnamedelima Collaboration},
-         familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=T}{%
+         family={{The CMS Collaboration}},
+         familyi={T\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
       {CERN}%
     }
-    \strng{namehash}{CCr1}
-    \strng{fullhash}{CCr1}
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{series}{Technical Design Report CMS}
@@ -445,6 +485,75 @@
     \field{year}{2008}
   \endentry
 
+  \entry{CA1}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=WM}{%
+         family={Wobisch},
+         familyi={W\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Wengler},
+         familyi={W\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WMWT1}
+    \strng{fullhash}{WMWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb arXiv:hep-ph/9907280
+    \endverb
+    \field{title}{Hadronization Corrections to Jet Cross Sections in
+  Deep-Inelastic Scattering}
+    \field{year}{1999}
+  \endentry
+
+  \entry{CA2}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DYL}{%
+         family={Dokshitzer},
+         familyi={D\bibinitperiod},
+         given={Yu.\bibnamedelima L.},
+         giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=LGD}{%
+         family={Leder},
+         familyi={L\bibinitperiod},
+         given={G.\bibnamedelima D.},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Moretti},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WBR}{%
+         family={Webber},
+         familyi={W\bibinitperiod},
+         given={B.\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DYLLGDMS+1}
+    \strng{fullhash}{DYLLGDMSWBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1126-6708/1997/08/001
+    \endverb
+    \verb{eprint}
+    \verb arXiv:hep-ph/9707323
+    \endverb
+    \field{howpublished}{JHEP 9708:001,1997}
+    \field{title}{Better Jet Clustering Algorithms}
+    \field{year}{1997}
+  \endentry
+
   \entry{hotvr}{article}{}
     \name{author}{3}{}{%
       {{hash=LT}{%
@@ -529,17 +638,38 @@
     \field{year}{2015}
   \endentry
 
-  \entry{CMSlumi}{misc}{}
+  \entry{JEC}{article}{}
     \name{author}{1}{}{%
-      {{hash=rCC}{%
-         prefix={\relax},
-         prefixi={r\bibinitperiod},
-         family={CMS\bibnamedelima Collaboration},
-         familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=T}{%
+         family={{The CMS collaboration}},
+         familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CCr1}
-    \strng{fullhash}{CCr1}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{11}
+    \field{pages}{P11002}
+    \field{title}{Determination of jet energy calibration and transverse
+  momentum resolution in CMS}
+    \verb{url}
+    \verb http://stacks.iop.org/1748-0221/6/i=11/a=P11002
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{Journal of Instrumentation}
+    \field{year}{2011}
+  \endentry
+
+  \entry{CMSlumi}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{The CMS Collaboration}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://cms-service-lumi.web.cern.ch/cms-service-lumi/publicplots/int_lumi_per_day_cumulative_pp_2016.png}}
@@ -573,15 +703,13 @@
 
   \entry{torben_paper}{misc}{}
     \name{author}{1}{}{%
-      {{hash=rCC}{%
-         prefix={\relax},
-         prefixi={r\bibinitperiod},
-         family={CMS\bibnamedelima Collaboration},
-         familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=T}{%
+         family={{The CMS Collaboration}},
+         familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CCr1}
-    \strng{fullhash}{CCr1}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{eprint}

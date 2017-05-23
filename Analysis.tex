@@ -6,9 +6,14 @@
 	This analysis aims for boosted $t\bar{t}$ where all decay products from the top decays merge into a single jet. To measure in this phase space a selection of events is applied. The detailed selection is presented in section \ref{sec:selection}. In the required phase space the distribution of the jet mass of a top quark decaying into quarks ($t\rightarrow W^{+} b \rightarrow b q \bar{q}'$) is measured. Following a unfolding is performed using the TUnofld \cite{tunfold} software package. The goal is to compare data unfolded to particle level with first principle calculations.
 \section{Previous Results}
 	A measurement of the top quark mass in highly boosted $t\bar{t}$ events has already been performed by CMS with the $8\;\text{TeV}$ dataset corresponding to an integrated luminosity of $19.7\;\text{fb}^{-1}$ \cite{torben_paper}.
+	%todo CA12 erwaehnen
+	%todo Plots torben
+	%todo Limitierung (statistik, pile-up)
+	%todo warum ist 13Tev Analyse sinnvoll?
 \section{Jet Studies on Particle Level}
 \label{sec:jet_studies}
 	%todo goal: distribution with nice peak!
+	%todo show deltaR(lepton, fatjet) to show, that categorisation into had and lep works
 	For this analysis it is crucial to choose a suitable jet algorithm and cone size. The previous mentioned analysis \cite{torben_paper} uses Cambridge-Aachen jets with the radius parameter set to $R=1.2$ for its measurement. This large radius was chosen to compensate for low statistics in the boosted $t\bar{t}$ regime. Since the cross-section of $t\bar{t}$ production is much higher at a center-of-mass energy of $13\;\text{TeV}$ it has to be studied, how the jet radius parameter $R$ influences the measured distribution and what influence different jet algorithms have. The goal is to select a jet algorithm which returns jets in which all decay products of a hadronically decaying top quark are merged. In this case, the jet mass $M_\text{jet}$ is sensitive to the top quark mass $M_\text{top}$.
 	\\
 	The jet studies are performed with a $t\bar{t}$ simulation using the information of MC simulations at particle level. The detailed selection is described in Section \ref{sec:GenSel}.
@@ -49,8 +54,16 @@
 	\item $\cdots$	
 	\end{itemize}
 	
- 
-
+\subsection{Jet Energy Corrections for XCone Jets} 
+	The normal procedure in CMS analyses is to apply jet energy corrections (see section \ref{sec:jec}) to every jet collection used. Those jet energy corrections have been derived by dedicated CMS groups and are different depending on the jet algorithm used to cluster jets. Since the XCone algorithm is not a standard jet finding procedure in CMS, there are no valid corrections available. The first attempt to correct XCone jets is to use the AK4 jet corrections since the jet shape should be very similar to XCone jets with $R=0.4$ as they were used in this analysis.
+	%todo show plots and explain why it does not work
+	
+	To still be able to correct XCone jets for response non linearities and pile-up effects, a correction factor on top of AK4 corrections is derived for XCone jets. For this, only events from $t\bar{t}$ simulation are used. Furthermore, only the subjets from the jet belonging to the hadronically decaying top quark are considered. Now a matching to generator jets is executed and the fraction $R=\frac{p_T^{\text{rec}}}{p_T^{\text{gen}}}$ calculated. This is done in different $p_T$ and $\eta$ regions. The mean $R$ is then filled in a two dimensional histogram representing the $p_T$-$\eta$-plane.
+	%todo show 2D Plots
+	
+	The correction factor applied to every XCone jet is now $f = \frac{1}{R}$. To get a smooth transition between the different regions, in every $\eta$ bin a function is fitted to get a factor $f(p_T)$.
+	%todo show fit Plots
+	%todo show resulting plots
 \subsection{Measurement Phase Space}
 \label{sec:FinalSel}
 	%VERWEIS AUF GENSEL
