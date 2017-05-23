@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  23 MAY 2017 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  23 MAY 2017 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1879,46 +1879,56 @@ Package pdftex.def Info: ../Images/lhc.jpg used on input line 9.
 (pdftex.def)             Requested size: 448.13095pt x 316.80879pt.
 
 [13] [14 <../Images/lhc.jpg>]
-<../Images/CMS_Full.png, id=464, 3189.9175pt x 2253.41875pt>
+<../Plots/LHC_Lumi.png, id=460, 578.16pt x 433.62pt>
+File: ../Plots/LHC_Lumi.png Graphic file (type png)
+
+<use ../Plots/LHC_Lumi.png>
+Package pdftex.def Info: ../Plots/LHC_Lumi.png used on input line 30.
+(pdftex.def)             Requested size: 358.50612pt x 268.8747pt.
+ [15]
+<../Images/CMS_Full.png, id=478, 3189.9175pt x 2253.41875pt>
 File: ../Images/CMS_Full.png Graphic file (type png)
 
 <use ../Images/CMS_Full.png>
-Package pdftex.def Info: ../Images/CMS_Full.png used on input line 33.
+Package pdftex.def Info: ../Images/CMS_Full.png used on input line 40.
 (pdftex.def)             Requested size: 425.72302pt x 300.72559pt.
- [15]
-<../Images/Tracker.png, id=480, 1718.42pt x 831.105pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <../Plots/LHC_Lumi.png>] <../Images/Tracker.png, id=491, 1718.42pt x 831.1
+05pt>
 File: ../Images/Tracker.png Graphic file (type png)
 
 <use ../Images/Tracker.png>
-Package pdftex.def Info: ../Images/Tracker.png used on input line 46.
+Package pdftex.def Info: ../Images/Tracker.png used on input line 53.
 (pdftex.def)             Requested size: 448.13095pt x 216.72896pt.
- [16 <../Images/CMS_Full.png>] [17 <../Images/Tracker.png>]
+ [17 <../Images/CMS_Full.png>] [18 <../Images/Tracker.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-[19]) [20]
+ [19]
+[20]) [21]
 \openout2 = `Reconstruction.aux'.
 
- (./Reconstruction.tex
-Chapter 4.
-<../Images/CMS_Slice_white.png, id=520, 6022.5pt x 3982.88pt>
-File: ../Images/CMS_Slice_white.png Graphic file (type png)
-
-<use ../Images/CMS_Slice_white.png>
-Package pdftex.def Info: ../Images/CMS_Slice_white.png used on input line 6.
-(pdftex.def)             Requested size: 358.50612pt x 237.0785pt.
- [21
+ (./Reconstruction.tex [22
 
 
 
 
 ]
+Chapter 4.
+<../Images/CMS_Slice_white.png, id=535, 6022.5pt x 3982.88pt>
+File: ../Images/CMS_Slice_white.png Graphic file (type png)
+
+<use ../Images/CMS_Slice_white.png>
+Package pdftex.def Info: ../Images/CMS_Slice_white.png used on input line 6.
+(pdftex.def)             Requested size: 358.50612pt x 237.0785pt.
+ [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <../Images/CMS_Slice_white.png>]
+ [24 <../Images/CMS_Slice_white.png>]
 Underfull \vbox (badness 4120) has occurred while \output is active []
 
- [23]
+ [25]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
@@ -1941,8 +1951,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Underfull \vbox (badness 3302) has occurred while \output is active []
 
- [24]
-<../Plots/XCone_Overlap.png, id=566, 867.24pt x 758.835pt>
+ [26]
+<../Plots/XCone_Overlap.png, id=582, 867.24pt x 758.835pt>
 File: ../Plots/XCone_Overlap.png Graphic file (type png)
 
 <use ../Plots/XCone_Overlap.png>
@@ -1951,10 +1961,10 @@ Package pdftex.def Info: ../Plots/XCone_Overlap.png used on input line 74.
 
 Underfull \vbox (badness 2707) has occurred while \output is active []
 
- [25]
+ [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26 <../Plots/XCone_Overlap.png>]
+ [28 <../Plots/XCone_Overlap.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 102.
 
@@ -2254,27 +2264,27 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 102.
 
-[27]) [28]
+[29]) [30]
 \openout2 = `Data_MC.aux'.
 
  (./Data_MC.tex
 Chapter 5.
-<../Plots/CMS_Lumi.pdf, id=605, 578.16pt x 433.62pt>
+<../Plots/CMS_Lumi.pdf, id=620, 578.16pt x 433.62pt>
 File: ../Plots/CMS_Lumi.pdf Graphic file (type pdf)
 
 <use ../Plots/CMS_Lumi.pdf>
 Package pdftex.def Info: ../Plots/CMS_Lumi.pdf used on input line 8.
 (pdftex.def)             Requested size: 358.50612pt x 268.8747pt.
- [29
+ [31
 
 
 
 
-] [30 <../Plots/CMS_Lumi.pdf>] [31])
+] [32 <../Plots/CMS_Lumi.pdf>] [33])
 \openout2 = `Unfolding.aux'.
 
 
-(./Unfolding.tex [32
+(./Unfolding.tex [34
 
 
 
@@ -2283,19 +2293,19 @@ Package pdftex.def Info: ../Plots/CMS_Lumi.pdf used on input line 8.
 
 ]
 Chapter 6.
-<../Images/Unfolding.png, id=699, 1053.9375pt x 791.95876pt>
+<../Images/Unfolding.png, id=714, 1053.9375pt x 791.95876pt>
 File: ../Images/Unfolding.png Graphic file (type png)
 
 <use ../Images/Unfolding.png>
 Package pdftex.def Info: ../Images/Unfolding.png used on input line 7.
 (pdftex.def)             Requested size: 268.8813pt x 202.04953pt.
- [33]) [34 <../Images/Unfolding.png>]
+ [35]) [36 <../Images/Unfolding.png>]
 \openout2 = `Analysis.aux'.
 
 
 (./Analysis.tex
 Chapter 7.
-[35
+[37
 
 
 
@@ -2305,17 +2315,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
-[36] [37]) [38]
+[38] [39]) [40]
 \openout2 = `Summary.aux'.
 
  (./Summary.tex
 Chapter 8.
-) [39
+) [41
 
 
 
 
-] [40
+] [42
 
 
 
@@ -2330,14 +2340,14 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[41] [42]
+[43] [44]
 Overfull \hbox (8.27939pt too wide) in paragraph at lines 150--150
 []\T1/ptm/m/n/12 (-20) A. J. Larkoski, S. Marzani, G. Soyez, \T1/ptm/m/it/12 (-
 20) et al.\T1/ptm/m/n/12 (-20) , ^^P  Soft drop^^Q, 2014. \T1/ptm/m/sc/12 (-20)
  doi\T1/ptm/m/n/12 (-20) : []$10 . 1007 / JHEP05(2014 )
  []
 
-[43] [44
+[45] [46
 
 
 ]
@@ -2360,14 +2370,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--159
 
  []
 
-[45] [46
+[47] [48
 
 
 ]
 \Changes@OutFile=\write8
 \openout8 = `Master_Thesis.soc'.
 
- [47]
+ [49]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
  (./Master_Thesis.aux (./Titlepage.aux) (./Introduction.aux)
@@ -2386,11 +2396,11 @@ Package logreq Info: Writing requests to 'Master_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33515 strings out of 493013
- 642531 string characters out of 6133787
+ 33533 strings out of 493013
+ 642824 string characters out of 6133787
  1178815 words of memory out of 5000000
- 35884 multiletter control sequences out of 15000+600000
- 124683 words of font info for 319 fonts, out of 8000000 for 9000
+ 35891 multiletter control sequences out of 15000+600000
+ 125133 words of font info for 323 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  68i,23n,100p,1708b,1999s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/home/schwarzd/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
@@ -2407,10 +2417,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></home/schwarzd/texlive/texmf-dist/fonts/ty
 pe1/urw/symbol/usyr.pfb></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Master_Thesis.pdf (53 pages, 4339209 bytes).
+Output written on Master_Thesis.pdf (55 pages, 4571501 bytes).
 PDF statistics:
- 939 PDF objects out of 1000 (max. 8388607)
- 811 compressed objects within 9 object streams
- 186 named destinations out of 1000 (max. 500000)
- 62436 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 956 PDF objects out of 1000 (max. 8388607)
+ 823 compressed objects within 9 object streams
+ 190 named destinations out of 1000 (max. 500000)
+ 62441 words of extra memory for PDF output out of 74296 (max. 10000000)
 

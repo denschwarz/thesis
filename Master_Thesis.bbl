@@ -252,6 +252,28 @@
     \field{year}{2014}
   \endentry
 
+  \entry{lhc}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MF}{%
+         family={Marcastel},
+         familyi={M\bibinitperiod},
+         given={Fabienne},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MF1}
+    \strng{fullhash}{MF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{note}{\href{https://cds.cern.ch/record/1621583}{\texttt{OPEN-PHO-CHART-2013-001}}}
+    \field{title}{{CERN's Accelerator Complex. La chaîne des accélérateurs
+  du CERN}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1621583
+    \endverb
+    \field{year}{2013}
+  \endentry
+
   \entry{luminosity}{article}{}
     \name{author}{2}{}{%
       {{hash=HW}{%
@@ -278,26 +300,21 @@
     \field{year}{2006}
   \endentry
 
-  \entry{lhc}{article}{}
+  \entry{LHClumi}{misc}{}
     \name{author}{1}{}{%
-      {{hash=MF}{%
-         family={Marcastel},
-         familyi={M\bibinitperiod},
-         given={Fabienne},
-         giveni={F\bibinitperiod},
+      {{hash=T}{%
+         family={{The CMS Collaboration}},
+         familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{MF1}
-    \strng{fullhash}{MF1}
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-  \field{note}{\href{https://cds.cern.ch/record/1621583}{\texttt{OPEN-PHO-CHART-2013-001}}}
-    \field{title}{{CERN's Accelerator Complex. La chaîne des accélérateurs
-  du CERN}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/1621583
-    \endverb
-    \field{year}{2013}
+  \field{howpublished}{\url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}}
+    \field{note}{[Online; accessed May 23, 2017]}
+    \field{title}{{Delivered Luminosity versus time for 2010, 2011, 2012, 2015
+  and 2016}}
   \endentry
 
   \entry{CMSfull}{misc}{}
