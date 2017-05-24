@@ -30,51 +30,57 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Production in Hadron Colliders and Decay}{8}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Mass Measurements}{9}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Mass Measurements}{11}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Experiment}{13}{chapter.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Large Hadron Collider}{13}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}CMS Detector}{16}{section.3.2}
+\contentsline {subsection}{\numberline {3.1.1}Physics of proton-proton collisions}{15}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Solenoid}{17}{subsection.3.2.1}
+\contentsline {subsubsection}{Pile-Up}{16}{subsubsection*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Tracker}{17}{subsection.3.2.2}
+\contentsline {subsubsection}{Underlying Event}{17}{subsubsection*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Calorimeters}{19}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.2}CMS Detector}{17}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Electromagnetic Calorimeter}{19}{subsubsection*.10}
+\contentsline {subsection}{\numberline {3.2.1}Coordinate System}{17}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hadronic Calorimeter}{20}{subsubsection*.11}
+\contentsline {subsection}{\numberline {3.2.2}Solenoid}{19}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Muon System}{20}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.3}Tracker}{19}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Trigger}{20}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.4}Calorimeters}{20}{subsection.3.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Electromagnetic Calorimeter}{21}{subsubsection*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Hadronic Calorimeter}{21}{subsubsection*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.5}Muon System}{22}{subsection.3.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.6}Trigger}{22}{subsection.3.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Reconstruction of Objects}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Coordinate System}{24}{section.4.1}
+\contentsline {section}{\numberline {4.1}Particle Flow}{24}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Particle Flow}{25}{section.4.2}
+\contentsline {section}{\numberline {4.2}Electrons}{24}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Electrons}{25}{section.4.3}
+\contentsline {section}{\numberline {4.3}Muons}{25}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Muons}{25}{section.4.4}
+\contentsline {section}{\numberline {4.4}Jets}{25}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Jets}{26}{section.4.5}
+\contentsline {subsection}{\numberline {4.4.1}Anti-$k_T$ and Cambridge/Aachen Jet Algorithms}{25}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Anti-$k_T$ and Cambridge/Aachen Jet Algorithms}{26}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.4.2}HOTVR Jet Algorithm}{26}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}HOTVR Jet Algorithm}{27}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.4.3}XCone Jet Algorithm}{26}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}XCone Jet Algorithm}{27}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.4.4}Jet Energy Corrections}{27}{subsection.4.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.4}Jet Energy Corrections}{28}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.4.5}b-Jets}{28}{subsection.4.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.5}b-Jets}{29}{subsection.4.5.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}$\cancel {E}_T$ and $S_T$}{29}{section.4.6}
+\contentsline {section}{\numberline {4.5}$\cancel {E}_T$ and $S_T$}{28}{section.4.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Data and Simulation}{31}{chapter.5}
 \defcounter {refsection}{0}\relax 

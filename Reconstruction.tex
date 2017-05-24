@@ -7,22 +7,9 @@
 		\caption{Slice through the CMS detector looking in direction of the beam pipe. Tracks of different particles on their way through the layers of the detector are displayed. From left to right, you can see the tracker, calorimeters, the superconducting solenoid and the muon system. Taken from \cite{CMSslicewhite}.}
 		\label{fig:CMS_reco}
 	\end{figure} 
-\section{Coordinate System}
-	The coordinate system used in the CMS experiment is based on cartesian and right-handed coordinates. The origin is set in the center of the CMS detector. To define the direction of the axes other fix points are set. The $x$-axis point in the direction of the center of the LHC ring, the $y$-axis points up and the $z$-axis is defined parallel to the beam axis. Important variables used in analysis of CMS data are the angles $\phi$ and $\theta$. $\phi$ is defined as the angle in the $x$-$y$-plane measured from the $x$-axis and $\theta$ describes the angle from a given point to the beam axis. Because the LHC is a hadron collider and physical events are therefore not symmetric in $\theta$ it is useful to construct the Lorentz invariant variable $\eta$:
-	\begin{equation}
-	\eta = - \ln \left[\tan\left( \frac{\theta}{2}\right) \right]
-	\end{equation} 
-	The distance $\Delta R$ between two objects $i$ and $j$ is calculated using the differences $\Delta \phi = \phi_i - \phi_j$ and $\Delta \eta = \eta_i - \eta_j$:
-	\begin{equation}
-	\Delta R = \sqrt{\Delta \phi ^2 + \Delta \eta ^2}
-	\end{equation}
-	%todo ERKLÄREN WARUM DELTA R GEEIGNET IST? -> IN PHI UND ETA ABHÄNGIG VON PT, NICHT GESAMTIMPULS!
-	An important quantity used in this analysis is the transversal momentum $p_T$ which is constructed out of the $x$ and $y$-components ($p_x$ and $p_y$) of the total momentum of an object:
-	\begin{equation}
-	p_T = \sqrt{p_x^2 + p_y^2}
-	\end{equation} 
-	It is practical to not consider the $z$ component in a hadron collider because it depends on the initial state of interacting partons which is unknown. The $p_T$ sum of all objects is expected to be $0$ in every event. If it is not the $p_T$ may be reconstructed wrong for some objects or objects left the CMS experiment undetected.
+
 \section{Particle Flow}
+\label{sec:pf}
 	CMS uses a special algorithm called particle flow \cite{particleflow} to combine information from tracker and calorimeters and thus reconstruct objects to a high precision. Tracks from the inner tracker are extrapolated into the calorimeters. If a shower fits to the track, information from these two sub detectors are combined. Since only charged particles will interact with the tracking system, showers from neutral hadrons and photons cannot be associated with a track.
 \section{Electrons}
 	Electrons are reconstructed in the tracker and electromagnetic calorimeter. Due to the magnetic field, electrons will take a curved path through the tracking system. They are then stopped in the ECAL where their energy is measured.
