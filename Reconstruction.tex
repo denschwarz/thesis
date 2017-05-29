@@ -1,11 +1,11 @@
 \chapter{Reconstruction of Objects}
 \label{ch:Reco}
-	From all kinds of information provided by the detector systems has to be interpreted as physical objects in order to analyse the recorded data. Therefore algorithms are run to link the information from the detector to usable objects like muons, electrons or jets. Objects are defined by their detection in different detector systems. Paths of all detectable objects through the detector are sketched in Fig. \ref{fig:CMS_reco}.
+	At a particle detector like CMS, output signals have to be converted into objects with a physical meaning to perform studies with recorded data. Therefore, algorithms have been developed to identify and reconstruct objects, returning lists of electrons, muons, photons and jets. Each candidate has to fulfil various criteria to be categorized in one of the called groups. Those criteria and algorithms used to obtain suitable objects for a physics approach are described in this chapter.
 
-
-\section{Particle Flow}
+\section{Particle Flow Algorithm}
 \label{sec:pf}
-	CMS uses a special algorithm called particle flow \cite{particleflow} to combine information from tracker and calorimeters and thus reconstruct objects to a high precision. Tracks from the inner tracker are extrapolated into the calorimeters. If a shower fits to the track, information from these two sub detectors are combined. Since only charged particles will interact with the tracking system, showers from neutral hadrons and photons cannot be associated with a track.
+	CMS uses a special algorithm called particle flow (PF) \cite{particleflow} to combine information from every detector system, following the complete path of a particle through the detector. It makes use of the different signatures different particles leave in the detector. Muons are detected in the inner tracker and muon system, electrons are seen in the tracker and ECAL, charged hadrons leave tracks and shower in the HCAL and photons and neutral hadrons only leave energy in the ECAL and HCAL, respectively (see Fig. \ref{fig:CMS_reco}). The particle flow algorithm now utilises these different signatures and combines information of all subdetectors. The goal is, to assign all showers from charged particles to their tracks, leaving only energy deposits originating from photon neutral hadrons. First, hits in the inner tracker and muon system are combined. If a path is found, the object is called a muon candidate and all hits are removed from the algorithm input. Afterwards, the remaining tracks from electrons and charged hadrons are extrapolated into the calorimeter systems and assigned to overlapping showers. Here, photon radiation from electrons has to be treated with, since energy from these photons also has to be assigned to the initial electron. Finally, remaining showers in the ECAL and HCAL should originate from photons and neutral hadron, respectively.	To be able to use particle flow with high efficiency, the tracking systems need to have a good spatial resolution while the calorimeters also have to provide a high granularity. All these requirements are fulfilled in CMS, which makes the PF algorithm a powerful tool in object identification and reconstruction.
+
 	\begin{figure}[tb]
 		\centering
 		\includegraphics [width=.75\textwidth]{../Images/CMS_Slice_white.png}
@@ -14,24 +14,34 @@
 	\end{figure} 
 	
 \section{Muon Identification}
-	Muons have a very low probability to interact with the Calorimeters of CMS. Because of that, muons are identified by hits in the tracker and muon chambers. Three working points are defined by the muon reconstruction efficiency. In this analysis the tight working point \cite{MuonID} is used, providing the lowest efficiency but purest muon selection. The criteria a muon candidate has to pass to fulfil the tight working point are:
+	Muons have a very low probability to interact with the Calorimeters of CMS. Because of that, muons are identified by hits in the tracker and muon chambers. This property makes muons the objects that can be identified and reconstructed with highest precision. Three working points are defined by the muon reconstruction efficiency. In this analysis the tight working point \cite{MuonID} is used, providing the lowest efficiency but purest muon selection. The criteria a muon candidate has to pass to fulfil the tight working point are:
 	\begin{itemize}
-	\item the candidate is reconstructed as a Global Muon 
-	\item the candidate is reconstructed with the particle flow algorithm 
-	\item the global-muon track fit returns $\chi^2/ \text{ndof} < 10$, where ndof are the number of degrees of freedom
-	\item at least one muon-chamber hit included in the global-muon track fit 
+	\item the candidate is reconstructed in the inner tracker and muon system
+	\item the candidate is reconstructed with PF
+	\item the track fit performed by PF returns $\chi^2/ \text{ndof} < 10$, where ndof are the number of degrees of freedom
+	\item at least one muon-chamber hit included in the track fit 
 	\item the candidate has to be hits in at least two muon stations
 	\item Its tracker track has transverse impact parameter $d_{xy} < 2\;\text{mm}$ with respect to the primary vertex 
 	\item the longitudinal distance of the tracker track with respect to the primary vertex is $d_{z} < 5\;\text{mm}$
 	\item at least one hit in the pixel tracker 
 	\item at least hits in five different tracker layers
 	\end{itemize}
-	If a candidate fulfils these criteria, it is stored and called muon in this analysis.
+	If a candidate fulfils these criteria with  with $p_T > 55\;\text{GeV}$ and $|\eta| < 2.4$ it is stored and called muon in this analysis. 
 \section{Electron Identification}
-	Electrons are reconstructed in the tracker and electromagnetic calorimeter. Due to the magnetic field, electrons will take a curved path through the tracking system. They are then stopped in the ECAL where their energy is measured.
-
-\section{Jets}
-	Jets are objects, used to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize. This results in a particle shower consisting of hadrons. To reconstruct the initial quark one needs to sum up all particles from the final shower. To combine the tracks in a well defined way jet algorithms are used. Two important requirements for an jet algorithm are to be infrared and collinear safe. The first criterion means, a jet should not change when including or excluding soft radiation. Collinear safety addresses collinear splitting of particles in a jet which should also not change the jet. All presented jet algorithms in this thesis fulfil these requirements.
+	Electrons are reconstructed in the tracker and electromagnetic calorimeter. Due to the magnetic field, electrons will take a curved path through the tracking system. They are then stopped in the ECAL where their energy is measured. In contradiction to muons, electrons are difficult to identify because of various effects. Because of their low mass electrons radiate Bremsstrahlung at a high rate which has to be thought of in reconstruction procedure. Additionally, electrons from photon conversion have to be suppressed. Finally, electromagnetic showers in the ECAL from photons and electrons have to be distinguished. Again, working points are defined analogously to muons. This analysis uses electrons that fulfil the medium criteria, corresponding to a efficiency of about $80\%$. For electron identification a multi-variant approach is used, taking following quantities into account:
+	\begin{itemize}
+	\item shower shape in $\eta$-direction
+	\item distances in $\eta$ and $\phi$ between the track extrapolated to the ECAL and shower itself
+	\item ratio of energy deposited in the ECAL and the HCAL behind it
+	\item value of $|\frac{1}{E} - \frac{1}{p}|$ of the electron candidate, where $E$ is calculated from calorimetry and $p$ is taken from the tracker
+	\item transverse impact parameter $d_{xy}$
+	\item longitudinal impact parameter $d_{z}$
+	\item not more than two missing hits in in the tracking system
+	\end{itemize}
+	Only electrons fulfilling the medium requirements with $p_T > 55\;\text{GeV}$ and $|\eta| < 2.4$ are considered in this work.
+\section{Jet Reconstruction}
+%todo Softdrop?
+	Jets are objects, used to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize. This results in a particle shower consisting of hadrons. To reconstruct the initial quark one needs to sum up all particles from the final shower. To combine the tracks in a well defined way jet algorithms are used. Two important requirements for an jet algorithm are to be infrared and collinear safe. The first criterion means, a jet should not change when including or excluding soft radiation. Collinear safety addresses collinear splitting of particles in a jet which should also not change the jet. All presented jet algorithms in this thesis fulfil these requirements. Additionally, only jets with $p_T > 30\;\text{GeV}$ and $|\eta| < 2.4$ are considered in this analysis.
 \subsection{Anti-$k_T$ and Cambridge/Aachen Jet Algorithms}
 	In CMS the common way to cluster jets from the detected particles is to use iterative jet algorithms. Thus particles are clustered step by step until an abort criterion is reached. The most common group of iterative jet algorithms are $k_T$-like algorithms. As an input, a list of objects reconstructed in the detector is given. The Algorithm then calculates two quantities $d_{ij}$ (Eq. \ref{eq:dij}) and $d_{iB}$ (Eq. \ref{eq:iB}) for each pair of objects $i$ and $j$:
 	\begin{equation}

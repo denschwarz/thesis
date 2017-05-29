@@ -62,25 +62,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Reconstruction of Objects}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Particle Flow}{23}{section.4.1}
+\contentsline {section}{\numberline {4.1}Particle Flow Algorithm}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Muon Identification}{24}{section.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Electron Identification}{25}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Jets}{25}{section.4.4}
+\contentsline {section}{\numberline {4.4}Jet Reconstruction}{26}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Anti-$k_T$ and Cambridge/Aachen Jet Algorithms}{25}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Anti-$k_T$ and Cambridge/Aachen Jet Algorithms}{26}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}HOTVR Jet Algorithm}{26}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}HOTVR Jet Algorithm}{27}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}XCone Jet Algorithm}{26}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.3}XCone Jet Algorithm}{27}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Jet Energy Corrections}{27}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.4}Jet Energy Corrections}{28}{subsection.4.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.5}b-Jets}{28}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.5}b-Jets}{29}{subsection.4.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}$\cancel {E}_T$ and $S_T$}{28}{section.4.5}
+\contentsline {section}{\numberline {4.5}$\cancel {E}_T$ and $S_T$}{29}{section.4.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Data and Simulation}{31}{chapter.5}
 \defcounter {refsection}{0}\relax 
