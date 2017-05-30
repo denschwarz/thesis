@@ -541,8 +541,8 @@
     \verb{eprint}
     \verb arXiv:hep-ph/9907280
     \endverb
-    \field{title}{Hadronization Corrections to Jet Cross Sections in
-  Deep-Inelastic Scattering}
+    \field{title}{{Hadronization Corrections to Jet Cross Sections in
+  Deep-Inelastic Scattering}}
     \field{year}{1999}
   \endentry
 
@@ -584,7 +584,7 @@
     \verb arXiv:hep-ph/9707323
     \endverb
     \field{howpublished}{JHEP 9708:001,1997}
-    \field{title}{Better Jet Clustering Algorithms}
+    \field{title}{{Better Jet Clustering Algorithms}}
     \field{year}{1997}
   \endentry
 
@@ -675,24 +675,64 @@
   \entry{JEC}{article}{}
     \name{author}{1}{}{%
       {{hash=T}{%
-         family={{The CMS collaboration}},
+         family={{The CMS Collaboration}},
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{number}{11}
     \field{pages}{P11002}
-    \field{title}{Determination of jet energy calibration and transverse
-  momentum resolution in CMS}
+    \field{title}{{Determination of jet energy calibration and transverse
+  momentum resolution in CMS}}
     \verb{url}
     \verb http://stacks.iop.org/1748-0221/6/i=11/a=P11002
     \endverb
     \field{volume}{6}
     \field{journaltitle}{Journal of Instrumentation}
     \field{year}{2011}
+  \endentry
+
+  \entry{csv}{article}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{The CMS Collaboration}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{04}
+    \field{pages}{P04013}
+    \field{title}{{Identification of b-quark jets with the CMS experiment}}
+    \verb{url}
+    \verb http://stacks.iop.org/1748-0221/8/i=04/a=P04013
+    \endverb
+    \field{volume}{8}
+    \field{journaltitle}{Journal of Instrumentation}
+    \field{year}{2013}
+  \endentry
+
+  \entry{btag}{report}{}
+    \field{labeltitlesource}{title}
+    \field{number}{CMS-PAS-BTV-15-001}
+    \field{title}{{Identification of b quark jets at the CMS Experiment in the
+  LHC Run 2}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2138504
+    \endverb
+    \list{location}{1}{%
+      {Geneva}%
+    }
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{2016}
   \endentry
 
   \entry{CMSlumi}{misc}{}
@@ -702,8 +742,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://cms-service-lumi.web.cern.ch/cms-service-lumi/publicplots/int_lumi_per_day_cumulative_pp_2016.png}}
@@ -742,8 +782,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{eprint}
