@@ -1,6 +1,6 @@
 \chapter{Data and Simulation}
 \label{ch:MC}
-	In almost every particle physics analysis data is compared to simulations. Physicists have to rely on simulations because it is not possible to purely calculate the outcome one sees in the detector. In this chapter the used data set is described as well as the production of a Monte-Carlo Simulation of a given process.
+	In almost every particle physics analysis data is compared to simulations. Physicists have to rely on simulations because it is not possible to purely calculate the outcome one sees in the detector. In this chapter the used data set is described as well as the production of a Monte Carlo Simulation of a given process.
 	\section{Data}
 	This Thesis analyses data recorded by the CMS detector in 2016 at a centre-of-mass energy of $13\;\text{TeV}$. The size of the data set corresponds to an integrated luminosity of $37.76\;\text{fb}^{-1}$. A detailed view of the data taking is presented in Fig. \ref{fig:CMS_lumi}. Data used in CMS analyses is required to pass a quality criterion. For this, only data from selected runs are used where the accelerator and detector worked properly.
 	\begin{figure}[tb]
@@ -12,64 +12,59 @@
 	
 \section{Event Generator and Parton Shower}
 \label{sec:Simulation}
-	Scattering outcomes of LHC experiments are complex and therefore cannot be calculated. To predict how a process distributes over a certain variable Monte Carlo simulations are used. 
-	%todo generator
-	%todo shower/hadronisation 
+	Events as they are measured in the CMS detector are complicated and therefore not easily predictable. Not only the probability of a process has to be accounted for, but also further hadronisation and radiation of final state particles. Additionally, the detector itself has to be simulated because of spatial differences in detector response and measurement effects. This leads to the fact, that pure calculation of these processes is not feasible. Thus, Monte Carlo (MC) methods are used to simulate the occurrence and outcome of various processes. The simulation procedure is carried out in two separate steps. Firstly, the matrix element of the hard scattering is calculated with an MC generator. Secondly, hadronisation, namely soft QCD radiation and evolving into bound colour states, is performed.
 	%todo Cut-off und top mass
-	\section{Monte-Carlo samples}
+	\section{Monte Carlo samples}
 	%todo MC hat auch GEN!
-	Additionally MC samples listed in table \ref{MC_Tab} are processed. The most important simulation for this analysis is of course the $t\bar{t}$ sample. The main background processes are $W$+jets and single-top production.
-	%todo bei jedem bckground sagen warum er relevant ist (oft wegen dem Lepton)
-	\begin{landscape}
+	Additionally MC samples are processed to be able to see influences of selections in all relevant processes. Furthermore, simulations also have . The most important simulation for this analysis is of course the $t\bar{t}$ sample which will be used to provide an input for the unfolding procedure. Since the lepton+jets channel is selected, processes that have a similar final state (exactly one lepton and (b-) jets) have to be included. The background processes considered in this work are: Single Top production, $W$+jets production, $Z$+jets production, Diboson production and general QCD events. These processes are relevant in the final phase space because leptons are possible in the final state. Most dominant processes are expected to be $W$+jets and Single Top production, because they provide a process with exactly one detectable lepton in the final states and additional jets. $Z$+jets production is reduced by vetoing additional leptons. Diboson production has a very low cross section, but $WW$ and $WZ$ can lead to a similar final state as $t\bar{t}$. QCD is expected to produce mostly leptons with small transverse momenta and is therefore reduced by selecting a lepton in the high energy region. Table \ref{MC_Tab} summarises all MC samples used with additional information like MC generator, cross section and number of events one sample contains. Every process is split into different regions to obtain enough statistics in high energy regions.	
 	\begin{table}
 	\centering
-	 \begin{tabular}{l l c r r }
+	 \begin{tabular}{l l c r@{.}l r }
 	 	%\hline
-	 	Process & Sample  & MC Generator & Cross Section [pb] & Number of Events \\
+	 	Process & Sample  & MC Generator &  \multicolumn{2}{r}{Cross Section [pb]} & Number of Events \\
 	 	\hline
 	 	\hline
-	 	$t\bar{t}$ & $0 < M_{t\bar{t}} < 700$ & POWHEG + PYTHIA & 831.76 & 77932119 \\
-	 	           & $700 < M_{t\bar{t}} < 1000$ & & 76.605 & 38219132 \\
-	 	           & $1000 < M_{t\bar{t}} < \infty$ & & 20.578 & 24480678 \\
+	 	$t\bar{t}$ & $0 < M_{t\bar{t}} < 700$ & POWHEG & 831 & 76 & 77932119 \\
+	 	           & $700 < M_{t\bar{t}} < 1000$ & " & 76 & 605 & 38219132 \\
+	 	           & $1000 < M_{t\bar{t}} < \infty$ &  " & 20 & 578 & 24480678 \\
 	 	\hline
-		Single Top & t-channel  & & 136.0 & 5993570 \\
-		           & t-channel (anti top) & & 80.95 & 3927980\\
-		           & $tW$ and $\bar{t}W$ & & 71.20 & 13875810 \\
-		           & s-channel & & 3.36 & 3370581 \\
+		Single Top & t-channel  & POWHEG & 136 & 0 & 5993570 \\
+		           & t-channel (anti top) & " & 80 & 95 & 3927980\\
+		           & $tW$ and $\bar{t}W$ & " & 71 & 20 & 13875810 \\
+		           & s-channel & MADGRAPH & 3 & 36 & 3370581 \\
 		\hline
-		$W$+jets & $100 < p_T < 250$ & & 676.3 & 176792599561 \\
-	 	         & $250 < p_T < 400$ & & 23.9 & 617720200 \\
-	 	         & $400 < p_T < 600$ & & 3.03 & 11690912 \\
-	 	         & $600 < p_T < \infty$ & & 0.45 & 1775927 \\
+		$W$+jets & $100 < p_T < 250$ & MADGRAPH  & 676 & 3 & 176792599561 \\
+	 	         & $250 < p_T < 400$ & " & 23 & 9 & 617720200 \\
+	 	         & $400 < p_T < 600$ & " & 3 & 03 & 11690912 \\
+	 	         & $600 < p_T < \infty$ & " & 0 & 45 & 1775927 \\
 	 	\hline
-	 	$Z$+jets & $70 < S_T < 100$ & MADGRAPH & 215.62 & 9608508 \\
-	 	         & $100 < S_T < 200$ & & 181.3 & 10606926 \\
-	 	         & $200 < S_T < 400$ & & 50.42 & 9646008 \\
-	 	         & $400 < S_T < 600$ & & 6.98 & 10008141 \\
-	 	         & $600 < S_T < 800$ & & 1.68 & 8292160 \\
-	 	         & $800 < S_T < 1200$ & & 0.78 & 2668311 \\
-	 	         & $1200 < S_T < 2500$ & & 0.19 & 595906 \\
-	 	         & $2500 < S_T < \infty$ & & 0.004 & 399147 \\
+	 	$Z$+jets & $70 < S_T < 100$ & MADGRAPH & 215 & 62 & 9608508 \\
+	 	         & $100 < S_T < 200$ & " & 181 & 3 & 10606926 \\
+	 	         & $200 < S_T < 400$ & " & 50 & 42 & 9646008 \\
+	 	         & $400 < S_T < 600$ & " & 6 & 98 & 10008141 \\
+	 	         & $600 < S_T < 800$ & " & 1 & 68 & 8292160 \\
+	 	         & $800 < S_T < 1200$ & " & 0 & 78 & 2668311 \\
+	 	         & $1200 < S_T < 2500$ & " & 0 & 19 & 595906 \\
+	 	         & $2500 < S_T < \infty$ &"  & 0 & 004 & 399147 \\
 	 	\hline
-	 	QCD (muon enriched) & $15 < p_T < 20$ & & 3819570 & 4141208 \\
-		                    & $20 < p_T < 30$ & & 2960198 &  31475095 \\
-		                    & $30 < p_T < 50$ & & 1652471 & 29944719\\
-		                    & $50 < p_T < 80$ & & 437504& 19806515 \\
-		                    & $80 < p_T < 120$ & & 106033 & 13778177 \\
-		                    & $120 < p_T < 170$ & & 25190 & 8042660 \\
-		                    & $170 < p_T < 300$ & & 8654 & 7946703 \\
-		                    & $300 < p_T < 470$ & & 797.4 & 7936465 \\
-		                    & $470 < p_T < 600$ & & 79.03 & 3850466 \\
-		                    & $600 < p_T < 800$ & & 25.10 & 4008200 \\
-		                    & $800 < p_T < 1000$ & & 4.71 & 3959757 \\
-		                    & $1000 < p_T < \infty$ & & 1.62 &  3976075 \\
+	 	QCD             & $15 < p_T < 20$ & PYTHIA & 3819570 & & 4141208 \\
+		(muon enriched) & $20 < p_T < 30$ & " & 2960198 & &  31475095 \\
+		                & $30 < p_T < 50$ & " & 1652471 & & 29944719\\
+		                & $50 < p_T < 80$ & " & 437504 & & 19806515 \\
+		                & $80 < p_T < 120$ & " & 106033 & & 13778177 \\
+		                & $120 < p_T < 170$ & " & 25190 & & 8042660 \\
+		                & $170 < p_T < 300$ & " & 8654 & & 7946703 \\
+		                & $300 < p_T < 470$ & " & 797 & 4 & 7936465 \\
+		                & $470 < p_T < 600$ & " & 79 & 03 & 3850466 \\
+		                & $600 < p_T < 800$ & " & 25 & 10 & 4008200 \\
+		                & $800 < p_T < 1000$ & " & 4 & 71 & 3959757 \\
+		                & $1000 < p_T < \infty$ & " & 1 & 62 &  3976075 \\
 		\hline
-	 	Diboson & $WW$ & & 118.7 & 994017 \\
-	 	Diboson & $WZ$ & & 47.13 & 990003 \\
-	 	Diboson & $ZZ$ & & 16.52 & 993154 \\
+	 	Diboson & $WW$ & PYTHIA & 118 & 7 & 994017 \\
+	 			& $WZ$ & " & 47 & 13 & 990003 \\
+	 	        & $ZZ$ & " & 16 & 52 & 993154 \\
 	 	 \hline
 	 \end{tabular}
-	\caption{Summary of data sets and MC samples used in this analysis. Assumed cross section, MC generator and number of events are displayed for each sample.}
+	\caption{Summary of MC samples used in this analysis. Assumed cross section, MC generator and number of events are displayed for each sample. All processes are further divided into numerous independent samples to obtain enough statistics, even in high energy regions.}
 	\label{MC_Tab}	
 	\end{table}
-	\end{landscape}

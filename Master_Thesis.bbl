@@ -480,7 +480,24 @@
     \field{howpublished}{\url
   {https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideMuonIdRun2}}
     \field{note}{[Online; accessed May 29, 2017]}
-    \field{title}{{MuonID}}
+    \field{title}{{Muon ID}}
+  \endentry
+
+  \entry{ElecID}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{The CMS Collaboration}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url
+  {https://twiki.cern.ch/twiki/bin/view/CMSPublic/EgammaPublicData}}
+    \field{note}{[Online; accessed May 29, 2017]}
+    \field{title}{{Electron ID}}
   \endentry
 
   \entry{antikt}{article}{}
@@ -588,6 +605,65 @@
     \field{year}{1997}
   \endentry
 
+  \entry{softdrop}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LAJ}{%
+         family={Larkoski},
+         familyi={L\bibinitperiod},
+         given={Andrew\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Marzani},
+         familyi={M\bibinitperiod},
+         given={Simone},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Soyez},
+         familyi={S\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Thaler},
+         familyi={T\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LAJMSSG+1}
+    \strng{fullhash}{LAJMSSGTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP05(2014)146
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1402.2657
+    \endverb
+    \field{howpublished}{JHEP 1405 (2014) 146}
+    \field{title}{Soft Drop}
+    \field{year}{2014}
+  \endentry
+
+  \entry{softdropvalues}{report}{}
+    \field{labeltitlesource}{title}
+    \field{number}{CMS-PAS-JME-15-002}
+    \field{title}{{Top Tagging with New Approaches}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2126325
+    \endverb
+    \list{location}{1}{%
+      {Geneva}%
+    }
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{2016}
+  \endentry
+
   \entry{hotvr}{article}{}
     \name{author}{3}{}{%
       {{hash=LT}{%
@@ -672,29 +748,6 @@
     \field{year}{2015}
   \endentry
 
-  \entry{JEC}{article}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{11}
-    \field{pages}{P11002}
-    \field{title}{{Determination of jet energy calibration and transverse
-  momentum resolution in CMS}}
-    \verb{url}
-    \verb http://stacks.iop.org/1748-0221/6/i=11/a=P11002
-    \endverb
-    \field{volume}{6}
-    \field{journaltitle}{Journal of Instrumentation}
-    \field{year}{2011}
-  \endentry
-
   \entry{csv}{article}{}
     \name{author}{1}{}{%
       {{hash=T}{%
@@ -733,6 +786,29 @@
     }
     \field{type}{techreport}
     \field{year}{2016}
+  \endentry
+
+  \entry{JEC}{article}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{The CMS Collaboration}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{11}
+    \field{pages}{P11002}
+    \field{title}{{Determination of jet energy calibration and transverse
+  momentum resolution in CMS}}
+    \verb{url}
+    \verb http://stacks.iop.org/1748-0221/6/i=11/a=P11002
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{Journal of Instrumentation}
+    \field{year}{2011}
   \endentry
 
   \entry{CMSlumi}{misc}{}
@@ -821,48 +897,6 @@
     \endverb
     \field{title}{{Resolving Boosted Jets with XCone}}
     \field{year}{2015}
-  \endentry
-
-  \entry{softdrop}{article}{}
-    \name{author}{4}{}{%
-      {{hash=LAJ}{%
-         family={Larkoski},
-         familyi={L\bibinitperiod},
-         given={Andrew\bibnamedelima J.},
-         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Marzani},
-         familyi={M\bibinitperiod},
-         given={Simone},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SG}{%
-         family={Soyez},
-         familyi={S\bibinitperiod},
-         given={Gregory},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=TJ}{%
-         family={Thaler},
-         familyi={T\bibinitperiod},
-         given={Jesse},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LAJMSSG+1}
-    \strng{fullhash}{LAJMSSGTJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1007/JHEP05(2014)146
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1402.2657
-    \endverb
-    \field{howpublished}{JHEP 1405 (2014) 146}
-    \field{title}{Soft Drop}
-    \field{year}{2014}
   \endentry
 \endsortlist
 \endinput

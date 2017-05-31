@@ -25,30 +25,31 @@
 \BOOKMARK [1][-]{section.4.3}{Electron Identification}{chapter.4}% 25
 \BOOKMARK [1][-]{section.4.4}{Jet Reconstruction}{chapter.4}% 26
 \BOOKMARK [2][-]{subsection.4.4.1}{Anti-kT and Cambridge/Aachen Jet Algorithms}{section.4.4}% 27
-\BOOKMARK [2][-]{subsection.4.4.2}{HOTVR Jet Algorithm}{section.4.4}% 28
-\BOOKMARK [2][-]{subsection.4.4.3}{XCone Jet Algorithm}{section.4.4}% 29
-\BOOKMARK [2][-]{subsection.4.4.4}{Jet Energy Corrections}{section.4.4}% 30
+\BOOKMARK [2][-]{subsection.4.4.2}{Soft Drop}{section.4.4}% 28
+\BOOKMARK [2][-]{subsection.4.4.3}{HOTVR Jet Algorithm}{section.4.4}% 29
+\BOOKMARK [2][-]{subsection.4.4.4}{XCone Jet Algorithm}{section.4.4}% 30
 \BOOKMARK [2][-]{subsection.4.4.5}{b-Jets}{section.4.4}% 31
-\BOOKMARK [1][-]{section.4.5}{E-8.5-.25exT and ST}{chapter.4}% 32
-\BOOKMARK [0][-]{chapter.5}{Data and Simulation}{}% 33
-\BOOKMARK [1][-]{section.5.1}{Data}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.2}{Event Generator and Parton Shower}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.3}{Monte-Carlo samples}{chapter.5}% 36
-\BOOKMARK [0][-]{chapter.6}{Unfolding}{}% 37
-\BOOKMARK [1][-]{section.6.1}{Regularised Unfolding with TUnfold}{chapter.6}% 38
-\BOOKMARK [0][-]{chapter.7}{Analysis}{}% 39
-\BOOKMARK [1][-]{section.7.1}{Analysis Strategy}{chapter.7}% 40
-\BOOKMARK [1][-]{section.7.2}{Previous Results}{chapter.7}% 41
-\BOOKMARK [1][-]{section.7.3}{Jet Studies on Particle Level}{chapter.7}% 42
-\BOOKMARK [2][-]{subsection.7.3.1}{Selection on particle level}{section.7.3}% 43
-\BOOKMARK [2][-]{subsection.7.3.2}{XCone Strategy}{section.7.3}% 44
-\BOOKMARK [2][-]{subsection.7.3.3}{Comparing Jet Algorithms}{section.7.3}% 45
-\BOOKMARK [2][-]{subsection.7.3.4}{Comparison with Soft Drop}{section.7.3}% 46
-\BOOKMARK [1][-]{section.7.4}{Selection on Reconstruction Level}{chapter.7}% 47
-\BOOKMARK [2][-]{subsection.7.4.1}{Baseline Selection}{section.7.4}% 48
-\BOOKMARK [2][-]{subsection.7.4.2}{Jet Energy Corrections for XCone Jets}{section.7.4}% 49
-\BOOKMARK [2][-]{subsection.7.4.3}{Measurement Phase Space}{section.7.4}% 50
-\BOOKMARK [1][-]{section.7.5}{Unfolding}{chapter.7}% 51
-\BOOKMARK [1][-]{section.7.6}{Results}{chapter.7}% 52
-\BOOKMARK [1][-]{section.7.7}{Outlook}{chapter.7}% 53
-\BOOKMARK [0][-]{chapter.8}{Summary and Outlook}{}% 54
+\BOOKMARK [2][-]{subsection.4.4.6}{Jet Energy Corrections}{section.4.4}% 32
+\BOOKMARK [1][-]{section.4.5}{E-8.5-.25exT and ST}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Data and Simulation}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Data}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{Event Generator and Parton Shower}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.3}{Monte Carlo samples}{chapter.5}% 37
+\BOOKMARK [0][-]{chapter.6}{Unfolding}{}% 38
+\BOOKMARK [1][-]{section.6.1}{Regularised Unfolding with TUnfold}{chapter.6}% 39
+\BOOKMARK [0][-]{chapter.7}{Analysis}{}% 40
+\BOOKMARK [1][-]{section.7.1}{Analysis Strategy}{chapter.7}% 41
+\BOOKMARK [1][-]{section.7.2}{Previous Results}{chapter.7}% 42
+\BOOKMARK [1][-]{section.7.3}{Jet Studies on Particle Level}{chapter.7}% 43
+\BOOKMARK [2][-]{subsection.7.3.1}{Selection on particle level}{section.7.3}% 44
+\BOOKMARK [2][-]{subsection.7.3.2}{XCone Strategy}{section.7.3}% 45
+\BOOKMARK [2][-]{subsection.7.3.3}{Comparing Jet Algorithms}{section.7.3}% 46
+\BOOKMARK [2][-]{subsection.7.3.4}{Comparison with Soft Drop}{section.7.3}% 47
+\BOOKMARK [1][-]{section.7.4}{Selection on Reconstruction Level}{chapter.7}% 48
+\BOOKMARK [2][-]{subsection.7.4.1}{Baseline Selection}{section.7.4}% 49
+\BOOKMARK [2][-]{subsection.7.4.2}{Jet Energy Corrections for XCone Jets}{section.7.4}% 50
+\BOOKMARK [2][-]{subsection.7.4.3}{Measurement Phase Space}{section.7.4}% 51
+\BOOKMARK [1][-]{section.7.5}{Unfolding}{chapter.7}% 52
+\BOOKMARK [1][-]{section.7.6}{Results}{chapter.7}% 53
+\BOOKMARK [1][-]{section.7.7}{Outlook}{chapter.7}% 54
+\BOOKMARK [0][-]{chapter.8}{Summary and Outlook}{}% 55
