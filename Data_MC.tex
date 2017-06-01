@@ -12,11 +12,11 @@
 	
 \section{Event Generator and Parton Shower}
 \label{sec:Simulation}
-	Events as they are measured in the CMS detector are complicated and therefore not easily predictable. Not only the probability of a process has to be accounted for, but also further hadronisation and radiation of final state particles. Additionally, the detector itself has to be simulated because of spatial differences in detector response and measurement effects. This leads to the fact, that pure calculation of these processes is not feasible. Thus, Monte Carlo (MC) methods are used to simulate the occurrence and outcome of various processes. The simulation procedure is carried out in two separate steps. Firstly, the matrix element of the hard scattering is calculated with an MC generator. Secondly, hadronisation, namely soft QCD radiation and evolving into bound colour states, is performed.
-	%todo Cut-off und top mass
-	\section{Monte Carlo samples}
-	%todo MC hat auch GEN!
-	Additionally MC samples are processed to be able to see influences of selections in all relevant processes. Furthermore, simulations also have . The most important simulation for this analysis is of course the $t\bar{t}$ sample which will be used to provide an input for the unfolding procedure. Since the lepton+jets channel is selected, processes that have a similar final state (exactly one lepton and (b-) jets) have to be included. The background processes considered in this work are: Single Top production, $W$+jets production, $Z$+jets production, Diboson production and general QCD events. These processes are relevant in the final phase space because leptons are possible in the final state. Most dominant processes are expected to be $W$+jets and Single Top production, because they provide a process with exactly one detectable lepton in the final states and additional jets. $Z$+jets production is reduced by vetoing additional leptons. Diboson production has a very low cross section, but $WW$ and $WZ$ can lead to a similar final state as $t\bar{t}$. QCD is expected to produce mostly leptons with small transverse momenta and is therefore reduced by selecting a lepton in the high energy region. Table \ref{MC_Tab} summarises all MC samples used with additional information like MC generator, cross section and number of events one sample contains. Every process is split into different regions to obtain enough statistics in high energy regions.	
+	Events as they are measured in the CMS detector are complicated and therefore not easily predictable. Not only the probability of a process has to be accounted for, but also further hadronisation and radiation of final state particles. Additionally, the detector itself has to be simulated because of spatial differences in detector response and measurement effects. This leads to the fact, that pure calculation of these processes is not feasible. Thus, Monte Carlo (MC) methods are used to simulate the occurrence and outcome of various processes. The simulation procedure is carried out in two separate steps. Firstly, the matrix element of the hard scattering is calculated with an MC generator like MADGRAPH \cite{madgraph} or POWHEG \cite{powheg}. In this calculation, the physics of the proton-proton collision, thus particle density functions, and production and decay on particle level is considered. Secondly, hadronisation, namely soft QCD radiation and evolving into bound colour states, is performed. This is mostly done with PYTHIA8 \cite{pythia8}.
+	%todo cut off scale?
+
+	\section{Monte Carlo Samples}
+	Additionally MC samples are processed to be able to see influences of selections in all relevant processes. Furthermore, simulations also provide information on particle level, meaning the physical process without detector effects. This is referred to as particle or generator level. The most important simulation for this analysis is of course the $t\bar{t}$ sample which will be used to provide an input for the unfolding procedure. Since the lepton+jets channel is selected, processes that have a similar final state (exactly one lepton and (b-) jets) have to be included. The background processes considered in this work are: Single Top production, $W$+jets production, $Z$+jets production, Diboson production and general QCD events. These processes are relevant in the final phase space because leptons are possible in the final state. Most dominant processes are expected to be $W$+jets and Single Top production, because they provide a process with exactly one detectable lepton in the final states and additional jets. $Z$+jets production is reduced by vetoing additional leptons. Diboson production has a very low cross section, but $WW$ and $WZ$ can lead to a similar final state as $t\bar{t}$. QCD is expected to produce mostly leptons with small transverse momenta and is therefore reduced by selecting a lepton in the high energy region. Table \ref{MC_Tab} summarises all MC samples used with additional information like MC generator, cross section and number of events one sample contains. Every process is split into different regions to obtain enough statistics in high energy regions.	
 	\begin{table}
 	\centering
 	 \begin{tabular}{l l c r@{.}l r }
@@ -47,7 +47,7 @@
 	 	         & $1200 < S_T < 2500$ & " & 0 & 19 & 595906 \\
 	 	         & $2500 < S_T < \infty$ &"  & 0 & 004 & 399147 \\
 	 	\hline
-	 	QCD             & $15 < p_T < 20$ & PYTHIA & 3819570 & & 4141208 \\
+	 	QCD             & $15 < p_T < 20$ & PYTHIA8 & 3819570 & & 4141208 \\
 		(muon enriched) & $20 < p_T < 30$ & " & 2960198 & &  31475095 \\
 		                & $30 < p_T < 50$ & " & 1652471 & & 29944719\\
 		                & $50 < p_T < 80$ & " & 437504 & & 19806515 \\
@@ -60,7 +60,7 @@
 		                & $800 < p_T < 1000$ & " & 4 & 71 & 3959757 \\
 		                & $1000 < p_T < \infty$ & " & 1 & 62 &  3976075 \\
 		\hline
-	 	Diboson & $WW$ & PYTHIA & 118 & 7 & 994017 \\
+	 	Diboson & $WW$ & PYTHIA8 & 118 & 7 & 994017 \\
 	 			& $WZ$ & " & 47 & 13 & 990003 \\
 	 	        & $ZZ$ & " & 16 & 52 & 993154 \\
 	 	 \hline

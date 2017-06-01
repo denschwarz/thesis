@@ -827,6 +827,132 @@
     \field{title}{{Luminosity versus day}}
   \endentry
 
+  \entry{madgraph}{article}{}
+    \name{author}{5}{}{%
+      {{hash=AJ}{%
+         family={Alwall},
+         familyi={A\bibinitperiod},
+         given={Johan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Herquet},
+         familyi={H\bibinitperiod},
+         given={Michel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Maltoni},
+         familyi={M\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MO}{%
+         family={Mattelaer},
+         familyi={M\bibinitperiod},
+         given={Olivier},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Stelzer},
+         familyi={S\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AJHMMF+1}
+    \strng{fullhash}{AJHMMFMOST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP06(2011)128
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1106.0522
+    \endverb
+    \field{title}{MadGraph 5 : Going Beyond}
+    \field{year}{2011}
+  \endentry
+
+  \entry{powheg}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AS}{%
+         family={Alioli},
+         familyi={A\bibinitperiod},
+         given={Simone},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Oleari},
+         familyi={O\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Re},
+         familyi={R\bibinitperiod},
+         given={Emanuele},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ASNPOC+1}
+    \strng{fullhash}{ASNPOCRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP06(2010)043
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1002.2581
+    \endverb
+    \field{howpublished}{JHEP 1006:043,2010}
+    \field{title}{A general framework for implementing NLO calculations in
+  shower Monte Carlo programs: the POWHEG BOX}
+    \field{year}{2010}
+  \endentry
+
+  \entry{pythia8}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ST}{%
+         family={Sjöstrand},
+         familyi={S\bibinitperiod},
+         given={Torbjörn},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mrenna},
+         familyi={M\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Skands},
+         familyi={S\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{STMSSP1}
+    \strng{fullhash}{STMSSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.cpc.2008.01.036
+    \endverb
+    \verb{eprint}
+    \verb arXiv:0710.3820
+    \endverb
+    \field{howpublished}{Comput.Phys.Commun.178:852-867,2008}
+    \field{title}{A Brief Introduction to PYTHIA 8.1}
+    \field{year}{2007}
+  \endentry
+
   \entry{tunfold}{article}{}
     \name{author}{1}{}{%
       {{hash=SS}{%

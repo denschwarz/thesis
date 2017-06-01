@@ -52,7 +52,7 @@
 	d_{iB} = k_{T,i}^{-n}.
 	\label{eq:iB}
 	\end{equation}
-	Here, $d_{ij}$ describes an effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis. The variable $k_T$ is the transverse momentum of an object, $\Delta R_{ij}$ denotes the distance between objects $i$ and $j$ and $R$ is a constant parameter that defines the radius of the resulting jet. Changing the exponent $n$ influences the order of clustering. When $d_{ij}$ is smaller than $d_{iB}$ both objects $i$ and $j$ are combined and both measures are calculated again. At some point, $d_{iB}$ will be smaller than any $d_{ij}$. Then object $i$ is called a jet and is removed from the list of objects. This procedure is repeated until the list of objects is empty. If $n=-2$, the algorithm is called Anti-$k_T$ \cite{antikt} and particles with high transverse momenta are clustered first. Using the Cambridge/Aachen \cite{CA1}\cite{CA2} algorithm, and therefore choosing $n=0$ will not weight the objects by momenta and provides a pure geometrical measure. The resulting shapes of the jet area are depicted in Fig. \ref{fig:jetshape}. It is to mention, that the Anti-$k_T$ algorithm because of its conical jets is used as a standard in CMS.
+	Here, $d_{ij}$ describes an effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis. The variable $k_T$ is the transverse momentum of an object, $\Delta R_{ij}$ denotes the distance between objects $i$ and $j$ and $R$ is a constant parameter that defines the radius of the resulting jet. Changing the exponent $n$ influences the order of clustering. When $d_{ij}$ is smaller than $d_{iB}$ both objects $i$ and $j$ are combined and both measures are calculated again. At some point, $d_{iB}$ will be smaller than any $d_{ij}$. Then object $i$ is called a jet and is removed from the list of objects. This procedure is repeated until the list of objects is empty. If $n=-2$, the algorithm is called Anti-$k_T$ \cite{antikt} and particles with high transverse momenta are clustered first. Using the Cambridge/Aachen \cite{CA1}\cite{CA2} algorithm, and therefore choosing $n=0$ will not weight the objects by momenta and provides a pure geometrical measure. The resulting shapes of the jet area are depicted in Fig. \ref{fig:ak_jetshape} when using Anti-$k_T$ and Fig. \ref{fig:ca_jetshape} when using the Cambridge/Aachen clustering algorithm. It is to mention, that the Anti-$k_T$ algorithm because of its conical jets is used as a standard in CMS.
 	%todo KT auch erwähnen?
 	\begin{figure}
 	\begin{subfigure}{.5\textwidth}
@@ -67,7 +67,6 @@
 			\caption{}
 			\label{fig:ca_jetshape}
 	\end{subfigure}
-			\label{fig:jetshape}
 			\caption{Jet area shape at parton level of the Anti-$k_T$ algorithm (a) and Cambridge/Aachen algorithm (b). Taken from \cite{antikt}.}
 	\end{figure}
 
@@ -75,12 +74,12 @@
 
 \subsection{Soft Drop}
 \label{sec:sd}
-	When clustering particles into jets, algorithms do not make a difference if particles come from the hard process or from pile-up, underlying event or initial state radiation. To obtain a jet that in the best case only contains energy from particles of the hard scattering process, jet substructure techniques are applied to remove soft radiation. The biggest impact on jet mass measurements has wide angle radiation. If a light quark or gluon is clustered into a jet originating from a top quark it adds more mass the larger the distance between top quark and light jet is. To remove wide angle radiation, the Soft Drop algorithm \cite{softdrop} is introduced. This method undoes the last clustering step, breaking the final jet into two constituents. Now a criterion (Eq. \ref{eq:sd}) is checked. If the condition does not hold, the constituent with lower transverse momentum is removed, else the final jet remains unchanged. 	
+	When clustering particles into jets, algorithms do not make a difference if particles come from the hard process or from pile-up, underlying event or initial state radiation. To obtain a jet that in the best case only contains energy from particles of the hard scattering process, jet substructure techniques are applied to remove soft radiation. The biggest impact on jet mass measurements has wide angle radiation. If a light quark or gluon is clustered into a jet originating from a top quark it adds more mass the larger the distance between top quark and light jet is. To remove wide angle radiation, the Soft Drop algorithm \cite{softdrop} is introduced. This method undoes the last clustering step, breaking the final jet into two constituents. Now a criterion (Eq. \ref{eq:sd}) is checked. If the condition does not hold, the constituent with lower transverse momentum is removed, else the final jet remains unchanged. 
 	\begin{equation}
 	\frac{\min(p_{T1}, p_{T2})}{p_{T1} + p_{T2}} > z_\text{cut} \left( \frac{\Delta R_{12}}{R_0}\right)^\beta
 	\label{eq:sd}
 	\end{equation}
-	Here, $p_{T1}$ and $p_{T2}$ describe the transverse momenta of and $\Delta R_{12}$ the distance between the constituents and $R_0$ is the radius of the final jet. A threshold value $z_\text{cut}$ and an exponent $\beta$ define the strength of grooming. Performance studies have been performed in \cite{softdropvalues} resulting in standard values of $z_\text{cut} = 0.1$ and $\beta =0$.
+	Here, $p_{T1}$ and $p_{T2}$ describe the transverse momenta of and $\Delta R_{12}$ the distance between the constituents and $R_0$ is the radius of the final jet. A threshold value $z_\text{cut}$ and an exponent $\beta$ define the strength of grooming. Performance studies have been performed in \cite{softdropvalues} resulting in standard values of $z_\text{cut} = 0.1$ and $\beta =0$.	With more then two constituents, the final jet is repeatedly pairwise declustered, checking the soft drop condition after every step.
 	
 \subsection{HOTVR Jet Algorithm}
 	Another approach to cluster jets is the 'heavy object tagger with variable R' (HOTVR) \cite{hotvr}. This algorithm does not use a constant radius parameter $R$ but a $p_T$ dependent effective $R=R_\text{eff}(p_T)$ (see Eq. \ref{eq:HOTVR}). Thus the $R_\text{eff}$ decreases with increasing $p_T$ leading to smaller jets when the decay products are expected to be more close because of the Lorentz boost. The $p_T$ dependence is scaled with a parameter $\rho$ with a default value of $600\;\text{GeV}$. Furthermore, upper and lower boundaries for the jet radius can be set. The default values are $R_\text{min} = 0.1$ and $R_\text{max} = 1.5$. 	
@@ -100,7 +99,7 @@
 	\label{eq:hotvr_mij}
 	\end{equation}
 	\begin{equation}
-	\theta m_{ij} > \min(m_i, m_j)
+	\theta m_{ij} > \max(m_i, m_j)
 	\label{eq:hotvr_theta}
 	\end{equation}
 	Here, values between $0$ and $1$ can be assigned to $\theta$, defining the strength of the mass jump criterion. A default value of $\theta =0.7$ is set. Only if the mass jump requirement holds, and both constituents carry enough transverse momentum (default $p_{T,\text{sub}} = 30$)

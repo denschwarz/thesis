@@ -1,5 +1,8 @@
 \documentclass[12pt, a4paper, twoside, openright]{report}
 
+% ===========================================================
+% ======================== packages =========================
+% ===========================================================
 \usepackage[ngerman, english]{babel}
 \usepackage[ansinew]{inputenc}
 \usepackage[T1]{fontenc}
@@ -15,28 +18,35 @@
 \usepackage[onehalfspacing]{setspace}
 \usepackage[section]{placeins} %Bilder rutschen nicht aus section
 \usepackage[markup=nocolor,deletedmarkup=xout]{changes}
-\usepackage{cancel}
+\usepackage{cancel}			%MET symbol
 \usepackage{chngcntr}
 \usepackage{lscape}
 \usepackage[normal]{caption} %style für Bildunterschriften
 \usepackage{multicol} 
-\usepackage{epstopdf}
+\usepackage{epstopdf}		%.eps get converted to pdf
 \usepackage{textcomp}
-\usepackage{url}
-\usepackage{blindtext} %use blindtext
-\usepackage{subcaption}
-\usepackage{tikz}
-\usepackage{verbatim}
-\usepackage{microtype} %bessere Zeilenumbrueche, z.B. ISBN in Literatur
+\usepackage{url}			%for hyperlinks
+\usepackage{blindtext} 		%use blindtext
+\usepackage{subcaption} 	%for (a) in subfigures
+\usepackage{tikz} 			%new graphic options
+\usepackage{verbatim}		
+\usepackage{microtype} 		%bessere Zeilenumbrueche, z.B. ISBN in Literatur
 \usepackage{typearea}
-\usepackage{tikz-feynman} %Feynman Diagrams
+\usepackage{tikz-feynman} 	%Feynman Diagrams
 \tikzfeynmanset{compat=1.1.0}
-% ======================
-% special format for chemical formulas
-\newcommand*\chem[1]{\ensuremath{\mathrm{#1}}}
-% ======================
+\usepackage{fancyhdr}		%new head and foot lines
+\usepackage[babel, german=quotes]{csquotes}
+\usepackage{hyperref}
+\usepackage[style=ieee, maxbibnames=100, sorting=none, backend=bibtex]{biblatex}
+% ===========================================================
+% ======================== new commands =====================
+% ===========================================================
+\newcommand*\chem[1]{\ensuremath{\mathrm{#1}}} %chem formulas
+
+% ===========================================================
+% ======================== configuration ====================
+% ===========================================================
 % customised header and footer
-\usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot[CE,CO]{\thepage}
@@ -78,7 +88,6 @@
 \counterwithin{equation}{chapter}
 % ======================= 
 % bibliography stuff
-\usepackage[style=ieee, maxbibnames=100, sorting=none, backend=bibtex]{biblatex}
 \addbibresource{MasterBib.bib}
 \ExecuteBibliographyOptions{% 
 firstinits=true, 
@@ -87,26 +96,20 @@ minalphanames=3,
 maxalphanames=3, 
 }% 
 
-\usepackage[babel, german=quotes]{csquotes}
 
-
-% =======================
-
-\usepackage{hyperref}
 \urlstyle{same}
-
+% =======================
 \begin{document}
-%----------------------------------------------------------------
-%------------------DECKBLATT-------------------------------------
-%----------------------------------------------------------------
+% ===========================================================
+% ======================== Deckblatt ========================
+% ===========================================================
 \selectlanguage{ngerman}
 \pagenumbering{roman}
 \thispagestyle{empty}
 \include{Titlepage}
 % clearpage without page number:
 {\clearpage{\pagestyle{empty}\mtcleardoublepage}} 
-%----------------------------------------------------------------
-%----------------------------------------------------------------
+%Abstract
 \section*{Zusammenfassung}
 \thispagestyle{plain}
 \blindtext
@@ -124,9 +127,9 @@ maxalphanames=3,
 
 \pagenumbering{arabic}
 \selectlanguage{english}
-%----------------------------------------------------------------
-%-------------------Hier Inhalt----------------------------------
-%----------------------------------------------------------------
+% ===========================================================
+% ======================== Inhalt ===========================
+% ===========================================================
 %todo Ueberschriftren einheitlich gross/klein!
 %todo Absaetze, indent pruefen
 \include{Introduction}
@@ -138,9 +141,9 @@ maxalphanames=3,
 \include{Analysis}
 \include{Summary}
 \pagestyle{plain}
-%----------------------------------------------------------------
-%----------Hier Literaturverzeichnis-----------------------------
-%----------------------------------------------------------------
+% ===========================================================
+% ======================== Literaturverzeichnis =============
+% ===========================================================
 % Einträge erscheinen nur, wenn sie auch zitiert werden!!!
 \printbibliography
 %todo in bib style formatieren. z.B. darf "CMS Collaboration" nicht C. Collaboration werden
@@ -164,8 +167,8 @@ maxalphanames=3,
 %----------------------------------------------------------------
 \section*{Danksagung}
 
-%----------------------------------------------------------------
-%----------------------------------------------------------------
-%----------------------------------------------------------------
 
 \end{document}  
+%----------------------------------------------------------------
+%----------------------------------------------------------------
+%----------------------------------------------------------------

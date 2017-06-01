@@ -38,9 +38,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Physics of proton-proton collisions}{15}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pile-Up}{16}{subsubsection*.8}
+\contentsline {subsubsection}{Pile-Up}{16}{equation.3.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Underlying Event}{17}{subsubsection*.9}
+\contentsline {subsubsection}{Underlying Event}{17}{equation.3.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}CMS Detector}{17}{section.3.2}
 \defcounter {refsection}{0}\relax 
@@ -52,9 +52,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.4}Calorimeters}{20}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Electromagnetic Calorimeter}{21}{subsubsection*.12}
+\contentsline {subsubsection}{Electromagnetic Calorimeter}{21}{equation.3.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hadronic Calorimeter}{21}{subsubsection*.13}
+\contentsline {subsubsection}{Hadronic Calorimeter}{21}{equation.3.12}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.5}Muon System}{22}{subsection.3.2.5}
 \defcounter {refsection}{0}\relax 
@@ -90,7 +90,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Event Generator and Parton Shower}{34}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Monte Carlo samples}{34}{section.5.3}
+\contentsline {section}{\numberline {5.3}Monte Carlo Samples}{35}{section.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Unfolding}{37}{chapter.6}
 \defcounter {refsection}{0}\relax 
