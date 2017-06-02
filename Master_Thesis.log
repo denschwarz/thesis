@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  1 JUN 2017 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.11)  2 JUN 2017 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Master_Thesis.tex
 (./Master_Thesis.tex
-LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/home/schwarzd/texlive/texmf-dist/tex/latex/base/report.cls
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 8 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/home/schwarzd/texlive/texmf-dist/tex/latex/base/size12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,44 +24,48 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/04/23 3.9r The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/02/24 3.9q The Babel package
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
-Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2013/12/13 v2.7 German support for babel (new orthography)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/04/23 3.9r Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/02/24 3.9q Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
-Package babel Info: Making " an active character on input line 125.
+\l@naustrian = a dialect from \language\l@ngerman 
+\l@nswissgerman = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 88.
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/01/24 v3.3q English support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/base/ansinew.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/ansinew.def
 File: ansinew.def 2015/03/17 v1.2c Input encoding file
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -97,41 +101,41 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/home/schwarzd/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen104
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count89
-LaTeX Info: Redefining \frac on input line 213.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count90
 \leftroot@=\count91
-LaTeX Info: Redefining \overline on input line 375.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count92
 \DOTSCASE@=\count93
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen106
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \macc@depth=\count94
 \c@MaxMatrixCols=\count95
 \dotsspace@=\muskip10
@@ -152,24 +156,24 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup6
 \symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup8
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enitkv@toks@=\toks21
 \labelindent=\skip46
@@ -178,49 +182,50 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box28
 \enitdp@description=\count101
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count102
 ))
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count103
@@ -236,31 +241,31 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen123
 \Gm@dimlist=\toks24
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/changes/changes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/changes/changes.sty
 Package: changes 2015/04/27 v2.0.4 changes package
 
 *** changes package 2015/04/27 v2.0.4 ***
-(/home/schwarzd/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/home/schwarzd/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks25
 \XKV@tempa@toks=\toks26
 )
 \XKV@depth=\count106
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/tools/calc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count107
 \calc@Bcount=\count108
@@ -273,15 +278,15 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count109
 \calc@Cskip=\skip49
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 ))
 changes-option 'markup=nocolor'
 changes-option 'deletedmarkup=xout'
-(/home/schwarzd/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box29
 \UL@hyphenbox=\box30
 \UL@skip=\skip50
@@ -299,26 +304,26 @@ Package: ulem 2012/05/18
 \c@Changes@DeleteCount=\count114
 \c@Changes@ReplaceCount=\count115
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/truncate/truncate.sty
+(/usr/share/texlive/texmf-dist/tex/latex/truncate/truncate.sty
 Package: truncate 2001/08/20  ver 3.6
 \@Trunc@RestHyph=\toks28
 )
 \Changes@Len@summ=\skip51
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+(/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+(/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2009/09/02 v1.0a change counter resetting
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen129
 \captionmargin@=\dimen130
@@ -330,8 +335,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 )
 \c@ContinuedFloat=\count116
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \c@tracingmulticols=\count117
 \mult@box=\box32
 \multicol@leftmargin=\dimen136
@@ -379,29 +384,29 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \colbreak@box=\box57
 \mc@col@check@num=\count125
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
-Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
 Package etexcmds Info: Could not find \expanded.
@@ -409,27 +414,25 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+(grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2017/02/22 v2.0g Standard LaTeX package
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -443,7 +446,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -510,14 +513,14 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/tools/xspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count126
@@ -539,43 +542,41 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count142
 \c@blind@pangrammax=\count143
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 \c@subfigure=\count144
 \c@subtable=\count145
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/home/schwarzd/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/home/schwarzd/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks29
 \pgfutil@tempdima=\dimen145
 \pgfutil@tempdimb=\dimen146
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lis
-ts.tex))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box58
-
-(/home/schwarzd/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/home/schwarzd/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks30
 \pgfkeys@temptoks=\toks31
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.co
-de.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
 \pgfkeys@tmptoks=\toks32
 ))
 \pgf@x=\dimen147
@@ -595,52 +596,51 @@ de.tex
 \t@pgf@toka=\toks33
 \t@pgf@tokb=\toks34
 \t@pgf@tokc=\toks35
- (/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.de
-f
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pd
-f.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.c
-ode.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count150
 \pgfsyssoftpath@bigbuffer@items=\count151
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.c
-ode.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (/home/schwarzd/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen155
 \pgfmath@count=\count152
 \pgfmath@box=\box59
@@ -648,29 +648,28 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks37
 \pgfmath@stack@operation=\toks38
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.t
-ex
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.
-code.tex)
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigon
-ometric.code.tex)
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
 .code.tex)
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compar
-ison.code.tex)
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.c
-ode.tex)
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.
-code.tex)
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.c
-ode.tex)
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.intege
-rarithmetics.code.tex)))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count153
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.cod
-e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen156
 \pgf@picmaxx=\dimen157
@@ -687,121 +686,113 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen168
 \pgf@zy=\dimen169
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstr
-uct.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen170
 \pgf@path@lasty=\dimen171
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.
-code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen172
 \pgf@shorten@start@additional=\dimen173
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.cod
-e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box60
 \pgf@hbox=\box61
 \pgf@layerbox@main=\box62
 \pgf@picture@serial@count=\count154
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicsta
-te.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen174
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransforma
-tions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen175
 \pgf@pt@y=\dimen176
 \pgf@pt@temp=\dimen177
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code
-.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.co
-de.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproces
-sing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.cod
-e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen178
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code
-.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen179
 \pgf@sys@shading@range@num=\count155
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code
-.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.c
-ode.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box63
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.cod
-e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparen
-cy.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.c
-ode.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code
-.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box64
-)
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.t
-ex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-
-0-65.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen180
 \pgf@nodesepend=\dimen181
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-
-1-18.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/home/schwarzd/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen182
 \pgffor@skip=\dimen183
 \pgffor@stack=\toks39
 \pgffor@toks=\toks40
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code
-.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothand
-lers.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count156
 \pgfplotmarksize=\dimen184
@@ -821,8 +812,7 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count159
 \tikz@fig@count=\count160
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code
-.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count161
 \pgfmatrixcurrentcolumn=\count162
@@ -830,56 +820,56 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count164
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibrarytopaths.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks41
 \verbatim@line=\toks42
 \verbatim@in@stream=\read2
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks43
 \MT@count=\count165
-LaTeX Info: Redefining \textls on input line 774.
+LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen191
-LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
 \MT@listname@count=\count166
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
-LaTeX Info: Redefining \lsstyle on input line 916.
-LaTeX Info: Redefining \lslig on input line 916.
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
 \MT@outer@space=\skip54
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2017/01/03 v3.22 KOMA-Script package (type area)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2015/10/03 v3.19a KOMA-Script package (type area)
 
-Package typearea, 2017/01/03 v3.22 KOMA-Script package (type area)
+Package typearea, 2015/10/03 v3.19a KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2017/01/03 v3.22 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
-
-(/home/schwarzd/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2017/01/03 v3.22 KOMA-Script package (KOMA-Script-independent 
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-dependent 
 basics and keyval usage)
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2017/01/03 v3.22 KOMA-Script package (loading files)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
 
-Package scrlfile, 2017/01/03 v3.22 KOMA-Script package (loading files)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2015/10/03 v3.19a KOMA-Script package (loading files)
+
+Package scrlfile, 2015/10/03 v3.19a KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
 )))
@@ -895,9 +885,9 @@ Package typearea Info: You've used standard option `a4paper'.
 \ta@vblk=\skip57
 \ta@temp=\skip58
 \footheight=\skip59
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 1583.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 1509.
 
- (/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 Package typearea Info: These are the values describing the layout:
@@ -916,33 +906,34 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 62.9806pt
 (typearea)              \baselineskip   = 17.99446pt
-(typearea)              on input line 1583.
+(typearea)              on input line 1509.
 )
-(/home/schwarzd/texmf/tex/latex/tikz-feynman/tikz-feynman.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
 Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks44
 \pgfopts@list@add@b@toks=\toks45
 )
-(/home/schwarzd/texmf/tex/latex/tikz-feynman/tikzlibraryfeynman.code.tex
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.m
-eta.code.tex
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
 File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
 \pgfarrowinset=\dimen192
 \pgfarrowlength=\dimen193
 \pgfarrowwidth=\dimen194
 \pgfarrowlinewidth=\dimen195
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibrarycalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibrarydecorations.code.tex
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations
-.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
 \pgfdecoratedcompleteddistance=\dimen196
 \pgfdecoratedremainingdistance=\dimen197
 \pgfdecoratedinputsegmentcompleteddistance=\dimen198
@@ -954,49 +945,48 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
 \tikz@lib@dec@box=\box69
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibrarydecorations.markings.code.tex
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflib
-rarydecorations.markings.code.tex))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibrarydecorations.pathmorphing.code.tex
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflib
-rarydecorations.pathmorphing.code.tex))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibrarydecorations.pathreplacing.code.tex
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflib
-rarydecorations.pathreplacing.code.tex))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
-/graphs/tikzlibrarygraphs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.markings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.markings.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
+phs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2015/06/05 v3.0.1a (rcs-revision 1.44)
 \tikz@lib@auto@number=\count169
 \tikz@qnode@count=\count170
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibrarypatterns.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns
-.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.cod
+e.tex
 File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibrarypositioning.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibraryshapes.geometric.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 )
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrarys
-hapes.geometric.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 
 ))
-(/home/schwarzd/texmf/tex/latex/tikz-feynman/tikzfeynman.keys.code.tex)))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.code.tex
+))) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip60
 \f@ncyO@elh=\skip61
 \f@ncyO@erh=\skip62
@@ -1007,11 +997,11 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip67
 \f@ncyO@orf=\skip68
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count171
 )
 \csq@reset=\count172
@@ -1022,13 +1012,13 @@ Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \csq@tshold=\count177
 \csq@ltx@everypar=\toks46
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 )
 Package csquotes Info: Option 'babel' depreciated.
@@ -1036,78 +1026,78 @@ Package csquotes Info: Option 'babel' depreciated.
 Package csquotes Info: Enabling multilingual quotes.
 Package csquotes Info: Redefining alias 'german' -> 'german/quotes'.
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package hobsub Info: Skipping package `etexcmds' (already loaded).
 Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
 Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen259
 \Hy@linkcounter=\count178
 \Hy@pagecounter=\count179
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count180
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count181
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen260
 \Fld@menulength=\count182
 \Field@Width=\dimen261
 \Fld@charsize=\dimen262
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count183
 \c@Item=\count184
 \c@Hfootnote=\count185
@@ -1115,231 +1105,205 @@ LaTeX Info: Redefining \pageref on input line 6432.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count186
 \c@bookmark@seq@number=\count187
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip69
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/03/03 v3.3 programmable bibliographies (PK/JW/AB)
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex_legacy.sty
+Package: biblatex_legacy 2016/03/03 v3.3 programmable bibliographies (bibtex) (
+PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count188
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/logreq/logreq.def
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(/home/schwarzd/texlive/texmf-dist/tex/generic/xstring/xstring.sty
-(/home/schwarzd/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\@xs@message=\write4
-\integerpart=\count189
-\decimalpart=\count190
-)
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
-)
-\c@tabx@nest=\count191
-\c@listtotal=\count192
-\c@listcount=\count193
-\c@liststart=\count194
-\c@liststop=\count195
-\c@citecount=\count196
-\c@citetotal=\count197
-\c@multicitecount=\count198
-\c@multicitetotal=\count199
-\c@instcount=\count266
-\c@maxnames=\count267
-\c@minnames=\count268
-\c@maxitems=\count269
-\c@minitems=\count270
-\c@citecounter=\count271
-\c@savedcitecounter=\count272
-\c@uniquelist=\count273
-\c@uniquename=\count274
-\c@refsection=\count275
-\c@refsegment=\count276
-\c@maxextratitle=\count277
-\c@maxextratitleyear=\count278
-\c@maxextrayear=\count279
-\c@maxextraalpha=\count280
-\c@abbrvpenalty=\count281
-\c@highnamepenalty=\count282
-\c@lownamepenalty=\count283
-\c@maxparens=\count284
-\c@parenlevel=\count285
-\blx@tempcnta=\count286
-\blx@tempcntb=\count287
-\blx@tempcntc=\count288
-\blx@maxsection=\count289
-\blx@maxsegment@0=\count290
-\blx@notetype=\count291
-\blx@parenlevel@text=\count292
-\blx@parenlevel@foot=\count293
-\blx@sectionciteorder@0=\count294
+\c@tabx@nest=\count189
+\c@listtotal=\count190
+\c@listcount=\count191
+\c@liststart=\count192
+\c@liststop=\count193
+\c@citecount=\count194
+\c@citetotal=\count195
+\c@multicitecount=\count196
+\c@multicitetotal=\count197
+\c@instcount=\count198
+\c@maxnames=\count199
+\c@minnames=\count266
+\c@maxitems=\count267
+\c@minitems=\count268
+\c@citecounter=\count269
+\c@savedcitecounter=\count270
+\c@uniquelist=\count271
+\c@uniquename=\count272
+\c@refsection=\count273
+\c@refsegment=\count274
+\c@maxextrayear=\count275
+\c@maxextraalpha=\count276
+\c@abbrvpenalty=\count277
+\c@highnamepenalty=\count278
+\c@lownamepenalty=\count279
+\c@maxparens=\count280
+\c@parenlevel=\count281
+\blx@tempcnta=\count282
+\blx@tempcntb=\count283
+\blx@tempcntc=\count284
+\blx@maxsection=\count285
+\blx@maxsegment=\count286
+\blx@notetype=\count287
+\blx@parenlevel@text=\count288
+\blx@parenlevel@foot=\count289
 \labelnumberwidth=\skip70
 \labelalphawidth=\skip71
-\biblabelsep=\skip72
-\bibitemsep=\skip73
-\bibnamesep=\skip74
-\bibinitsep=\skip75
-\bibparsep=\skip76
-\bibhang=\skip77
-\blx@bcfin=\read3
-\blx@bcfout=\write5
-\c@mincomprange=\count295
-\c@maxcomprange=\count296
-\c@mincompwidth=\count297
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'ieee.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count298
-\c@savedafterword=\count299
-\c@annotator=\count300
-\c@savedannotator=\count301
-\c@author=\count302
-\c@savedauthor=\count303
-\c@bookauthor=\count304
-\c@savedbookauthor=\count305
-\c@commentator=\count306
-\c@savedcommentator=\count307
-\c@editor=\count308
-\c@savededitor=\count309
-\c@editora=\count310
-\c@savededitora=\count311
-\c@editorb=\count312
-\c@savededitorb=\count313
-\c@editorc=\count314
-\c@savededitorc=\count315
-\c@foreword=\count316
-\c@savedforeword=\count317
-\c@holder=\count318
-\c@savedholder=\count319
-\c@introduction=\count320
-\c@savedintroduction=\count321
-\c@namea=\count322
-\c@savednamea=\count323
-\c@nameb=\count324
-\c@savednameb=\count325
-\c@namec=\count326
-\c@savednamec=\count327
-\c@translator=\count328
-\c@savedtranslator=\count329
-\c@shortauthor=\count330
-\c@savedshortauthor=\count331
-\c@shorteditor=\count332
-\c@savedshorteditor=\count333
-\c@labelname=\count334
-\c@savedlabelname=\count335
-\c@institution=\count336
-\c@savedinstitution=\count337
-\c@lista=\count338
-\c@savedlista=\count339
-\c@listb=\count340
-\c@savedlistb=\count341
-\c@listc=\count342
-\c@savedlistc=\count343
-\c@listd=\count344
-\c@savedlistd=\count345
-\c@liste=\count346
-\c@savedliste=\count347
-\c@listf=\count348
-\c@savedlistf=\count349
-\c@location=\count350
-\c@savedlocation=\count351
-\c@organization=\count352
-\c@savedorganization=\count353
-\c@origlocation=\count354
-\c@savedoriglocation=\count355
-\c@origpublisher=\count356
-\c@savedorigpublisher=\count357
-\c@publisher=\count358
-\c@savedpublisher=\count359
-\c@language=\count360
-\c@savedlanguage=\count361
-\c@pageref=\count362
-\c@savedpageref=\count363
-\shorthandwidth=\skip78
-\shortjournalwidth=\skip79
-\shortserieswidth=\skip80
-\shorttitlewidth=\skip81
-\shortauthorwidth=\skip82
-\shorteditorwidth=\skip83
+\shorthandwidth=\skip72
+\biblabelsep=\skip73
+\bibitemsep=\skip74
+\bibnamesep=\skip75
+\bibinitsep=\skip76
+\bibparsep=\skip77
+\bibhang=\skip78
+\blx@auxin=\read3
+\blx@auxout=\write4
+\c@mincomprange=\count290
+\c@maxcomprange=\count291
+\c@mincompwidth=\count292
+\c@labelname=\count293
+\c@savedlabelname=\count294
+\c@author=\count295
+\c@savedauthor=\count296
+\c@shortauthor=\count297
+\c@savedshortauthor=\count298
+\c@editor=\count299
+\c@savededitor=\count300
+\c@editora=\count301
+\c@savededitora=\count302
+\c@editorb=\count303
+\c@savededitorb=\count304
+\c@editorc=\count305
+\c@savededitorc=\count306
+\c@shorteditor=\count307
+\c@savedshorteditor=\count308
+\c@bookauthor=\count309
+\c@savedbookauthor=\count310
+\c@translator=\count311
+\c@savedtranslator=\count312
+\c@annotator=\count313
+\c@savedannotator=\count314
+\c@commentator=\count315
+\c@savedcommentator=\count316
+\c@introduction=\count317
+\c@savedintroduction=\count318
+\c@foreword=\count319
+\c@savedforeword=\count320
+\c@afterword=\count321
+\c@savedafterword=\count322
+\c@holder=\count323
+\c@savedholder=\count324
+\c@namea=\count325
+\c@savednamea=\count326
+\c@nameb=\count327
+\c@savednameb=\count328
+\c@namec=\count329
+\c@savednamec=\count330
+\c@institution=\count331
+\c@savedinstitution=\count332
+\c@language=\count333
+\c@savedlanguage=\count334
+\c@location=\count335
+\c@savedlocation=\count336
+\c@organization=\count337
+\c@savedorganization=\count338
+\c@origlocation=\count339
+\c@savedoriglocation=\count340
+\c@origpublisher=\count341
+\c@savedorigpublisher=\count342
+\c@pageref=\count343
+\c@savedpageref=\count344
+\c@publisher=\count345
+\c@savedpublisher=\count346
+\c@lista=\count347
+\c@savedlista=\count348
+\c@listb=\count349
+\c@savedlistb=\count350
+\c@listc=\count351
+\c@savedlistc=\count352
+\c@listd=\count353
+\c@savedlistd=\count354
+\c@liste=\count355
+\c@savedliste=\count356
+\c@listf=\count357
+\c@savedlistf=\count358
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-)
-Package biblatex Info: Trying to load BibTeX backend compatibility...
-Package biblatex Info: ... file 'blx-bibtex.def' found.
-
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/blx-bibtex.def
-File: blx-bibtex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-
-
-Package biblatex Warning: Using fall-back BibTeX(8) backend:
-(biblatex)                functionality may be reduced/unavailable.
-
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/03/03 v3.3 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count364
-\c@textcitetotal=\count365
-\c@textcitemaxnames=\count366
-\c@biburlnumpenalty=\count367
-\c@biburlucpenalty=\count368
-\c@biburllcpenalty=\count369
-\c@smartand=\count370
+Package biblatex Info: ... file 'biblatex_legacy.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex_legacy.def
+File: biblatex_legacy.def 
+\c@textcitecount=\count359
+\c@textcitetotal=\count360
+\c@textcitemaxnames=\count361
+\c@biburlnumpenalty=\count362
+\c@biburlucpenalty=\count363
+\c@biburllcpenalty=\count364
+\c@smartand=\count365
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
-File: ieee.bbx 2017/03/27 v1.2d biblatex bibliography style
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2015/03/12 v1.1k biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count371
-\c@bbx:relatedtotal=\count372
-))))
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count366
+\c@bbx:relatedtotal=\count367
+)))
+
+Package biblatex Warning: 'firstinits' option is deprecated, use 'giveninits' i
+nstead.
+
+)
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
-
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
-File: ieee.cbx 2017/03/27 v1.2d biblatex citation style
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2015/03/12 v1.1k biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
-File: numeric-comp.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
-\c@cbx@tempcnta=\count373
-\c@cbx@tempcntb=\count374
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2016/03/03 v3.3 biblatex citation style (PK/JW/AB)
+\c@cbx@tempcnta=\count368
+\c@cbx@tempcntb=\count369
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1358,14 +1322,14 @@ Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-))
-(/home/schwarzd/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
 \ttl@box=\box70
-\beforetitleunit=\skip84
-\aftertitleunit=\skip85
+\beforetitleunit=\skip79
+\aftertitleunit=\skip80
 \ttl@plus=\dimen263
 \ttl@minus=\dimen264
 \ttl@toksa=\toks47
@@ -1373,7 +1337,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen266
 \titlewidthfirst=\dimen267
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/titlesec/block.tss
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/block.tss
 File: block.tss 2016/03/15
 )
 
@@ -1384,23 +1348,23 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )
+(./Master_Thesis.aux (./Titlepage.aux)
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-File: ngerman.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 ))
-(./Master_Thesis.aux (./Titlepage.aux) (./Introduction.aux) (./Theory.aux)
-(./Experiment.aux) (./Reconstruction.aux) (./Data_MC.aux) (./Unfolding.aux)
-(./Analysis.aux) (./Summary.aux))
+(./Introduction.aux) (./Theory.aux) (./Experiment.aux) (./Reconstruction.aux)
+(./Data_MC.aux) (./Unfolding.aux) (./Analysis.aux) (./Summary.aux))
 \openout1 = `Master_Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
@@ -1419,25 +1383,25 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 102.
 
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 102.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
 LaTeX Font Info:    ... okay on input line 102.
 
-(/home/schwarzd/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count375
+\scratchcounter=\count370
 \scratchdimen=\dimen268
 \scratchbox=\box71
-\nofMPsegments=\count376
-\nofMParguments=\count377
+\nofMPsegments=\count371
+\nofMParguments=\count372
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count378
+\MPscratchCnt=\count373
 \MPscratchDim=\dimen269
-\MPnumerator=\count379
-\makeMPintoPDFobject=\count380
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
 \everyMPtoPDFconversion=\toks49
 )
 *geometry* driver: auto-detecting
@@ -1489,7 +1453,7 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 
@@ -1499,39 +1463,40 @@ luatex=false on input line 102.
 
 \AtBeginShipoutBox=\box72
 Package hyperref Info: Link coloring OFF on input line 102.
-(/home/schwarzd/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/home/schwarzd/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count381
+\c@section@level=\count376
 )
 LaTeX Info: Redefining \ref on input line 102.
 LaTeX Info: Redefining \pageref on input line 102.
 LaTeX Info: Redefining \nameref on input line 102.
 
 (./Master_Thesis.out) (./Master_Thesis.out)
-\@outlinefile=\write6
-\openout6 = `Master_Thesis.out'.
+\@outlinefile=\write5
+\openout5 = `Master_Thesis.out'.
 
 Package biblatex Info: Input encoding 'ansinew' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'ansinew'.
-Package biblatex Info: Input encoding 'ansinew' specified.
-Package biblatex Info: Data encoding 'ansinew' specified.
-(biblatex)             No need to reencode data.
-\openout5 = `Master_Thesis-blx.bib'.
+
+
+Package biblatex Warning: Data encoding is 'ansinew'.
+(biblatex)                Use backend=bibtex8 or backend=biber.
+
+\openout4 = `Master_Thesis-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Master_Thesis.bbl' found.
- (./Master_Thesis.bbl)
+(./Master_Thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 102.
 Package biblatex Info: Reference segment=0 on input line 102.
 \openout2 = `Titlepage.aux'.
 
-
-(./Titlepage.tex
+ (./Titlepage.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
@@ -1539,7 +1504,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 36
 .
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic settings for font family
@@ -1549,24 +1514,24 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 36
 .
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 36
 .
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 36
 .
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 36.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -1576,15 +1541,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-(/home/schwarzd/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 36.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 <../Logos/UHHlogo.png, id=228, 569.327pt x 568.524pt>
@@ -1604,8 +1569,7 @@ Package babel Info: Redefining ngerman shorthand "~
  [1
 
 
-{/home/schwarzd/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Logos
-/UHHlogo.png>])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../Logos/UHHlogo.png>])
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1625,15 +1589,15 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 
 
 
-] (./Master_Thesis.toc
-[5])
-\tf@toc=\write7
-\openout7 = `Master_Thesis.toc'.
+] (./Master_Thesis.toc [5])
+\tf@toc=\write6
+\openout6 = `Master_Thesis.toc'.
 
  [6]
 \openout2 = `Introduction.aux'.
 
- (./Introduction.tex
+
+(./Introduction.tex
 Chapter 1.
 ) [1
 
@@ -1767,7 +1731,7 @@ distance' requires LuaTeX. It will be ignored. on input line 173.
 [8]
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 187.
 
- (/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
@@ -2327,15 +2291,28 @@ Chapter 7.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 33.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 33.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 33.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
 
  []
 
-[40] [41])
-Underfull \vbox (badness 1092) has occurred while \output is active []
+[40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
-[43]
+ [41]
+[42]) [43]
 \openout2 = `Summary.aux'.
 
  (./Summary.tex [44
@@ -2352,16 +2329,15 @@ Chapter 8.
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 148.
 
- (/home/schwarzd/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-[47]
-Overfull \hbox (8.27939pt too wide) in paragraph at lines 154--154
+ [47]
+Overfull \hbox (8.28224pt too wide) in paragraph at lines 154--154
 []\T1/ptm/m/n/12 (-20) A. J. Larkoski, S. Marzani, G. Soyez, \T1/ptm/m/it/12 (-
 20) et al.\T1/ptm/m/n/12 (-20) , ^^P  Soft drop^^Q, 2014. \T1/ptm/m/sc/12 (-20)
  doi\T1/ptm/m/n/12 (-20) : []$10 . 1007 / JHEP05(2014 )
@@ -2394,8 +2370,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--163
 
 
 ]
-\Changes@OutFile=\write8
-\openout8 = `Master_Thesis.soc'.
+\Changes@OutFile=\write7
+\openout7 = `Master_Thesis.soc'.
 
  [53]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
@@ -2406,7 +2382,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
 Package rerunfilecheck Info: File `Master_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BFB7B3B880BF4C6F0026F0A7DC3CB562;3762.
+(rerunfilecheck)             Checksum: 6B37CE43E107E09D20CFFB0F0219CA99;3771.
 
 
 LaTeX Warning: There were undefined references.
@@ -2414,33 +2390,33 @@ LaTeX Warning: There were undefined references.
 Package logreq Info: Writing requests to 'Master_Thesis.run.xml'.
 \openout1 = `Master_Thesis.run.xml'.
 
- ) 
+ )
+(\end occurred when \iftrue on line 102 was incomplete) 
 Here is how much of TeX's memory you used:
- 33713 strings out of 493013
- 645765 string characters out of 6133787
- 1181828 words of memory out of 5000000
- 36041 multiletter control sequences out of 15000+600000
- 125591 words of font info for 328 fonts, out of 8000000 for 9000
- 1145 hyphenation exceptions out of 8191
- 68i,22n,100p,1995b,1999s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/home/schwarzd/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
-/home/schwarzd/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</home/schwarzd/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/schwarzd/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/schwarzd/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/schwarzd/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/schwarzd/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></home/schwarzd/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></home/schwarzd/tex
-live/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></home/schwarzd/texlive/texm
-f-dist/fonts/type1/public/cm-super/sftt1200.pfb></home/schwarzd/texlive/texmf-d
-ist/fonts/type1/urw/symbol/usyr.pfb></home/schwarzd/texlive/texmf-dist/fonts/ty
-pe1/urw/symbol/usyr.pfb></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/time
-s/utmb8a.pfb></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
-b></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Master_Thesis.pdf (59 pages, 4842927 bytes).
+ 31963 strings out of 494901
+ 604990 string characters out of 6178617
+ 1050370 words of memory out of 5000000
+ 34052 multiletter control sequences out of 15000+600000
+ 126057 words of font info for 334 fonts, out of 8000000 for 9000
+ 18 hyphenation exceptions out of 8191
+ 68i,22n,100p,1995b,2859s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/dennis/.texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk>{/usr/share/texlive/texmf-dist/fon
+ts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Master_Thesis.pdf (59 pages, 4821658 bytes).
 PDF statistics:
- 1039 PDF objects out of 1200 (max. 8388607)
- 898 compressed objects within 9 object streams
+ 1049 PDF objects out of 1200 (max. 8388607)
+ 895 compressed objects within 9 object streams
  211 named destinations out of 1000 (max. 500000)
  62481 words of extra memory for PDF output out of 74296 (max. 10000000)
 
