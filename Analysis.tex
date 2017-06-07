@@ -32,14 +32,52 @@
 	
 \subsection{Studies with Anti-$k_T$ and HOTVR}
 \label{sec:AKHOTVR}	
-	Since the top quark decay should be reconstructed with one jet, all decay products need to lay inside the defined jet cone. Choosing different cone sizes has various effects. When the cone is small, not all decay products may end up in the jet and the jet mass is reconstructed smaller than the top mass. If the cone size is large, the probability of additional radiation and pile-up grows and the resulting jet mass is reconstructed too high. As a starting point Anti-$k_T$ jets with a radius of $0.8$ are selected since this is the CMS intern standard to reconstruct top quark jets.
+	Since the top quark decay should be reconstructed with one jet, all decay products need to lay inside the defined jet cone. Choosing different cone sizes has various effects. When the cone is small, not all decay products may end up in the jet and the jet mass is reconstructed smaller than the top mass. If the cone size is large, the probability of additional radiation and pile-up grows and the resulting jet mass is reconstructed too high. As a starting point Anti-$k_T$ jets with a radius of $0.8$ are selected since this is the CMS intern standard to reconstruct top quark jets. To study the influence of the cone size, AK jets with a radius of $0.8$ and $1.2$ are presented in Fig. \ref{fig:GEN_AK08} and \ref{fig:GEN_AK12}. Additionally a matching is performed. If all three decay products of the top quark are clustered into the jet, the jet is called 'matched'. One can see that AK8 jets tend to deliver a jet mass lower than the top quark mass of about $173\;\text{GeV}$. This is due to the higher fraction of 'not matched' events. In this case, these are events where not every decay product ends up in the jet. AK12 jets on the other hand often return a mass higher than the top quark mass which is due to underlying event effects. A larger cone size has a higher probability of including particles not originating from the top quark one is interested in.
+	\begin{figure}[tb]
+		\begin{subfigure}{.5\textwidth}
+	    \centering
+		\includegraphics [width=\textwidth]{../Plots/GenStudies/AK08_matching}
+		\caption{}
+		\label{fig:GEN_AK08}
+		\end{subfigure}
+		\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics [width=\textwidth]{../Plots/GenStudies/AK12_matching}
+		\caption{}
+		\label{fig:GEN_AK12}
+		\end{subfigure}
+		\caption{Comparison of jet mass distributions of AK8 (a) and AK12 (b) jets. A smaller cone size (a) leads to a lower reconstructed mass while a large cone (b) returns higher masses. The fraction of 'matched' and 'not matched' events is shown in the histograms.}
+	\end{figure}
+	
 \subsection{Studies with XCone}
 \label{sec:XCone_strat}
 	The XCone jet algorithm described in section \ref{sec:xcone} has already been tested resolving $t\bar{t}$ decays. Studies for hadronically decaying top quark pairs are presented in a paper from Thaler and Wilkason \cite{xconetop}. Here, the XCone algorithm is tuned to the $t\bar{t}$ final state, expecting six jets. Using the information that it is expected to find three jets from each top quark, a promising approach to reconstruct the top quark decays was made with a strategy using two clustering steps. Firstly, XCone is required to find exactly two jets with a large radius ensuring that all decay products of the top quark end up in the jet. Thus, every particle from the hard scattering should be clustered into one of the jets. The goal of this first step is to separate the two top quarks into independent jets. Now, a second clustering step finding three jets is run where separate lists of particles from each fat jet are used as an input. Thus, in each fat jet, three smaller jets with $R=0.4$ are found, which will be referred to as subjets. These three small jets are then combined and used as the final top jets. \\
-	\\ In this analysis the lepton+jets channel is used. Therefore the jet originating from the hadronically decaying top quark is identified while calculating the distance between each jet and the lepton. Additionally studies with a method where the fat jet originating from the leptonically decaying top quark is divided into two instead of three jets is presented('$2+3$'). This approach was made because the neutrino from the $W$ decay cannot be seen in the detector. Nevertheless it proved handy to use the '$3+3$' method for data and therefore also for MC samples after detector simulation.  
+	\\ In this analysis the lepton+jets channel is used. Therefore the jet originating from the hadronically decaying top quark is identified while calculating the distance between each jet and the lepton. Additionally studies with a method where the fat jet originating from the leptonically decaying top quark is divided into two instead of three jets is presented ('$2+5$'). This approach was made because the neutrino from the $W$ decay cannot be seen in the detector. Nevertheless it proved handy to use the '$2+6$' method for data and therefore also for MC samples after detector simulation.  
 	%todo JetDisplays!
 	%todo Softdrop vergleich zeigen?
-	 
+ 
+	\begin{figure}[tb]
+		\begin{subfigure}{.5\textwidth}
+	    \centering
+		\includegraphics [width=\textwidth]{../Plots/JetDisplayR15/xcone_incjets_event04}
+		\caption{}
+		\label{fig:JetDisplay1}
+		\end{subfigure}
+		\begin{subfigure}{.5\textwidth}
+	    \centering
+		\includegraphics [width=\textwidth]{../Plots/JetDisplayR15/xcone_subjets_event04}
+		\caption{}
+		\label{fig:JetDisplay2}
+		\end{subfigure}
+		\caption{Jet displays }
+	\end{figure}	
+ 	\begin{figure}[tb]
+  		\centering
+ 		\includegraphics [width=.5\textwidth]{../Plots/GenStudies/XCone23_matching}
+ 		\label{fig:GEN_XCone}
+ 		\caption{Jet mass distribution of XCone jets.}
+ 	\end{figure}
+ 	
 \subsection{Comparing Jet Algorithms}
 %todo vergleich auch mit XCone Softdrop!!!
 
