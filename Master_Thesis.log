@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  8 JUN 2017 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  9 JUN 2017 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1400,7 +1400,7 @@ File: german.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 ))
 (./Master_Thesis.aux (./Titlepage.aux) (./Introduction.aux) (./Theory.aux)
 (./Experiment.aux) (./Reconstruction.aux) (./Data_MC.aux) (./Unfolding.aux)
-(./Analysis.aux) (./Summary.aux))
+(./Analysis.aux) (./Summary.aux) (./Appendix.aux))
 \openout1 = `Master_Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
@@ -1973,7 +1973,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ../Plots/XCone_Overlap.png Graphic file (type png)
 
 <use ../Plots/XCone_Overlap.png>
-Package pdftex.def Info: ../Plots/XCone_Overlap.png used on input line 123.
+Package pdftex.def Info: ../Plots/XCone_Overlap.png used on input line 124.
 (pdftex.def)             Requested size: 268.8813pt x 235.27115pt.
  [29 <../Plots/XCone_Overlap.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
@@ -2275,7 +2275,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 150.
 
-[30]) [31]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30])
+[31]
 \openout2 = `Data_MC.aux'.
 
  (./Data_MC.tex [32
@@ -2321,262 +2325,334 @@ Package pdftex.def Info: ../Images/Unfolding.png used on input line 7.
 
 (./Analysis.tex
 Chapter 7.
+<../Plots/Torben/Torben_result_paper.pdf, id=801, 569.12625pt x 569.12625pt>
+File: ../Plots/Torben/Torben_result_paper.pdf Graphic file (type pdf)
+
+<use ../Plots/Torben/Torben_result_paper.pdf>
+Package pdftex.def Info: ../Plots/Torben/Torben_result_paper.pdf used on input 
+line 14.
+(pdftex.def)             Requested size: 224.06548pt x 224.06859pt.
+
+<../Plots/Torben/Torben_error_paper.pdf, id=802, 569.12625pt x 569.12625pt>
+File: ../Plots/Torben/Torben_error_paper.pdf Graphic file (type pdf)
+
+<use ../Plots/Torben/Torben_error_paper.pdf>
+Package pdftex.def Info: ../Plots/Torben/Torben_error_paper.pdf used on input l
+ine 20.
+(pdftex.def)             Requested size: 224.06548pt x 224.06859pt.
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 12--24
+[]$[]$ $[]$ 
+ []
+
 [39
 
 
 
 
-] [40]
+] [40 <../Plots/Torben/Torben_result_paper.pdf> <../Plots/Torben/Torben_error_p
+aper.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 36.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 36.
+(hyperref)                removing `math shift' on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 36.
+(hyperref)                removing `subscript' on input line 53.
 
-<../Plots/GenStudies/AK08_matching.pdf, id=815, 569.12625pt x 546.04pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 53.
+
+[41] <../Plots/GenStudies/AK08_matching.pdf, id=914, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/AK08_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/AK08_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/AK08_matching.pdf used on input li
-ne 43.
+ne 60.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/AK12_matching.pdf, id=816, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/AK12_matching.pdf, id=915, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/AK12_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/AK12_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/AK12_matching.pdf used on input li
-ne 49.
+ne 66.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 41--53
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 58--70
 []$[]$ $[]$ 
  []
 
-<../Plots/GenStudies/HOTVR_matching.pdf, id=817, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/HOTVR_matching.pdf, id=918, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/HOTVR_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/HOTVR_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/HOTVR_matching.pdf used on input l
-ine 59.
+ine 78.
+(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
+ [42 <../Plots/GenStudies/AK08_matching.pdf, page is rotated 90 degrees> <../Pl
+ots/GenStudies/AK12_matching.pdf, page is rotated 90 degrees>] [43 <../Plots/Ge
+nStudies/HOTVR_matching.pdf, page is rotated 90 degrees>]
+<../Plots/GenStudies/XCone_dR_GEN_R20.pdf, id=1067, 569.12625pt x 546.04pt>
+File: ../Plots/GenStudies/XCone_dR_GEN_R20.pdf Graphic file (type pdf)
+
+<use ../Plots/GenStudies/XCone_dR_GEN_R20.pdf>
+Package pdftex.def Info: ../Plots/GenStudies/XCone_dR_GEN_R20.pdf used on input
+ line 88.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+<../Plots/JetDisplayR15/xcone_incjets_event04.pdf, id=1068, 569.12625pt x 541.0
+2126pt>
+File: ../Plots/JetDisplayR15/xcone_incjets_event04.pdf Graphic file (type pdf)
+ <use ../Plots/JetDisplayR15/xcone_incjets_event04.pdf>
+Package pdftex.def Info: ../Plots/JetDisplayR15/xcone_incjets_event04.pdf used 
+on input line 95.
+(pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
 
- []
+<../Plots/JetDisplayR15/xcone_subjets_event04.pdf, id=1069, 569.12625pt x 541.0
+2126pt>
+File: ../Plots/JetDisplayR15/xcone_subjets_event04.pdf Graphic file (type pdf)
+ <use ../Plots/JetDisplayR15/xcone_subjets_event04.pdf>
+Package pdftex.def Info: ../Plots/JetDisplayR15/xcone_subjets_event04.pdf used 
+on input line 101.
+(pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-
- []
-
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 93--105
+[]$[]$ $[]$ 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <../Plots/GenStudies/AK08_matching.pdf, page is rotated 90 degrees> <../Pl
-ots/GenStudies/AK12_matching.pdf, page is rotated 90 degrees>]
-<../Plots/JetDisplayR15/xcone_incjets_event04.pdf, id=925, 569.12625pt x 541.02
-126pt>
-File: ../Plots/JetDisplayR15/xcone_incjets_event04.pdf Graphic file (type pdf)
- <use ../Plots/JetDisplayR15/xcone_incjets_event04.pdf>
-Package pdftex.def Info: ../Plots/JetDisplayR15/xcone_incjets_event04.pdf used 
-on input line 75.
-(pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
-
-<../Plots/JetDisplayR15/xcone_subjets_event04.pdf, id=926, 569.12625pt x 541.02
-126pt>
-File: ../Plots/JetDisplayR15/xcone_subjets_event04.pdf Graphic file (type pdf)
- <use ../Plots/JetDisplayR15/xcone_subjets_event04.pdf>
-Package pdftex.def Info: ../Plots/JetDisplayR15/xcone_subjets_event04.pdf used 
-on input line 81.
-(pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 73--85
-[]$[]$ $[]$ 
- []
-
-
-<../Plots/JetDisplayR10/xcone_subjets_event09.pdf, id=927, 569.12625pt x 541.02
-126pt>
+ [44 <../Plots/GenStudies/XCone_dR_GEN_R20.pdf, page is rotated 90 degrees>]
+<../Plots/JetDisplayR10/xcone_subjets_event09.pdf, id=1124, 569.12625pt x 541.0
+2126pt>
 File: ../Plots/JetDisplayR10/xcone_subjets_event09.pdf Graphic file (type pdf)
  <use ../Plots/JetDisplayR10/xcone_subjets_event09.pdf>
 Package pdftex.def Info: ../Plots/JetDisplayR10/xcone_subjets_event09.pdf used 
-on input line 92.
+on input line 119.
 (pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
 
-<../Plots/JetDisplayR20/xcone_subjets_event09.pdf, id=928, 569.12625pt x 541.02
-126pt>
+<../Plots/JetDisplayR20/xcone_subjets_event09.pdf, id=1125, 569.12625pt x 541.0
+2126pt>
 File: ../Plots/JetDisplayR20/xcone_subjets_event09.pdf Graphic file (type pdf)
  <use ../Plots/JetDisplayR20/xcone_subjets_event09.pdf>
 Package pdftex.def Info: ../Plots/JetDisplayR20/xcone_subjets_event09.pdf used 
-on input line 97.
+on input line 124.
 (pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 90--100
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 117--127
 []$[]$ $[]$ 
  []
 
-<../Plots/GenStudies/XCone_GEN_R10.pdf, id=929, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone_GEN_R10.pdf, id=1126, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone_GEN_R10.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone_GEN_R10.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R10.pdf used on input li
-ne 107.
+ne 134.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/XCone_GEN_R12.pdf, id=930, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone_GEN_R12.pdf, id=1127, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone_GEN_R12.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone_GEN_R12.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R12.pdf used on input li
-ne 112.
+ne 139.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/XCone_GEN_R15.pdf, id=931, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone_GEN_R15.pdf, id=1128, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone_GEN_R15.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone_GEN_R15.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R15.pdf used on input li
-ne 117.
+ne 144.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/XCone_GEN_R20.pdf, id=932, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone_GEN_R20.pdf, id=1129, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone_GEN_R20.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone_GEN_R20.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R20.pdf used on input li
-ne 122.
+ne 149.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 105--125
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 132--152
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 105--125
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 132--152
 []$ $[]$ 
  []
 
-<../Plots/GenStudies/XCone23_matching.pdf, id=933, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone23_matching.pdf, id=1130, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone23_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone23_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/XCone23_matching.pdf used on input
- line 133.
+ line 160.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/XCone33_matching.pdf, id=934, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone33_matching.pdf, id=1131, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone33_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone33_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/XCone33_matching.pdf used on input
- line 139.
+ line 166.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 131--143
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 158--170
 []$[]$ $[]$ 
  []
 
-[43 <../Plots/GenStudies/HOTVR_matching.pdf, page is rotated 90 degrees>]
-[44 <../Plots/JetDisplayR15/xcone_incjets_event04.pdf, page is rotated 90 degre
+[45 <../Plots/JetDisplayR15/xcone_incjets_event04.pdf, page is rotated 90 degre
 es> <../Plots/JetDisplayR15/xcone_subjets_event04.pdf, page is rotated 90 degre
-es> <../Plots/JetDisplayR10/xcone_subjets_event09.pdf, page is rotated 90 degre
-es> <../Plots/JetDisplayR20/xcone_subjets_event09.pdf, page is rotated 90 degre
-es>] [45 <../Plots/GenStudies/XCone_GEN_R10.pdf, page is rotated 90 degrees> <.
-./Plots/GenStudies/XCone_GEN_R12.pdf, page is rotated 90 degrees> <../Plots/Gen
-Studies/XCone_GEN_R15.pdf, page is rotated 90 degrees> <../Plots/GenStudies/XCo
-ne_GEN_R20.pdf, page is rotated 90 degrees>] [46 <../Plots/GenStudies/XCone23_m
-atching.pdf, page is rotated 90 degrees> <../Plots/GenStudies/XCone33_matching.
-pdf, page is rotated 90 degrees>] [47
+es>] [46 <../Plots/JetDisplayR10/xcone_subjets_event09.pdf, page is rotated 90 
+degrees> <../Plots/JetDisplayR20/xcone_subjets_event09.pdf, page is rotated 90 
+degrees>] [47 <../Plots/GenStudies/XCone_GEN_R10.pdf, page is rotated 90 degree
+s> <../Plots/GenStudies/XCone_GEN_R12.pdf, page is rotated 90 degrees> <../Plot
+s/GenStudies/XCone_GEN_R15.pdf, page is rotated 90 degrees> <../Plots/GenStudie
+s/XCone_GEN_R20.pdf, page is rotated 90 degrees>] [48 <../Plots/GenStudies/XCon
+e23_matching.pdf, page is rotated 90 degrees> <../Plots/GenStudies/XCone33_matc
+hing.pdf, page is rotated 90 degrees>] [49
 
-]) [48]
+]
+<../Plots/Correction/Mean_numbers.pdf, id=1594, 569.12625pt x 385.44pt>
+File: ../Plots/Correction/Mean_numbers.pdf Graphic file (type pdf)
+
+<use ../Plots/Correction/Mean_numbers.pdf>
+Package pdftex.def Info: ../Plots/Correction/Mean_numbers.pdf used on input lin
+e 216.
+(pdftex.def)             Requested size: 403.31511pt x 273.15851pt.
+
+<../Plots/Correction/Fits_example.pdf, id=1597, 569.12625pt x 569.12625pt>
+File: ../Plots/Correction/Fits_example.pdf Graphic file (type pdf)
+
+<use ../Plots/Correction/Fits_example.pdf>
+Package pdftex.def Info: ../Plots/Correction/Fits_example.pdf used on input lin
+e 226.
+(pdftex.def)             Requested size: 224.06548pt x 224.06859pt.
+ [50] [51 <../Plots/Correction/Mean_numbers.pdf, page is rotated 90 degrees> <.
+./Plots/Correction/Fits_example.pdf>]) [52
+
+]
 \openout2 = `Summary.aux'.
 
  (./Summary.tex
 Chapter 8.
-) [49
+) [53
 
-
-
-
-] [50
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 148.
+\openout2 = `Appendix.aux'.
 
- (/home/schwarzd/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+ (./Appendix.tex [54
+
+
+
+
+]
+Appendix A.
+<../Plots/Correction/Mean_Error_numbers.pdf, id=1711, 569.12625pt x 385.44pt>
+File: ../Plots/Correction/Mean_Error_numbers.pdf Graphic file (type pdf)
+
+<use ../Plots/Correction/Mean_Error_numbers.pdf>
+Package pdftex.def Info: ../Plots/Correction/Mean_Error_numbers.pdf used on inp
+ut line 6.
+(pdftex.def)             Requested size: 403.31511pt x 273.15851pt.
+
+<../Plots/Correction/RMS_numbers.pdf, id=1712, 569.12625pt x 385.44pt>
+File: ../Plots/Correction/RMS_numbers.pdf Graphic file (type pdf)
+
+<use ../Plots/Correction/RMS_numbers.pdf>
+Package pdftex.def Info: ../Plots/Correction/RMS_numbers.pdf used on input line
+ 13.
+(pdftex.def)             Requested size: 403.31511pt x 273.15851pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../Plots/Correction/Fits.pdf, id=1713, 492.84125pt x 739.76375pt>
+File: ../Plots/Correction/Fits.pdf Graphic file (type pdf)
+
+<use ../Plots/Correction/Fits.pdf>
+Package pdftex.def Info: ../Plots/Correction/Fits.pdf used on input line 20.
+(pdftex.def)             Requested size: 439.16641pt x 659.22296pt.
+
+
+LaTeX Warning: Float too large for page by 41.91681pt on input line 23.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [55 <../Plots/Correction/Mean_Error_numbers.pdf, page is rotated 90 degrees>]
+[56 <../Plots/Correction/RMS_numbers.pdf, page is rotated 90 degrees>] [57 <../
+Plots/Correction/Fits.pdf>] [58
+
+
+
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 149.
+
+
+(/home/schwarzd/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-[51]
-Overfull \hbox (8.27939pt too wide) in paragraph at lines 154--154
+ [59]
+Overfull \hbox (8.27939pt too wide) in paragraph at lines 155--155
 []\T1/ptm/m/n/12 (-20) A. J. Larkoski, S. Marzani, G. Soyez, \T1/ptm/m/it/12 (-
 20) et al.\T1/ptm/m/n/12 (-20) , ^^P  Soft drop^^Q, 2014. \T1/ptm/m/sc/12 (-20)
  doi\T1/ptm/m/n/12 (-20) : []$10 . 1007 / JHEP05(2014 )
  []
 
-[52] [53] [54
+[60] [61] [62
 
 
 ]
-Underfull \hbox (badness 10000) in alignment at lines 159--162
+Underfull \hbox (badness 10000) in alignment at lines 160--163
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--163
+Underfull \hbox (badness 10000) in paragraph at lines 156--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--163
+Underfull \hbox (badness 10000) in paragraph at lines 156--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--163
+Underfull \hbox (badness 10000) in paragraph at lines 156--164
 
  []
 
-[55] [56
+[63] [64
 
 
 ]
 \Changes@OutFile=\write8
 \openout8 = `Master_Thesis.soc'.
 
- [57]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+ [65]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
  (./Master_Thesis.aux (./Titlepage.aux) (./Introduction.aux)
 (./Theory.aux) (./Experiment.aux) (./Reconstruction.aux) (./Data_MC.aux)
-(./Unfolding.aux) (./Analysis.aux) (./Summary.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+(./Unfolding.aux) (./Analysis.aux) (./Summary.aux) (./Appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
 Package rerunfilecheck Info: File `Master_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6B37CE43E107E09D20CFFB0F0219CA99;3771.
+(rerunfilecheck)             Checksum: 15FC7CA6F7C7ED9F1D23255C14814638;3800.
 
 
 LaTeX Warning: There were undefined references.
@@ -2586,13 +2662,13 @@ Package logreq Info: Writing requests to 'Master_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33810 strings out of 493013
- 648922 string characters out of 6133787
+ 33905 strings out of 493013
+ 651036 string characters out of 6133787
  1181828 words of memory out of 5000000
- 36112 multiletter control sequences out of 15000+600000
- 125591 words of font info for 328 fonts, out of 8000000 for 9000
+ 36162 multiletter control sequences out of 15000+600000
+ 133550 words of font info for 341 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 68i,22n,100p,1995b,1999s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,22n,100p,2010b,1999s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/home/schwarzd/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
 /home/schwarzd/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</home/schwarzd/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/schwarzd/tex
@@ -2607,10 +2683,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></home/schwarzd/texlive/texmf-dist/fonts/ty
 pe1/urw/symbol/usyr.pfb></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Master_Thesis.pdf (63 pages, 5073837 bytes).
+Output written on Master_Thesis.pdf (71 pages, 5216407 bytes).
 PDF statistics:
- 1651 PDF objects out of 1728 (max. 8388607)
- 1165 compressed objects within 12 object streams
- 221 named destinations out of 1000 (max. 500000)
- 62546 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 2065 PDF objects out of 2073 (max. 8388607)
+ 1359 compressed objects within 14 object streams
+ 237 named destinations out of 1000 (max. 500000)
+ 63098 words of extra memory for PDF output out of 74296 (max. 10000000)
 
