@@ -1,6 +1,6 @@
 \chapter{Theory}
 \label{ch:Theo}
-	The goal of particle physics is to explain the universe we observe with basic building blocks and fundamental interactions between them. Starting with quantum mechanics in the early 20\textsuperscript{th} century, physicists have developed a theory answering many questions about the development and observable state of the universe. Up to now, the current status of the theory, namely standard model of elementary particles, is the most precisely tested theory in physics. In the following, basics of this theory will be described. A special focus is set on the elementary particle which plays the most important role in this analysis - the top quark. Additionally, the goal and procedure of unfolding in particle physics is introduced and described.
+	The goal of particle physics is to explain the universe we observe with basic building blocks and fundamental interactions between them. Starting with quantum mechanics in the early 20\textsuperscript{th} century, physicists have developed a theory answering many questions about the development and observable state of the universe. Up to now, the underlying theory, namely standard model of elementary particles, is the most precisely tested theory in physics. In the following, basics of this theory will be described. A special focus is set on the elementary particle which plays the most important role in this analysis - the top quark. In addition, basic kinematics and peculiarities of proton-proton collisions and how they are simulated are examined in this chapter. 
 \section{Standard Model of Particle Physics}
 	The standard model (SM) of particle physics is a quantum field theory describing elementary particles and their interactions, providing affiliated equations of motion. All particles contained in this theory have been discovered and various experiments have confirmed predictions of the standard model at very high precision. Elementary particles of the standard model and their properties - mass, electromagnetic charge and their spin - are displayed in Fig. \ref{SM}. They are ordered in two fundamental groups by their spin. Spin-$\frac{1}{2}$ particles are called fermions, particles with integer spin are named bosons. 
 	\\
@@ -12,7 +12,7 @@
 	\begin{figure}[htb]
 		\centering
 		\includegraphics [width=.8\textwidth, trim = {0 0 0 3.5cm}, clip=true]{../Images/Standard_Model_of_Elementary_Particles.pdf}
-		\caption{Display of the particle content of the standard model divided into groups of bosons and fermions in their three generations. For every particle mass, electromagnetic charge and spin is shown. Although neutrinos are supposed to be massless in the SM, experiments show that they carry mass. Thus, the upper limit of the neutrino masses are specified. Taken from \cite{SM}.}
+		\caption{Display of the particle content of the standard model divided into groups of bosons and fermions in their three generations. For every particle, mass, electromagnetic charge and spin is shown. Although neutrinos are supposed to be massless in the SM, experiments show that they carry mass. Thus, the upper limit of the neutrino masses are specified. Taken from \cite{SM}.}
 		\label{SM}
 	\end{figure}
 	
@@ -24,7 +24,7 @@
 	\mathcal{L} = \underbrace{\bar{\psi} i \gamma^\mu \partial_\mu \psi}_{\text{kinetic term}} - \underbrace{m \bar{\psi} \psi}_{\text{mass term}}
 	\label{eq:qedlag}
 	\end{equation}
-	Here, $\psi$ denotes the Dirac spinors and $m$ the mass corresponding to the Dirac spinor. A vector of gamma matrices $\gamma^\mu$ is used to write the Lagrangian in a four dimensional spacetime representation. While the mass term $m \bar{\psi} \psi$ is invariant under a transformation $\psi \rightarrow \psi'$ the derivative $\partial_\mu \psi$ is not. The transformation reads
+	Here, $\psi$ denotes the Dirac spinors and $m$ the mass corresponding to the Dirac spinor. A vector of gamma matrices $\gamma^\mu$ is used to write the Lagrangian in a four dimensional spacetime representation. The index $\mu$ indicates one of the four components of a four-vector. While the mass term $m \bar{\psi} \psi$ is invariant under a transformation $\psi \rightarrow \psi'$ the derivative $\partial_\mu \psi$ is not. The transformation reads
 	\begin{equation}
 	\psi \rightarrow \psi' = e^{i q \alpha} \psi,
 	\label{eq:trafo}
@@ -33,11 +33,12 @@
 	\begin{equation}
 	D_\mu = \partial_\mu + i q A_\mu(x).
 	\end{equation}
-	The index $\mu$ indicates one of the four components of a four-vector. With the new introduced covariant derivative the Lagrange density reads:
+	With the new introduced covariant derivative the Lagrange density reads:
 	\begin{equation}
 	\mathcal{L} = \underbrace{\bar{\psi} i \gamma^\mu \partial_\mu \psi}_{\text{kinetic term}} - \underbrace{m \bar{\psi} \psi}_{\text{mass term}} - \underbrace{q \bar{\psi} \gamma^\mu \psi A_\mu(x)}_{\text{interaction term}}.
 	\end{equation}
-	Thus, by requiring the Lagrange density to be symmetric under gauge transformations a new vector field is predicted. This vector field is then associated with the photon. Because no mass term for the Photon field occurs, it is predicted to be massless. Additionally the coupling between fermions $\psi$ and photon $A_\mu$ with a coupling strength $q$ is included. \cite{ModernParticlePhysics}
+	Thus, by requiring the Lagrange density to be symmetric under gauge transformations a new vector field is predicted. This vector field is then associated with the photon. Because no mass term for the Photon field occurs, it is expected to be massless. Additionally the coupling between fermions $\psi$ and photon $A_\mu$ with a coupling strength $q$ is included. \cite{ModernParticlePhysics}
+	
 	\subsection{Quantum Chromo Dynamics (QCD)}
 	The theory behind QCD is developed analogously to QED. The main difference between QCD and QED is its charge space. The charge of QCD is called colour and exists in three states for particles: red, green and blue. Additionally every colour has its anti-colour carried by anti-particles. Thus, one has to consider rotations in the three dimensional colour space. Here it is important to take the generators $T_a$, with $a$ running from $1$ to $8$, of $SU(3)$ into account. Similar to QED a covariant derivative is defined to construct a symmetric Lagrange density. The covariant derivative for QCD reads
 	\begin{equation}
@@ -97,32 +98,13 @@
 	\end{equation}
 	Finally, also fermion masses can be included in this mechanism. Therefore, a Yukawa coupling to the Higgs field proportional to their masses is introduced. 
 	
-\subsection{Physics of proton-proton collisions}
-	In collision experiments, the center-of-mass energy $\sqrt{s}$ defines the energy that is available to create particles and give them kinetic energy. At LHC, $s$ is set by the momenta of incoming protons via
-	\begin{eqnarray}
-	s &=& (p_1 + p_2)^2 \\
-	  &=& p_1^2 + p_2^2 + 2 p_1 p_2 \\
-	  &=& (E_1^2 - |\vec{p}_1|^2 )  + (E_2^2 - |\vec{p}_2|^2 ) + 2 (E_1 E_2 - |\vec{p}_1| |\vec{p}_2| ),
-	\end{eqnarray}
-	where $p_1$ and $p_2$ are the four-momenta of two colliding protons with energies $E$ and momentum vector $\vec{p}$. Because the two beams have the same energy but opposite directions, the assumptions $E_1 = E_2 = E_\text{proton}$ and $|\vec{p}_1| = |\vec{p}_2|$ hold. With that, the center-of-mass energy reads:
-	\begin{equation}
-	\sqrt{s} = 2 E_\text{proton}.
-	\end{equation}
-	Because protons are composite particles, the actual scattering involves quarks or gluons, called partons, carrying only a fraction of the nominal beam momentum $x p_\text{proton}$. The center-of-mass energy of the hard scattering process $\sqrt{\hat{s}}$ is therefore only a fraction of the stated $13\;\text{TeV}$:
-	\begin{equation}
-	\sqrt{\hat{s}} = \frac{(x_1 + x_2)}{2} \sqrt{s}
-	\end{equation} 
-	Here, $x_1$ and $x_2$ indicate the fraction of momentum two colliding partons carry. Because this fraction is not known, the center-of-mass energy of the hard process is not either. Therefore, for data analysis one has to use variables, that do not depend on the initial state of the partons which are explained in section \ref{sec:coordinate}.
-	
-\subsubsection{Pile-Up}
-	The high rate of collisions of LHC is required to collect a large amount of data and be able to see even very rare processes. But the high rate also has its downside. Since multiple proton-proton interactions take place per bunch crossing, not only one interesting but several other scattering events, mostly soft QCD processes, are seen simultaneously in the detector. This effect is called pile-up. If not corrected for, energy measurements do always include particles not originating from the hard scattering one is interested in. To reduce pile-up effects, it is crucial to be able to resolve different primary vertices belonging to different interactions.
-\subsubsection{Underlying Event}
-	As result of LHC doing collision experiments with protons, thus composite particles, it has to be accounted for more than one scattering process in a proton-proton collision. This effect is called underlying event and addresses collisions where multiple partons from two colliding protons interact. Since both interactions share the same interaction point, they can hardly be separated. Hence, underlying event has to be understood and is included into simulation of events.
+
 		
 \section{Top Quark}
-	The top quark is an up type quark belonging to the third generation of the standard model and carrying electromagnetic charge of $+\frac{2}{3}e$ \cite{pdg2016}. With its mass of about $173\;\text{GeV}$ the top quark is the heaviest particle in the standard model. It was predicted in 1973 \cite{topPredict} to account for observed CP-violation that could not be explained with only the two known quark generations. After finding the much lighter bottom quark only a few years after the prediction, the top quark was discovered in 1995 by the CDF \cite{topCDF} and D\O{} \cite{topD0} collaborations at Tevatron. Because of its great mass, it offers a large phase space for decays and has a short life time of approximately $5 \times 10^{-25}\;\text{s}$ \cite{pdg2016}. Because of the short life time the top quark does not form bound hadronic states and thus, measurements of the bare quark are possible. This provides a special access to parameters of the standard model. Especially the top quark mass is an essential parameter to check the theory for consistency. For instance, the top quark has, due to its mass, a large coupling to the Higgs boson. Therefore, it has to be included in correction terms for the Higgs boson mass. This leads to a relation of the masses of top quark, Higgs boson and electro-weak bosons that can be verified with a well known top quark mass, as performed in \cite{ewfit}. Additionally, it is important for searches of physics behind the standard model to reach a better understanding of the top quark since it is often part of the final state and/or a dominant background. 
+	The top quark is an up type quark belonging to the third generation of the standard model and carrying electromagnetic charge of $+\frac{2}{3}e$ \cite{pdg2016}. With its mass of about $173\;\text{GeV}$ the top quark is the heaviest particle in the standard model. It was predicted in 1973 \cite{topPredict} to account for observed CP-violation that could not be explained with the two known quark generations. After finding the much lighter bottom quark only a few years after its prediction, the top quark was discovered in 1995 by the CDF \cite{topCDF} and D\O{} \cite{topD0} collaborations at Tevatron. Because of its great mass, it offers a large phase space for decays and has a short life time of approximately $5 \times 10^{-25}\;\text{s}$ \cite{pdg2016}. Because of the short life time the top quark does not form bound hadronic states. Thus, measurements of the bare quark are possible, providing a direct access to parameters of the standard model. Additionally, the top quark is from particular interest for searches of physics behind the standard model since it is often part of the final state and/or a dominant background. 
+	
 	\subsection{Production in Hadron Colliders and Decay}
-	In hadron colliders, the production of a $t\bar{t}$ pair happens via $q\bar{q}$ annihilation (see Fig. \ref{fig:productiona}) or gluon fusion (see Fig. \ref{fig:productionb} - \ref{fig:productiond}). At the centre-of-mass energy of $13\;\text{TeV}$ reached with LHC, gluon fusion is by far the dominant process. Top quarks can also be produced in single production, but this has, being a electroweak process, a much smaller cross section. Hence, this analysis will focus on pair produced top quarks and will treat single top production as a background process.
+	In hadron colliders, the production of a $t\bar{t}$ pair happens via $q\bar{q}$ annihilation (see Fig. \ref{fig:productiona}) or gluon fusion (see Fig. \ref{fig:productionb} - \ref{fig:productiond}). At the centre-of-mass energy of $13\;\text{TeV}$, as reached with LHC, gluon fusion is by far the dominant process. Top quarks can also be produced in single production, but this has, being a electroweak process, a much smaller cross section. Hence, this analysis will focus on pair produced top quarks and will treat single top production as a background process.
 	\begin{figure}
 		\centering
 		\begin{subfigure}{.4\textwidth}
@@ -202,17 +184,36 @@
 		\label{fig:productiond}
 		\end{subfigure}
 		\caption{Feynman diagrams showing the production of top quark pairs. Displayed are quark anti-quark annihilation (a), and gluon-gluon fusion in the s-channel (b), t-channel  (c) and u-channel (d). Created with \cite{feynman}.}
+		\label{fig:production}
 	\end{figure}	
-	The top quark decays via the weak interaction with a probability of almost $100\%$ into a bottom quark and a $W$ boson. This property arises from the entry in the CKM matrix $|V_{tb}|^2 \approx 0.998$ \cite{pdg2016}. While the bottom quark is seen as a jet in the detector, the $W^\pm$ boson further decays into a quark anti-quark pair (see fig. \ref{fig:decaya}) or into a lepton (anti-lepton) and an anti-neutrino (neutrino) (see fig. \ref{fig:decayb}). Looking at the $t\bar{t}$ production, these two possible final states for each top quark correspond to three channels for the $t\bar{t}$ process: 
+	The top quark decays via the weak interaction with a probability of almost $100\%$ into a bottom quark and a $W$ boson. This property arises from the entry in the CKM matrix $|V_{tb}|^2 \approx 0.998$ \cite{pdg2016}. While the bottom quark is seen as a jet in the detector, the $W^\pm$ boson further decays into a $q\bar{q}$ pair (see fig. \ref{fig:decaya}) or into a lepton (anti-lepton) and an anti-neutrino (neutrino) (see fig. \ref{fig:decayb}). Looking at the $t\bar{t}$ production, these two possible final states for each top quark sum up to three channels for the $t\bar{t}$ process: 
 	\begin{itemize}
 	\item both top quarks decay into quarks (full hadronic)
 	\item one top quark decays hadronically, the other one leptonically (lepton+jets)
 	\item both top quarks decay leptonically (dilepton)
 	\end{itemize}
 	The full hadronic and lepton+jets channels are dominant and occur $45.7\%$ respectively $43.8\%$ of the time. $10.5\%$ of all $t\bar{t}$ events result in two leptons in the final state \cite{pdg2016}. This analysis will focus on the lepton+jets channel which is pictured in figure \ref{fig:semilep}. It is suitable because the lepton makes it easier to distinguish $t\bar{t}$ events from background events but also includes a fully hadronically decaying top quark which will be the target for the presented measurement.
-	%todo wirklich nur muon channel?
 	
 	\begin{figure}
+	\begin{subfigure}{.5\textwidth}
+		\begin{tikzpicture}
+		\begin{feynman}
+		\vertex(a) {\(t\)};
+		\vertex[right=of a] (b);
+		\vertex[below right=3cm of b] (f1){\(b\)};
+		\vertex[above right=of b] (c);
+		\vertex[above right=1.5cm of c] (f2){\(q'\)};
+		\vertex[below right=1.5cm of c] (f3){\(\overline{q}\)};
+		\diagram* {
+		(a)-- [fermion] (b)-- [fermion] (f1),
+		(b)-- [boson,edge label'=\(W\)] (c),
+		(c)-- [fermion] (f2),
+		(c)-- [anti fermion] (f3),};
+		\end{feynman}
+		\end{tikzpicture}
+		\caption{}
+		\label{fig:decaya}
+	\end{subfigure}	
 	\begin{subfigure}{.5\textwidth}
 		\begin{tikzpicture}
 		\begin{feynman}
@@ -231,28 +232,9 @@
 		\end{feynman}
 		\end{tikzpicture}
 		\caption{}
-		\label{fig:decaya}
-	\end{subfigure}
-	\begin{subfigure}{.5\textwidth}
-		\begin{tikzpicture}
-		\begin{feynman}
-		\vertex(a) {\(t\)};
-		\vertex[right=of a] (b);
-		\vertex[below right=3cm of b] (f1){\(b\)};
-		\vertex[above right=of b] (c);
-		\vertex[above right=1.5cm of c] (f2){\(q'\)};
-		\vertex[below right=1.5cm of c] (f3){\(\overline{q}\)};
-		\diagram* {
-		(a)-- [fermion] (b)-- [fermion] (f1),
-		(b)-- [boson,edge label'=\(W\)] (c),
-		(c)-- [fermion] (f2),
-		(c)-- [anti fermion] (f3),};
-		\end{feynman}
-		\end{tikzpicture}
-		\caption{}
 		\label{fig:decayb}
 	\end{subfigure}
-	\caption{Feynman diagrams of a leptonically (a) and hadronically (b) decaying top quark. Decays of anti top quarks are constructed similarly. Created with \cite{feynman}.}
+	\caption{Feynman diagrams of a hadronically (a) and leptonically (b) decaying top quark. Decays of anti top quarks are constructed similarly. Created with \cite{feynman}.}
 	\end{figure}
 	
 	\begin{figure}
@@ -285,10 +267,31 @@
 		};
 		\end{feynman}
 		\end{tikzpicture}
-		\caption{Feynman diagram displaying an event from the lepton+jets channel. The centred circle indicates a mechanism to produce (see \ref{fig:production}) a $t\bar{t}$ pair. Created with \cite{feynman}.}
+		\caption{Feynman diagram displaying an event from the lepton+jets channel. The centred circle indicates various $t\bar{t}$ production mechanisms (see \ref{fig:production}). Created with \cite{feynman}.}
 		\label{fig:semilep}
 	\end{figure}
-
+	
+\section{Physics of proton-proton collisions}
+	In collision experiments, the center-of-mass energy $\sqrt{s}$ defines the energy that is available to create particles and give them kinetic energy. At LHC, $s$ is set by the momenta of incoming protons via
+	\begin{eqnarray}
+	s &=& (p_1 + p_2)^2 \\
+	  &=& p_1^2 + p_2^2 + 2 p_1 p_2 \\
+	  &=& (E_1^2 - |\vec{p}_1|^2 )  + (E_2^2 - |\vec{p}_2|^2 ) + 2 (E_1 E_2 - |\vec{p}_1| |\vec{p}_2| ),
+	\end{eqnarray}
+	where $p_1$ and $p_2$ are the four-momenta of two colliding protons with energies $E$ and momentum vector $\vec{p}$. Because the two beams have the same energy but opposite directions, the assumptions $E_1 = E_2 = E_\text{proton}$ and $|\vec{p}_1| = |\vec{p}_2|$ hold. With that, the center-of-mass energy reads:
+	\begin{equation}
+	\sqrt{s} = 2 E_\text{proton}.
+	\end{equation}
+	Because protons are composite particles, the actual scattering involves quarks or gluons, called partons, carrying only a fraction of the nominal beam momentum $x p_\text{proton}$. The center-of-mass energy of the hard scattering process $\sqrt{\hat{s}}$ is therefore only a fraction of the stated $13\;\text{TeV}$:
+	\begin{equation}
+	\sqrt{\hat{s}} = \frac{(x_1 + x_2)}{2} \sqrt{s}.
+	\end{equation} 
+	Here, $x_1$ and $x_2$ indicate the fraction of momentum two colliding partons carry. Because this fraction is not known, the center-of-mass energy of the hard process is not either. Therefore, for data analysis one has to use variables, that do not depend on the initial momentum in direction of flight of the partons, which are explained in section \ref{sec:coordinate}. Another peculiarity in hadron colliders is the use of parton density functions (PDFs). PDFs return the probability to find a particular parton inside a given momentum interval in a proton. They are measured in electron-proton scattering experiments \cite{pdf} and crucial to predict production cross sections.
+		
+\subsubsection{Pile-Up}
+	The high collision rate of LHC is required to collect a large amount of data and be able to see even very rare processes. But the high rate also has its downside. Since multiple proton-proton interactions take place per bunch crossing, not only one interesting but several other scattering events, mostly soft QCD processes, are seen simultaneously in the detector. This effect is called pile-up. If not corrected for, energy measurements do always include particles not originating from the hard scattering one is interested in. To reduce pile-up effects, it is crucial to be able to resolve primary vertices belonging to different interactions.
+\subsubsection{Underlying Event}
+	As result of LHC performing collision experiments with protons, thus composite particles, it has to be accounted for more than one scattering process in a proton-proton interaction. This effect is called underlying event and addresses collisions where multiple partons from two colliding protons interact. Since both interactions share the same interaction point, they can hardly be separated. Hence, underlying event has to be understood and is included into simulation of events.
 	
 \section{Event Generator and Parton Shower}
 \label{sec:Simulation}

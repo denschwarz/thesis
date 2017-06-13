@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  12 JUN 2017 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  13 JUN 2017 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1664,205 +1664,201 @@ sed on input line 14.
  [3]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
- [4 <../Images/Standard_Model_of_Elementary_Particles.pdf>] [5] [6]
+ [4 <../Images/Standard_Model_of_Elementary_Particles.pdf>]
+Underfull \vbox (badness 4940) has occurred while \output is active []
+
+ [5]
+[6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-[8] [9]
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 131.
+tance' requires LuaTeX. It will be ignored. on input line 113.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 131.
+stance' requires LuaTeX. It will be ignored. on input line 113.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 131.
+distance' requires LuaTeX. It will be ignored. on input line 113.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 137.
+tance' requires LuaTeX. It will be ignored. on input line 119.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 137.
+stance' requires LuaTeX. It will be ignored. on input line 119.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 137.
+distance' requires LuaTeX. It will be ignored. on input line 119.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 150.
+tance' requires LuaTeX. It will be ignored. on input line 132.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 150.
+stance' requires LuaTeX. It will be ignored. on input line 132.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 150.
+distance' requires LuaTeX. It will be ignored. on input line 132.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 156.
+tance' requires LuaTeX. It will be ignored. on input line 138.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 156.
+stance' requires LuaTeX. It will be ignored. on input line 138.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 156.
+distance' requires LuaTeX. It will be ignored. on input line 138.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 169.
+tance' requires LuaTeX. It will be ignored. on input line 151.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 169.
+stance' requires LuaTeX. It will be ignored. on input line 151.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 169.
+distance' requires LuaTeX. It will be ignored. on input line 151.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 175.
+tance' requires LuaTeX. It will be ignored. on input line 157.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 175.
+stance' requires LuaTeX. It will be ignored. on input line 157.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 175.
+distance' requires LuaTeX. It will be ignored. on input line 157.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 188.
+tance' requires LuaTeX. It will be ignored. on input line 170.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 188.
+stance' requires LuaTeX. It will be ignored. on input line 170.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 188.
+distance' requires LuaTeX. It will be ignored. on input line 170.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 194.
+tance' requires LuaTeX. It will be ignored. on input line 176.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 194.
+stance' requires LuaTeX. It will be ignored. on input line 176.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 194.
+distance' requires LuaTeX. It will be ignored. on input line 176.
 
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 208.
+[8]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 191.
 
-(/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+ (/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [10]
+)
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 219.
+tance' requires LuaTeX. It will be ignored. on input line 201.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 219.
+stance' requires LuaTeX. It will be ignored. on input line 201.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 219.
+distance' requires LuaTeX. It will be ignored. on input line 201.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 226.
+tance' requires LuaTeX. It will be ignored. on input line 207.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 226.
+stance' requires LuaTeX. It will be ignored. on input line 207.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 226.
+distance' requires LuaTeX. It will be ignored. on input line 207.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 239.
+tance' requires LuaTeX. It will be ignored. on input line 220.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 239.
+stance' requires LuaTeX. It will be ignored. on input line 220.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 239.
+distance' requires LuaTeX. It will be ignored. on input line 220.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 245.
+tance' requires LuaTeX. It will be ignored. on input line 227.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 245.
+stance' requires LuaTeX. It will be ignored. on input line 227.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 245.
+distance' requires LuaTeX. It will be ignored. on input line 227.
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 216--255
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 198--237
 []$[]$ $[]$ 
  []
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 262.
+tance' requires LuaTeX. It will be ignored. on input line 244.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 262.
+stance' requires LuaTeX. It will be ignored. on input line 244.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 262.
+distance' requires LuaTeX. It will be ignored. on input line 244.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 274.
+tance' requires LuaTeX. It will be ignored. on input line 256.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 274.
+stance' requires LuaTeX. It will be ignored. on input line 256.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 274.
+distance' requires LuaTeX. It will be ignored. on input line 256.
 
-
-LaTeX Warning: Reference `fig:production' on page 11 undefined on input line 28
-8.
-
-
-LaTeX Warning: Reference `fig:production' on page 11 undefined on input line 28
-8.
-
-[11]) [12]
+[9] [10] [11]) [12]
 \openout2 = `Measurement_Boosted.aux'.
 
  (./Measurement_Boosted.tex
 Chapter 3.
 
 Overfull \hbox (9.15344pt too wide) in paragraph at lines 1--1
-|\T1/ptm/b/n/24.88 3  []|[]  Mea-sure-ment of the Top Quark Mass
+|\T1/ptm/b/n/24.88 3  []|[]  Mea-sure-ment of the Top Quark Mass| 
  []
 
 [13
@@ -1871,31 +1867,36 @@ Overfull \hbox (9.15344pt too wide) in paragraph at lines 1--1
 
 
 ]
-<../Plots/Torben/Torben_result_paper.pdf, id=473, 569.12625pt x 569.12625pt>
+<../Plots/Torben/Torben_result_paper.pdf, id=480, 569.12625pt x 569.12625pt>
 File: ../Plots/Torben/Torben_result_paper.pdf Graphic file (type pdf)
 
 <use ../Plots/Torben/Torben_result_paper.pdf>
 Package pdftex.def Info: ../Plots/Torben/Torben_result_paper.pdf used on input 
-line 14.
+line 27.
 (pdftex.def)             Requested size: 224.06548pt x 224.06859pt.
 
-<../Plots/Torben/Torben_error_paper.pdf, id=474, 569.12625pt x 569.12625pt>
+<../Plots/Torben/Torben_error_paper.pdf, id=481, 569.12625pt x 569.12625pt>
 File: ../Plots/Torben/Torben_error_paper.pdf Graphic file (type pdf)
 
 <use ../Plots/Torben/Torben_error_paper.pdf>
 Package pdftex.def Info: ../Plots/Torben/Torben_error_paper.pdf used on input l
-ine 20.
+ine 33.
 (pdftex.def)             Requested size: 224.06548pt x 224.06859pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 12--24
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 25--37
 []$[]$ $[]$ 
  []
 
-) [14 <../Plots/Torben/Torben_result_paper.pdf> <../Plots/Torben/Torben_error_p
-aper.pdf>]
+) [14] [15 <../Plots/Torben/Torben_result_paper.pdf> <../Plots/Torben/Torben_er
+ror_paper.pdf>]
 \openout2 = `Experiment.aux'.
 
- (./Experiment.tex
+ (./Experiment.tex [16
+
+
+
+
+]
 Chapter 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
@@ -1903,26 +1904,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-<../Images/lhc.jpg, id=576, 1040.688pt x 735.7086pt>
+<../Images/lhc.jpg, id=596, 1040.688pt x 735.7086pt>
 File: ../Images/lhc.jpg Graphic file (type jpg)
  <use ../Images/lhc.jpg>
 Package pdftex.def Info: ../Images/lhc.jpg used on input line 9.
 (pdftex.def)             Requested size: 448.13095pt x 316.80879pt.
 
-[15
-
-
-
-
-] [16 <../Images/lhc.jpg>]
-<../Plots/LHC_Lumi.png, id=599, 578.16pt x 433.62pt>
+[17] [18 <../Images/lhc.jpg>]
+<../Plots/LHC_Lumi.png, id=619, 578.16pt x 433.62pt>
 File: ../Plots/LHC_Lumi.png Graphic file (type png)
 
 <use ../Plots/LHC_Lumi.png>
 Package pdftex.def Info: ../Plots/LHC_Lumi.png used on input line 32.
 (pdftex.def)             Requested size: 358.50612pt x 268.8747pt.
- [17]
-<../Images/CMS_Full.png, id=614, 3189.9175pt x 2253.41875pt>
+ [19]
+<../Images/CMS_Full.png, id=635, 3189.9175pt x 2253.41875pt>
 File: ../Images/CMS_Full.png Graphic file (type png)
 
 <use ../Images/CMS_Full.png>
@@ -1931,35 +1927,35 @@ Package pdftex.def Info: ../Images/CMS_Full.png used on input line 43.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18 <../Plots/LHC_Lumi.png>]
+ [20 <../Plots/LHC_Lumi.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <../Images/CMS_Full.png>] <../Images/Tracker.png, id=636, 1718.42pt x 831.
+ [21 <../Images/CMS_Full.png>] <../Images/Tracker.png, id=657, 1718.42pt x 831.
 105pt>
 File: ../Images/Tracker.png Graphic file (type png)
 
 <use ../Images/Tracker.png>
 Package pdftex.def Info: ../Images/Tracker.png used on input line 72.
 (pdftex.def)             Requested size: 448.13095pt x 216.72896pt.
- [20] [21 <../Images/Tracker.png>] [22] [23])
-[24]
+ [22] [23 <../Images/Tracker.png>] [24] [25])
+[26]
 \openout2 = `Reconstruction.aux'.
 
  (./Reconstruction.tex
 Chapter 5.
-<../Images/CMS_Slice_white.png, id=676, 6022.5pt x 3982.88pt>
+<../Images/CMS_Slice_white.png, id=696, 6022.5pt x 3982.88pt>
 File: ../Images/CMS_Slice_white.png Graphic file (type png)
 
 <use ../Images/CMS_Slice_white.png>
 Package pdftex.def Info: ../Images/CMS_Slice_white.png used on input line 11.
 (pdftex.def)             Requested size: 336.0982pt x 222.2497pt.
- [25
+ [27
 
 
 
 
-] [26 <../Images/CMS_Slice_white.png>]
-[27]
+] [28 <../Images/CMS_Slice_white.png>]
+[29]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
@@ -1979,14 +1975,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 45.
 
-<../Plots/AK_jetshape.png, id=707, 552.0625pt x 425.59pt>
+<../Plots/AK_jetshape.png, id=726, 552.0625pt x 425.59pt>
 File: ../Plots/AK_jetshape.png Graphic file (type png)
 
 <use ../Plots/AK_jetshape.png>
 Package pdftex.def Info: ../Plots/AK_jetshape.png used on input line 59.
 (pdftex.def)             Requested size: 224.06548pt x 172.73315pt.
 
-<../Plots/CA_jetshape.png, id=708, 575.14874pt x 436.63126pt>
+<../Plots/CA_jetshape.png, id=727, 575.14874pt x 436.63126pt>
 File: ../Plots/CA_jetshape.png Graphic file (type png)
 
 <use ../Plots/CA_jetshape.png>
@@ -1997,17 +1993,17 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 57--69
 []$[]$ $[]$ 
  []
 
-[28]
+[30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <../Plots/CA_jetshape.png> <../Plots/AK_jetshape.png>] [30]
-<../Plots/XCone_Overlap.png, id=752, 867.24pt x 758.835pt>
+ [31 <../Plots/CA_jetshape.png> <../Plots/AK_jetshape.png>] [32]
+<../Plots/XCone_Overlap.png, id=773, 867.24pt x 758.835pt>
 File: ../Plots/XCone_Overlap.png Graphic file (type png)
 
 <use ../Plots/XCone_Overlap.png>
 Package pdftex.def Info: ../Plots/XCone_Overlap.png used on input line 123.
 (pdftex.def)             Requested size: 268.8813pt x 235.27115pt.
- [31 <../Plots/XCone_Overlap.png>]
+ [33 <../Plots/XCone_Overlap.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
 
@@ -2310,42 +2306,39 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32])
-[33]
+ [34])
+[35]
 \openout2 = `Data_MC.aux'.
 
- (./Data_MC.tex [34
+ (./Data_MC.tex [36
 
 
 
 
 ]
 Chapter 6.
-<../Plots/CMS_Lumi.pdf, id=792, 578.16pt x 433.62pt>
+<../Plots/CMS_Lumi.pdf, id=811, 578.16pt x 433.62pt>
 File: ../Plots/CMS_Lumi.pdf Graphic file (type pdf)
 
 <use ../Plots/CMS_Lumi.pdf>
 Package pdftex.def Info: ../Plots/CMS_Lumi.pdf used on input line 8.
-(pdftex.def)             Requested size: 358.50612pt x 268.8747pt.
- [35]
+(pdftex.def)             Requested size: 224.06548pt x 168.04585pt.
+ [37]
 Overfull \hbox (30.26929pt too wide) in paragraph at lines 19--65
  [][] 
  []
 
-)
-Underfull \vbox (badness 6859) has occurred while \output is active []
-
- [36 <../Plots/CMS_Lumi.pdf>] [37] [38]
+) [38 <../Plots/CMS_Lumi.pdf>] [39]
 \openout2 = `Analysis.aux'.
 
- (./Analysis.tex
-Chapter 7.
-[39
+ (./Analysis.tex [40
 
 
 
 
 ]
+Chapter 7.
+[41]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 30.
@@ -2358,7 +2351,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 30.
 
-[40] <../Plots/GenStudies/AK08_matching.pdf, id=912, 569.12625pt x 546.04pt>
+[42] <../Plots/GenStudies/AK08_matching.pdf, id=931, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/AK08_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/AK08_matching.pdf>
@@ -2366,7 +2359,7 @@ Package pdftex.def Info: ../Plots/GenStudies/AK08_matching.pdf used on input li
 ne 39.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/AK12_matching.pdf, id=913, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/AK12_matching.pdf, id=932, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/AK12_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/AK12_matching.pdf>
@@ -2379,7 +2372,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 37--49
  []
 
 
-<../Plots/GenStudies/AK08softdrop_matching.pdf, id=914, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/AK08softdrop_matching.pdf, id=933, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/AK08softdrop_matching.pdf Graphic file (type pdf)
 <use ../Plots/GenStudies/AK08softdrop_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/AK08softdrop_matching.pdf used on 
@@ -2396,7 +2389,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 53--65
 []$[]$ $[]$ 
  []
 
-[41] <../Plots/GenStudies/HOTVR_matching.pdf, id=924, 569.12625pt x 546.04pt>
+[43] <../Plots/GenStudies/HOTVR_matching.pdf, id=944, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/HOTVR_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/HOTVR_matching.pdf>
@@ -2404,7 +2397,7 @@ Package pdftex.def Info: ../Plots/GenStudies/HOTVR_matching.pdf used on input l
 ine 75.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/HOTVRrho600_matching.pdf, id=925, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/HOTVRrho600_matching.pdf, id=945, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/HOTVRrho600_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/HOTVRrho600_matching.pdf>
@@ -2412,7 +2405,7 @@ Package pdftex.def Info: ../Plots/GenStudies/HOTVRrho600_matching.pdf used on i
 nput line 84.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/HOTVRrho500_matching.pdf, id=926, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/HOTVRrho500_matching.pdf, id=946, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/HOTVRrho500_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/HOTVRrho500_matching.pdf>
@@ -2420,7 +2413,7 @@ Package pdftex.def Info: ../Plots/GenStudies/HOTVRrho500_matching.pdf used on i
 nput line 90.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/HOTVRrho400_matching.pdf, id=927, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/HOTVRrho400_matching.pdf, id=947, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/HOTVRrho400_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/HOTVRrho400_matching.pdf>
@@ -2428,7 +2421,7 @@ Package pdftex.def Info: ../Plots/GenStudies/HOTVRrho400_matching.pdf used on i
 nput line 96.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/HOTVRrho300_matching.pdf, id=928, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/HOTVRrho300_matching.pdf, id=948, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/HOTVRrho300_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/HOTVRrho300_matching.pdf>
@@ -2445,9 +2438,9 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 82--106
 []$ $[]$ 
  []
 
-[42 <../Plots/GenStudies/AK08_matching.pdf, page is rotated 90 degrees> <../Plo
+[44 <../Plots/GenStudies/AK08_matching.pdf, page is rotated 90 degrees> <../Plo
 ts/GenStudies/AK12_matching.pdf, page is rotated 90 degrees>]
-<../Plots/GenStudies/XCone_dR_GEN_R20.pdf, id=1029, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone_dR_GEN_R20.pdf, id=1049, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone_dR_GEN_R20.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone_dR_GEN_R20.pdf>
@@ -2455,7 +2448,7 @@ Package pdftex.def Info: ../Plots/GenStudies/XCone_dR_GEN_R20.pdf used on input
  line 117.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/JetDisplayR15/xcone_incjets_event04.pdf, id=1030, 569.12625pt x 541.0
+<../Plots/JetDisplayR15/xcone_incjets_event04.pdf, id=1050, 569.12625pt x 541.0
 2126pt>
 File: ../Plots/JetDisplayR15/xcone_incjets_event04.pdf Graphic file (type pdf)
  <use ../Plots/JetDisplayR15/xcone_incjets_event04.pdf>
@@ -2463,7 +2456,7 @@ Package pdftex.def Info: ../Plots/JetDisplayR15/xcone_incjets_event04.pdf used
 on input line 124.
 (pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
 
-<../Plots/JetDisplayR15/xcone_subjets_event04.pdf, id=1031, 569.12625pt x 541.0
+<../Plots/JetDisplayR15/xcone_subjets_event04.pdf, id=1051, 569.12625pt x 541.0
 2126pt>
 File: ../Plots/JetDisplayR15/xcone_subjets_event04.pdf Graphic file (type pdf)
  <use ../Plots/JetDisplayR15/xcone_subjets_event04.pdf>
@@ -2478,9 +2471,9 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 122--134
 
 Underfull \vbox (badness 6927) has occurred while \output is active []
 
- [43 <../Plots/GenStudies/AK08softdrop_matching.pdf, page is rotated 90 degrees
+ [45 <../Plots/GenStudies/AK08softdrop_matching.pdf, page is rotated 90 degrees
 >]
-<../Plots/JetDisplayR10/xcone_subjets_event09.pdf, id=1086, 569.12625pt x 541.0
+<../Plots/JetDisplayR10/xcone_subjets_event09.pdf, id=1106, 569.12625pt x 541.0
 2126pt>
 File: ../Plots/JetDisplayR10/xcone_subjets_event09.pdf Graphic file (type pdf)
  <use ../Plots/JetDisplayR10/xcone_subjets_event09.pdf>
@@ -2488,7 +2481,7 @@ Package pdftex.def Info: ../Plots/JetDisplayR10/xcone_subjets_event09.pdf used
 on input line 148.
 (pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
 
-<../Plots/JetDisplayR20/xcone_subjets_event09.pdf, id=1087, 569.12625pt x 541.0
+<../Plots/JetDisplayR20/xcone_subjets_event09.pdf, id=1107, 569.12625pt x 541.0
 2126pt>
 File: ../Plots/JetDisplayR20/xcone_subjets_event09.pdf Graphic file (type pdf)
  <use ../Plots/JetDisplayR20/xcone_subjets_event09.pdf>
@@ -2500,7 +2493,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 146--156
 []$[]$ $[]$ 
  []
 
-<../Plots/GenStudies/XCone_GEN_R10.pdf, id=1088, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone_GEN_R10.pdf, id=1108, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone_GEN_R10.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone_GEN_R10.pdf>
@@ -2508,7 +2501,7 @@ Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R10.pdf used on input li
 ne 163.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/XCone_GEN_R12.pdf, id=1089, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone_GEN_R12.pdf, id=1109, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone_GEN_R12.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone_GEN_R12.pdf>
@@ -2516,7 +2509,7 @@ Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R12.pdf used on input li
 ne 168.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/XCone_GEN_R15.pdf, id=1090, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone_GEN_R15.pdf, id=1110, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone_GEN_R15.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone_GEN_R15.pdf>
@@ -2524,7 +2517,7 @@ Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R15.pdf used on input li
 ne 173.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/XCone_GEN_R20.pdf, id=1091, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone_GEN_R20.pdf, id=1111, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone_GEN_R20.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone_GEN_R20.pdf>
@@ -2541,7 +2534,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 161--181
 []$ $[]$ 
  []
 
-<../Plots/GenStudies/XCone23_matching.pdf, id=1092, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone23_matching.pdf, id=1112, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone23_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone23_matching.pdf>
@@ -2549,7 +2542,7 @@ Package pdftex.def Info: ../Plots/GenStudies/XCone23_matching.pdf used on input
  line 189.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/XCone33_matching.pdf, id=1093, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/XCone33_matching.pdf, id=1113, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/XCone33_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone33_matching.pdf>
@@ -2561,56 +2554,56 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 187--199
 []$[]$ $[]$ 
  []
 
-[44 <../Plots/GenStudies/HOTVR_matching.pdf, page is rotated 90 degrees>]
-[45 <../Plots/GenStudies/HOTVRrho600_matching.pdf, page is rotated 90 degrees> 
+[46 <../Plots/GenStudies/HOTVR_matching.pdf, page is rotated 90 degrees>]
+[47 <../Plots/GenStudies/HOTVRrho600_matching.pdf, page is rotated 90 degrees> 
 <../Plots/GenStudies/HOTVRrho500_matching.pdf, page is rotated 90 degrees> <../
 Plots/GenStudies/HOTVRrho400_matching.pdf, page is rotated 90 degrees> <../Plot
-s/GenStudies/HOTVRrho300_matching.pdf, page is rotated 90 degrees>] [46 <../Plo
+s/GenStudies/HOTVRrho300_matching.pdf, page is rotated 90 degrees>] [48 <../Plo
 ts/GenStudies/XCone_dR_GEN_R20.pdf, page is rotated 90 degrees> <../Plots/JetDi
 splayR15/xcone_incjets_event04.pdf, page is rotated 90 degrees> <../Plots/JetDi
-splayR15/xcone_subjets_event04.pdf, page is rotated 90 degrees>] [47 <../Plots/
+splayR15/xcone_subjets_event04.pdf, page is rotated 90 degrees>] [49 <../Plots/
 JetDisplayR10/xcone_subjets_event09.pdf, page is rotated 90 degrees> <../Plots/
-JetDisplayR20/xcone_subjets_event09.pdf, page is rotated 90 degrees>] [48 <../P
+JetDisplayR20/xcone_subjets_event09.pdf, page is rotated 90 degrees>] [50 <../P
 lots/GenStudies/XCone_GEN_R10.pdf, page is rotated 90 degrees> <../Plots/GenStu
 dies/XCone_GEN_R12.pdf, page is rotated 90 degrees> <../Plots/GenStudies/XCone_
 GEN_R15.pdf, page is rotated 90 degrees> <../Plots/GenStudies/XCone_GEN_R20.pdf
-, page is rotated 90 degrees>] [49 <../Plots/GenStudies/XCone23_matching.pdf, p
+, page is rotated 90 degrees>] [51 <../Plots/GenStudies/XCone23_matching.pdf, p
 age is rotated 90 degrees> <../Plots/GenStudies/XCone33_matching.pdf, page is r
-otated 90 degrees>] [50
+otated 90 degrees>] [52
 
 ]
-<../Plots/Correction/Mean_numbers.pdf, id=1824, 569.12625pt x 385.44pt>
+<../Plots/Correction/Mean_numbers.pdf, id=1843, 569.12625pt x 385.44pt>
 File: ../Plots/Correction/Mean_numbers.pdf Graphic file (type pdf)
 
 <use ../Plots/Correction/Mean_numbers.pdf>
 Package pdftex.def Info: ../Plots/Correction/Mean_numbers.pdf used on input lin
-e 245.
+e 247.
 (pdftex.def)             Requested size: 403.31511pt x 273.15851pt.
 
-<../Plots/Correction/Fits_example.pdf, id=1827, 569.12625pt x 569.12625pt>
+<../Plots/Correction/Fits_example.pdf, id=1846, 569.12625pt x 569.12625pt>
 File: ../Plots/Correction/Fits_example.pdf Graphic file (type pdf)
 
 <use ../Plots/Correction/Fits_example.pdf>
 Package pdftex.def Info: ../Plots/Correction/Fits_example.pdf used on input lin
-e 255.
+e 257.
 (pdftex.def)             Requested size: 224.06548pt x 224.06859pt.
- [51] [52 <../Plots/Correction/Mean_numbers.pdf, page is rotated 90 degrees> <.
-./Plots/Correction/Fits_example.pdf>] <../Images/Unfolding.png, id=1930, 1053.9
+ [53] [54 <../Plots/Correction/Mean_numbers.pdf, page is rotated 90 degrees> <.
+./Plots/Correction/Fits_example.pdf>] <../Images/Unfolding.png, id=1949, 1053.9
 375pt x 791.95876pt>
 File: ../Images/Unfolding.png Graphic file (type png)
 
 <use ../Images/Unfolding.png>
-Package pdftex.def Info: ../Images/Unfolding.png used on input line 267.
+Package pdftex.def Info: ../Images/Unfolding.png used on input line 269.
 (pdftex.def)             Requested size: 268.8813pt x 202.04953pt.
- [53
+ [55
 
-]) [54 <../Images/Unfolding.png>]
+]) [56 <../Images/Unfolding.png>]
 \openout2 = `Summary.aux'.
 
 
 (./Summary.tex
 Chapter 8.
-) [55
+) [57
 
 
 
@@ -2618,14 +2611,14 @@ Chapter 8.
 ]
 \openout2 = `Appendix.aux'.
 
- (./Appendix.tex [56
+ (./Appendix.tex [58
 
 
 
 
 ]
 Appendix A.
-<../Plots/Correction/Mean_Error_numbers.pdf, id=1957, 569.12625pt x 385.44pt>
+<../Plots/Correction/Mean_Error_numbers.pdf, id=1977, 569.12625pt x 385.44pt>
 File: ../Plots/Correction/Mean_Error_numbers.pdf Graphic file (type pdf)
 
 <use ../Plots/Correction/Mean_Error_numbers.pdf>
@@ -2633,7 +2626,7 @@ Package pdftex.def Info: ../Plots/Correction/Mean_Error_numbers.pdf used on inp
 ut line 5.
 (pdftex.def)             Requested size: 403.31511pt x 273.15851pt.
 
-<../Plots/Correction/RMS_numbers.pdf, id=1958, 569.12625pt x 385.44pt>
+<../Plots/Correction/RMS_numbers.pdf, id=1978, 569.12625pt x 385.44pt>
 File: ../Plots/Correction/RMS_numbers.pdf Graphic file (type pdf)
 
 <use ../Plots/Correction/RMS_numbers.pdf>
@@ -2644,7 +2637,7 @@ Package pdftex.def Info: ../Plots/Correction/RMS_numbers.pdf used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../Plots/Correction/Fits.pdf, id=1959, 492.84125pt x 739.76375pt>
+<../Plots/Correction/Fits.pdf, id=1979, 492.84125pt x 739.76375pt>
 File: ../Plots/Correction/Fits.pdf Graphic file (type pdf)
 
 <use ../Plots/Correction/Fits.pdf>
@@ -2657,18 +2650,18 @@ LaTeX Warning: Float too large for page by 41.91681pt on input line 22.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[57 <../Plots/Correction/Mean_Error_numbers.pdf, page is rotated 90 degrees>]
-[58 <../Plots/Correction/RMS_numbers.pdf, page is rotated 90 degrees>] [59 <../
-Plots/Correction/Fits.pdf>] [60
+[59 <../Plots/Correction/Mean_Error_numbers.pdf, page is rotated 90 degrees>]
+[60 <../Plots/Correction/RMS_numbers.pdf, page is rotated 90 degrees>] [61 <../
+Plots/Correction/Fits.pdf>] [62
 
 
 ]
 Appendix B.
-) [61] [62
+) [63] [64
 
 
 
-]
+] [65]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 149.
 
  (/home/schwarzd/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -2679,17 +2672,14 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[63]
+[66]
 Overfull \hbox (8.27939pt too wide) in paragraph at lines 155--155
 []\T1/ptm/m/n/12 (-20) A. J. Larkoski, S. Marzani, G. Soyez, \T1/ptm/m/it/12 (-
 20) et al.\T1/ptm/m/n/12 (-20) , ^^P  Soft drop^^Q, 2014. \T1/ptm/m/sc/12 (-20)
  doi\T1/ptm/m/n/12 (-20) : []$10 . 1007 / JHEP05(2014 )
  []
 
-[64] [65] [66
-
-
-]
+[67] [68]
 Underfull \hbox (badness 10000) in alignment at lines 160--163
 [][][]
  []
@@ -2709,14 +2699,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--164
 
  []
 
-[67] [68
+[69
+
+
+] [70
 
 
 ]
 \Changes@OutFile=\write8
 \openout8 = `Master_Thesis.soc'.
 
- [69]
+ [71]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
  (./Master_Thesis.aux (./Titlepage.aux) (./Introduction.aux)
@@ -2726,21 +2719,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
 Package rerunfilecheck Info: File `Master_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 820BB371CF6D7D67A83BDC04D79E9383;3911.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 6343641F49B3FE0F6CFB4CDF17FB7952;3909.
 Package logreq Info: Writing requests to 'Master_Thesis.run.xml'.
 \openout1 = `Master_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33955 strings out of 493013
- 652614 string characters out of 6133787
- 1166828 words of memory out of 5000000
- 36198 multiletter control sequences out of 15000+600000
- 133550 words of font info for 341 fonts, out of 8000000 for 9000
+ 33979 strings out of 493013
+ 653037 string characters out of 6133787
+ 1179828 words of memory out of 5000000
+ 36205 multiletter control sequences out of 15000+600000
+ 134233 words of font info for 348 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  68i,22n,100p,1995b,1999s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/home/schwarzd/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
@@ -2757,10 +2746,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></home/schwarzd/texlive/texmf-dist/fonts/ty
 pe1/urw/symbol/usyr.pfb></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Master_Thesis.pdf (75 pages, 5282356 bytes).
+Output written on Master_Thesis.pdf (77 pages, 5285918 bytes).
 PDF statistics:
- 2321 PDF objects out of 2487 (max. 8388607)
- 1480 compressed objects within 15 object streams
- 245 named destinations out of 1000 (max. 500000)
+ 2348 PDF objects out of 2487 (max. 8388607)
+ 1503 compressed objects within 16 object streams
+ 252 named destinations out of 1000 (max. 500000)
  63139 words of extra memory for PDF output out of 74296 (max. 10000000)
 
