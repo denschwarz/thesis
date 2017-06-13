@@ -33,28 +33,7 @@
 		\caption{Luminosity of the data sets produced at LHC. The graphs show the development and size of data sets from 2010 (green), 2011 (red), 2012 (blue), 2015 (purple) and 2016 (orange). Taken from \cite{LHClumi}.}
 		\label{fig:LHClumi}
 	\end{figure}
-\subsection{Physics of proton-proton collisions}
-	In collision experiments, the center-of-mass energy $\sqrt{s}$ defines the energy that is available to create particles and give them kinetic energy. At LHC, $s$ is set by the momenta of incoming protons via
-	\begin{eqnarray}
-	s &=& (p_1 + p_2)^2 \\
-	  &=& p_1^2 + p_2^2 + 2 p_1 p_2 \\
-	  &=& (E_1^2 - |\vec{p}_1|^2 )  + (E_2^2 - |\vec{p}_2|^2 ) + 2 (E_1 E_2 - |\vec{p}_1| |\vec{p}_2| ),
-	\end{eqnarray}
-	where $p_1$ and $p_2$ are the four-momenta of two colliding protons with energies $E$ and momentum vector $\vec{p}$. Because the two beams have the same energy but opposite directions, the assumptions $E_1 = E_2 = E_\text{proton}$ and $|\vec{p}_1| = |\vec{p}_2|$ hold. With that, the center-of-mass energy reads:
-	\begin{equation}
-	\sqrt{s} = 2 E_\text{proton}.
-	\end{equation}
-	Because protons are composite particles, the actual scattering involves quarks or gluons, called partons, carrying only a fraction of the nominal beam momentum $x p_\text{proton}$. The center-of-mass energy of the hard scattering process $\sqrt{\hat{s}}$ is therefore only a fraction of the stated $13\;\text{TeV}$:
-	\begin{equation}
-	\sqrt{\hat{s}} = \frac{(x_1 + x_2)}{2} \sqrt{s}
-	\end{equation} 
-	Here, $x_1$ and $x_2$ indicate the fraction of momentum two colliding partons carry. Because this fraction is not known, the center-of-mass energy of the hard process is not either. Therefore, for data analysis one has to use variables, that do not depend on the initial state of the partons which are explained in section \ref{sec:coordinate}.
-	%todo pdf erwaehnen??
-	
-\subsubsection{Pile-Up}
-	The high rate of collisions of LHC is required to collect a large amount of data and be able to see even very rare processes. But the high rate also has its downside. Since multiple proton-proton interactions take place per bunch crossing, not only one interesting but several other scattering events, mostly soft QCD processes, are seen simultaneously in the detector. This effect is called pile-up. If not corrected for, energy measurements do always include particles not originating from the hard scattering one is interested in. To reduce pile-up effects, it is crucial to be able to resolve different primary vertices belonging to different interactions.
-\subsubsection{Underlying Event}
-	As result of LHC doing collision experiments with protons, thus composite particles, it has to be accounted for more than one scattering process in a proton-proton collision. This effect is called underlying event and addresses collisions where multiple partons from two colliding protons interact. Since both interactions share the same interaction point, they can hardly be separated. Hence, underlying event has to be understood and is included into simulation of events.
+
 	
 \section{CMS Detector}
 \label{sec:cms}

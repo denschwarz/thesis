@@ -39,10 +39,10 @@
 	\item not more than two missing hits in in the tracking system
 	\end{itemize}
 	Only candidates fulfilling the medium requirements and furthermore satisfy the criteria $p_T > 55\;\text{GeV}$ and $|\eta| < 2.4$ are considered as electrons in this work.
-\section{Jet Reconstruction}
+\section{Jet Algorithms}
 	Jets are objects used to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize to a cascade of colour neutral hadrons. To reconstruct the initial quark one needs to sum up all hadrons originating from it. To combine the tracks in a well defined way, jet clustering algorithms are used. Two important requirements for a jet algorithm are to be infrared and collinear safe. The first criterion means a jet should not change when including or excluding soft radiation. Collinear safety addresses collinear splitting of particles in a jet which should also not change the jet. All presented jet algorithms in this thesis fulfil these requirements. Only jets with $p_T > 30\;\text{GeV}$ and $|\eta| < 2.4$ are considered in this analysis.
 	
-\subsection{Anti-$k_T$ and Cambridge/Aachen Jet Algorithms}
+\subsection{Anti-$k_T$ and Cambridge/Aachen}
 	In CMS the common way to cluster jets from the detected particles is to use iterative jet algorithms. Thus particles are clustered step by step until an abort criterion is reached. The most common group of iterative jet algorithms are $k_T$-like algorithms. As an input, a list of all objects reconstructed in the detector is given. The algorithm then calculates two quantities $d_{ij}$ (Eq. \ref{eq:dij}) and $d_{iB}$ (Eq. \ref{eq:iB}) for each pair of objects $i$ and $j$:
 	\begin{equation}
 	d_{ij} = min (k_{T,i}^{n}, k_{T,j}^{n})  \frac{\Delta R_{ij}^2}{R^2}
@@ -53,7 +53,6 @@
 	\label{eq:iB}
 	\end{equation}
 	Here, $d_{ij}$ describes an effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis. The variable $k_T$ is the transverse momentum of an object, $\Delta R_{ij}$ denotes the distance between objects $i$ and $j$, and $R$ is a constant parameter that defines the radius of the resulting jet. Changing the exponent $n$ influences the order of clustering. When $d_{ij}$ is smaller than $d_{iB}$ both objects $i$ and $j$ are combined and both measures are calculated again. At some point, $d_{iB}$ will be smaller than any $d_{ij}$. Then object $i$ is called a jet and is removed from the list of objects. This procedure is repeated until the list of objects is empty. If $n=-2$, the algorithm is called Anti-$k_T$ \cite{antikt} and particles with high transverse momenta are clustered first. Using the Cambridge/Aachen \cite{CA1}\cite{CA2} algorithm, and therefore choosing $n=0$ will not weight the objects by momenta and provides a pure geometrical measure. The resulting shapes of the jet area are depicted in Fig. \ref{fig:ak_jetshape} when using Anti-$k_T$ and Fig. \ref{fig:ca_jetshape} when using the Cambridge/Aachen clustering algorithm. It is to mention, that the Anti-$k_T$ algorithm because of its conical jets is used as a standard in CMS.
-	%todo KT auch erwähnen?
 	\begin{figure}
 	\begin{subfigure}{.5\textwidth}
 			\centering
@@ -81,7 +80,7 @@
 	\end{equation}
 	Here, $p_{T1}$ and $p_{T2}$ describe the transverse momenta of and $\Delta R_{12}$ the distance between the constituents and $R_0$ is the radius of the final jet. A threshold value $z_\text{cut}$ and an exponent $\beta$ define the strength of grooming. Performance studies have been done in \cite{softdropvalues} resulting in standard values of $z_\text{cut} = 0.1$ and $\beta =0$.	With more then two constituents, the final jet is repeatedly pairwise declustered, checking the soft drop condition after every step.
 	
-\subsection{HOTVR Jet Algorithm}
+\subsection{HOTVR}
 \label{sec:HOTVR}
 	Another approach to cluster jets is the 'heavy object tagger with variable R' (HOTVR) \cite{hotvr}. This algorithm does not use a constant radius parameter $R$ but a $p_T$ dependent effective $R=R_\text{eff}(p_T)$ (see Eq. \ref{eq:HOTVR}). Thus the $R_\text{eff}$ decreases with increasing $p_T$ leading to smaller jets when the decay products are expected to be more close because of the Lorentz boost. The $p_T$ dependence is scaled with a parameter $\rho$ with a default value of $600\;\text{GeV}$. Furthermore, upper and lower boundaries for the jet radius can be set. The default values are $R_\text{min} = 0.1$ and $R_\text{max} = 1.5$. 	
 	\begin{equation}
@@ -110,7 +109,7 @@
 	\end{equation}	
 	they are combined. If one of the criteria is not fulfilled, the softer jet is removed.
 	
-\subsection{XCone Jet Algorithm}
+\subsection{XCone}
 \label{sec:xcone}
 	XCone \cite{xcone} is an exclusive jet algorithm, returning conical jets. It is well suited for analysis where the final state and therefore the expected number of jets is known since it returns a fixed number of jets. Thus, a physical final state has direct influence on the jet finding. \\
 	Starting with a fixed number of jet axes $N$ the algorithm calculates the direction of these axes by minimizing the N-jettiness variable. N-jettiness is a measure for how N-jet-like an event looks. The definition is shown in Eq. \ref{njettines}.
@@ -126,12 +125,8 @@
 		\label{fig:XCone_overlap}
 	\end{figure} 
 	A more general advantage of XCone is that the N-jettiness variable is often used to do theory calculations of particle physics events. Hence, the XCone algorithm is easier to include in these calculations.
-
-\subsection{b-Jets}
-\label{sec:btag}
-	In analyses involving top quarks, it is useful to identify bottom quarks since they are in almost every case one of the top quark decay products. The properties of the b-quark makes it possible to find and tag jets originating from a bottom quark. Since b-hadrons have a relatively large lifetime of about $1.5\;\text{ps}$, combined with time dilatation due to their velocity, they are likely to travel several millimetres in the detector before decaying. This leads to a secondary vertex at the spatial point where the b-hadron decays. The high precision tracking system of CMS makes it possible to resolve both, primary and secondary vertex. These characteristics are exploited by the Combined Secondary Vertex (CSV) algorithm \cite{csv} and its updated version CSVv2 \cite{btag}. Furthermore, the fraction of energy from charged hadrons in a jet and the invariant mass of all particles assigned to a secondary vertex are taken into account to distinguish from non b-jets. As a result, the CSVv2 returns a number from $0$ to $1$, indicating how b-jet like a jet is. Different working point in b-tagging correspond to different minimum values a jet has to fulfil to be considered a b-jet. In this analysis, the tight working point, corresponding to a minimum value of $0.935$, is used. Scale factors are derived and applied to simulation to match the same tagging efficiency to data.
 	
-\subsection{Jet Energy Corrections}
+\section{Jet Energy Corrections}
 \label{sec:jec}
 	Jets found by clustering sequences are furthermore corrected to account for non linearities in the detector response and differences between data and simulation because of modelling \cite{JEC}. The approach is to factorize different sources of variance and scale momentum vectors of reconstructed jets with a factor addressing each source. Thus, four factors are introduced which then result in one final $p_T$ and $\eta$ dependent correction factor as shown in Eq. \ref{eq:jec} and \ref{eq:cjec}.
 	\begin{equation}
@@ -145,7 +140,9 @@
 	\end{equation}
 	Firstly, a factor is applied to address the additional energy in a jet because of pile-up ($C_{\text{offset}}$), which is not taken care of in simulation. The factor is constructed $p_T$ dependent to subtract a constant energy from a jet in data. Secondly, reconstructed jets are corrected to match the generated jet momentum. This is done by calculating a factor $R=\frac{p_T^{\text{rec}}}{p_T^{\text{gen}}}$ in different $p_T$ and $\eta$ regions and apply this to reconstructed jets as $C_{\text{MC}} = \frac{1}{<R>}$, where $<R>$ indicates a mean in the given region. Next, an $\eta$ dependent relative correction $C_{\text{rel}}$ is applied which accounts for non linearities in the detector response. Lastly, an absolute factor $C_{\text{abs}}$ derived from data in $Z$ + jets and $\gamma$ + jets events to fit the absolute energy scale.
 	
-
+\section{b-Jet Identification}
+\label{sec:btag}
+	In analyses involving top quarks, it is useful to identify bottom quarks since they are in almost every case one of the top quark decay products. The properties of the b-quark makes it possible to find and tag jets originating from a bottom quark. Since b-hadrons have a relatively large lifetime of about $1.5\;\text{ps}$, combined with time dilatation due to their velocity, they are likely to travel several millimetres in the detector before decaying. This leads to a secondary vertex at the spatial point where the b-hadron decays. The high precision tracking system of CMS makes it possible to resolve both, primary and secondary vertex. These characteristics are exploited by the Combined Secondary Vertex (CSV) algorithm \cite{csv} and its updated version CSVv2 \cite{btag}. Furthermore, the fraction of energy from charged hadrons in a jet and the invariant mass of all particles assigned to a secondary vertex are taken into account to distinguish from non b-jets. As a result, the CSVv2 returns a number from $0$ to $1$, indicating how b-jet like a jet is. Different working point in b-tagging correspond to different minimum values a jet has to fulfil to be considered a b-jet. In this analysis, the tight working point, corresponding to a minimum value of $0.935$, is used. Scale factors are derived and applied to simulation to match the same tagging efficiency to data.
 
 \section{$\cancel{E}_T$ and $S_T$}
 	With the information of all particle flow objects two important variables are defined. The missing transverse energy $\cancel{E}_T$ is defined to estimate the energy carried away by particles which leave the experiment undetected. Summing up all transverse momenta of each particle in the final state returns the $p_T$ of the system in the initial state which is $p_T = 0$ at LHC. Thus the transverse energy of all undetected particles is defined as the absolute value of the negative sum over all transverse momenta of detected objects (Eq. \ref{eq:MET}). Since every object, independent from it's $\eta$, has to be taken into account for this variable, $\cancel{E}_T$ is independent from the selection applied. The missing energy is due to neutrinos which can not be detected with CMS because of their low probability to interact with the detector material or a new physics state. 

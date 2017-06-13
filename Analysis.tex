@@ -5,35 +5,12 @@
 \label{sec:strategy}
 	This analysis aims for boosted $t\bar{t}$ where all decay products from the top decays merge into a single jet. To measure in this phase space a selection of events is applied. The detailed selection is presented in section \ref{sec:selection}. In the required phase space the distribution of the jet mass of a top quark decaying into quarks ($t\rightarrow W^{+} b \rightarrow b q \bar{q}'$) is measured. Following a unfolding is performed using the TUnofld \cite{tunfold} software package. The goal is to compare data unfolded to particle level with first principle calculations. To fins a jet algorithm that fits this purpose, studies on particle level are presented in section \ref{sec:jet_studies}.
 	
-\section{Previous Results}
-	A measurement of the top quark mass in highly boosted $t\bar{t}$ events has already been performed by CMS with the $8\;\text{TeV}$ dataset corresponding to an integrated luminosity of $19.7\;\text{fb}^{-1}$. Details can be found in \cite{torben_paper}, while in this section a general description is given focussing on possible improvements with the larger dataset at $13\;\text{TeV}$. In the mentioned publication, Cambridge/Aachen jets with a radius parameter of $R=1.2$ were used to reconstruct top quark decays. The analysis proves the capability of the method but cannot reach high precision due to two main uncertainties. First, the statistic is now very high in the selected phase space on $8\;\text{TeV}$. Since the $t\bar{t}$ cross section increases by a factor of about three in this region with a centre-of-mass energy of $13\;\text{TeV}$, this uncertainty is expected to decrease. This also influences the choice of jet algorithm and cone size. While in the $8\;\text{TeV}$ analysis large cones are crucial to obtain enough statistics, smaller cone sizes should be possible on $13\;\text{TeV}$. The second limitation is pile-up. Because of the large cone size, pile-up largely influences the measurement. Again, a smaller cone on $13\;\text{TeV}$ is expected to decrease the uncertainty arising from pile-up. The resulting cross section measurement and a summary of the uncertainties are shown in Fig. \ref{fig:Torben1} and Fig. \ref{fig:Torben2}, respectively.
-	%todo warum ist pile-up entscheidend? Beeinflusst das aus Jet energy scale oder ist das einfach das einzig reduzierbare?
-	\begin{figure}[tb]
-		\begin{subfigure}{.5\textwidth}
-	    \centering
-		\includegraphics [width=\textwidth]{../Plots/Torben/Torben_result_paper}
-		\caption{}
-		\label{fig:Torben1}
-		\end{subfigure}
-		\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics [width=\textwidth]{../Plots/Torben/Torben_error_paper}
-		\caption{}
-		\label{fig:Torben2}
-		\end{subfigure}
-		\caption{Cross section measurement (a) and display of all uncertainties (b) from a similar analysis performed at $8\;\text{TeV}$. Taken from \cite{torben_paper}.}
-		\label{fig:Torben}
-	\end{figure}	
-	
-	%todo Plots torben
+
 \section{Jet Studies on Particle Level}
 \label{sec:jet_studies}
-	%todo goal: distribution with nice peak!
-	For this analysis it is crucial to choose a suitable jet algorithm and cone size. The previous mentioned analysis \cite{torben_paper} uses Cambridge-Aachen jets with the radius parameter set to $R=1.2$ for its measurement. This large radius was chosen to compensate for low statistics in the boosted $t\bar{t}$ regime. Since the cross-section of $t\bar{t}$ production is much higher at a center-of-mass energy of $13\;\text{TeV}$ a smaller cone is expected to be applicable for this analysis. Additionally jets clustered with Anti-$k_T$, HOTVR and XCone algorithms are studied in sections \ref{sec:AKHOTVR} as well as \ref{sec:XCone_strat} and finally compared to find the algorithm most suitable for this analysis in section \ref{sec:jet_comp}. The goal is to select a jet algorithm which returns jets in which all decay products of a hadronically decaying top quark are merged. In this case, the jet mass $M_\text{jet}$ is sensitive to the top quark mass $M_\text{top}$. To be able to extract the top quark mass, the jet mass distribution should return a sharp peak at the top quark mass of around $173\;\text{GeV}$.
-	\\
-	The jet studies are performed with a $t\bar{t}$ simulation using the information of MC simulations at particle level. The detailed selection is described in Section \ref{sec:GenSel}.
+	For this analysis it is crucial to choose a suitable jet algorithm and cone size. The previous mentioned analysis \cite{torben_paper} uses Cambridge-Aachen jets with the radius parameter set to $R=1.2$ for its measurement. This large radius was chosen to compensate for low statistics in the boosted $t\bar{t}$ regime. Since the cross-section of $t\bar{t}$ production is much higher at a center-of-mass energy of $13\;\text{TeV}$ a smaller cone is expected to be applicable for this analysis. Additionally jets clustered with Anti-$k_T$, HOTVR and XCone algorithms are studied and optimized in sections \ref{sec:AKHOTVR} as well as \ref{sec:XCone_strat} and finally compared (section \ref{sec:jet_comp}) to find the algorithm most suitable for this analysis. The goal is to select a jet algorithm which returns jets in which all decay products of a hadronically decaying top quark are merged. In this case, the jet mass $M_\text{jet}$ is sensitive to the top quark mass $M_\text{top}$. To be able to extract the top quark mass, the jet mass distribution should return a sharp peak at the top quark mass of around $173\;\text{GeV}$. The jet studies are performed with a $t\bar{t}$ simulation using the information of MC simulations at particle level. The detailed selection is described in Section \ref{sec:GenSel}.
 
-\subsection{Selection on particle level}
+\subsection{Selection on Particle level}
 \label{sec:GenSel}
 	All studies on particle level are performed with a $t\bar{t}$ sample only. Several selection criteria are used to select boosted top quark decays in the lepton + jets channel. Since the selection is applied on particle level, also particle level information is used. The selection reads:
 	\begin{itemize}
@@ -52,7 +29,9 @@
 	
 \subsection{Studies with Anti-$k_T$ and HOTVR}
 \label{sec:AKHOTVR}	
-	Since the top quark decay should be reconstructed with one jet, all decay products need to lay inside the defined jet cone. Choosing different cone sizes has various effects. When the cone is small, not all decay products may end up in the jet and the jet mass is reconstructed smaller than the top mass. If the cone size is large, the probability of additional radiation and pile-up grows and the resulting jet mass is reconstructed too high. As a starting point Anti-$k_T$ jets with a radius of $0.8$ are selected since this is the CMS intern standard to reconstruct top quark jets. To study the influence of the cone size, AK jets with a radius of $0.8$ and $1.2$ are presented in Fig. \ref{fig:GEN_AK08} and \ref{fig:GEN_AK12}, respectively. Additionally a matching is performed. If all three decay products of the top quark are clustered into the jet, the jet is called 'matched'. One can see that AK8 jets tend to deliver a jet mass lower than the top quark mass of about $173\;\text{GeV}$. This is due to the higher fraction of 'not matched' events. In this case, these are events where not every decay product ends up in the jet. AK12 jets on the other hand often return a mass higher than the top quark mass which is due to underlying event effects. A larger cone size has a higher probability of including particles not originating from the top quark one is interested in. Furthermore, even the peak position for AK12 jets is reconstructed above the top quark mass. It is also to mention that with a larger cone size more events survive the selection criteria because a large jet sums up more particles and thus more transverse momentum.
+	Since the top quark decay should be reconstructed with one jet, all decay products need to lay inside the defined jet cone. Choosing different cone sizes has various effects. When the cone is small, not all decay products may end up in the jet and the jet mass is reconstructed smaller than the top mass. If the cone size is large, the probability of additional radiation and pile-up grows and the resulting jet mass is reconstructed too high. 
+	\subsubsection{Anti-$k_T$ Jets}
+	As a starting point Anti-$k_T$ jets with a radius of $0.8$ are selected since this is the CMS intern standard to reconstruct top quark jets. To study the influence of the cone size, AK jets with a radius of $0.8$ and $1.2$ are presented in Fig. \ref{fig:GEN_AK08} and \ref{fig:GEN_AK12}, respectively. Additionally a matching is performed. If all three decay products of the top quark are clustered into the jet, the jet is called 'matched'. One can see that AK8 jets tend to deliver a jet mass lower than the top quark mass of about $173\;\text{GeV}$. This is due to the higher fraction of 'not matched' events. In this case, these are events where not every decay product ends up in the jet. AK12 jets on the other hand often return a mass higher than the top quark mass which is due to underlying event effects. A larger cone size has a higher probability of including particles not originating from the top quark one is interested in. Furthermore, even the peak position for AK12 jets is reconstructed above the top quark mass. It is also to mention that with a larger cone size more events survive the selection criteria because a large jet sums up more particles and thus more transverse momentum. Because of the better resolution in the peak region and much less tail, AK4 fits the purpose of this analysis well and is further used. To reduce additional energy clustered into the jet further, grooming algorithms like soft drop are used. A comparison of AK8 jets with and without soft drop is depicted in Fig. \ref{fig:GEN_AK08sd}. With soft drop applied, the $W$ peak can be clearly identified. Additionally, masses above the top quark mass are reduced. The distribution with AK8 jets and soft drop (Fig. \ref{fig:GEN_AK08sd1}) will be compared to other clustering methods in section \ref{sec:jet_comp}.
 
 	\begin{figure}[tb]
 		\begin{subfigure}{.5\textwidth}
@@ -70,18 +49,68 @@
 		\caption{Comparison of jet mass distributions of AK8 (a) and AK12 (b) jets. A smaller cone size (a) leads to a lower reconstructed mass while a large cone (b) returns higher masses. The fraction of 'matched' and 'not matched' events is shown in the histograms.}
 	\end{figure}
 	
-	
-	Another approach to find a appropriate cone size is to used not a constant but $p_T$ dependent radius parameter. Since decay products are Lorentz boosted with high momentum, the higher the $p_T$, the smaller cone size is necessary to contain all decay products. Thus, HOTVR (see section \ref{sec:HOTVR}) directly addresses this property. The default settings set the effective radius to $R_\text{eff} = \frac{600\;\text{GeV}}{p_T}$, which corresponds to a maximum radius of $1.5$ with the used selection. The result is visible in Fig. \ref{fig:GEN_HOTVR}. Due to the large cone size for the lowest possible jet momentum, the distribution is very similar to a AK jet with a large radius parameter. 
-	%todo HOTVR rho Variation zeigen?
+	\begin{figure}[tb]
+		\begin{subfigure}{.5\textwidth}
+	    \centering
+		\includegraphics [width=\textwidth]{../Plots/GenStudies/AK08softdrop_matching}
+		\caption{}
+		\label{fig:GEN_AK08sd1}
+		\end{subfigure}
+		\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics [width=\textwidth]{../Plots/GenStudies/AK08_matching}
+		\caption{}
+		\label{fig:GEN_AK08sd2}
+		\end{subfigure}
+		\caption{Comparison of jet mass distributions of AK8 with (a) and without (b) the soft drop algorithm applied. }
+		\label{fig:GEN_AK08sd}
+	\end{figure}
+		
+	\subsubsection{HOTVR Jets}
+	Another approach to find a appropriate cone size is to used not a constant but $p_T$ dependent radius parameter. Since decay products are Lorentz boosted with high momentum, the higher the $p_T$, the smaller cone size is necessary to contain all decay products. Thus, HOTVR (see section \ref{sec:HOTVR}) directly addresses this property. The default settings set the effective radius to $R_\text{eff} = \frac{600\;\text{GeV}}{p_T}$, which corresponds to a maximum radius of $1.5$ with the used selection of jets with $p_T > 400\;\text{GeV}$. The result is visible in Fig. \ref{fig:GEN_HOTVR}. Due to the large cone size for the lowest possible jet momentum, the distribution is very similar to a AK jet with a large radius parameter. The parameter to tune the HOTVR clustering is $\rho$. By lowering $\rho$, the effective radius shrinks. Figure \ref{fig:GEN_HOTVRrho} shows a comparison of the jet mass for different $\rho$. It is decreased in $100\;\text{GeV}$ steps to a value of $300\;\text{GeV}$ which corresponds to a radius of $0.75$ for jets with a transverse momentum of $400\;\text{GeV}$. A behaviour similar to decreasing the radius of Anti-$k_T$ jets is visible. Increasing $\rho$ returns more events where all decay products end up in the jet cone, but a jet also includes more additional particles leading to a higher mass.
+	%todo Entscheidung welcher HOTVR benutzt wird
+
 	\begin{figure}[tb]
 		\centering
 		\includegraphics [width=.5\textwidth]{../Plots/GenStudies/HOTVR_matching}
-		\caption{}
+		\caption{Jet mass distribution of jets clustered with the HOTVR algorithm. Here, default values of the clustering procedure are used. The large tail can be explained with large jet radii for jets with a transverse momentum around $400\;\text{GeV}$.}
 		\label{fig:GEN_HOTVR}
 	\end{figure}	
+	%todo caption
+	
+	\begin{figure}[tb]
+		\begin{subfigure}{.5\textwidth}
+	    \centering
+		\includegraphics [width=\textwidth]{../Plots/GenStudies/HOTVRrho600_matching}
+		\caption{}
+		\label{fig:GEN_HOTVR600}
+		\end{subfigure}
+		\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics [width=\textwidth]{../Plots/GenStudies/HOTVRrho500_matching}
+		\caption{}
+		\label{fig:GEN_HOTVR500}
+		\end{subfigure}
+		\begin{subfigure}{.5\textwidth}
+	    \centering
+		\includegraphics [width=\textwidth]{../Plots/GenStudies/HOTVRrho400_matching}
+		\caption{}
+		\label{fig:GEN_HOTVR400}
+		\end{subfigure}
+		\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics [width=\textwidth]{../Plots/GenStudies/HOTVRrho300_matching}
+		\caption{}
+		\label{fig:GEN_HOTVR300}
+		\end{subfigure}		
+		\caption{Study of the influence of the HOTVR $\rho$ parameter on the jet mass.}
+		\label{fig:GEN_HOTVRrho}
+	\end{figure}
+	%todo caption
+		
 \subsection{Studies with XCone}
 \label{sec:XCone_strat}
-	The XCone jet algorithm described in section \ref{sec:xcone} has already been tested resolving $t\bar{t}$ decays. Studies for hadronically decaying top quark pairs are presented in a paper from Thaler and Wilkason \cite{xconetop}. Here, the XCone algorithm is tuned to the $t\bar{t}$ final state, expecting six jets. Using the information that it is expected to find three jets from each top quark, a promising approach to reconstruct the top quark decays was made with a strategy using two clustering steps (see Fig. \ref{fig:JetDisplay}). Firstly, XCone is required to find exactly two jets with a large radius ensuring that all decay products of the top quark end up in the jet. Thus, every particle from the hard scattering should be clustered into one of the jets. The goal of this first step is to separate the two top quarks into independent jets.  Now, the jets are identified if they contain the decay products of the hadronically decaying or leptonically decaying top quark via a distance measure $\Delta R (\text{lepton, jet})$. To check if the categorization works, the distance $\Delta R$ between the hadronically decaying top quark on particle level and the selected jet is calculated. The distribution is shown in Fig. \ref{fig:XCone_dR}. According to this plot, almost every jet is categorized correctly. The jet shape in the $\eta$-$\phi$-plane, identification (orange indicates the jet identified as originating from the hadronically decaying top quark) and all particles in the event are shown in Fig. \ref{fig:JetDisplay1}. After that, the jets are further divided into subjets with a radius of $R=0.4$. Since one expects only two visible components on the leptonic side, here only two subjets are required, while the other jet contains three. This strategy will be referred to as '$2+5$' and is depicted in Fig. \ref{fig:JetDisplay2}. The subjets are then combined to form a final jet that is used from now on.	
+	The XCone jet algorithm described in section \ref{sec:xcone} has already been tested resolving $t\bar{t}$ decays. Studies for hadronically decaying top quark pairs are presented in a paper from Thaler and Wilkason \cite{xconetop}. Here, the XCone algorithm is tuned to the $t\bar{t}$ final state, expecting six jets. Using the information that it is expected to find three jets from each top quark, a promising approach to reconstruct the top quark decays was made with a strategy using two clustering steps (see Fig. \ref{fig:JetDisplay}). Firstly, XCone is required to find exactly two jets with a large radius ensuring that all decay products of the top quark end up in the jet. Thus, every particle from the hard scattering should be clustered into one of the jets. The goal of this first step is to separate the two top quarks into independent jets.  Now, the jets are identified if they contain the decay products of the hadronically decaying or leptonically decaying top quark via a distance measure $\Delta R (\text{lepton, jet})$. To check if the categorization works, the distance $\Delta R$ between the hadronically decaying top quark on particle level and the selected jet is calculated. The distribution is shown in Fig. \ref{fig:XCone_dR}. According to this plot, almost every jet is categorized correctly. The jet shape in the $\eta$-$\phi$-plane, identification (orange indicates the jet identified as originating from the hadronically decaying top quark) and all particles in the event are shown in Fig. \ref{fig:JetDisplay1}. After that, the jets are further divided into smaller subjets. Since one expects only two visible components on the leptonic side, only two subjets are required, while the other jet contains three. This strategy will be referred to as '$2+5$' and is depicted in Fig. \ref{fig:JetDisplay2}. The subjets are then combined to form a final jet that is used from now on.	
 	
 	\begin{figure}[tb]
 		\centering
@@ -167,17 +196,17 @@
  		\label{fig:GEN_XCone33}
  		\caption{}
  		\end{subfigure}
- 		\caption{Jet mass distribution of XCone jets.}
+ 		\caption{Comparison of the jet mass distribution of XCone jets clustered with the '$2+5$' (a) and the '$2+6$' (b) method.}
  		\label{fig:GEN_XCone_comp}
  	\end{figure}
  	
 \subsection{Comparing Jet Algorithms}
 \label{sec:jet_comp}
-	In this section, the resulting jet mass distributions of different clustering algorithms are compared.
+	In this section, the resulting jet mass distributions of different clustering algorithms discussed above are compared.
 	%todo irriduceble background (deltaR (top, b))
 	%todo vergleich auch mit XCone Softdrop!!!
 	
-\section{Jet Studies on Reconstruction Level}
+\section{Studies on Reconstruction Level}
 \label{sec:selection}
 	To obtain a data set consisting of mostly $t\bar{t}$ events in the lepton+jets channel, a selection is applied to simulation and data. The selection can be divided into two steps. Firstly, a baseline selection is used to suppress background processes (see section \ref{sec:PreSel}). Secondly, the final phase space is defined (see section \ref{sec:FinalSel}) to select $t\bar{t}$ events with boosted top quarks. This is crucial for this analysis because the goal is to reconstruct the top quark with one jet. This can only be done if all of its decay products merge into one jet.
 
@@ -231,9 +260,43 @@
 	%todo show resulting plots
 
 \section{Unfolding}
-\section{Results and Outlook}
+\label{sec:unfolding}
+	Most analyses at LHC measure distributions of appropriate variables and then compare the obtained results in data with event simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with an unknown detector function. Studying the difference in MC between particle level and reconstruction level, it is possible to calculate the probabilities that a measured value in a bin $y_i$ is originating from bin $x_i$ on particle level. A visualisation of this problem is drawn in Fig. \ref{fig:Unfolding}.	
+	\begin{figure}[tb]
+		\centering
+		\includegraphics [width=.6\textwidth]{../Images/Unfolding.png}
+		\caption{Schematic view of an unfolding procedure. The goal is to unfold a measured distribution $\mathbf{y}$ to obtain a true distribution $\mathbf{x}$ without detector effects. Taken from \cite{tunfold}.}
+		\label{fig:Unfolding}
+	\end{figure}
+	The matrix $\mathbf{A}$ describing migrations from bins in $\mathbf{x}$ to bins in $\mathbf{y}$ can be calculated using simulations where both distributions $\mathbf{x}$ and $\mathbf{y}$ are known. Then, the migration matrix can be used obtain an estimate for data on particle level. Following Eq. \ref{eq:unfold} denotes the basic problem one has to solve:
+	\begin{equation}
+	\tilde{y}_i = \sum_{j=1}^{m} A_{ij}\tilde{x}_j, 1 \leq i \leq n
+	\label{eq:unfold}
+	\end{equation}
+	where $m$ and $n$ are the number of bins of the true and measured distributions, respectively. The tilde marks the statistical mean of $\mathbf{x}$ and $\mathbf{y}$. Here, one is interested in a distribution $x_j$ and not $\tilde{x}_j$ what makes this problem not trivial. If one only replaces $\tilde{y}_i \rightarrow y_i$ and $\tilde{x}_j \rightarrow x_j$ and solve for $x_j$ by inverting the matrix $\mathbf{A}$, statistical fluctuations of $\mathbf{y}$ would be amplified. Thus, fluctuations have to be damped with a regularisation.
+	
+\subsection{Regularised Unfolding with TUnfold}
+	The TUnfold software package \cite{tunfold} provides a framework for regularised unfolding procedures in high energy physics. Equation \ref{eq:unfold_lagrange} shows the Lagrangian implemented in TUnfold that is minimised.
+	\begin{eqnarray}
+	\label{eq:unfold_lagrange}
+	\mathcal{L}(x,\lambda) &=& \mathcal{L}_1 + \mathcal{L}_2 + \mathcal{L}_3 
+	\\ \nonumber \text{with}
+	\\ 
+	\label{eq:unfold_lagrange1}
+	\mathcal{L}_1 &=& (\mathbf{y} - \mathbf{Ax})^\intercal \mathbf{V_{yy}}^{-1} (\mathbf{y} - \mathbf{Ax}) 
+	\\
+	\label{eq:unfold_lagrange2}
+	\mathcal{L}_2 &=& \tau^2 (\mathbf{x} - f_b \mathbf{x}_0)^\intercal (\mathbf{L}^\intercal \mathbf{L}) (\mathbf{x} - f_b \mathbf{x}_0) 
+	\\
+	\label{eq:unfold_lagrange3}
+	\mathcal{L}_3 &=& \lambda (Y-\mathbf{e}^\intercal \mathbf{x}) \ \text{with} \ Y=\sum_{i} y_i \ \text{and} \ e_j = \sum_{i}A_{ij}
+	\end{eqnarray}
+	The first term $\mathcal{L}_1$ contains a standard least square minimisation where $\mathbf{V_{yy}}$ is the covariance matrix describing uncertainties. Secondly a regularisation with strength $\tau^2$ is used. A bias vector can be introduced using a factor $f_b$ and a vector $\mathbf{x}_0$ to suppress deviations of $\mathbf{x}$ from $f_b\mathbf{x}_0$. Additionally, three choices for the matrix $\mathbf{L}$ can be made to either regularise the absolute value, first or second derivative of $\mathbf{x}$. The final term $\mathcal{L}_3$ expresses an optional area constraint, checking differences in event counts between input and output.
+ 
+\section{Results}
 \label{sec:results}
 %todo elec channel
+%todo other MC samples
 %todo sys uncertainties
 %todo unfolding optimisation, pt bins
 

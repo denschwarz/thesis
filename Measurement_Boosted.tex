@@ -1,0 +1,28 @@
+\chapter{Measurement of the Top Quark Mass in Boosted Decays}
+	%todo jet mass einfuehren
+\section{Conventional Mass Measurements}
+	Measuring the top quark mass is usually performed via a template fit. Therefore $t\bar{t}$ events are simulated for different masses $m_\text{top}^{MC}$. Then a selection is applied to data and simulation with the goal to select preferably $t\bar{t}$ events. Finally the different simulations with different $m_\text{top}^{MC}$ are fitted to data. The most precise mass measurement of this kind is achieved combining results of the CMS, ATLAS, CDF, and D0 collaborations. The result of this world average is a value of $173.34 \pm 0.27 (\text{stat}) \pm 0.71 (\text{sys})\;\text{GeV}$ \cite{topmass_combination}. Doing these kinds of measurements one relies on a correct simulation of $t\bar{t}$ events. Especially the mass parameter in simulation samples cannot be easily related to a mass one would calculate in a Lagrange density because of the way simulations are computed. Here, not all effects of QCD can be calculated. This is why a cut-off scale is defined which directly influences the mass associated with a given Simulation (see section \ref{sec:Simulation}). Because of this difficulty, this analysis aims to provide a mass measurement without relying on ambiguities of the mass parameter in simulation.
+
+\section{Method}
+
+\section{Previous Results}
+	A measurement of the top quark mass in highly boosted $t\bar{t}$ events \cite{torben_paper} has already been performed by CMS with the $8\;\text{TeV}$ dataset corresponding to an integrated luminosity of $19.7\;\text{fb}^{-1}$. The resulting cross section measurement and a summary of the uncertainties are shown in Fig. \ref{fig:Torben1} and Fig. \ref{fig:Torben2}, respectively. In the mentioned publication, Cambridge/Aachen jets with a radius parameter of $R=1.2$ were used to reconstruct top quark decays, proving the capability of the method but not reaching high precision. Two main points a subsequent analysis on $13\;\text{TeV}$ could largely improve are statistical uncertainties and effects due to pile-up. First, the statistic is now very high in the selected phase space on $8\;\text{TeV}$. Since the $t\bar{t}$ cross section increases by a factor of about three in this region with a centre-of-mass energy of $13\;\text{TeV}$, this uncertainty is expected to decrease. This also influences the choice of jet algorithm and cone size. While in the $8\;\text{TeV}$ analysis large cones are crucial to obtain enough statistics, smaller cone sizes should be possible on $13\;\text{TeV}$. The second limitation is pile-up. Because of the large cone size, pile-up largely influences the measurement, visible as shift of the peak position to values above the top quark mass. Again, a smaller cone on $13\;\text{TeV}$ is expected to decrease this effect.
+
+	\begin{figure}[tb]
+		\begin{subfigure}{.5\textwidth}
+	    \centering
+		\includegraphics [width=\textwidth]{../Plots/Torben/Torben_result_paper}
+		\caption{}
+		\label{fig:Torben1}
+		\end{subfigure}
+		\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics [width=\textwidth]{../Plots/Torben/Torben_error_paper}
+		\caption{}
+		\label{fig:Torben2}
+		\end{subfigure}
+		\caption{Cross section measurement (a) and display of all uncertainties (b) from a similar analysis performed at $8\;\text{TeV}$. Taken from \cite{torben_paper}.}
+		\label{fig:Torben}
+	\end{figure}	
+	
+	%todo Plots torben
