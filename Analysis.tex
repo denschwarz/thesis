@@ -212,30 +212,39 @@
 
 \subsection{Baseline Selection}
 \label{sec:PreSel}
-	In the lepton+jets channel of the $t\bar{t}$ process one expects to find exactly one muon or electron, two small jets from the hadronically decaying $W$ boson, two b-jets and missing transverse energy since the neutrino cannot be detected. This baseline selection is designed to remove non-$t\bar{t}$ events. After applying this selection the remaining sample consists of about $80\%$ $t\bar{t}$, the main remaining backgrounds are $W+$jets and Single-Top production. 
+	In the lepton+jets channel of the $t\bar{t}$ process one expects to find exactly one muon or electron, two small jets from the hadronically decaying $W$ boson, two b-jets and missing transverse energy since the neutrino cannot be detected. This baseline selection is designed to remove non-$t\bar{t}$ events. Since this analysis focuses on the muon channel, the selection are:
 	\begin{itemize}
-	\item single muon trigger with $p_T > 50\;\text{GeV}$ threshold
+	\item single muon trigger (combination of "HLT\_Mu50\_v*" and "HLT\_TkMu50\_v*") with $p_T > 50\;\text{GeV}$ threshold
 	\item exactly one tight muon with $p_T > 55\;\text{GeV}$ and $|\eta| < 2.4$
 	\item veto on additional leptons
+	\item 2D Cut: $\Delta R(\text{lepton, next AK4 jet}) > 0.4$ or $p_T^{\text{rel}}(\text{lepton, next AK4 jet}) > 40\;\text{GeV}$ \footnote{$p_T^{\text{rel}}(a,b) = \frac{|\vec{p_a} \times \vec{p_b}|}{|\vec{p_b}|}$}
 	\item at least two AK4 jets with $p_T > 50\;\text{GeV}$ and $|\eta| < 2.4$
 	\item $\cancel{E}_T > 50\;\text{GeV}$
-	\item $S_T^\text{lep} > 100\;\text{GeV}$
+	%\item $S_T^\text{lep} > 100\;\text{GeV}$
 	\item at least one tight b-tag
-	\item 2D Cut: $\Delta R(\text{lepton, next AK4 jet}) > 0.4$ or $p_T^{\text{rel}}(\text{lepton, next AK4 jet}) > 40\;\text{GeV}$ \footnote{$p_T^{\text{rel}}(a,b) = \frac{|\vec{p_a} \times \vec{p_b}|}{|\vec{p_b}|}$}
+
 	\end{itemize}
-	%todo top pt reweight
-	%todo Cuts begruenden
+	Because the data set corresponding to the called single muon trigger is used in this analysis, the trigger criteria have to be fulfilled in simulation as well. An additional cut on the muon $p_T$ at $55\;\text{GeV}$ is recommended for this trigger to reach the plateau of trigger efficiency. Furthermore, a scale factor is applied to simulation to account for efficiency differences in data and simulation. Since only one lepton is expected in the lepton+jets channel of $t\bar{t}$, a veto on additional leptons is used to suppresses diboson events. To reject QCD events, a two-dimensional cut is applied. A window in the $\Delta R$-$p_T^{\text{rel}}$-plane is cut out where the majority of QCD that survive the lepton criteria accumulates. The requirements to find two AK4 jets with at least $50\;\text{GeV}$, missing transverse energy of at least $50\;\text{GeV}$ and a b-tag prefer $t\bar{t}$ events because of the similar signature. For b-tagging a scale factor is applied to match efficiency in data and simulation. After applying the selection the remaining events contain about $80\%$ $t\bar{t}$, the main remaining backgrounds are $W+$jets and Single-Top production. 
+	
+	%todo ref muon pt cut recommendation
+	%todo ref Muon Trigger SF
 	%todo Lumi Plot
 
+
+	
+	%todo top pt reweight: Plots ohne zeigen, beschreiben womit der Trend zu erklaeren ist. dann als bestaetigung plot mit reweighting zeigen
+	The difference in $p_T$ spectra of the top quark has been observed in several publications, for example in a $t\bar{t}$ differential cross section measurement from CMS \cite{ttreweight}.
+	
 \subsection{Measurement Phase Space}
 \label{sec:FinalSel}
-	%todo VERWEIS AUF GENSEL
-	This analysis focuses on boosted top quarks. Therefore the leading jet, which is supposed to contain all decay products of the hadronically decaying top quark, is required to carry a transverse momentum greater than $400\;\text{GeV}$. Additionally only events are selected where the leading jet has a greater mass than the second jet. This last selection step prefers events with merged jets because here the jet from the leptonic top quark will only contain the lepton and a jet from the bottom quark since neutrinos cannot be detected. Therefore the mass of the hadronic jet is expected to be larger. The presented selection criteria match the ones presented above for the particle level selection.
+	The measurement phase space on reconstruction level is defined analogously to the particle level selection. Boosted topologies are selected by requiring the leading jet to surpass a cut on $p_T > 400\;\text{GeV}$. In addition the mass of the leading jet is expected to be higher then the second jet mass if all top quark decay products are reconstructed correctly. Thus, on top of the baseline selection presented above, following criteria are checked:
 	\begin{itemize}
 	\item $p_T^{\text{1st jet}} > 400\;\text{GeV}$ 
 	\item $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$
 	\end{itemize}
-
+	%todo plots of top mass peak
+	%todo describe plots
+	%todo plots ohne SF=0.75 zeigen, beschreiben woran das liegt, nochmal mit SF zeigen als bestaetigung
 	
 \subsection{Jet Energy Corrections for XCone Jets} 
 	The normal procedure in CMS analyses is to apply jet energy corrections (see section \ref{sec:jec}) to every jet collection used. Those jet energy corrections have been derived by dedicated CMS groups and are different depending on the jet algorithm used to cluster jets. Since the XCone algorithm is not a standard jet finding procedure in CMS, there are no valid corrections available. The first attempt to correct XCone jets is to use the AK4 jet corrections since the jet shape should be very similar to XCone jets with $R=0.4$ as they were used in this analysis.
@@ -294,6 +303,9 @@
 	\mathcal{L}_3 &=& \lambda (Y-\mathbf{e}^\intercal \mathbf{x}) \ \text{with} \ Y=\sum_{i} y_i \ \text{and} \ e_j = \sum_{i}A_{ij}
 	\end{eqnarray}
 	The first term $\mathcal{L}_1$ contains a standard least square minimisation where $\mathbf{V_{yy}}$ is the covariance matrix describing uncertainties. Secondly a regularisation with strength $\tau^2$ is used. A bias vector can be introduced using a factor $f_b$ and a vector $\mathbf{x}_0$ to suppress deviations of $\mathbf{x}$ from $f_b\mathbf{x}_0$. Additionally, three choices for the matrix $\mathbf{L}$ can be made to either regularise the absolute value, first or second derivative of $\mathbf{x}$. The final term $\mathcal{L}_3$ expresses an optional area constraint, checking differences in event counts between input and output.
+	
+	%todo eigenes unfolding
+ 
  
 \section{Results}
 \label{sec:results}

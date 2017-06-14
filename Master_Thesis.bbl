@@ -1137,5 +1137,31 @@
     \field{title}{{Resolving Boosted Jets with XCone}}
     \field{year}{2015}
   \endentry
+
+  \entry{ttreweight}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.95.092001
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1610.04191
+    \endverb
+    \field{howpublished}{Phys. Rev. D 95, 092001 (2017)}
+    \field{title}{Measurement of differential cross sections for top quark pair
+  production using the lepton+jets final state in proton-proton collisions at
+  13 TeV}
+    \field{year}{2016}
+  \endentry
 \endsortlist
 \endinput

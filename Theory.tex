@@ -9,14 +9,13 @@
 	Bosons are carriers of the three fundamental forces included in the standard model. Every interaction of two particles is described by a boson emitted from one and absorbed by the other particle. Thus, a boson changes energy and momentum of an absorbing or emitting particle. For each force a charge is introduced. Only particles carrying the charge connected to a force can interact with the corresponding boson. Hence, the amount of charge carried by a particle is proportional to the probability of emitting or absorbing a boson. 
 	\\
 	With the discovery of the Higgs boson in 2012, all particles of the standard model have been experimentally confirmed. Although the theory is believed to be incomplete, because known phenomena like gravity and dark matter are not included, the standard model is very successful describing outcomes of experiments with very high precision. A more detailed look on the three fundamental interactions is given in the sections below. 
-	\begin{figure}[htb]
+	\begin{figure}[tb]
 		\centering
-		\includegraphics [width=.8\textwidth, trim = {0 0 0 3.5cm}, clip=true]{../Images/Standard_Model_of_Elementary_Particles.pdf}
+		\includegraphics [width=.7\textwidth, trim = {0 0 0 3.5cm}, clip=true]{../Images/Standard_Model_of_Elementary_Particles.pdf}
 		\caption{Display of the particle content of the standard model divided into groups of bosons and fermions in their three generations. For every particle, mass, electromagnetic charge and spin is shown. Although neutrinos are supposed to be massless in the SM, experiments show that they carry mass. Thus, the upper limit of the neutrino masses are specified. Taken from \cite{SM}.}
 		\label{SM}
 	\end{figure}
 	
-	%todo Gruppen angeben?
 	\subsection{Quantum Electro Dynamics (QED)}
 	In the history of the standard model, QED was the first mechanism to describe known interactions in a quantum field theory. The charge of QED is called electromagnetic charge and usually stated in units of elementary charge $e$. The mechanism to construct a quantum field theory is to take the Lagrange density for fermions, described by Dirac spinors, and require local gauge invariance. The QED requires the Lagrange density to be invariant under transformations of a $U(1)$ symmetry group. Equation \ref{eq:qedlag} shows the Lagrange density of the Dirac equation. 
 	
@@ -289,11 +288,11 @@
 	Here, $x_1$ and $x_2$ indicate the fraction of momentum two colliding partons carry. Because this fraction is not known, the center-of-mass energy of the hard process is not either. Therefore, for data analysis one has to use variables, that do not depend on the initial momentum in direction of flight of the partons, which are explained in section \ref{sec:coordinate}. Another peculiarity in hadron colliders is the use of parton density functions (PDFs). PDFs return the probability to find a particular parton inside a given momentum interval in a proton. They are measured in electron-proton scattering experiments \cite{pdf} and crucial to predict production cross sections.
 		
 \subsubsection{Pile-Up}
-	The high collision rate of LHC is required to collect a large amount of data and be able to see even very rare processes. But the high rate also has its downside. Since multiple proton-proton interactions take place per bunch crossing, not only one interesting but several other scattering events, mostly soft QCD processes, are seen simultaneously in the detector. This effect is called pile-up. If not corrected for, energy measurements do always include particles not originating from the hard scattering one is interested in. To reduce pile-up effects, it is crucial to be able to resolve primary vertices belonging to different interactions.
+	The high collision rate of LHC is required to collect a large amount of data and be able to see even very rare processes. But the high rate also has its downside. Since multiple proton-proton interactions take place per bunch crossing, not only one interesting but several other scattering events, mostly soft QCD processes, are seen simultaneously in the detector. This effect is called pile-up. If not corrected for, energy measurements do always include particles not originating from the hard scattering one is interested in. To reduce pile-up effects, it is crucial to be able to identify additional energy as well as distinguish between hard scattering and vertices from supplementary interactions.
+	
 \subsubsection{Underlying Event}
 	As result of LHC performing collision experiments with protons, thus composite particles, it has to be accounted for more than one scattering process in a proton-proton interaction. This effect is called underlying event and addresses collisions where multiple partons from two colliding protons interact. Since both interactions share the same interaction point, they can hardly be separated. Hence, underlying event has to be understood and is included into simulation of events.
 	
 \section{Event Generator and Parton Shower}
 \label{sec:Simulation}
 	Events as they are measured in the CMS detector are complicated and therefore not easily predictable. Not only the probability of a process has to be accounted for, but also further hadronisation and radiation of final state particles. Additionally, the detector itself has to be simulated because of spatial differences in detector response and measurement effects. This leads to the fact, that pure calculation of these processes is not feasible. Thus, Monte Carlo (MC) methods are used to simulate the occurrence and outcome of various processes. The simulation procedure is carried out in two separate steps. Firstly, the matrix element of the hard scattering is calculated with an MC generator like MADGRAPH \cite{madgraph} or POWHEG \cite{powheg}. In this calculation, the physics of the proton-proton collision, thus particle density functions, and production as well as decays on particle level are considered. Secondly, hadronisation, namely soft QCD radiation and evolving into bound colour states, is performed. This is mostly done with PYTHIA8 \cite{pythia8}.
-	%todo cut off scale?	
