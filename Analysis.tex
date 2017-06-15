@@ -26,7 +26,8 @@
 	\end{itemize}
 	%todo pt muon/elec, eta ranges
 	Where the first jet refers to the leading jet in $p_T$ of the respective jet clustering algorithm. It is expected to be originating from the hadronically decaying top quark, the second one is expected contain the products of the leptonically decaying top quark. The purpose of the $p_T$ thresholds is to select boosted top decays. The Veto on additional jets is set to select $t\bar{t}$ events where one jet per top quark decay is expected. It is to mention, that the veto is not present in combination with XCone since it will always return exactly two jets in the used set up. A cut on the distance between lepton and second leading jet in $p_T$ prefers boosted topologies where the lepton is inside the jet of the leptonically decaying top quark. This criterion is also obsolete for XCone because of the selected clustering sequence (see section \ref{sec:XCone_strat}). To suppress events where not all decay products of the hadronically decaying top quark end up in the jet with the highest transverse momentum, a mass criterion $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$ is set. The criterion includes the assumption that the mass of the jet on the leptonic side is lower because the neutrino cannot be reconstructed. This selection is applied to every jet algorithm output to be able to compare these different approaches.
-	
+
+\FloatBarrier %draw figures of previous section before the new one starts	
 \subsection{Studies with Anti-$k_T$ and HOTVR}
 \label{sec:AKHOTVR}	
 	Since the top quark decay should be reconstructed with one jet, all decay products need to lay inside the defined jet cone. Choosing different cone sizes has various effects. When the cone is small, not all decay products may end up in the jet and the jet mass is reconstructed smaller than the top mass. If the cone size is large, the probability of additional radiation and pile-up grows and the resulting jet mass is reconstructed too high. 
@@ -107,7 +108,8 @@
 		\label{fig:GEN_HOTVRrho}
 	\end{figure}
 	%todo caption
-		
+
+\FloatBarrier %draw figures of previous section before the new one starts		
 \subsection{Studies with XCone}
 \label{sec:XCone_strat}
 	The XCone jet algorithm described in section \ref{sec:xcone} has already been tested resolving $t\bar{t}$ decays. Studies for hadronically decaying top quark pairs are presented in a paper from Thaler and Wilkason \cite{xconetop}. Here, the XCone algorithm is tuned to the $t\bar{t}$ final state, expecting six jets. Using the information that it is expected to find three jets from each top quark, a promising approach to reconstruct the top quark decays was made with a strategy using two clustering steps (see Fig. \ref{fig:JetDisplay}). Firstly, XCone is required to find exactly two jets with a large radius ensuring that all decay products of the top quark end up in the jet. Thus, every particle from the hard scattering should be clustered into one of the jets. The goal of this first step is to separate the two top quarks into independent jets.  Now, the jets are identified if they contain the decay products of the hadronically decaying or leptonically decaying top quark via a distance measure $\Delta R (\text{lepton, jet})$. To check if the categorization works, the distance $\Delta R$ between the hadronically decaying top quark on particle level and the selected jet is calculated. The distribution is shown in Fig. \ref{fig:XCone_dR}. According to this plot, almost every jet is categorized correctly. The jet shape in the $\eta$-$\phi$-plane, identification (orange indicates the jet identified as originating from the hadronically decaying top quark) and all particles in the event are shown in Fig. \ref{fig:JetDisplay1}. After that, the jets are further divided into smaller subjets. Since one expects only two visible components on the leptonic side, only two subjets are required, while the other jet contains three. This strategy will be referred to as '$2+5$' and is depicted in Fig. \ref{fig:JetDisplay2}. The subjets are then combined to form a final jet that is used from now on.	
@@ -200,11 +202,36 @@
  		\label{fig:GEN_XCone_comp}
  	\end{figure}
  	
+\FloatBarrier %draw figures of previous section before the new one starts 	
 \subsection{Comparing Jet Algorithms}
 \label{sec:jet_comp}
-	In this section, the resulting jet mass distributions of different clustering algorithms discussed above are compared.
+	In this section, the resulting jet mass distributions of different jet clustering algorithms discussed above are compared.
+	
+ 	\begin{figure}[tb]
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth]{../Plots/GenStudies/AK08softdrop_matching}
+ 		\label{fig:Jet_Comp_ak}
+ 		\caption{}
+ 		\end{subfigure}
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth]{../Plots/GenStudies/HOTVRrho400_matching}
+ 		\label{fig:Jet_HOTVR}
+ 		\caption{}
+ 		\end{subfigure}
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth]{../Plots/GenStudies/XCone33_matching}
+ 		\label{fig:Jet_XCone}
+ 		\caption{}
+ 		\end{subfigure} 		
+ 		\caption{}
+ 		\label{fig:Jet_Comp}
+ 	\end{figure}	
+	
 	%todo irriduceble background (deltaR (top, b))
-	%todo vergleich auch mit XCone Softdrop!!!
+	%todo vergleich auch mit XCone Softdrop!!! 		
 	
 \section{Studies on Reconstruction Level}
 \label{sec:selection}
@@ -224,52 +251,253 @@
 	\item at least one tight b-tag
 
 	\end{itemize}
-	Because the data set corresponding to the called single muon trigger is used in this analysis, the trigger criteria have to be fulfilled in simulation as well. An additional cut on the muon $p_T$ at $55\;\text{GeV}$ is recommended for this trigger to reach the plateau of trigger efficiency. Furthermore, a scale factor is applied to simulation to account for efficiency differences in data and simulation. Since only one lepton is expected in the lepton+jets channel of $t\bar{t}$, a veto on additional leptons is used to suppresses diboson events. To reject QCD events, a two-dimensional cut is applied. A window in the $\Delta R$-$p_T^{\text{rel}}$-plane is cut out where the majority of QCD that survive the lepton criteria accumulates. The requirements to find two AK4 jets with at least $50\;\text{GeV}$, missing transverse energy of at least $50\;\text{GeV}$ and a b-tag prefer $t\bar{t}$ events because of the similar signature. For b-tagging a scale factor is applied to match efficiency in data and simulation. After applying the selection the remaining events contain about $80\%$ $t\bar{t}$, the main remaining backgrounds are $W+$jets and Single-Top production. 
+	Because the data set corresponding to the called single muon trigger is used in this analysis, the trigger criteria have to be fulfilled in simulation as well. An additional cut on the muon $p_T$ at $55\;\text{GeV}$ is recommended for this trigger to reach the plateau of trigger efficiency. Furthermore, a scale factor is applied to simulation to account for efficiency differences in data and simulation. Since only one lepton is expected in the lepton+jets channel of $t\bar{t}$, a veto on additional leptons is used to suppresses diboson events. To reject QCD events, a two-dimensional cut is applied. A window in the $\Delta R$-$p_T^{\text{rel}}$-plane is cut out where the majority of QCD that survive the lepton criteria accumulates. A display of the 2D cut is presented in Fig. \ref{fig:2D}. The requirements to find two AK4 jets with at least $50\;\text{GeV}$, missing transverse energy of at least $50\;\text{GeV}$ and a b-tag prefer $t\bar{t}$ events because of the similar signature. For b-tagging a scale factor is applied to match efficiency in data and simulation. After applying the selection the remaining events contain about $80\%$ $t\bar{t}$, the main remaining backgrounds are $W+$jets and Single-Top production. 
 	
 	%todo ref muon pt cut recommendation
 	%todo ref Muon Trigger SF
 	%todo Lumi Plot
 
+ 	\begin{figure}[tb]
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth]{../Plots/TwoD_QCD}
+ 		\caption{}
+ 		\end{subfigure}
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth]{../Plots/TwoD_TTbar}
+ 		\caption{}
+ 		\end{subfigure}
+ 		\caption{Distribution in the $\Delta R$-$p_T^{\text{rel}}$-plane for QCD (a) and $t\bar{t}$ events (b). The window affected by the 2D cut is surrounded by red lines. While QCD events mostly accumulate in the low left corner, many $t\bar{t}$ events will survive this cut.}
+ 		\label{fig:2D}
+ 	\end{figure}
 
-	
-	%todo top pt reweight: Plots ohne zeigen, beschreiben womit der Trend zu erklaeren ist. dann als bestaetigung plot mit reweighting zeigen
-	The difference in $p_T$ spectra of the top quark has been observed in several publications, for example in a $t\bar{t}$ differential cross section measurement from CMS \cite{ttreweight}.
-	
+ 	\begin{figure}[tb]
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/08_bTag_Muon/number_lin.pdf}
+ 		\caption{}
+ 		\end{subfigure}
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/08_bTag_Muon/pt_1_log.pdf}
+ 		\caption{}
+ 		\end{subfigure} 		
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/08_bTag_jets/number_lin.pdf}
+ 		\caption{}
+ 		\end{subfigure}
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/08_bTag_jets/pt_jet_log.pdf}
+ 		\caption{}
+ 		\end{subfigure}
+		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/08_bTag_Event/BTAG_T_lin.pdf}
+ 		\caption{}
+ 		\end{subfigure} 	
+  		\begin{subfigure}{.5\textwidth}
+   		\centering
+  		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/08_bTag_Event/MET_log.pdf}
+  		\caption{}
+  		\end{subfigure}  	 			
+ 		\caption{Control distributions after applying the baseline selection. Displayed are number of muons (a), $p_T$ spectrum of muons(b), number of AK4 jets (c), $p_T$ distribution of all AK4 jets (d), number of b-tagged AK4 jets (e) and the spectrum of the missing transverse energy (f). In all histograms simulation exceeds the number of events in data. Furthermore a trend in the $p_T$ and $\cancel{E}_T$ spectra is visible.}
+ 		\label{fig:PreSel}
+ 	\end{figure}
+ 	
+ 	A difference in total number of events between simulation and data  as well as a $p_T$ dependent trend is visible, probably coming from a mismodelled top quark $p_T$ distribution. The difference in $p_T$ spectra of the top quark has been observed in several publications, for example in a $t\bar{t}$ differential cross section measurement from CMS \cite{ttreweight}. To justify this assumption a reweighting of the top quark $p_T$ spectrum in $t\bar{t}$ simulation is applied. The resulting histograms are presented in Fig. \ref{fig:PreSel_reweight}. In high energy regions simulation still exceeds data. After this procedure, MC and data are well in agreement. Hence, data is well understood at this point and the measurement phase space can be defined on top of the presented baseline selection.
+	%todo reweight in Appendix??
+ 	\begin{figure}[tb]
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/ttbar_reweight_Muon/number_lin.pdf}
+ 		\caption{}
+ 		\end{subfigure}
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/ttbar_reweight_Muon/pt_1_log.pdf}
+ 		\caption{}
+ 		\end{subfigure} 		
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/ttbar_reweight_Jets/number_lin.pdf}
+ 		\caption{}
+ 		\end{subfigure}
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/ttbar_reweight_Jets/pt_jet_log.pdf}
+ 		\caption{}
+ 		\end{subfigure}
+		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/ttbar_reweight_Event/BTAG_T_lin.pdf}
+ 		\caption{}
+ 		\end{subfigure} 	
+  		\begin{subfigure}{.5\textwidth}
+   		\centering
+  		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/ttbar_reweight_Event/MET_log.pdf}
+  		\caption{}
+  		\end{subfigure}  	 			
+ 		\caption{Control distributions after applying a reweighting of the top quark $p_T$ in $t\bar{t}$ simulation. Displayed are number of muons (a), $p_T$ spectrum of muons (b), number of AK4 jets (c), $p_T$ distribution of all AK4 jets (d), number of b-tagged AK4 jets (e) and the spectrum of the missing transverse energy (f). }
+ 		\label{fig:PreSel_reweight}
+ 	\end{figure}	
+
+\FloatBarrier %draw figures of previous section before the new one starts
 \subsection{Measurement Phase Space}
 \label{sec:FinalSel}
 	The measurement phase space on reconstruction level is defined analogously to the particle level selection. Boosted topologies are selected by requiring the leading jet to surpass a cut on $p_T > 400\;\text{GeV}$. In addition the mass of the leading jet is expected to be higher then the second jet mass if all top quark decay products are reconstructed correctly. Thus, on top of the baseline selection presented above, following criteria are checked:
 	\begin{itemize}
+	\item only sum subjets with $p_T > 30\;\text{GeV}$ 
 	\item $p_T^{\text{1st jet}} > 400\;\text{GeV}$ 
 	\item $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$
 	\end{itemize}
-	%todo plots of top mass peak
-	%todo describe plots
-	%todo plots ohne SF=0.75 zeigen, beschreiben woran das liegt, nochmal mit SF zeigen als bestaetigung
+	In this phase space, the selection criteria refer to XCone jets clustered with the '$2+6$' method.	In addition to the definition on particle level, only subjets with a $p_T$ larger then $30\;\text{GeV}$ are considered to form the final jet. This requirement is set so suppress subjets which do not contain any decay product of the top quark. Figure \ref{fig:MJet_raw1} shows the jet mass distribution after the called jet requirements. Similar as on particle level, XCone returns a peak at the expected bin of the top quark mass. Thus, the reconstruction with XCone jets works very well. As seen after the baseline selection, simulation exceeds the number of events in data. In Fig. \ref{fig:MJet_raw2}, $t\bar{t}$ simulation is scaled with a constant factor to match the total events in data and simulation. A good agreement between data and MC is visible. Of course, further procedure like unfolding will use the unscaled version as input. In addition another variant of jet clustering with XCone is presented in Fig. \ref{fig:MJet_raw3}. Here, the large XCone jet with radius $R=1.2$ is put into the soft drop algorithm. Albeit the grooming of soft drop, the '2+6' method returns a much sharper mass peak. While the turn on of the soft drop mass is comparable with '2+6', there are many event with a mass reconstructed too high.
+ 	\begin{figure}[tb]
+ 		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PostSel/XCone_raw/M_jet1__lin.pdf}
+ 		\caption{}
+ 		\label{fig:MJet_raw1}
+ 		\end{subfigure}
+ 		\begin{subfigure}{.5\textwidth}
+ 		\centering
+		\begin{tikzpicture}
+		 \node[anchor=south west,inner sep=0] (image) at (0,0)
+		 {\includegraphics[width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PostSel/XCone_raw_SF/M_jet1__lin.pdf}};
+		 \node[align=left,font=\tiny] at (2.2, 4.2) {$t\bar{t}$ scaled};
+		\end{tikzpicture} 
+ 		\caption{}
+ 		\label{fig:MJet_raw2}
+ 		\end{subfigure}
+ 		\begin{subfigure}{.5\textwidth}
+ 		\centering
+		\begin{tikzpicture}
+		 \node[anchor=south west,inner sep=0] (image) at (0,0)
+		 {\includegraphics[width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PostSel/XCone_raw_SF/SoftdropMass_had_lin.pdf}};
+		 \node[align=left,font=\tiny] at (2.2, 4.2) {$t\bar{t}$ scaled};
+		\end{tikzpicture} 
+ 		\caption{}
+ 		\label{fig:MJet_raw3}
+ 		\end{subfigure} 		
+ 		\caption{Jet mass distribution of XCone jets after applying the measurement phase space requirements. Additional to the raw output (a) a distribution where $t\bar{t}$ simulation is scaled to data is presented (b). Histogram (c) shows the soft drop mass of the large XCone jet ($R=1.2$) in comparison. It shows that a grooming via subjet finding is much more effective than soft drop.}
+ 		\label{fig:MJet_raw}
+ 	\end{figure}
 	
+\FloatBarrier %draw figures of previous section before the new one starts	
 \subsection{Jet Energy Corrections for XCone Jets} 
-	The normal procedure in CMS analyses is to apply jet energy corrections (see section \ref{sec:jec}) to every jet collection used. Those jet energy corrections have been derived by dedicated CMS groups and are different depending on the jet algorithm used to cluster jets. Since the XCone algorithm is not a standard jet finding procedure in CMS, there are no valid corrections available. The first attempt to correct XCone jets is to use the AK4 jet corrections since the jet shape should be very similar to XCone jets with $R=0.4$ as they were used in this analysis.
-	%todo show plots and explain why it does not work
-	
+	The normal procedure in CMS analyses is to apply jet energy corrections (see section \ref{sec:jec}) to every jet collection used. Those jet energy corrections (JEC) have been derived by dedicated CMS groups and are different depending on the jet algorithm used to cluster jets. Since the XCone algorithm is not a standard jet finding procedure in CMS, there are no valid corrections available. Because the final jet measured in this a analysis is a combination of subjets, only the subjets are corrected. A XCone jet with applied jet energy corrections refers then to a jet put together from corrected subjets. The first attempt to correct XCone jets is to use the AK4 jet corrections since the jet shape should be very similar to XCone jets with $R=0.4$ as they were used in this analysis. Figure \ref{fig:MJet_jec} shows a comparison between jets with and without JEC applied. 
+ 	\begin{figure}[tb]
+ 		\begin{subfigure}{.5\textwidth}
+ 		\centering
+		\begin{tikzpicture}
+		 \node[anchor=south west,inner sep=0] (image) at (0,0)
+		 {\includegraphics[width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PostSel/XCone_raw_SF/M_jet1__lin.pdf}};
+		 \node[align=left,font=\tiny] at (2.2, 4.2) {$t\bar{t}$ scaled};
+		\end{tikzpicture} 
+ 		\caption{}
+ 		\label{fig:MJet_jec1}
+ 		\end{subfigure}
+ 		\begin{subfigure}{.5\textwidth}
+ 		\centering
+		\begin{tikzpicture}
+		 \node[anchor=south west,inner sep=0] (image) at (0,0)
+		 {\includegraphics[width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PostSel/XCone_jec_SF/M_jet1__lin.pdf}};
+		 \node[align=left,font=\tiny] at (2.2, 4.2) {$t\bar{t}$ scaled};
+		\end{tikzpicture} 
+ 		\caption{}
+ 		\label{fig:MJet_jec2}
+ 		\end{subfigure}
+ 		\caption{Jet mass distribution of XCone jets before (a) and after applying AK4 jet energy corrections (b). A shift in jet masses to higher values is visible.}
+ 		\label{fig:MJet_jec}
+ 	\end{figure}	
+ 	An obvious shift in jet mass is visible, resulting in a peak position above the top quark mass. Since the data-simulation agreement is well in both cases, different measures have to be defined to validate the jet energy correction. Now, an attempt is made to compare the subjets with a well known parameter in the theory. Therefore all three jet mass combinations $M_{ij}$ of two of the three subjets on the hadronic side are calculated. It is expected that the combination with the lowest jet mass should be sensitive to the $W$ mass which is very precisely measured to $80.4\;\text{GeV}$ \cite{Wmass}. As shown in Fig. \ref{fig:Wmass} the $W$ boson mass is reconstructed too high at values above $85\;\text{GeV}$. Therefore, applying jet energy correction from AK4 jets to XCone subjets is not valid.
+  	\begin{figure}[tb]
+  		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\begin{tikzpicture}
+ 		 \node[anchor=south west,inner sep=0] (image) at (0,0)
+ 		 {\includegraphics[width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PostSel/XCone_raw_subjets_SF/min_mass_Wjet_zoom_lin.pdf}};
+ 		 \node[align=left,font=\tiny] at (2.2, 4.2) {$t\bar{t}$ scaled};
+ 		\end{tikzpicture} 
+  		\caption{}
+  		\label{fig:Wmass1}
+  		\end{subfigure}
+  		\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		\begin{tikzpicture}
+ 		 \node[anchor=south west,inner sep=0] (image) at (0,0)
+ 		 {\includegraphics[width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PostSel/XCone_jec_subjets_SF/min_mass_Wjet_zoom_lin.pdf}};
+ 		 \node[align=left,font=\tiny] at (2.2, 4.2) {$t\bar{t}$ scaled};
+ 		\end{tikzpicture} 
+  		\caption{}
+  		\label{fig:Wmass2}
+  		\end{subfigure}
+  		\caption{Lowest jet mass combination $\min(M_{ij})$ without (a) and with (b) JEC applied. The position of the peak is expected to match the $W$ boson mass of $80.4\;\text{GeV}$. The shift after applying JEC shifts $\min(M_{ij})$ to higher values.} 
+  		\label{fig:Wmass}
+  	\end{figure}	
+ 	%todo Resolution (nur nach correction zeigen?)
 	To still be able to correct XCone jets for response non linearities and pile-up effects, a correction factor on top of AK4 corrections is derived for XCone jets. For this, only events from $t\bar{t}$ simulation are used. Furthermore, only the subjets from the jet belonging to the hadronically decaying top quark are considered. Now a matching to generator jets is executed and the fraction $R=\frac{p_T^{\text{rec}}}{p_T^{\text{gen}}}$ calculated. This is done in different $p_T$ and $\eta$ regions. The mean $R$ is then filled in a two dimensional histogram representing the $p_T$-$\eta$-plane (see Fig. \ref{fig:Correction}). The bin boundaries are chosen to obtain enough statistics in each bin to suppress uncertainties (RMS and uncertainties in appendix Fig. \ref{fig:A_err} and \ref{fig:A_rms}). 
 		\begin{figure}[tb]
 			\centering
-			\includegraphics [width=.9\textwidth]{../Plots/Correction/Mean_numbers}
+			\includegraphics [width=.7\textwidth]{../Plots/Correction/Mean_numbers}
 			\caption{Mean values of $R=\frac{p_T^{\text{rec}}}{p_T^{\text{gen}}}$ in the $p_T$-$\eta$ plane.}
 			\label{fig:Correction}
 		\end{figure}	
-
-
 	The correction factor applied to every XCone jet is now $f = \frac{1}{R}$. To get a smooth transition between the different regions, in every $\eta$ bin a polynomial function is fitted to get a factor $f(p_T)$. An example of the fit is shown in Fig. \ref{fig:Correction_fit} (all fit functions can be found in the appendix in Fig. \ref{fig:A_fits}). Now, every subjet from the first jet is corrected with a $p_T$ dependent function corresponding to its $\eta$ value.
-	
 	\begin{figure}[tb]
 		\centering
 		\includegraphics [width=.5\textwidth]{../Plots/Correction/Fits_example}
 		\caption{Example of fit function. The correction factors are derived from Fig. \ref{fig:Correction} and then fitted with a polynomial function of degree $2$.}
 		\label{fig:Correction_fit}
 	\end{figure}
-	%todo show fit Plots
-	%todo show resulting plots
+	Now every subjet is corrected with a different $p_T$ dependent function according to its direction in $\eta$. It is to mention that because of the loose ends of the fit, the correction factor is set constant for $p_T > 425\;\text{GeV}$. To verify this correction the minimum jet mass from two subjets is again compared with the $W$ boson mass in Fig. \ref{fig:Wmass_cor}. It is shown that the peak position is in agreement with the measured $M_W = 80.4\;\text{GeV}$.
+  	\begin{figure}[tb]
+  		\centering
+ 		\begin{tikzpicture}
+ 		 \node[anchor=south west,inner sep=0] (image) at (0,0)
+ 		 {\includegraphics[width=.8\textwidth, trim=0 0 3cm 0, clip]{../Plots/PostSel/XCone_cor_subjets_SF/min_mass_Wjet_zoom_lin.pdf}};
+ 		 \node[align=left,font=\small] at (3.5, 7.0) {$t\bar{t}$ scaled};
+ 		\end{tikzpicture} 
+   		\caption{Lowest jet mass combination $\min(M_{ij})$ after AK4 jet energy correction and the correction for XCone. The peak position is in agreement with the value of the $W$ boson mass of $80.4\;\text{GeV}$.} 
+  		\label{fig:Wmass_cor}
+  	\end{figure}	  
+  	Furthermore, a matching via $\Delta R$ between jets on particle and reconstruction level is performed to calculate the relative $p_T$ deviation. A graph showing the mean and width (here calculated as RMS \footnote{root mean square}) of $\frac{p_T^\text{rec} - p_T^\text{gen}}{p_T^\text{gen}}$ in bins of $p_T^\text{rec}$ are presented in Fig. \ref{fig:Reso}. While the width of the distribution (Fig. \ref{fig:Reso2}) is not much influenced by the different jet energy correction stages, the mean spectrum shows a large improvement after additional correction. The raw XCone jets and the ones corrected with AK4 corrections show a dependence on $p_T$ where the corrected jets are flatly distributed. Additionally, the corrected jets show a constant mean around $0$ which indicates a well performing correction.
+  	
+  	\begin{figure}[tb]
+  		\begin{subfigure}{.5\textwidth}
+   		\centering
+  		\includegraphics [width=\textwidth]{../Plots/Resolution_Subjets/pt_mean_rec_after}
+  		\caption{}
+  		\label{fig:Reso1}
+  		\end{subfigure}
+  		\begin{subfigure}{.5\textwidth}
+   		\centering
+  		\includegraphics [width=\textwidth]{../Plots/Resolution_Subjets/pt_rms_rec_after}
+  		\caption{}
+  		\label{fig:Reso2}
+  		\end{subfigure}
+  		\caption{Mean (a) and width (b) of the relative deviation in jet $p_T$ between particle and reconstruction level.}
+  		\label{fig:Reso}
+  	\end{figure}
+  	
+  	
+\FloatBarrier %draw figures of previous section before the new one starts	
+\subsection{Final Jet Mass Distribution}
+	After the events ran through a baseline selection, a measurement phase space requirement and a new derived jet energy correction, the final jet mass distribution is presented in Fig. \ref{fig:MJet_final}. After scaling $t\bar{t}$ simulation with a constant factor, data and Monte Carlo prediction agree very well. Furthermore, the distribution peaks at the top quark mass and shows a good resolution. In addition the large amount of statistics is a promising point for the unfolding procedure.	 
+  	\begin{figure}[tb]
+  		\centering
+ 		\begin{tikzpicture}
+ 		 \node[anchor=south west,inner sep=0] (image) at (0,0)
+ 		 {\includegraphics[width=.8\textwidth, trim=0 0 3cm 0, clip]{../Plots/PostSel/XCone_cor_SF/M_jet1__lin.pdf}};
+ 		 \node[align=left,font=\small] at (3.5, 7.0) {$t\bar{t}$ scaled};
+ 		\end{tikzpicture} 
+  		\caption{Jet mass distribution of the corrected jets. This distribution will be used as input for further analysis steps.} 
+  		\label{fig:MJet_final}
+  	\end{figure}	
 
+  	
 \section{Unfolding}
 \label{sec:unfolding}
 	Most analyses at LHC measure distributions of appropriate variables and then compare the obtained results in data with event simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with an unknown detector function. Studying the difference in MC between particle level and reconstruction level, it is possible to calculate the probabilities that a measured value in a bin $y_i$ is originating from bin $x_i$ on particle level. A visualisation of this problem is drawn in Fig. \ref{fig:Unfolding}.	

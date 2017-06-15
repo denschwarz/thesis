@@ -163,7 +163,7 @@
     \endverb
     \field{howpublished}{Phys.Rev.Lett.74:2422-2426,1995}
     \field{title}{Search for High Mass Top Quark Production in p anti-p
-  Collisions at S**(1/2) = 1.8 TeV}
+  Collisions at S**(1/2) = 1.8 {TeV}}
     \field{year}{1994}
   \endentry
 
@@ -506,7 +506,7 @@
     \verb arXiv:1703.06330
     \endverb
     \field{title}{Measurement of the jet mass in highly boosted t-tbar events
-  from pp collisions at sqrt(s) = 8 TeV}
+  from pp collisions at sqrt(s) = 8 {TeV}}
     \field{year}{2017}
   \endentry
 
@@ -634,7 +634,7 @@
     \endverb
     \field{howpublished}{JINST 8 (2013) P09009}
     \field{title}{Energy calibration and resolution of the CMS electromagnetic
-  calorimeter in pp collisions at sqrt(s) = 7 TeV}
+  calorimeter in pp collisions at sqrt(s) = 7 {TeV}}
     \field{year}{2013}
   \endentry
 
@@ -1140,15 +1140,13 @@
 
   \entry{ttreweight}{article}{}
     \name{author}{1}{}{%
-      {{hash=CC}{%
-         family={Collaboration},
+      {{hash=C}{%
+         family={{CMS Collaboration}},
          familyi={C\bibinitperiod},
-         given={CMS},
-         giveni={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CC1}
-    \strng{fullhash}{CC1}
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -1160,8 +1158,27 @@
     \field{howpublished}{Phys. Rev. D 95, 092001 (2017)}
     \field{title}{Measurement of differential cross sections for top quark pair
   production using the lepton+jets final state in proton-proton collisions at
-  13 TeV}
+  13 {TeV}}
     \field{year}{2016}
+  \endentry
+
+  \entry{Wmass}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb arXiv:1701.07240
+    \endverb
+    \field{title}{Measurement of the {$W$}-boson mass in pp collisions at
+  {$\sqrt{s}=7$} {TeV} with the ATLAS detector}
+    \field{year}{2017}
   \endentry
 \endsortlist
 \endinput
