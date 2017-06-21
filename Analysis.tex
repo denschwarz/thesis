@@ -15,7 +15,6 @@
 	All studies on particle level are performed with a $t\bar{t}$ sample only. Several selection criteria are used to select boosted top quark decays in the lepton + jets channel. Since the selection is applied on particle level, also particle level information is used. The selection reads:
 	\begin{itemize}
 	\item direct selection of lepton + jets channel
-	\item hadronically decaying top quark with $p_T > 300\;\text{GeV}$
 	\item exactly one electron or muon
 	\item veto on additional leptons
 	\item $p_T^{\text{1st jet}} > 400\;\text{GeV}$ 
@@ -25,7 +24,7 @@
 	\item $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$
 	\end{itemize}
 	%todo pt muon/elec, eta ranges
-	Where the first jet refers to the leading jet in $p_T$ of the respective jet clustering algorithm. It is expected to be originating from the hadronically decaying top quark, the second one is expected contain the products of the leptonically decaying top quark. The purpose of the $p_T$ thresholds is to select boosted top decays. The Veto on additional jets is set to select $t\bar{t}$ events where one jet per top quark decay is expected. It is to mention, that the veto is not present in combination with XCone since it will always return exactly two jets in the used set up. A cut on the distance between lepton and second leading jet in $p_T$ prefers boosted topologies where the lepton is inside the jet of the leptonically decaying top quark. This criterion is also obsolete for XCone because of the selected clustering sequence (see section \ref{sec:XCone_strat}). To suppress events where not all decay products of the hadronically decaying top quark end up in the jet with the highest transverse momentum, a mass criterion $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$ is set. The criterion includes the assumption that the mass of the jet on the leptonic side is lower because the neutrino cannot be reconstructed. This selection is applied to every jet algorithm output to be able to compare these different approaches.
+	Where the first jet refers to the leading jet in $p_T$ of the respective jet clustering algorithm. It is expected to be originating from the hadronically decaying top quark, the second one is expected contain the products of the leptonically decaying top quark. The purpose of the $p_T$ thresholds is to select boosted top decays. The Veto on additional jets is set to select $t\bar{t}$ events where one jet per top quark decay is expected. It is to mention, that the veto is not present in combination with XCone since it will always return exactly two jets in the used set up. A cut on the distance between lepton and second leading jet in $p_T$ prefers boosted topologies where the lepton is inside the jet of the leptonically decaying top quark. This criterion is also obsolete for XCone because of the selected clustering sequence (see section \ref{sec:XCone_strat}). To suppress events where not all decay products of the hadronically decaying top quark end up in the jet with the highest transverse momentum, a mass criterion $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$ is set. The criterion includes the assumption that the mass of the jet on the leptonic side is lower because the neutrino cannot be reconstructed. This selection is applied to every jet algorithm output to be able to compare these different approaches. All shown distributions are scaled to match a integrated luminosity of $37.76\;\text{fb}^{-1}$.
 
 \FloatBarrier %draw figures of previous section before the new one starts	
 \subsection{Studies with Anti-$k_T$ and HOTVR}
@@ -205,7 +204,7 @@
 \FloatBarrier %draw figures of previous section before the new one starts 	
 \subsection{Comparing Jet Algorithms}
 \label{sec:jet_comp}
-	In this section, the resulting jet mass distributions of different jet clustering algorithms discussed above are compared.
+	In this section, the resulting jet mass distributions of different jet clustering algorithms discussed above are compared. Figure \ref{fig:Jet_Comp} shows all jet mass distributions examined above. All three clustering methods return a good resolution in the peak region while the maximum sits at the top quark mass. The Anti-$k_T$ algorithm with a cone radius of $R=0.8$ and soft drop applied reconstructs many events with a low mass, even showing a peak at the $W$ boson mass. This effect is explained by the small cone size. If only the decay products of the $W$ boson, but not the $b$ quark is clustered, a mass around the $W$ boson mass is expected. With a variable sized cone HOTVR this effect is reduced but more events with a mass larger than $200\;\text{GeV}$ are observed. XCone on the other hand combines the good aspects of Anti-$k_T$ and HOTVR. It return a jet mass distribution with a narrow peak at the top quark mass and a low fraction of masses reconstructed too low or high. Furthermore, much more jets are reconstructed correctly, therefore survive the selection criteria and lead to much higher event yield. This is also affected by a softer selection of jets since an exclusive jet clustering algorithm will always return exactly two jets and a veto on additional jets is redundant.
 	
  	\begin{figure}[tb]
  		\begin{subfigure}{.5\textwidth}
@@ -217,16 +216,16 @@
  		\begin{subfigure}{.5\textwidth}
   		\centering
  		\includegraphics [width=\textwidth]{../Plots/GenStudies/HOTVRrho400_matching}
- 		\label{fig:Jet_HOTVR}
+ 		\label{fig:Jet_Comp_HOTVR}
  		\caption{}
  		\end{subfigure}
  		\begin{subfigure}{.5\textwidth}
   		\centering
  		\includegraphics [width=\textwidth]{../Plots/GenStudies/XCone33_matching}
- 		\label{fig:Jet_XCone}
+ 		\label{fig:Jet_Comp_XCone}
  		\caption{}
  		\end{subfigure} 		
- 		\caption{}
+ 		\caption{Jet mass distributions of jets clustered with Anti-$k_T$ (a), HOTVR (b) and XCone (c). While all distributions show a good resolution in the peak region, AK shows a large fraction of masses reconstructed too low and XCone returns the largest statistics.}
  		\label{fig:Jet_Comp}
  	\end{figure}	
 	
@@ -457,8 +456,8 @@
   		\centering
  		\begin{tikzpicture}
  		 \node[anchor=south west,inner sep=0] (image) at (0,0)
- 		 {\includegraphics[width=.8\textwidth, trim=0 0 3cm 0, clip]{../Plots/PostSel/XCone_cor_subjets_SF/min_mass_Wjet_zoom_lin.pdf}};
- 		 \node[align=left,font=\small] at (3.5, 7.0) {$t\bar{t}$ scaled};
+ 		 {\includegraphics[width=.7\textwidth, trim=0 0 3cm 0, clip]{../Plots/PostSel/XCone_cor_subjets_SF/min_mass_Wjet_zoom_lin.pdf}};
+ 		 \node[align=left,font=\small] at (3.3, 6.5) {$t\bar{t}$ scaled};
  		\end{tikzpicture} 
    		\caption{Lowest jet mass combination $\min(M_{ij})$ after AK4 jet energy correction and the correction for XCone. The peak position is in agreement with the value of the $W$ boson mass of $80.4\;\text{GeV}$.} 
   		\label{fig:Wmass_cor}
@@ -485,7 +484,8 @@
   	
 \FloatBarrier %draw figures of previous section before the new one starts	
 \subsection{Final Jet Mass Distribution}
-	After the events ran through a baseline selection, a measurement phase space requirement and a new derived jet energy correction, the final jet mass distribution is presented in Fig. \ref{fig:MJet_final}. After scaling $t\bar{t}$ simulation with a constant factor, data and Monte Carlo prediction agree very well. Furthermore, the distribution peaks at the top quark mass and shows a good resolution. In addition the large amount of statistics is a promising point for the unfolding procedure.	 
+	After the events ran through a baseline selection, a measurement phase space requirement and a new derived jet energy correction, the final jet mass distribution is presented in Fig. \ref{fig:MJet_final}. After scaling $t\bar{t}$ simulation with a constant factor, data and Monte Carlo prediction agree very well. Furthermore, the distribution peaks at the top quark mass and shows a good resolution. In addition the large amount of statistics is a promising point for the unfolding procedure.
+		 
   	\begin{figure}[tb]
   		\centering
  		\begin{tikzpicture}
@@ -532,8 +532,47 @@
 	\end{eqnarray}
 	The first term $\mathcal{L}_1$ contains a standard least square minimisation where $\mathbf{V_{yy}}$ is the covariance matrix describing uncertainties. Secondly a regularisation with strength $\tau^2$ is used. A bias vector can be introduced using a factor $f_b$ and a vector $\mathbf{x}_0$ to suppress deviations of $\mathbf{x}$ from $f_b\mathbf{x}_0$. Additionally, three choices for the matrix $\mathbf{L}$ can be made to either regularise the absolute value, first or second derivative of $\mathbf{x}$. The final term $\mathcal{L}_3$ expresses an optional area constraint, checking differences in event counts between input and output.
 	
-	%todo eigenes unfolding
- 
+\subsection{Migration Matrix}
+	To perform an unfolding, a migration matrix has to be filled. A matrix entry $A_{ij}$ contains the number of events that is generated in bin $i$ and reconstructed in bin $j$. Thus, a projection on one dimension returns either the jet mass distribution on particle or reconstruction level. If an event passes the particle level selection (see section \ref{sec:GenSel}) and reconstruction level selection (see sections \ref{sec:PreSel} and \ref{sec:FinalSel}) it is filled in the according bin. To account for events that pass only one selection underflow bins are used, while jet masses above $400\;\text{GeV}$ are filled into overflow bins. Furthermore, only events from the $t\bar{t}$ samples are considered. Figure \ref{fig:Migration} shows the migration matrix where every bin is scaled to the total event count in the whole column. Thus, an entry $A_{ij}$ gives the probability that an event generated in bin $i$ is reconstructed in bin $j$.
+	
+	\begin{figure}[tb]
+		\centering
+		\includegraphics [width=.6\textwidth]{../Plots/Unfolding/Data/Migration_prob.pdf}
+		\caption{Display of the migration matrix. Each bin is scaled to the total event count in a column.}
+		\label{fig:Migration}
+	\end{figure}
+	 
+	 %todo rec weight
+	
+\subsection{Closure Tests}
+	%todo show projections?
+	Two tests unfolding Monte Carlo samples are performed in this analysis. Firstly, a MC sample is unfolded with it self. Since the L-curve scan does not work when using statistically dependent samples, a $\tau$ value is set manually. Nevertheless, the output distribution of TUnfold is expected to exactly match the particle level distribution. The comparison presented in Fig \ref{fig:Unfolding_same} shows an exact accordance and proves a correct filling of the migration matrix. Another approach to furthermore test the L-curve scan is to split the MC sample into two statistically independent parts. Therefore $10\%$ are randomly selected and saved as pseudo data, while the other $90\%$ are used to construct the migration matrix.
+	
+	\begin{figure}[tb]
+		\centering
+		\includegraphics [width=.6\textwidth]{../Plots/Unfolding/MC_Same/Unfold.pdf}
+		\caption{Unfolding of a MC sample with itself.}
+		\label{fig:Unfolding_same}
+	\end{figure}
+
+	\begin{figure}[tb]
+		\centering
+		\includegraphics [width=.6\textwidth]{../Plots/Unfolding/MC_Split/Unfold.pdf}
+		\caption{Unfolding of a MC sample with a statistical independent one.}
+		\label{fig:Unfolding_split}
+	\end{figure}
+		
+\FloatBarrier %draw figures of previous section before the new one starts	
+\subsection{Unfolding of Data}
+
+	\begin{figure}[tb]
+		\centering
+		\includegraphics [width=.6\textwidth]{../Plots/Unfolding/Data/Unfold.pdf}
+		\caption{Unfolding of Data with the full MC sample.}
+		\label{fig:Unfolding_data}
+	\end{figure}
+	
+ 	%todo background substraction
  
 \section{Results}
 \label{sec:results}

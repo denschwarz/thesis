@@ -130,10 +130,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.4.1}Regularised Unfolding with TUnfold}{67}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Results}{68}{section.7.5}
+\contentsline {subsection}{\numberline {7.4.2}Migration Matrix}{68}{subsection.7.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Summary and Outlook}{69}{chapter.8}
+\contentsline {subsection}{\numberline {7.4.3}Closure Tests}{68}{subsection.7.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Jet Energy Corrections for XCone}{71}{appendix.A}
+\contentsline {subsection}{\numberline {7.4.4}Unfolding of Data}{70}{subsection.7.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Control Plots after Selection}{75}{appendix.B}
+\contentsline {section}{\numberline {7.5}Results}{71}{section.7.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Summary and Outlook}{73}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Jet Energy Corrections for XCone}{75}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Control Plots after Selection}{79}{appendix.B}
