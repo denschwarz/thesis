@@ -23,7 +23,6 @@
 	\item $\Delta R (\text{lepton, 2nd jet}) < \text{jet radius}$
 	\item $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$
 	\end{itemize}
-	%todo pt muon/elec, eta ranges
 	Where the first jet refers to the leading jet in $p_T$ of the respective jet clustering algorithm. It is expected to be originating from the hadronically decaying top quark, the second one is expected contain the products of the leptonically decaying top quark. The purpose of the $p_T$ thresholds is to select boosted top decays. The Veto on additional jets is set to select $t\bar{t}$ events where one jet per top quark decay is expected. It is to mention, that the veto is not present in combination with XCone since it will always return exactly two jets in the used set up. A cut on the distance between lepton and second leading jet in $p_T$ prefers boosted topologies where the lepton is inside the jet of the leptonically decaying top quark. This criterion is also obsolete for XCone because of the selected clustering sequence (see section \ref{sec:XCone_strat}). To suppress events where not all decay products of the hadronically decaying top quark end up in the jet with the highest transverse momentum, a mass criterion $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$ is set. The criterion includes the assumption that the mass of the jet on the leptonic side is lower because the neutrino cannot be reconstructed. This selection is applied to every jet algorithm output to be able to compare these different approaches. All shown distributions are scaled to match a integrated luminosity of $37.76\;\text{fb}^{-1}$.
 
 \FloatBarrier %draw figures of previous section before the new one starts	
@@ -67,8 +66,7 @@
 	\end{figure}
 		
 	\subsubsection{HOTVR Jets}
-	Another approach to find a appropriate cone size is to used not a constant but $p_T$ dependent radius parameter. Since decay products are Lorentz boosted with high momentum, the higher the $p_T$, the smaller cone size is necessary to contain all decay products. Thus, HOTVR (see section \ref{sec:HOTVR}) directly addresses this property. The default settings set the effective radius to $R_\text{eff} = \frac{600\;\text{GeV}}{p_T}$, which corresponds to a maximum radius of $1.5$ with the used selection of jets with $p_T > 400\;\text{GeV}$. The result is visible in Fig. \ref{fig:GEN_HOTVR}. Due to the large cone size for the lowest possible jet momentum, the distribution is very similar to a AK jet with a large radius parameter. The parameter to tune the HOTVR clustering is $\rho$. By lowering $\rho$, the effective radius shrinks. Figure \ref{fig:GEN_HOTVRrho} shows a comparison of the jet mass for different $\rho$. It is decreased in $100\;\text{GeV}$ steps to a value of $300\;\text{GeV}$ which corresponds to a radius of $0.75$ for jets with a transverse momentum of $400\;\text{GeV}$. A behaviour similar to decreasing the radius of Anti-$k_T$ jets is visible. Increasing $\rho$ returns more events where all decay products end up in the jet cone, but a jet also includes more additional particles leading to a higher mass.
-	%todo Entscheidung welcher HOTVR benutzt wird
+	Another approach to find a appropriate cone size is to used not a constant but $p_T$ dependent radius parameter. Since decay products are Lorentz boosted with high momentum, the higher the $p_T$, the smaller cone size is necessary to contain all decay products. Thus, HOTVR (see section \ref{sec:HOTVR}) directly addresses this property. The default settings set the effective radius to $R_\text{eff} = \frac{600\;\text{GeV}}{p_T}$, which corresponds to a maximum radius of $1.5$ with the used selection of jets with $p_T > 400\;\text{GeV}$. The result is visible in Fig. \ref{fig:GEN_HOTVR}. Due to the large cone size for the lowest possible jet momentum, the distribution is very similar to a AK jet with a large radius parameter. The parameter to tune the HOTVR clustering is $\rho$. By lowering $\rho$, the effective radius shrinks. Figure \ref{fig:GEN_HOTVRrho} shows a comparison of the jet mass for different $\rho$. It is decreased in $100\;\text{GeV}$ steps to a value of $300\;\text{GeV}$ which corresponds to a radius of $0.75$ for jets with a transverse momentum of $400\;\text{GeV}$. A behaviour similar to decreasing the radius of Anti-$k_T$ jets is visible. Increasing $\rho$ returns more events where all decay products end up in the jet cone, but a jet also includes more additional particles leading to a higher mass. Since the setting $\rho = 400\;\text{GeV}$ returns the highest fraction of events with a mass around the top quark mass, it will act as representative for HOTVR in the comparison presented in section \ref{sec:jet_comp}.
 
 	\begin{figure}[tb]
 		\centering
@@ -76,7 +74,6 @@
 		\caption{Jet mass distribution of jets clustered with the HOTVR algorithm. Here, default values of the clustering procedure are used. The large tail can be explained with large jet radii for jets with a transverse momentum around $400\;\text{GeV}$.}
 		\label{fig:GEN_HOTVR}
 	\end{figure}	
-	%todo caption
 	
 	\begin{figure}[tb]
 		\begin{subfigure}{.5\textwidth}
@@ -103,10 +100,9 @@
 		\caption{}
 		\label{fig:GEN_HOTVR300}
 		\end{subfigure}		
-		\caption{Study of the influence of the HOTVR $\rho$ parameter on the jet mass.}
+		\caption{Study of the influence of the HOTVR $\rho$ parameter on the jet mass. While $\rho$ is decreasing from (a) to (d) in $100\;\text{GeV}$ steps, the effective cone radius $R_\text{eff}$ increases accordingly.}
 		\label{fig:GEN_HOTVRrho}
 	\end{figure}
-	%todo caption
 
 \FloatBarrier %draw figures of previous section before the new one starts		
 \subsection{Studies with XCone}
@@ -533,7 +529,17 @@
 	The first term $\mathcal{L}_1$ contains a standard least square minimisation where $\mathbf{V_{yy}}$ is the covariance matrix describing uncertainties. Secondly a regularisation with strength $\tau^2$ is used. A bias vector can be introduced using a factor $f_b$ and a vector $\mathbf{x}_0$ to suppress deviations of $\mathbf{x}$ from $f_b\mathbf{x}_0$. Additionally, three choices for the matrix $\mathbf{L}$ can be made to either regularise the absolute value, first or second derivative of $\mathbf{x}$. The final term $\mathcal{L}_3$ expresses an optional area constraint, checking differences in event counts between input and output.
 	
 \subsection{Migration Matrix}
-	To perform an unfolding, a migration matrix has to be filled. A matrix entry $A_{ij}$ contains the number of events that is generated in bin $i$ and reconstructed in bin $j$. Thus, a projection on one dimension returns either the jet mass distribution on particle or reconstruction level. If an event passes the particle level selection (see section \ref{sec:GenSel}) and reconstruction level selection (see sections \ref{sec:PreSel} and \ref{sec:FinalSel}) it is filled in the according bin. To account for events that pass only one selection underflow bins are used, while jet masses above $400\;\text{GeV}$ are filled into overflow bins. Furthermore, only events from the $t\bar{t}$ samples are considered. Figure \ref{fig:Migration} shows the migration matrix where every bin is scaled to the total event count in the whole column. Thus, an entry $A_{ij}$ gives the probability that an event generated in bin $i$ is reconstructed in bin $j$.
+	To perform an unfolding, a migration matrix has to be filled. A matrix entry $A_{ij}$ contains the number of events that is generated in bin $i$ and reconstructed in bin $j$. Thus, a projection on one dimension returns either the jet mass distribution on particle or reconstruction level. Only events from the $t\bar{t}$ samples are considered to construct the matrix. If an event passes the particle level selection (see section \ref{sec:GenSel}) and reconstruction level selection (see sections \ref{sec:PreSel} and \ref{sec:FinalSel}) it is filled in the according bin. To account for events that pass only one selection underflow bins are used, while jet masses above $400\;\text{GeV}$ are filled into overflow bins. Furthermore it has to be accounted for different weights because corrections like trigger and b-tagging scale factors as well as pile-up re-weighting are only applied on reconstruction level. Thus, the weight applied to an event is split into a generator level weight and a reconstruction level weight as shown in Eq. \ref{eq:weight}.	
+	\begin{equation}
+	\text{event weight} = \text{gen weight} \cdot \text{reco weight}
+	\label{eq:weight}
+	\end{equation}
+	Because events without reconstruction level information only carry a generator weight, events are filled into underflow bins with a compensation weight according to Eq. \ref{eq:weight2} to match the total number of events.
+	\begin{equation}
+	\text{compensation weight} = \text{gen weight} \cdot (1 - \text{reco weight})
+	\label{eq:weight2}
+	\end{equation}		
+	Figure \ref{fig:Migration} shows the migration matrix where every bin is scaled to the total event count in the whole column. Thus, an entry $A_{ij}$ gives the probability that an event generated in bin $i$ is reconstructed in bin $j$.
 	
 	\begin{figure}[tb]
 		\centering
@@ -541,8 +547,7 @@
 		\caption{Display of the migration matrix. Each bin is scaled to the total event count in a column.}
 		\label{fig:Migration}
 	\end{figure}
-	 
-	 %todo rec weight
+	 %todo Correlations beschreiben
 	
 \subsection{Closure Tests}
 	%todo show projections?
@@ -561,10 +566,11 @@
 		\caption{Unfolding of a MC sample with a statistical independent one.}
 		\label{fig:Unfolding_split}
 	\end{figure}
-		
+	%todo plots diskutieren
+	
 \FloatBarrier %draw figures of previous section before the new one starts	
 \subsection{Unfolding of Data}
-
+	To perform an unfolding with data, background events have to be subtracted to obtain $t\bar{t}$ data only. For this procedure, backgrounds estimated from simulation are used. 
 	\begin{figure}[tb]
 		\centering
 		\includegraphics [width=.6\textwidth]{../Plots/Unfolding/Data/Unfold.pdf}
@@ -572,8 +578,7 @@
 		\label{fig:Unfolding_data}
 	\end{figure}
 	
- 	%todo background substraction
- 
+	%todo diskutiere plot
 \section{Results}
 \label{sec:results}
 %todo nochmal phasenraum hinschreiben
