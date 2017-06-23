@@ -1162,6 +1162,25 @@
     \field{year}{2016}
   \endentry
 
+  \entry{topreweight}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{CMS Collaboration}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url
+  {https://twiki.cern.ch/twiki/pub/CMSPublic/PhysicsResultsTOPSummaryFigures/TopPt\_DATA\_PWHGP8.pdf}}
+    \field{note}{[Online; accessed June 22, 2017]}
+    \field{title}{{Ratio between 13 TeV data and Powheg+Pythia8 simulation for
+  the differential top quark pair cross section as a function of pT of the top
+  quark. }}
+  \endentry
+
   \entry{Wmass}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%

@@ -144,24 +144,11 @@
 \label{sec:btag}
 	In analyses involving top quarks, it is useful to identify bottom quarks since they are in almost every case one of the top quark decay products. The properties of the b-quark makes it possible to find and tag jets originating from a bottom quark. Since b-hadrons have a relatively large lifetime of about $1.5\;\text{ps}$, combined with time dilatation due to their velocity, they are likely to travel several millimetres in the detector before decaying. This leads to a secondary vertex at the spatial point where the b-hadron decays. The high precision tracking system of CMS makes it possible to resolve both, primary and secondary vertex. These characteristics are exploited by the Combined Secondary Vertex (CSV) algorithm \cite{csv} and its updated version CSVv2 \cite{btag}. Furthermore, the fraction of energy from charged hadrons in a jet and the invariant mass of all particles assigned to a secondary vertex are taken into account to distinguish from non b-jets. As a result, the CSVv2 returns a number from $0$ to $1$, indicating how b-jet like a jet is. Different working point in b-tagging correspond to different minimum values a jet has to fulfil to be considered a b-jet. In this analysis, the tight working point, corresponding to a minimum value of $0.935$, is used. 
 
-\section{$\cancel{E}_T$ and $S_T$}
-	With the information of all particle flow objects two important variables are defined. The missing transverse energy $\cancel{E}_T$ is defined to estimate the energy carried away by particles which leave the experiment undetected. Summing up all transverse momenta of each particle in the final state returns the $p_T$ of the system in the initial state which is $p_T = 0$ at LHC. Thus the transverse energy of all undetected particles is defined as the absolute value of the negative sum over all transverse momenta of detected objects (Eq. \ref{eq:MET}). Since every object, independent from it's $\eta$, has to be taken into account for this variable, $\cancel{E}_T$ is independent from the selection applied. The missing energy is due to neutrinos which can not be detected with CMS because of their low probability to interact with the detector material or a new physics state. 
+\section{Measurement of Missing Transverse Energy}
+	With the information of all particle flow objects two important variables are defined. The missing transverse energy $\cancel{E}_T$ is defined to estimate the energy carried away by particles which leave the experiment undetected. Summing up all transverse momenta of each particle in the final state returns the $p_T$ of the system in the initial state which is $p_T = 0$ at LHC. Thus, the transverse energy of all undetected particles is defined as the absolute value of the negative sum over all transverse momenta of detected objects (see Eq. \ref{eq:MET}). Since every object, independent from it's $\eta$, has to be taken into account for this variable, $\cancel{E}_T$ is independent from the selection applied. The missing energy is due to neutrinos which can not be detected with CMS because of their low probability to interact with the detector material or a new physics state. 
 	
 	\begin{equation}
 		\cancel{E}_T = \left| - \sum_{\textrm{leptons, jets}}^{} \vec{p}_T \right|
 		\label{eq:MET}
 	\end{equation}
 	
-	\noindent Another important variable to describe an event is $S_T$. As represented in Eq. \ref{eq:ST} it is defined as the scalar sum of all transverse momenta of reconstructed objects plus the missing transverse energy mentioned above. Different from $\cancel{E}_T$ only objects surviving the selection are considered. $S_T$ gives an estimate how much energy one event contains and is therefore used to distinguish between low energy QCD and high energy processes. 
-	%todo ST ganz raus??
-	\begin{equation}
-		S_T = \left( \sum_{\textrm{leptons, jets}}^{} \vert \vec{p}_T \vert \right) + \cancel{E}_T
-		\label{eq:ST}
-	\end{equation}
-	%todo ST lep raus? Wird das benutzt???
-	\noindent Additionally, a definition for $S_T$ which just takes leptonic activity into account is used in this analysis. It is similarly defined and referred to as $S_T^{\text{lep}}$ (see Eq. \ref{eq:STlep}).
-	
-	\begin{equation}
-		S_T^\text{lep} = \left( \sum_{\textrm{leptons}}^{} \vert \vec{p}_T \vert \right) + \cancel{E}_T
-		\label{eq:STlep}
-	\end{equation}	

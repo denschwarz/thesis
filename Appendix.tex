@@ -1,24 +1,25 @@
 \appendix
 \chapter{Jet Energy Corrections for XCone}
-\begin{figure}[h]
-	\centering
-	\includegraphics [width=.9\textwidth]{../Plots/Correction/Mean_Error_numbers}
-	\caption{Absolute uncertainties of mean values in each bin.}
-	\label{fig:A_err}
-\end{figure}	
+	After applying AK4 jet energy correction to the XCone subjets, an additional correction is derived to account for slight differences in XCone and Anti-$k_T$ jets. While figure \ref{fig:A_mean} shows the ratios between jet $p_T$ on reconstruction and particle level in the $\eta$-$p_T$-plane, Fig. \ref{fig:A_rms} shows the belonging RMS width. Since the width shows small values, each bin contains enough statistics to derive a correction factor. In every $\eta$ bin a $p_T$ dependent function is fitted to obtain a smooth correction. All separate fits are displayed in Fig. \ref{fig:A_fits}. 
 
-\begin{figure}[h]
-	\centering
-	\includegraphics [width=.9\textwidth]{../Plots/Correction/RMS_numbers}
-	\caption{RMS values of $R=\frac{p_T^{\text{rec}}}{p_T^{\text{gen}}}$ in the $p_T$-$\eta$ plane.}
-	\label{fig:A_rms}
-\end{figure}	
+	\begin{figure}[h]
+		\centering
+		\includegraphics [width=.9\textwidth]{../Plots/Correction/Mean_numbers}
+		\caption{Mean of the ratio between jet $p_T$ on reconstruction and particle level.}
+		\label{fig:A_mean}
+	\end{figure}
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics [width=.9\textwidth]{../Plots/Correction/RMS_numbers}
+		\caption{RMS values of $R=\frac{p_T^{\text{rec}}}{p_T^{\text{gen}}}$ in the $p_T$-$\eta$ plane.}
+		\label{fig:A_rms}
+	\end{figure}	
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics [width=.98\textwidth]{../Plots/Correction/Fits}
+		\caption{Fit functions for XCone jet energy corrections in every $\eta$ region.}
+		\label{fig:A_fits}
+	\end{figure}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics [width=.98\textwidth]{../Plots/Correction/Fits}
-	\caption{Fit functions for XCone jet energy corrections in every $\eta$ region.}
-	\label{fig:A_fits}
-\end{figure}
-
-\chapter{Control Plots after Selection}

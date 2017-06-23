@@ -90,7 +90,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.6}b-Jet Identification}{34}{section.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.7}$\cancel {E}_T$ and $S_T$}{35}{section.5.7}
+\contentsline {section}{\numberline {5.7}Measurement of Missing Transverse Energy}{35}{section.5.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Data and Simulation}{37}{chapter.6}
 \defcounter {refsection}{0}\relax 
@@ -106,15 +106,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.1}Selection on Particle level}{42}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Studies with Anti-$k_T$ and HOTVR}{43}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.2}Studies with Anti-$k_T$}{43}{subsection.7.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Anti-$k_T$ Jets}{43}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Studies with HOTVR}{43}{subsection.7.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{HOTVR Jets}{43}{figure.caption.17}
+\contentsline {subsection}{\numberline {7.2.4}Studies with XCone}{47}{subsection.7.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}Studies with XCone}{47}{subsection.7.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.4}Comparing Jet Algorithms}{52}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Comparing Jet Algorithms}{52}{subsection.7.2.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.3}Studies on Reconstruction Level}{54}{section.7.3}
 \defcounter {refsection}{0}\relax 
@@ -126,20 +124,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.3.4}Final Jet Mass Distribution}{65}{subsection.7.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Unfolding}{66}{section.7.4}
+\contentsline {section}{\numberline {7.4}Unfolding}{67}{section.7.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.4.1}Regularised Unfolding with TUnfold}{67}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.4.2}Migration Matrix}{68}{subsection.7.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.3}Closure Tests}{68}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.3}Closure Tests}{69}{subsection.7.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.4.4}Unfolding of Data}{71}{subsection.7.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Results}{72}{section.7.5}
+\contentsline {section}{\numberline {7.5}Results}{73}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Summary and Outlook}{73}{chapter.8}
+\contentsline {chapter}{\numberline {8}Summary and Outlook}{75}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Jet Energy Corrections for XCone}{75}{appendix.A}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Control Plots after Selection}{79}{appendix.B}
+\contentsline {chapter}{\numberline {A}Jet Energy Corrections for XCone}{77}{appendix.A}
