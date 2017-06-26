@@ -124,8 +124,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T1}
-    \strng{fullhash}{T1}
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -498,8 +498,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{eprint}
@@ -565,14 +565,60 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}}
     \field{note}{[Online; accessed May 23, 2017]}
     \field{title}{{Delivered Luminosity versus time for 2010, 2011, 2012, 2015
   and 2016}}
+  \endentry
+
+  \entry{HiggsATLAS}{article}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{The ATLAS Collaboration}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2012.08.020
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1207.7214
+    \endverb
+    \field{howpublished}{Phys.Lett. B716 (2012) 1-29}
+    \field{title}{Observation of a new particle in the search for the Standard
+  Model Higgs boson with the ATLAS detector at the LHC}
+    \field{year}{2012}
+  \endentry
+
+  \entry{HiggsCMS}{article}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{The CMS Collaboration}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2012.08.021
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1207.7235
+    \endverb
+    \field{howpublished}{Phys. Lett. B 716 (2012) 30}
+    \field{title}{Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}
+    \field{year}{2012}
   \endentry
 
   \entry{CMSfull}{misc}{}
@@ -582,8 +628,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{http://cms.web.cern.ch/news/cms-detector-design}}
@@ -622,8 +668,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -645,8 +691,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{series}{Technical Design Report CMS}
@@ -667,8 +713,8 @@
     \list{publisher}{1}{%
       {CERN}%
     }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{series}{Technical Design Report CMS}
@@ -731,8 +777,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url
@@ -748,8 +794,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url
@@ -1013,8 +1059,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{number}{11}
@@ -1036,8 +1082,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{number}{04}
@@ -1076,8 +1122,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://cms-service-lumi.web.cern.ch/cms-service-lumi/publicplots/int_lumi_per_day_cumulative_pp_2016.png}}

@@ -42,7 +42,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Conventional Mass Measurements}{13}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Measurement in Boosted Decays}{13}{section.3.2}
+\contentsline {section}{\numberline {3.2}Measurement in Boosted Decays}{14}{section.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Previous Results}{14}{section.3.3}
 \defcounter {refsection}{0}\relax 
@@ -50,23 +50,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Large Hadron Collider}{17}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}CMS Detector}{20}{section.4.2}
+\contentsline {section}{\numberline {4.2}CMS Detector}{19}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Coordinate System}{21}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Coordinate System}{20}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Solenoid}{22}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Solenoid}{21}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Tracker}{22}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.4}Calorimeters}{23}{subsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Electromagnetic Calorimeter}{24}{equation.4.7}
+\contentsline {subsubsection}{Electromagnetic Calorimeter}{23}{equation.4.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Hadronic Calorimeter}{24}{equation.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.5}Muon System}{25}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.5}Muon System}{24}{subsection.4.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.6}Trigger}{25}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.6}Trigger}{24}{subsection.4.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Reconstruction of Objects}{27}{chapter.5}
 \defcounter {refsection}{0}\relax 

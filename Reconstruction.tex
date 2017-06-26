@@ -4,43 +4,46 @@
 
 \section{Particle Flow Algorithm}
 \label{sec:pf}
-	CMS uses a special algorithm, called particle flow (PF) \cite{particleflow}, to combine information from every detector system, following the complete path of a particle through the detector. It makes use of the various signatures different particles leave in the detector. Muons are detected in the inner tracker and muon system, electrons are seen in the tracker and ECAL, charged hadrons leave tracks and shower in the HCAL and photons and neutral hadrons only leave energy in the ECAL and HCAL, respectively (see Fig. \ref{fig:CMS_reco}). The particle flow algorithm now utilises these different signatures and combines information of all subdetectors. The goal is, to assign all showers from charged particles to their tracks, leaving only energy deposits originating from photons and neutral hadrons. First, hits in the inner tracker and muon system are combined. If a path is found, the object is called a muon candidate and all belonging hits are removed from the algorithm input. Afterwards, the remaining tracks from electrons and charged hadrons are extrapolated into the calorimeter systems and assigned to showers. Here, photon radiation from electrons has to be treated with, since energy from these photons also need to be assigned to the initial electron. Finally, remaining showers in the ECAL and HCAL should originate from photons and neutral hadrons, respectively. To be able to use particle flow with high efficiency, the tracking systems need to have a good spatial resolution while the calorimeters also have to provide a high granularity. All these requirements are fulfilled in CMS, which makes the PF algorithm a powerful tool in object identification and reconstruction.
+	CMS uses a special algorithm, called particle flow (PF) \cite{particleflow}, to combine information from every detector system, following the complete path of a particle through the detector. It makes use of the various signatures different particles leave in the detector. Muons are detected in the inner tracker and muon system, electrons are seen in the tracker and ECAL, charged hadrons leave tracks and shower in the HCAL and photons and neutral hadrons only leave energy in the ECAL and HCAL, respectively (see Fig. \ref{fig:CMS_reco}). The particle flow algorithm utilises these different signatures and combines information of all subdetectors. The goal is, to assign all showers from charged particles to their tracks, leaving only energy deposits originating from photons and neutral hadrons.\\
+	First, hits in the inner tracker and muon system are combined. If a path is found, the object is called a muon candidate and all belonging hits are removed from the algorithm input. Afterwards, the remaining tracks from electrons and charged hadrons are extrapolated into the calorimeter systems and assigned to showers. Here, photon radiation from electrons has to be treated with, since energy from these photons also need to be assigned to the initial electron. Finally, remaining showers in the ECAL and HCAL should originate from photons and neutral hadrons, respectively. To be able to use particle flow with high efficiency, the tracking systems need to have a good spatial resolution while the calorimeters also have to provide a high granularity. All these requirements are fulfilled in CMS, which makes the PF algorithm a powerful tool in object identification and reconstruction.
 
 	\begin{figure}[tb]
 		\centering
 		\includegraphics [width=.75\textwidth]{../Images/CMS_Slice_white.png}
-		\caption{Slice through the CMS detector looking in direction of the beam pipe. Tracks of different particles on their way through the layers of the detector are displayed. From left to right, you can see the tracker, calorimeters, the superconducting solenoid and the muon system. Taken from \cite{CMSslicewhite}.}
+		\caption{Slice through the CMS detector looking in direction of the beam pipe. Tracks of different particles on their way through the layers of the detector are displayed. From left to right, tracking system, calorimeters, superconducting solenoid and muon system are visible. Taken from \cite{CMSslicewhite}.}
 		\label{fig:CMS_reco}
 	\end{figure} 
 	
 \section{Muon Identification}
-	Muons have a very low probability to interact with the calorimeters of CMS. Because of that, muons are identified by hits in the tracker and muon chambers. This property makes muons the objects that can be identified and reconstructed with highest precision. Three working points \cite{MuonID} are defined by the muon reconstruction efficiency. In this analysis, the tight working point is used, providing the lowest efficiency but purest muon selection. The criteria a muon candidate has to pass to fulfil the tight working point are:
+	Muons have a very low probability to interact with the calorimeters of CMS. Because of that, muons are identified by hits in the tracker and muon chambers. This property leads to a high identification rate and great reconstruction precision. Three working points \cite{MuonID} are defined by the muon reconstruction efficiency. In this analysis, the tight working point is used, providing the lowest efficiency but purest muon selection. A muon candidate has to pass following criteria to fulfil the tight working point:
 	\begin{itemize}
-	\item the candidate is reconstructed in the inner tracker and muon system
-	\item the candidate is reconstructed with PF
-	\item the track fit performed by PF returns $\chi^2/ \text{ndof} < 10$, where ndof are the number of degrees of freedom
-	\item at least one muon-chamber hit included in the track fit 
-	\item hits in at least two muon stations
-	\item its tracker track has transverse impact parameter $d_{xy} < 2\;\text{mm}$ with respect to the primary vertex 
-	\item the longitudinal distance of the tracker track with respect to the primary vertex is $d_{z} < 5\;\text{mm}$
-	\item at least one hit in the pixel tracker 
-	\item at least hits in five different tracker layers
+	\item the candidate is reconstructed in the inner tracker and muon system,
+	\item the candidate is reconstructed with PF,
+	\item the track fit performed by PF returns $\chi^2/ \text{ndof} < 10$, where ndof are the number of degrees of freedom,
+	\item at least one muon-chamber hit included in the track fit,
+	\item hits in at least two muon stations,
+	\item its tracker track has transverse impact parameter $d_{xy} < 2\;\text{mm}$ with respect to the primary vertex,
+	\item the longitudinal distance of the tracker track with respect to the primary vertex is $d_{z} < 5\;\text{mm}$,
+	\item at least one hit in the pixel tracker and
+	\item at least hits in five different tracker layers.
 	\end{itemize}
 	If a candidate fulfils these criteria and holds the additional quality benchmarks $p_T > 55\;\text{GeV}$ and $|\eta| < 2.4$ it is stored and called muon in this analysis. Furthermore, a scale factor derived via a tag and probe method is applied to account for identification efficiency differences in data and simulation.
+	%todo Referenz Muon Scale Factor
+	
 \section{Electron Identification}
 	Electrons are reconstructed in the tracker and electromagnetic calorimeter. In contradiction to muons, electrons are difficult to identify because of various effects. As a consequence of their low mass electrons radiate Bremsstrahlung at a high rate which has to be thought of in reconstruction procedure. Additionally, electrons from photon conversion ($\gamma \rightarrow e^+ e^-$) have to be suppressed. Finally, electromagnetic showers in the ECAL from photons and electrons have to be distinguished. Again, working points \cite{ElecID} are defined analogously to muons. This analysis uses electrons that fulfil the medium criteria, corresponding to a efficiency of about $80\%$. For electron identification a multi-variant approach is used, taking following quantities into account:
 	\begin{itemize}
-	\item shower shape in $\eta$-direction
-	\item distances in $\eta$ and $\phi$ between the track extrapolated to the ECAL and shower itself
-	\item ratio of energy deposited in the ECAL and the HCAL behind it
-	\item value of $|\frac{1}{E} - \frac{1}{p}|$ of the electron candidate, where $E$ is calculated from calorimetry and $p$ is taken from the tracker
-	\item transverse impact parameter $d_{xy}$
-	\item longitudinal impact parameter $d_{z}$
-	\item not more than two missing hits in in the tracking system
+	\item shower shape in $\eta$-direction,
+	\item distances in $\eta$ and $\phi$ between the track extrapolated to the ECAL and shower itself,
+	\item ratio of energy deposited in the ECAL and the HCAL behind it,
+	\item value of $|\frac{1}{E} - \frac{1}{p}|$ of the electron candidate, where $E$ is calculated from calorimetry and $p$ is taken from the tracker,
+	\item transverse impact parameter $d_{xy}$,
+	\item longitudinal impact parameter $d_{z}$ and
+	\item not more than two missing hits in in the tracking system.
 	\end{itemize}
 	Only candidates fulfilling the medium requirements and furthermore satisfy the criteria $p_T > 55\;\text{GeV}$ and $|\eta| < 2.4$ are considered as electrons in this work.
 \section{Jet Algorithms}
-	Jets are objects used to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize to a cascade of colour neutral hadrons. To reconstruct the initial quark one needs to sum up all hadrons originating from it. To combine the tracks in a well defined way, jet clustering algorithms are used. Two important requirements for a jet algorithm are to be infrared and collinear safe. The first criterion means a jet should not change when including or excluding soft radiation. Collinear safety addresses collinear splitting of particles in a jet which should also not change the jet. All presented jet algorithms in this thesis fulfil these requirements. Only jets with $p_T > 30\;\text{GeV}$ and $|\eta| < 2.4$ are considered in this analysis.
+	Jets are objects used to reconstruct quarks. Because of confinement quarks cannot exist isolated but hadronize to a cascade of colour neutral hadrons. To reconstruct the initial quark one needs to sum up all hadrons originating from it. Jet clustering algorithms are used to combine the tracks in a well defined way. Two important requirements for a jet algorithm are to be infrared and collinear safe. The first criterion means a jet should not change when including or excluding soft radiation. Collinear safety addresses collinear splitting of particles in a jet which should also not change the jet. All presented jet algorithms in this thesis fulfil these requirements. Only jets with $p_T > 30\;\text{GeV}$ and $|\eta| < 2.4$ are considered in this analysis.
 	
 \subsection{Anti-$k_T$ and Cambridge/Aachen}
 	In CMS the common way to cluster jets from the detected particles is to use iterative jet algorithms. Thus particles are clustered step by step until an abort criterion is reached. The most common group of iterative jet algorithms are $k_T$-like algorithms. As an input, a list of all objects reconstructed in the detector is given. The algorithm then calculates two quantities $d_{ij}$ (Eq. \ref{eq:dij}) and $d_{iB}$ (Eq. \ref{eq:iB}) for each pair of objects $i$ and $j$:
@@ -52,7 +55,7 @@
 	d_{iB} = k_{T,i}^{-n}.
 	\label{eq:iB}
 	\end{equation}
-	Here, $d_{ij}$ describes an effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis. The variable $k_T$ is the transverse momentum of an object, $\Delta R_{ij}$ denotes the distance between objects $i$ and $j$, and $R$ is a constant parameter that defines the radius of the resulting jet. Changing the exponent $n$ influences the order of clustering. When $d_{ij}$ is smaller than $d_{iB}$ both objects $i$ and $j$ are combined and both measures are calculated again. At some point, $d_{iB}$ will be smaller than any $d_{ij}$. Then object $i$ is called a jet and is removed from the list of objects. This procedure is repeated until the list of objects is empty. If $n=-2$, the algorithm is called Anti-$k_T$ \cite{antikt} and particles with high transverse momenta are clustered first. Using the Cambridge/Aachen \cite{CA1}\cite{CA2} algorithm, and therefore choosing $n=0$ will not weight the objects by momenta and provides a pure geometrical measure. The resulting shapes of the jet area are depicted in Fig. \ref{fig:ak_jetshape} when using Anti-$k_T$ and Fig. \ref{fig:ca_jetshape} when using the Cambridge/Aachen clustering algorithm. It is to mention, that the Anti-$k_T$ algorithm because of its conical jets is used as a standard in CMS.
+	where, $d_{ij}$ describes an effective distance between two objects $i$ and $j$, $d_{iB}$ is a distance measure from object to beam axis. The variable $k_T$ is the transverse momentum of an object, $\Delta R_{ij}$ denotes the distance between objects $i$ and $j$, and $R$ is a constant parameter that defines the radius of the resulting jet. Changing the exponent $n$ influences the order of clustering. When $d_{ij} < d_{iB}$ both objects $i$ and $j$ are combined and both distances are calculated again. At some point, $d_{iB}$ will be smaller than any $d_{ij}$. Then object $i$ is called a jet and is removed from the list of objects. This procedure is repeated until the list of objects is empty. If $n=-2$, the algorithm is called Anti-$k_T$ \cite{antikt} and particles with high transverse momenta are clustered first. Using the Cambridge/Aachen \cite{CA1}\cite{CA2} algorithm, and therefore choosing $n=0$ will not weight the objects by momenta and provides a pure geometrical measure. The resulting shapes of the jet area are depicted in Fig. \ref{fig:ak_jetshape} when using Anti-$k_T$ and Fig. \ref{fig:ca_jetshape} when using the Cambridge/Aachen clustering algorithm. It is worth to mention, that the Anti-$k_T$ algorithm is used as a standard in CMS because of its conical jets.
 	\begin{figure}
 	\begin{subfigure}{.5\textwidth}
 			\centering
@@ -73,16 +76,16 @@
 
 \subsection{Soft Drop}
 \label{sec:sd}
-	When clustering particles into jets, algorithms do not make a difference if particles come from the hard process or from pile-up, underlying event or initial state radiation. To obtain a jet that in the best case only contains energy from particles of the hard scattering process, jet substructure techniques are applied to remove soft radiation. The biggest impact on jet mass measurements has wide angle radiation. If a light quark or gluon is clustered into a jet originating from a top quark, it adds more mass the larger the distance between top quark and light jet is. To remove wide angle radiation, the Soft Drop algorithm \cite{softdrop} is introduced. This method undoes the last clustering step, breaking the final jet into two constituents. Now a criterion (Eq. \ref{eq:sd}) is checked. If the condition does not hold, the constituent with lower transverse momentum is removed, else the final jet remains unchanged. 
+	When clustering particles into jets, algorithms do not make a difference if particles come from the hard process or from pile-up, underlying event or initial state radiation. Jet substructure techniques are applied to remove soft radiation, referred to as grooming, to obtain a jet that in the best case only contains energy from particles of the hard scattering process. The biggest impact on jet mass measurements has wide angle radiation which is still reconstructed in the same jet. If a light quark or gluon is clustered into a jet originating from a top quark, it adds more mass the larger the distance between top quark and light jet is. One of the substructure techniques is the Soft Drop algorithm \cite{softdrop} which is introduced in the following. This method undoes the last clustering step, breaking the final jet into two constituents. After each de-clustering step, the soft drop criterion
 	\begin{equation}
 	\frac{\min(p_{T1}, p_{T2})}{p_{T1} + p_{T2}} > z_\text{cut} \left( \frac{\Delta R_{12}}{R_0}\right)^\beta
 	\label{eq:sd}
 	\end{equation}
-	Here, $p_{T1}$ and $p_{T2}$ describe the transverse momenta of and $\Delta R_{12}$ the distance between the constituents and $R_0$ is the radius of the final jet. A threshold value $z_\text{cut}$ and an exponent $\beta$ define the strength of grooming. Performance studies have been done in \cite{softdropvalues} resulting in standard values of $z_\text{cut} = 0.1$ and $\beta =0$.	With more then two constituents, the final jet is repeatedly pairwise declustered, checking the soft drop condition after every step.
-	
+	is checked. If the condition does not hold, the constituent with lower transverse momentum is removed, else the final jet remains unchanged. Here, $p_{T1}$ and $p_{T2}$ describe the transverse momenta of the two constituents and $\Delta R_{12}$ the distance between the constituents. $R_0$ is the radius of the final jet. A threshold value $z_\text{cut}$ and an exponent $\beta$ define the strength of grooming. Performance studies have been done in \cite{softdropvalues} resulting in standard values of $z_\text{cut} = 0.1$ and $\beta =0$.	
+		
 \subsection{HOTVR}
 \label{sec:HOTVR}
-	Another approach to cluster jets is the 'heavy object tagger with variable R' (HOTVR) \cite{hotvr}. This algorithm does not use a constant radius parameter $R$ but a $p_T$ dependent effective $R=R_\text{eff}(p_T)$ (see Eq. \ref{eq:HOTVR}). Thus the $R_\text{eff}$ decreases with increasing $p_T$ leading to smaller jets when the decay products are expected to be more close because of the Lorentz boost. The $p_T$ dependence is scaled with a parameter $\rho$ with a default value of $600\;\text{GeV}$. Furthermore, upper and lower boundaries for the jet radius can be set. The default values are $R_\text{min} = 0.1$ and $R_\text{max} = 1.5$. 	
+	Another approach to cluster jets is the 'heavy object tagger with variable R' (HOTVR) \cite{hotvr}. This algorithm does not use a constant radius parameter $R$ but a $p_T$ dependent effective $R=R_\text{eff}(p_T)$:
 	\begin{equation}
 	\label{eq:HOTVR}
 	  R_\text{eff} =
@@ -92,8 +95,7 @@
 	     \rho / p_T & \text{else}  
 	   \end{cases}
 	\end{equation}
-	
-	\noindent This effective $R$ is then used with the equations of the Anti-$k_T$ algorithm described earlier (see Eq. \ref{eq:dij} - \ref{eq:iB}). Additionally, a mass-jump criterion similar to soft drop is used. Analogously, the final jet is split into two constituents $i$ and $j$. If the combined mass $m_{ij}$ is larger than a value $\mu$ (default $\mu = 30\;\text{GeV}$) (Eq. \ref{eq:hotvr_mij}), the mass jump criterion shown in Eq. \ref{eq:hotvr_theta} is checked.
+	 Thus the $R_\text{eff}$ decreases with increasing $p_T$ leading to smaller jets when the decay products are expected to be more close because of the Lorentz boost. The $p_T$ dependence is scaled with a parameter $\rho$ with a default value of $600\;\text{GeV}$. Furthermore, upper and lower boundaries for the jet radius can be set. The default values are $R_\text{min} = 0.1$ and $R_\text{max} = 1.5$. This effective radius is then used with the equations of the Anti-$k_T$ algorithm as $R_0$, described earlier (see Eq. \ref{eq:dij} - \ref{eq:iB}). Additionally, a mass-jump criterion similar to soft drop is used. Analogously, the final jet is split into two constituents $i$ and $j$. If the combined mass $m_{ij}$ is larger than a value $\mu$ (default $\mu = 30\;\text{GeV}$) (Eq. \ref{eq:hotvr_mij}), the mass jump criterion shown in is checked.
 	\begin{equation}
 	m_{ij} > \mu
 	\label{eq:hotvr_mij}
@@ -102,7 +104,7 @@
 	\theta m_{ij} > \max(m_i, m_j)
 	\label{eq:hotvr_theta}
 	\end{equation}
-	Here, values between $0$ and $1$ can be assigned to $\theta$, defining the strength of the mass jump criterion. A default value of $\theta =0.7$ is set. Only if the mass jump requirement holds, and both constituents carry enough transverse momentum (default $p_{T,\text{sub}} = 30$)
+	Here, values between $0$ and $1$ can be assigned to $\theta$, defining the strength of the mass jump criterion. A default value of $\theta =0.7$ is set. Only if the mass jump requirement holds, and both constituents carry enough transverse momentum (default $p_{T,\text{sub}} = 30\;\text{GeV}$)
 	\begin{equation}
 	p_{Ti,j} > p_{T,\text{sub}},
 	\label{eq:hotvr_pt}
@@ -142,13 +144,14 @@
 	
 \section{b-Jet Identification}
 \label{sec:btag}
-	In analyses involving top quarks, it is useful to identify bottom quarks since they are in almost every case one of the top quark decay products. The properties of the b-quark makes it possible to find and tag jets originating from a bottom quark. Since b-hadrons have a relatively large lifetime of about $1.5\;\text{ps}$, combined with time dilatation due to their velocity, they are likely to travel several millimetres in the detector before decaying. This leads to a secondary vertex at the spatial point where the b-hadron decays. The high precision tracking system of CMS makes it possible to resolve both, primary and secondary vertex. These characteristics are exploited by the Combined Secondary Vertex (CSV) algorithm \cite{csv} and its updated version CSVv2 \cite{btag}. Furthermore, the fraction of energy from charged hadrons in a jet and the invariant mass of all particles assigned to a secondary vertex are taken into account to distinguish from non b-jets. As a result, the CSVv2 returns a number from $0$ to $1$, indicating how b-jet like a jet is. Different working point in b-tagging correspond to different minimum values a jet has to fulfil to be considered a b-jet. In this analysis, the tight working point, corresponding to a minimum value of $0.935$, is used. 
-
-\section{Measurement of Missing Transverse Energy}
-	With the information of all particle flow objects two important variables are defined. The missing transverse energy $\cancel{E}_T$ is defined to estimate the energy carried away by particles which leave the experiment undetected. Summing up all transverse momenta of each particle in the final state returns the $p_T$ of the system in the initial state which is $p_T = 0$ at LHC. Thus, the transverse energy of all undetected particles is defined as the absolute value of the negative sum over all transverse momenta of detected objects (see Eq. \ref{eq:MET}). Since every object, independent from it's $\eta$, has to be taken into account for this variable, $\cancel{E}_T$ is independent from the selection applied. The missing energy is due to neutrinos which can not be detected with CMS because of their low probability to interact with the detector material or a new physics state. 
+	In analyses involving top quarks, it is useful to identify bottom quarks since they are in almost every case one of the top quark decay products. The properties of the b-quark makes it possible to find and tag jets originating from a bottom quark. Since b-hadrons have a relatively large lifetime of about $1.5\;\text{ps}$, combined with time dilatation due to their velocity, they are likely to travel several millimetres in the detector before decaying. This leads to a secondary vertex at the spatial point where the b-hadron decays. The high precision tracking system of CMS makes it possible to resolve both, primary and secondary vertex. These characteristics are exploited by the Combined Secondary Vertex (CSV) algorithm \cite{csv} and its updated version CSVv2 \cite{btag}. Furthermore, the fraction of energy from charged hadrons in a jet and the invariant mass of all particles assigned to a secondary vertex are taken into account to distinguish from non b-jets. As a result, the CSVv2 returns a number from $0$ to $1$, indicating how b-jet like ($1$ means very b-jet like) a jet is. Different working point in b-tagging correspond to different minimum values a jet has to fulfil to be considered a b-jet. In this analysis, the tight working point, corresponding to a minimum value of $0.935$, is used. 
+	%todo working point Ref twiki
 	
+\section{Measurement of Missing Transverse Energy}
+	The missing transverse energy $\cancel{E}_T$ is defined to estimate the energy carried away by particles which leave the experiment undetected. Summing up each transverse momentum of all particles (detectable and not detectable) in the final state returns the $p_T$ of the system in the initial state which is $p_T = 0$ at LHC. Thus, the transverse energy of all undetected particles is defined as the absolute value of the negative sum over all transverse momenta of detected objects:
 	\begin{equation}
 		\cancel{E}_T = \left| - \sum_{\textrm{leptons, jets}}^{} \vec{p}_T \right|
 		\label{eq:MET}
-	\end{equation}
-	
+	\end{equation}	
+	Since every object, independent from it's $\eta$, has to be taken into account for this variable, $\cancel{E}_T$ is independent from the selection applied. The source of missing transverse energy are neutrinos, which can not be detected with CMS because of their low probability to interact with the detector material, or a new weakly interacting particle. 
+

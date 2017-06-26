@@ -64,7 +64,7 @@
 	\end{figure}
 		
 \subsection{Studies with HOTVR}
-\label{sec:HOTVR}
+\label{sec:HOTVR2}
 	Another approach to find a appropriate cone size is to used not a constant but $p_T$ dependent radius parameter. Since decay products are Lorentz boosted with high momentum, the higher the $p_T$, the smaller cone size is necessary to contain all decay products. Thus, HOTVR (see section \ref{sec:HOTVR}) directly addresses this property. The default settings set the effective radius to $R_\text{eff} = \frac{600\;\text{GeV}}{p_T}$, which corresponds to a maximum radius of $1.5$ with the used selection of jets with $p_T > 400\;\text{GeV}$. The result is visible in Fig. \ref{fig:GEN_HOTVR}. Due to the large cone size for the lowest possible jet momentum, the distribution is very similar to a AK jet with a large radius parameter. The parameter to tune the HOTVR clustering is $\rho$. By lowering $\rho$, the effective radius shrinks. Figure \ref{fig:GEN_HOTVRrho} shows a comparison of the jet mass for different $\rho$. It is decreased in $100\;\text{GeV}$ steps to a value of $300\;\text{GeV}$ which corresponds to a radius of $0.75$ for jets with a transverse momentum of $400\;\text{GeV}$. A behaviour similar to decreasing the radius of Anti-$k_T$ jets is visible. Increasing $\rho$ returns more events where all decay products end up in the jet cone, but a jet also includes more additional particles leading to a higher mass. Since the setting $\rho = 400\;\text{GeV}$ returns the highest fraction of events with a mass around the top quark mass, it will act as representative for HOTVR in the comparison presented in section \ref{sec:jet_comp}.
 
 	\begin{figure}[tb]
