@@ -124,18 +124,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.3.4}Final Jet Mass Distribution}{65}{subsection.7.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Unfolding}{67}{section.7.4}
+\contentsline {section}{\numberline {7.4}Unfolding}{66}{section.7.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.4.1}Regularised Unfolding with TUnfold}{67}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.4.2}Migration Matrix}{68}{subsection.7.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.3}Closure Tests}{69}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.3}Closure Tests}{68}{subsection.7.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.4}Unfolding of Data}{71}{subsection.7.4.4}
+\contentsline {subsection}{\numberline {7.4.4}Unfolding of Data}{72}{subsection.7.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Results}{73}{section.7.5}
+\contentsline {section}{\numberline {7.5}Results}{72}{section.7.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Summary and Outlook}{75}{chapter.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Jet Energy Corrections for XCone}{77}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}

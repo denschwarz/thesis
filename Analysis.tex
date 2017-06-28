@@ -8,20 +8,20 @@
 
 \section{Jet Studies on Particle Level}
 \label{sec:jet_studies}
-	For this analysis it is crucial to choose a suitable jet algorithm and cone size. The previous mentioned analysis \cite{torben_paper} uses Cambridge-Aachen jets with the radius parameter set to $R=1.2$ for its measurement. This large radius was chosen to compensate for low statistics in the boosted $t\bar{t}$ regime. Since the cross-section of $t\bar{t}$ production is much higher at a center-of-mass energy of $13\;\text{TeV}$ a smaller cone is expected to be applicable for this analysis. Additionally jets clustered with Anti-$k_T$, HOTVR and XCone algorithms are studied and optimized in sections \ref{sec:AKHOTVR} as well as \ref{sec:XCone_strat} and finally compared (section \ref{sec:jet_comp}) to find the algorithm most suitable for this analysis. The goal is to select a jet algorithm which returns jets in which all decay products of a hadronically decaying top quark are merged. In this case, the jet mass $M_\text{jet}$ is sensitive to the top quark mass $M_\text{top}$. To be able to extract the top quark mass, the jet mass distribution should return a sharp peak at the top quark mass of around $173\;\text{GeV}$. The jet studies are performed with a $t\bar{t}$ simulation using the information of MC simulations at particle level. The detailed selection is described in Section \ref{sec:GenSel}.
+	For this analysis it is crucial to choose a suitable jet algorithm and cone size. The previous mentioned analysis \cite{torben_paper} uses Cambridge-Aachen jets with the radius parameter set to $R=1.2$ for its measurement. This large radius was chosen to compensate for low statistics in the boosted $t\bar{t}$ regime. Since the cross-section of $t\bar{t}$ production is much higher at a center-of-mass energy of $13\;\text{TeV}$ a smaller cone is expected to be applicable for this analysis. Additionally jets clustered with Anti-$k_T$, HOTVR and XCone algorithms are studied and optimized in sections \ref{sec:AK}, \ref{sec:HOTVR2} as well as \ref{sec:XCone_strat} and finally compared (section \ref{sec:jet_comp}) to find the algorithm most suitable for this analysis. The goal is to select a jet algorithm which returns jets in which all decay products of a hadronically decaying top quark are merged. In this case, the jet mass $M_\text{jet}$ is sensitive to the top quark mass $M_\text{top}$. To be able to extract the top quark mass, the jet mass distribution should return a sharp peak at the top quark mass of around $173\;\text{GeV}$. The jet studies are performed with a $t\bar{t}$ simulation using the information of MC simulations at particle level. The detailed selection is described in Section \ref{sec:GenSel}.
 
 \subsection{Selection on Particle level}
 \label{sec:GenSel}
 	All studies on particle level are performed with a $t\bar{t}$ sample only. Several selection criteria are used to select boosted top quark decays in the lepton + jets channel. Since the selection is applied on particle level, also particle level information is used. The selection reads:
 	\begin{itemize}
-	\item direct selection of lepton + jets channel
-	\item exactly one electron or muon
-	\item veto on additional leptons
-	\item $p_T^{\text{1st jet}} > 400\;\text{GeV}$ 
-	\item $p_T^{\text{2nd jet}} > 200\;\text{GeV}$ 
-	\item Veto on additional jets with $p_T > 200\;\text{GeV}$ 
-	\item $\Delta R (\text{lepton, 2nd jet}) < \text{jet radius}$
-	\item $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$
+	\item direct selection of lepton + jets channel,
+	\item exactly one electron or muon,
+	\item veto on additional leptons,
+	\item $p_T^{\text{1st jet}} > 400\;\text{GeV}$,
+	\item $p_T^{\text{2nd jet}} > 200\;\text{GeV}$,
+	\item Veto on additional jets with $p_T > 200\;\text{GeV}$,
+	\item $\Delta R (\text{lepton, 2nd jet}) < \text{jet radius}$ and
+	\item $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$.
 	\end{itemize}
 	Where the first jet refers to the leading jet in $p_T$ of the respective jet clustering algorithm. It is expected to be originating from the hadronically decaying top quark, the second one is expected contain the products of the leptonically decaying top quark. The purpose of the $p_T$ thresholds is to select boosted top decays. The Veto on additional jets is set to select $t\bar{t}$ events where one jet per top quark decay is expected. It is to mention, that the veto is not present in combination with XCone since it will always return exactly two jets in the used set up. A cut on the distance between lepton and second leading jet in $p_T$ prefers boosted topologies where the lepton is inside the jet of the leptonically decaying top quark. This criterion is also obsolete for XCone because of the selected clustering sequence (see section \ref{sec:XCone_strat}). To suppress events where not all decay products of the hadronically decaying top quark end up in the jet with the highest transverse momentum, a mass criterion $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$ is set. The criterion includes the assumption that the mass of the jet on the leptonic side is lower because the neutrino cannot be reconstructed. This selection is applied to every jet algorithm output to be able to compare these different approaches. All shown distributions are scaled to match a integrated luminosity of $37.76\;\text{fb}^{-1}$.
 
@@ -131,12 +131,8 @@
 		\label{fig:JetDisplay}
 	\end{figure}
 	
-	Finally, the cone sizes have to be chosen. The subjets are set to a radius of $R=0.4$ to be comparable to the CMS standard for subjets, which are AK4 jets. To determine the most suitable radius for the first clustering step, studies of the jet mass are made. A comparison of the jet area in Fig. \ref{fig:JetDisplayR} shows a higher expected misidentification rate for larger cones because of additional radiation or underlying event which leads to high masses especially when yet all decay products end up in the subjets. On the other hand, a small cone may not include all decay products. This effect can also be seen in the jet mass distributions in Fig. \ref{fig:XConeR1}. Based on these studies, the radius parameter is chosen to be $R=1.2$ because of less events in the shoulder around the $W$ mass and a smaller tail.
-
-	%todo sagen, dass das gut funktioniert
+	Finally, the cone sizes have to be chosen. The subjets are set to a radius of $R=0.4$ to be comparable to the CMS standard for subjets, which are AK4 jets. To determine the most suitable radius for the first clustering step, studies of the jet mass are made. A comparison of the jet area in Fig. \ref{fig:JetDisplayR} shows a higher expected misidentification rate for larger cones because of additional radiation or underlying event which leads to high masses especially when yet all decay products end up in the subjets. On the other hand, a small cone may not include all decay products. This effect can also be seen in the jet mass distributions in Fig. \ref{fig:XConeR1}. Based on these studies, the radius parameter is chosen to be $R=1.2$ because of less events in the shoulder around the $W$ mass and a smaller tail.\\
 	To perform the clustering with data, an easier method is tested, where both fat jets contain three subjets '$2+6$'. Afterwards the final jets are analogously categorized into a jet originating from the hadronically and the leptonically decaying top quark. A comparison between the two methods (see Fig \ref{fig:GEN_XCone_comp}) shows that both return almost the same distribution. Thus, the '$2+6$' method is chosen to represent the XCone result.
- 	%todo show deltaR(lepton, fatjet) to show, that categorisation into had and lep works
-	
 	
 	\begin{figure}[tb]
 		\begin{subfigure}{.5\textwidth}
@@ -225,7 +221,6 @@
  	\end{figure}	
 	
 	%todo irriduceble background (deltaR (top, b))
-	%todo vergleich auch mit XCone Softdrop!!! 		
 	
 \section{Studies on Reconstruction Level}
 \label{sec:selection}
@@ -235,20 +230,16 @@
 \label{sec:PreSel}
 	In the lepton+jets channel of the $t\bar{t}$ process one expects to find exactly one muon or electron, two small jets from the hadronically decaying $W$ boson, two b-jets and missing transverse energy since the neutrino cannot be detected. This baseline selection is designed to remove non-$t\bar{t}$ events. Since this analysis focuses on the muon channel, the selection are:
 	\begin{itemize}
-	\item single muon trigger (combination of "HLT\_Mu50\_v*" and "HLT\_TkMu50\_v*") with $p_T > 50\;\text{GeV}$ threshold
-	\item exactly one tight muon with $p_T > 55\;\text{GeV}$ and $|\eta| < 2.4$
-	\item veto on additional leptons
-	\item 2D Cut: $\Delta R(\text{lepton, next AK4 jet}) > 0.4$ or $p_T^{\text{rel}}(\text{lepton, next AK4 jet}) > 40\;\text{GeV}$ \footnote{$p_T^{\text{rel}}(a,b) = \frac{|\vec{p_a} \times \vec{p_b}|}{|\vec{p_b}|}$}
-	\item at least two AK4 jets with $p_T > 50\;\text{GeV}$ and $|\eta| < 2.4$
-	\item $\cancel{E}_T > 50\;\text{GeV}$
-	%\item $S_T^\text{lep} > 100\;\text{GeV}$
-	\item at least one tight b-tag
+	\item single muon trigger (combination of "HLT\_Mu50\_v*" and "HLT\_TkMu50\_v*") with $p_T > 50\;\text{GeV}$ threshold,
+	\item exactly one tight muon with $p_T > 55\;\text{GeV}$ and $|\eta| < 2.4$,
+	\item veto on additional leptons,
+	\item 2D Cut: $\Delta R(\text{lepton, next AK4 jet}) > 0.4$ or $p_T^{\text{rel}}(\text{lepton, next AK4 jet}) > 40\;\text{GeV}$ \footnote{$p_T^{\text{rel}}(a,b) = \frac{|\vec{p_a} \times \vec{p_b}|}{|\vec{p_b}|}$},
+	\item at least two AK4 jets with $p_T > 50\;\text{GeV}$ and $|\eta| < 2.4$,
+	\item $\cancel{E}_T > 50\;\text{GeV}$ and
+	\item at least one tight b-tag.
 
 	\end{itemize}
-	Because the data set corresponding to the called single muon trigger is used in this analysis, the trigger criteria have to be fulfilled in simulation as well. An additional cut on the muon $p_T$ at $55\;\text{GeV}$ is recommended for this trigger to reach the plateau of trigger efficiency. Furthermore, a scale factor is applied to simulation to account for efficiency differences in data and simulation. Since only one lepton is expected in the lepton+jets channel of $t\bar{t}$, a veto on additional leptons is used to suppresses diboson events. To reject QCD events, a two-dimensional cut is applied. A window in the $\Delta R$-$p_T^{\text{rel}}$-plane is cut out where the majority of QCD that survive the lepton criteria accumulates. A display of the 2D cut is presented in Fig. \ref{fig:2D}. The requirements to find two AK4 jets with at least $50\;\text{GeV}$, missing transverse energy of at least $50\;\text{GeV}$ and a b-tag prefer $t\bar{t}$ events because of the similar signature. For b-tagging a scale factor is applied to match efficiency in data and simulation. After applying the selection the remaining events contain about $80\%$ $t\bar{t}$, the main remaining backgrounds are $W+$jets and Single-Top production. 
-	
-	%todo ref muon pt cut recommendation
-	%todo ref Muon Trigger SF
+	Because the data set corresponding to the called single muon trigger is used in this analysis, the trigger criteria have to be fulfilled in simulation as well. An additional cut on the muon $p_T$ at $55\;\text{GeV}$ is recommended \cite{MuonID} for this trigger to reach the plateau of trigger efficiency. Furthermore, a scale factor is applied to simulation to account for efficiency differences in data and simulation. Since only one lepton is expected in the lepton+jets channel of $t\bar{t}$, a veto on additional leptons is used to suppresses diboson events. To reject QCD events, a two-dimensional cut is applied. A window in the $\Delta R$-$p_T^{\text{rel}}$-plane is cut out where the majority of QCD that survive the lepton criteria accumulates. A display of the 2D cut is presented in Fig. \ref{fig:2D}. The requirements to find two AK4 jets with at least $50\;\text{GeV}$, missing transverse energy of at least $50\;\text{GeV}$ and a b-tag prefer $t\bar{t}$ events because of the similar signature. For b-tagging a scale factor is applied to match efficiency in data and simulation. After applying the selection the remaining events contain about $80\%$ $t\bar{t}$, the main remaining backgrounds are $W+$jets and Single-Top production. 
 	%todo Lumi Plot
 
  	\begin{figure}[tb]
@@ -266,12 +257,11 @@
  		\label{fig:2D}
  	\end{figure}
 
- 	After applying the baseline selection, a difference in total number of events between simulation and data  as well as a $p_T$ dependent trend is visible (see Fig. \ref{fig:PreSeljet}), probably coming from a mismodelled top quark $p_T$ distribution. The difference in $p_T$ spectra of the top quark has been observed in several publications, for example in a $t\bar{t}$ differential cross section measurement from CMS \cite{ttreweight}. The observed ration between data and simulation in shown in Fig. \ref{fig:topreweight}. To justify this assumption a reweighting of the top quark $p_T$ spectrum in $t\bar{t}$ simulation is applied according to Fig. \ref{fig:topreweight}. The resulting histograms are presented in Fig. \ref{fig:PreSel_reweight}. In high energy regions simulation still exceeds data. After this procedure, MC and data are well in agreement. Hence, data is well understood at this point and the measurement phase space can be defined on top of the presented baseline selection.
-
- 		
+ 	After applying the baseline selection, a difference in total number of events between simulation and data  as well as a $p_T$ dependent trend is visible (see Fig. \ref{fig:PreSeljet}), probably coming from a mismodelled top quark $p_T$ distribution. The difference in $p_T$ spectra of the top quark has been observed in several publications, for example in a $t\bar{t}$ differential cross section measurement from CMS \cite{ttreweight}. The observed ration between data and simulation in shown in Fig. \ref{fig:topreweight}. To justify this assumption a re-weighting of the top quark $p_T$ spectrum in $t\bar{t}$ simulation is applied according to Fig. \ref{fig:topreweight}. The resulting histograms are presented in Fig. \ref{fig:PreSel_reweight}. In high energy regions simulation still exceeds data. After this procedure, MC and data are well in agreement except for the AK4 jet $p_T$. Here, discrepancy at high energies is visible. This is expected to not be well corrected by the re-weighting since it covers the range from $400\;\text{GeV}$ upwards with only one constant value. This effect is also visible in the measurement phase space discussed below and is one of the simulation properties that could be validated with this analysis.
+ 	 		
  	\begin{figure}[tb]
   		\centering
- 		\includegraphics [width=.65\textwidth, trim=0 0 4cm 0, clip]{../Plots/../Plots/PreSel/08_bTag_jets/pt_jet_log.pdf}
+ 		\includegraphics [width=.65\textwidth, trim=0 0 0 0, clip]{../Plots/../Plots/PreSel/08_bTag_jets/pt_jet_log.pdf}
  		\caption{Transverse momenta of all AK4 jets in the event. A trend in the ratio between data and simulation is observed.}
  		\label{fig:PreSeljet}
  	\end{figure}
@@ -286,32 +276,32 @@
  	\begin{figure}[tb]
  		\begin{subfigure}{.5\textwidth}
   		\centering
-		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/ttbar_reweight_Muon/number_lin.pdf}
+		\includegraphics [width=\textwidth, trim=0 0 0 0, clip]{../Plots/PreSel/ttbar_reweight_Muon/number_lin.pdf}
  		\caption{}
  		\end{subfigure}
  		\begin{subfigure}{.5\textwidth}
   		\centering
- 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/ttbar_reweight_Muon/pt_1_log.pdf}
+ 		\includegraphics [width=\textwidth, trim=0 0 0 0, clip]{../Plots/PreSel/ttbar_reweight_Muon/pt_1_log.pdf}
  		\caption{}
  		\end{subfigure} 		
  		\begin{subfigure}{.5\textwidth}
   		\centering
- 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/ttbar_reweight_Jets/number_lin.pdf}
+ 		\includegraphics [width=\textwidth, trim=0 0 0 0, clip]{../Plots/PreSel/ttbar_reweight_Jets/number_lin.pdf}
  		\caption{}
  		\end{subfigure}
  		\begin{subfigure}{.5\textwidth}
   		\centering
- 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/ttbar_reweight_Jets/pt_jet_log.pdf}
+ 		\includegraphics [width=\textwidth, trim=0 0 0 0, clip]{../Plots/PreSel/ttbar_reweight_Jets/pt_jet_log.pdf}
  		\caption{}
  		\end{subfigure}
 		\begin{subfigure}{.5\textwidth}
   		\centering
- 		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/ttbar_reweight_Event/BTAG_T_lin.pdf}
+ 		\includegraphics [width=\textwidth, trim=0 0 0 0, clip]{../Plots/PreSel/ttbar_reweight_Event/BTAG_T_lin.pdf}
  		\caption{}
  		\end{subfigure} 	
   		\begin{subfigure}{.5\textwidth}
    		\centering
-  		\includegraphics [width=\textwidth, trim=0 0 3cm 0, clip]{../Plots/PreSel/ttbar_reweight_Event/MET_log.pdf}
+  		\includegraphics [width=\textwidth, trim=0 0 0 0, clip]{../Plots/PreSel/ttbar_reweight_Event/MET_log.pdf}
   		\caption{}
   		\end{subfigure}  	 			
  		\caption{Control distributions after applying a reweighting of the top quark $p_T$ in $t\bar{t}$ simulation. Displayed are number of muons (a), $p_T$ spectrum of muons (b), number of AK4 jets (c), $p_T$ distribution of all AK4 jets (d), number of b-tagged AK4 jets (e) and the spectrum of the missing transverse energy (f). }
@@ -323,9 +313,9 @@
 \label{sec:FinalSel}
 	The measurement phase space on reconstruction level is defined analogously to the particle level selection. Boosted topologies are selected by requiring the leading jet to surpass a cut on $p_T > 400\;\text{GeV}$. In addition the mass of the leading jet is expected to be higher then the second jet mass if all top quark decay products are reconstructed correctly. Thus, on top of the baseline selection presented above, following criteria are checked:
 	\begin{itemize}
-	\item only sum subjets with $p_T > 30\;\text{GeV}$ 
-	\item $p_T^{\text{1st jet}} > 400\;\text{GeV}$ 
-	\item $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$
+	\item only sum subjets with $p_T > 30\;\text{GeV}$,
+	\item $p_T^{\text{1st jet}} > 400\;\text{GeV}$ and
+	\item $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$.
 	\end{itemize}
 	In this phase space, the selection criteria refer to XCone jets clustered with the '$2+6$' method.	In addition to the definition on particle level, only subjets with a $p_T$ larger then $30\;\text{GeV}$ are considered to form the final jet. This requirement is set so suppress subjets which do not contain any decay product of the top quark. Figure \ref{fig:MJet_raw1} shows the jet mass distribution after the called jet requirements. Similar as on particle level, XCone returns a peak at the expected bin of the top quark mass. Thus, the reconstruction with XCone jets works very well. As seen after the baseline selection, simulation exceeds the number of events in data. In Fig. \ref{fig:MJet_raw2}, $t\bar{t}$ simulation is scaled with a constant factor to match the total events in data and simulation. A good agreement between data and MC is visible. Of course, further procedure like unfolding will use the unscaled version as input. In addition another variant of jet clustering with XCone is presented in Fig. \ref{fig:MJet_raw3}. Here, the large XCone jet with radius $R=1.2$ is put into the soft drop algorithm. Albeit the grooming of soft drop, the '2+6' method returns a much sharper mass peak. While the turn on of the soft drop mass is comparable with '2+6', there are many event with a mass reconstructed too high.
  	\begin{figure}[tb]
@@ -411,7 +401,6 @@
   		\caption{Lowest jet mass combination $\min(M_{ij})$ without (a) and with (b) JEC applied. The position of the peak is expected to match the $W$ boson mass of $80.4\;\text{GeV}$. The shift after applying JEC shifts $\min(M_{ij})$ to higher values.} 
   		\label{fig:Wmass}
   	\end{figure}	
- 	%todo Resolution (nur nach correction zeigen?)
 	To still be able to correct XCone jets for response non linearities and pile-up effects, a correction factor on top of AK4 corrections is derived for XCone jets. For this, only events from $t\bar{t}$ simulation are used. Furthermore, only the subjets from the jet belonging to the hadronically decaying top quark are considered. Now a matching to generator jets is executed and the fraction $R=\frac{p_T^{\text{rec}}}{p_T^{\text{gen}}}$ calculated. This is done in different $p_T$ and $\eta$ regions. The mean $R$ is then filled in a two dimensional histogram representing the $p_T$-$\eta$-plane (see Fig. \ref{fig:Correction}). The bin boundaries are chosen to obtain enough statistics in each bin to suppress uncertainties (RMS in the appendix in Fig. \ref{fig:A_rms}). 
 		\begin{figure}[tb]
 			\centering
@@ -460,8 +449,7 @@
 \FloatBarrier %draw figures of previous section before the new one starts	
 \subsection{Final Jet Mass Distribution}
 	After the events ran through a baseline selection, a measurement phase space requirement and a new derived jet energy correction, the final jet mass distribution is presented in Fig. \ref{fig:MJet_final}. After scaling $t\bar{t}$ simulation with a constant factor, data and Monte Carlo prediction agree very well. To compare with the $8\;\text{TeV}$ analysis, a jet mass distribution from the paper is shown in Fig. \ref{fig:Torben_MJet}. Here, Cambridge/Aachen jets with a radius parameter of $1.2$ are used, only allowing events with one jet carrying $p_T > 500\;\text{GeV}$. A drastic improvement in peak resolution and statistics is visible in the XCone distribution, promising an improved unfolding output in this $13\;\text{TeV}$ analysis. 
-		 
-  	\begin{figure}[tb]
+	\begin{figure}[h]
   		\centering
  		\begin{tikzpicture}
  		 \node[anchor=south west,inner sep=0] (image) at (0,0)
@@ -471,6 +459,7 @@
   		\caption{Jet mass distribution of the corrected jets clustered with XCone. This distribution will be used as input for further analysis steps.} 
   		\label{fig:MJet_final}
   	\end{figure}	
+  	
 	\begin{figure}[tb]
 		\centering
 		\includegraphics [width=.6\textwidth]{../Plots/Torben/Torben_data_paper.pdf}
@@ -478,7 +467,6 @@
 		\label{fig:Torben_MJet}
 	\end{figure}
 
-  	%todo VERGLEICH mit Torben
 \section{Unfolding}
 \label{sec:unfolding}
 	Most analyses at LHC measure distributions of appropriate variables and then compare the obtained results in data with event simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with an unknown detector function. Studying the difference in MC between particle level and reconstruction level, it is possible to calculate the probabilities that a measured value in a bin $y_i$ is originating from bin $x_i$ on particle level. A visualisation of this problem is drawn in Fig. \ref{fig:Unfolding}.	
@@ -514,6 +502,7 @@
 	The first term $\mathcal{L}_1$ contains a standard least square minimisation where $\mathbf{V_{yy}}$ is the covariance matrix describing uncertainties. Secondly a regularisation with strength $\tau^2$ is used. A bias vector can be introduced using a factor $f_b$ and a vector $\mathbf{x}_0$ to suppress deviations of $\mathbf{x}$ from $f_b\mathbf{x}_0$. Additionally, three choices for the matrix $\mathbf{L}$ can be made to either regularise the absolute value, first or second derivative of $\mathbf{x}$. The final term $\mathcal{L}_3$ expresses an optional area constraint, checking differences in event counts between input and output.
 	
 \subsection{Migration Matrix}
+\label{sec:migrations}
 	To perform an unfolding, a migration matrix has to be filled. A matrix entry $A_{ij}$ contains the number of events that is generated in bin $i$ and reconstructed in bin $j$. Thus, a projection on one dimension returns either the jet mass distribution on particle or reconstruction level. Only events from the $t\bar{t}$ samples are considered to construct the matrix. If an event passes the particle level selection (see section \ref{sec:GenSel}) and reconstruction level selection (see sections \ref{sec:PreSel} and \ref{sec:FinalSel}) it is filled in the according bin. To account for events that pass only one selection underflow bins are used, while jet masses above $400\;\text{GeV}$ are filled into overflow bins. Furthermore it has to be accounted for different weights because corrections like trigger and b-tagging scale factors as well as pile-up re-weighting are only applied on reconstruction level. Thus, the weight applied to an event is split into a generator level weight and a reconstruction level weight as shown in Eq. \ref{eq:weight}.	
 	\begin{equation}
 	\text{event weight} = \text{gen weight} \cdot \text{reco weight}
@@ -533,52 +522,87 @@
 		\label{fig:Migration}
 	\end{figure}
 	
-
-		
-	 %todo Correlations beschreiben
 	
 \subsection{Closure Tests}
 	%todo show projections?
-	Two tests unfolding Monte Carlo samples are performed in this analysis. Firstly, a MC sample is unfolded with it self. Since the L-curve scan does not work when using statistically dependent samples, a $\tau$ value is set manually. Nevertheless, the output distribution of TUnfold is expected to exactly match the particle level distribution. The comparison presented in Fig \ref{fig:Unfolding_same} shows an exact accordance and proves a correct filling of the migration matrix. Another approach to furthermore test the L-curve scan is to split the MC sample into two statistically independent parts. Therefore $10\%$ are randomly selected and saved as pseudo data, while the other $90\%$ are used to construct the migration matrix. TIdeally, not one split, but two completely independent MC are used for this closure test. Because these are not available for this analysis, scale variations are used to bias the pseudo data distribution and investigate the behaviour of the unfolding procedure.
-	%todo upscale plot und beschreiben
-	%todo normaleer plot und beschreiben
-	%todo downscale plot und beschreiben
-	
- 
-	This test shows agreement within uncertainties as well, indicating a well working unfolding procedure which can be applied to data. 
+	Two tests unfolding Monte Carlo samples are performed in this analysis. Firstly, a MC sample is unfolded with it self. Since the L-curve scan does not work when using statistically dependent samples, a $\tau$ value is set manually. Nevertheless, the output distribution of TUnfold is expected to exactly match the particle level distribution. The comparison presented in Fig \ref{fig:Unfolding_same} shows an exact accordance and proves a correct filling of the migration matrix. Another approach to furthermore test the L-curve scan is to split the MC sample into two statistically independent parts. Therefore $10\%$ are randomly selected and saved as pseudo data, while the other $90\%$ are used to construct the migration matrix. The splitting is performed four times, with every pseudo data set containing different events. The unfolded pseudo data is compared to its distribution on particle level, referred to as truth, and to the particle level distribution of the sample used to fill the migration matrix. In all bins except the peak, unfolded distribution and truth agree very well, indicating a working setup. \\
+	A further test is presented to check the unfolding for model dependence. Again, the MC sample is split, but now the renormalisation and factorisation scales are varied in the pseudo data set. Figure \ref{fig:Unfolding_split_scale} shows the unfolded distribution of pseudo data with both scales varied up and down. Here, a biases above (scaled up) and below (scaled down) the particle level distribution are visible, especially in the peak. Thus, the current unfolding setup is biased by different modelled inputs. This can be explained with the reconstruction selection efficiency. Since only about $15\%$ of events that passed the particle level selection also pass the reconstruction level selection, the unfolding is much influenced by one underflow bin of the migration matrix. As the $8\;\text{TeV}$ analysis showed  \cite{torben_paper}, this effect can be compensated by include migrations from lower $p_T$ thresholds into the matrix. For this analysis in the current status, a model uncertainty is calculated from the difference of the unfolded distribution and its truth in every bin. Here, the maximum difference of both scale variations is considered and then included into the unfolding of data.
 	
 	\begin{figure}[tb]
 		\centering
-		\includegraphics [width=.6\textwidth]{../Plots/Unfolding/MC_Same/Unfold.pdf}
-		\caption{Unfolding of a MC sample with itself.}
+		\includegraphics [width=.55\textwidth]{../Plots/Unfolding/MC_Same/Unfold.pdf}
+		\caption{Unfolding of a MC sample with itself. An exact agreement between unfolded distribution and its truth is observed, validating a correctly filled migration matrix.}
 		\label{fig:Unfolding_same}
-	\end{figure}
+	\end{figure}	
+	
 
+	
 	\begin{figure}[tb]
 		\centering
-		\includegraphics [width=.6\textwidth]{../Plots/Unfolding/MC_Split/Unfold.pdf}
-		\caption{Unfolding of a MC sample with a statistical independent one.}
-		\label{fig:Unfolding_split}
-	\end{figure}
+		\includegraphics [width=.55\textwidth]{../Plots/Unfolding/MC_Split_all/Unfold.pdf}
+		\caption{A unfolding with a MC sample split into $10\%$ pseudo data and $90\%$ to fill the migration matrix is performed four times with different events selected to be pseudo data every time. Every unfolding output is compared with a particle level distribution of the $90\%$ Monte Carlo whose uncertainty is represented by the line thickness. Fluctuations around the truth distribution is observed, probably arising from the simple migration matrix.}
+		\label{fig:Unfolding_split1234}
+	\end{figure}		
+	
+	\begin{figure}[tb]
+		\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics [width=\textwidth]{../Plots/Unfolding/MC_Split_up/Unfold.pdf}
+		\caption{}
+		\label{fig:Unfolding_split_up}
+		\end{subfigure}
+		\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics [width=\textwidth]{../Plots/Unfolding/MC_Split_down/Unfold.pdf}
+		\caption{}
+		\label{fig:Unfolding_split_down}
+		\end{subfigure}		
+		\caption{Unfolding with statistically independent MC samples where the renormalisation and factorisation scale in the pseodo data set is scalled up (a) and down (b). Is is compared with its truth distribution and a truth distribution of the sample used to fill the migration matrix.}
+		\label{fig:Unfolding_split_scale}
+	\end{figure}	
 	
 \FloatBarrier %draw figures of previous section before the new one starts	
 \subsection{Unfolding of Data}
-	To perform an unfolding with data, background events have to be subtracted to obtain $t\bar{t}$ data only. For this procedure, backgrounds estimated from simulation are used. The subtraction is implemented and performed by the TUnfold software package. 
-	\begin{figure}[tb]
+	Despite a preliminary migration matrix, a first test to unfold data is presented. Prior to the unfolding, background processes estimated from simulation are subtracted within the TUnfold software package. The unfolded distribution is depicted in comparison with the particle level distribution of the migration Monte Carlo in Fig. \ref{fig:Unfolding_data}. Alongside statistical uncertainties, indicated by the inner bars, the model uncertainty derived above is quadratically added after the unfolding, creating the outer error bars. Within the large uncertainties, the unfolded data agrees well with the MC truth. A more elaborate migration matrix is needed to damp these uncertainties which will be included in the future. In addition, a  matrix filled with statistical uncertainties of the unfolding is shown in Fig. \ref{fig:Correlations}. A diagonal structure with anti-correlated nearby bins is visible, indicating a basically well performing unfolding. 
+	
+	\begin{figure}[h]
+		\begin{subfigure}{.5\textwidth}
 		\centering
-		\includegraphics [width=.6\textwidth]{../Plots/Unfolding/Data/Unfold.pdf}
-		\caption{Unfolding of Data with the full MC sample.}
+		\includegraphics [width=\textwidth]{../Plots/Unfolding/Data/Unfold.pdf}
+		\caption{}
 		\label{fig:Unfolding_data}
+		\end{subfigure}		
+		\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics [width=\textwidth]{../Plots/Unfolding/Data/Correlations.pdf}
+		\caption{}
+		\label{fig:Correlations}		
+		\end{subfigure}	
+		\caption{Unfolded data with migrations discussed in section \ref{sec:migrations} compared with the particle level distribution of the simulation used to fill the matrix is presented in (a). The inner error bars show statistical uncertainties while the outer errors include the model uncertainties derived from scale variations. The correlation matrix, containing statistical uncertainties is displayed in (b).}
 	\end{figure}
 	
-	\begin{figure}[tb]
-		\centering
-		\includegraphics [width=.6\textwidth]{../Plots/Unfolding/Data/Correlations.pdf}
-		\caption{}
-		\label{fig:Correlations}
-	\end{figure}	
-	%todo diskutiere plot
+
 \section{Results}
 \label{sec:results}
-%todo nochmal phasenraum hinschreiben
-
+	After a baseline selection of a preferably pure $t\bar{t}$ sample, XCone jets are clustered to reconstruct top quark decays. The measurement phase space, selecting boosted top quarks is defined via two criteria:
+	\begin{itemize}
+	\item $p_T^{\text{1st jet}} > 400\;\text{GeV}$ and
+	\item $M^{\text{1st jet}} > M^{\text{2nd jet + lepton}}$.
+	\end{itemize}
+	With this, the top quark decay can be reconstructed very well as depicted in Fig. \ref{fig:Result1}. The jet mass distribution is sensitive to the top quark mass, while obtaining an excellent resolution and high statistics. Based on this distribution, an unfolding is performed, using simulation information to fill a migration matrix. The unfolding procedure is tested and validated with pseudo data and finally applied to data. Figure \ref{fig:Result2} shows the unfolded distribution. Further improvements are expected with a more elaborate phase space in the migration matrix and a closer look into binning schemes. Nevertheless, this result shows the capability of this method and proofs a working unfolding set up.  
+	
+	\begin{figure}[tb]
+		\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics [width=1.05\textwidth, trim=0 0 5cm 0, clip]{../Plots/PostSel/XCone_cor_SF/M_jet1__lin.pdf}
+ 		\caption{}
+		\label{fig:Result1}		
+		\end{subfigure}		
+		\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics [width=.95\textwidth,  trim=0 0.4cm 0 0, clip]{../Plots/Unfolding/Data/Unfold.pdf}
+		\caption{}
+		\label{fig:Result2}
+		\end{subfigure}		
+		\caption{As a result of this analysis, the unfolded data distribution (a) and the reconstructed jet mass (b) are shown.}
+	\end{figure}

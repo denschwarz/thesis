@@ -570,7 +570,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}}
-    \field{note}{[Online; accessed May 23, 2017]}
+    \field{note}{[Cern Twiki; Topic revision: r121 - 2017-06-26]}
     \field{title}{{Delivered Luminosity versus time for 2010, 2011, 2012, 2015
   and 2016}}
   \endentry
@@ -783,7 +783,7 @@
     \field{labeltitlesource}{title}
     \field{howpublished}{\url
   {https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideMuonIdRun2}}
-    \field{note}{[Online; accessed May 29, 2017]}
+    \field{note}{[Cern Twiki; Topic revision: r28 - 2017-01-09]}
     \field{title}{{Muon ID}}
   \endentry
 
@@ -800,7 +800,7 @@
     \field{labeltitlesource}{title}
     \field{howpublished}{\url
   {https://twiki.cern.ch/twiki/bin/view/CMSPublic/EgammaPublicData}}
-    \field{note}{[Online; accessed May 29, 2017]}
+    \field{note}{[Cern Twiki; Topic revision: r5 - 2016-04-22]}
     \field{title}{{Electron ID}}
   \endentry
 
@@ -1115,6 +1115,22 @@
     \field{year}{2016}
   \endentry
 
+  \entry{btagperf}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{The CMS Collaboration}},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagRecommendation}}
+    \field{note}{[Cern Twiki; Topic revision: r23 - 2016-12-14]}
+    \field{title}{{Btag Recommendation}}
+  \endentry
+
   \entry{CMSlumi}{misc}{}
     \name{author}{1}{}{%
       {{hash=T}{%
@@ -1221,7 +1237,7 @@
     \field{labeltitlesource}{title}
     \field{howpublished}{\url
   {https://twiki.cern.ch/twiki/pub/CMSPublic/PhysicsResultsTOPSummaryFigures/TopPt\_DATA\_PWHGP8.pdf}}
-    \field{note}{[Online; accessed June 22, 2017]}
+    \field{note}{[Cern Twiki; Topic revision: r370 - 2017-02-07]}
     \field{title}{{Ratio between 13 TeV data and Powheg+Pythia8 simulation for
   the differential top quark pair cross section as a function of pT of the top
   quark. }}
