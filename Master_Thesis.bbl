@@ -124,8 +124,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -141,18 +141,13 @@
 
   \entry{topD0}{article}{}
     \name{author}{1}{}{%
-      {{hash=rSAeaTDC}{%
-         prefix={\relax},
-         prefixi={r\bibinitperiod},
-         family={S.\bibnamedelima Abachi},
-         familyi={S\bibinitperiod\bibinitdelim A\bibinitperiod},
-         given={et\bibnamedelima al. (The D0\bibnamedelima Collaboration)},
-         giveni={e\bibinitperiod\bibinitdelim a\bibinitperiod T\bibinitperiod
-  D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=S}{%
+         family={{S. Abachi, et al. (The D0 Collaboration)}},
+         familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{SAeaTDCr1}
-    \strng{fullhash}{SAeaTDCr1}
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -335,6 +330,30 @@
     \field{year}{2007}
   \endentry
 
+  \entry{geant4}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=AS}{%
+         family={Agostinelli},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AS+1}
+    \strng{fullhash}{AS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/S0168-9002(03)01368-8
+    \endverb
+    \field{pages}{250\bibrangedash 303}
+    \field{title}{{GEANT4: A Simulation toolkit}}
+    \field{volume}{A506}
+    \field{journaltitle}{Nucl. Instrum. Meth.}
+    \field{year}{2003}
+  \endentry
+
   \entry{ewfit}{misc}{}
     \name{author}{2}{}{%
       {{hash=BM}{%
@@ -363,30 +382,14 @@
   \endentry
 
   \entry{topmass_combination}{misc}{}
-    \name{author}{4}{}{%
-      {{hash=rTA}{%
-         prefix={\relax},
-         prefixi={r\bibinitperiod},
-         family={The\bibnamedelima ATLAS},
-         familyi={T\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=C}{%
-         family={CDF},
-         familyi={C\bibinitperiod},
-      }}%
-      {{hash=C}{%
-         family={CMS},
-         familyi={C\bibinitperiod},
-      }}%
-      {{hash=CD}{%
-         family={Collaborations},
-         familyi={C\bibinitperiod},
-         given={D},
-         giveni={D},
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={{ The ATLAS and CDF and CMS and D0 Collaborations}},
+         familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{TArCC+1}
-    \strng{fullhash}{TArCCCD1}
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{eprint}
@@ -498,8 +501,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{eprint}
@@ -565,8 +568,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}}
@@ -582,8 +585,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T1}
-    \strng{fullhash}{T1}
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -605,8 +608,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -628,8 +631,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{http://cms.web.cern.ch/news/cms-detector-design}}
@@ -668,8 +671,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -691,8 +694,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{series}{Technical Design Report CMS}
@@ -713,8 +716,8 @@
     \list{publisher}{1}{%
       {CERN}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{series}{Technical Design Report CMS}
@@ -777,8 +780,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url
@@ -794,8 +797,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url
@@ -1059,8 +1062,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{number}{11}
@@ -1082,8 +1085,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{number}{04}
@@ -1122,8 +1125,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagRecommendation}}
@@ -1138,8 +1141,8 @@
          familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
+    \strng{namehash}{T4}
+    \strng{fullhash}{T4}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://cms-service-lumi.web.cern.ch/cms-service-lumi/publicplots/int_lumi_per_day_cumulative_pp_2016.png}}

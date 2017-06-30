@@ -1,21 +1,23 @@
+% !TEX root = Master_Thesis.tex
 \appendix
 \chapter{Jet Energy Corrections for XCone}
 	After applying AK4 jet energy correction to the XCone subjets, an additional correction is derived to account for slight differences in XCone and Anti-$k_T$ jets. While figure \ref{fig:A_mean} shows the ratios between jet $p_T$ on reconstruction and particle level in the $\eta$-$p_T$-plane, Fig. \ref{fig:A_rms} shows the belonging RMS width. Since the width shows small values, each bin contains enough statistics to derive a correction factor. In every $\eta$ bin a $p_T$ dependent function is fitted to obtain a smooth correction. All separate fits are displayed in Fig. \ref{fig:A_fits}. 
 
 	\begin{figure}[h]
+	\begin{subfigure}{\textwidth}
 		\centering
-		\includegraphics [width=.6\textwidth]{../Plots/Correction/Mean_numbers}
-		\caption{Mean of the ratio between jet $p_T$ on reconstruction and particle level.}
+		\includegraphics [width=.9\textwidth]{../Plots/Correction/Mean_numbers}
+		\caption{}
 		\label{fig:A_mean}
-	\end{figure}
-	
-	\begin{figure}[h]
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
 		\centering
-		\includegraphics [width=.6\textwidth]{../Plots/Correction/RMS_numbers}
-		\caption{RMS values of $R=\frac{p_T^{\text{rec}}}{p_T^{\text{gen}}}$ in the $p_T$-$\eta$ plane. The values are small compared with the mean, confirming enough statistics in each bin.}
+		\includegraphics [width=.9\textwidth]{../Plots/Correction/RMS_numbers}
+		\caption{}
 		\label{fig:A_rms}
-	\end{figure}	
-	
+	\end{subfigure}	
+	\caption{Mean (a) and RMS (b) values of $R=\frac{p_T^{\text{rec}}}{p_T^{\text{gen}}}$ in each $p_T$-$\eta$ region. The RMS values are small compared with the mean, confirming enough statistics in each bin.}	
+	\end{figure}		
 	\begin{figure}[h]
 		\centering
 		\includegraphics [width=.97\textwidth, trim=0 0 0 .3cm, clip]{../Plots/Correction/Fits}

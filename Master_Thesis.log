@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  28 JUN 2017 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  30 JUN 2017 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1533,10 +1533,10 @@ Package biblatex Info: Reference segment=0 on input line 102.
 
 (./Titlepage.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 36
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 37
 .
 
 (/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
@@ -1546,35 +1546,35 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 36
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 37
 .
 
 (/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 36
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 37
 .
 
 (/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 36
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 37
 .
 
 (/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 36.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 37.
 
 (/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 
 (/home/schwarzd/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1582,7 +1582,7 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/home/schwarzd/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 36.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 37.
 
 (/home/schwarzd/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1591,16 +1591,16 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 File: ../Logos/UHHlogo.png Graphic file (type png)
 
 <use ../Logos/UHHlogo.png>
-Package pdftex.def Info: ../Logos/UHHlogo.png used on input line 40.
+Package pdftex.def Info: ../Logos/UHHlogo.png used on input line 41.
 (pdftex.def)             Requested size: 125.47418pt x 125.29254pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 51.
+(babel)             in language  on input line 52.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 51.
+(babel)             in language  on input line 52.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 51.
+(babel)             in language  on input line 52.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 51.
+(babel)             in language  on input line 52.
  [1
 
 
@@ -1655,7 +1655,7 @@ File: ../Images/Standard_Model_of_Elementary_Particles.pdf Graphic file (type p
 df)
  <use ../Images/Standard_Model_of_Elementary_Particles.pdf>
 Package pdftex.def Info: ../Images/Standard_Model_of_Elementary_Particles.pdf u
-sed on input line 14.
+sed on input line 15.
 (pdftex.def)             Requested size: 313.69029pt x 272.15646pt.
  [3
 
@@ -1664,238 +1664,242 @@ sed on input line 14.
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 19.
- [4 <../Images/Standard_Model_of_Elementary_Particles.pdf>]
-Underfull \vbox (badness 1221) has occurred while \output is active []
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
 
- [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <../Images/Standard_Model_of_Elementary_Particles.pdf>] [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-[7]
+[7] [8]
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 112.
+tance' requires LuaTeX. It will be ignored. on input line 116.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 112.
+stance' requires LuaTeX. It will be ignored. on input line 116.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 112.
+distance' requires LuaTeX. It will be ignored. on input line 116.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 118.
+tance' requires LuaTeX. It will be ignored. on input line 122.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 118.
+stance' requires LuaTeX. It will be ignored. on input line 122.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 118.
+distance' requires LuaTeX. It will be ignored. on input line 122.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 131.
+tance' requires LuaTeX. It will be ignored. on input line 135.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 131.
+stance' requires LuaTeX. It will be ignored. on input line 135.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 131.
+distance' requires LuaTeX. It will be ignored. on input line 135.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 137.
+tance' requires LuaTeX. It will be ignored. on input line 141.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 137.
+stance' requires LuaTeX. It will be ignored. on input line 141.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 137.
+distance' requires LuaTeX. It will be ignored. on input line 141.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 150.
+tance' requires LuaTeX. It will be ignored. on input line 154.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 150.
+stance' requires LuaTeX. It will be ignored. on input line 154.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 150.
+distance' requires LuaTeX. It will be ignored. on input line 154.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 156.
+tance' requires LuaTeX. It will be ignored. on input line 160.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 156.
+stance' requires LuaTeX. It will be ignored. on input line 160.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 156.
+distance' requires LuaTeX. It will be ignored. on input line 160.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 169.
+tance' requires LuaTeX. It will be ignored. on input line 173.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 169.
+stance' requires LuaTeX. It will be ignored. on input line 173.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 169.
+distance' requires LuaTeX. It will be ignored. on input line 173.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 175.
+tance' requires LuaTeX. It will be ignored. on input line 179.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 175.
+stance' requires LuaTeX. It will be ignored. on input line 179.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 175.
+distance' requires LuaTeX. It will be ignored. on input line 179.
 
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 190.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 194.
 
 (/home/schwarzd/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [8]
+) [9]
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 200.
+tance' requires LuaTeX. It will be ignored. on input line 204.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 200.
+stance' requires LuaTeX. It will be ignored. on input line 204.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 200.
+distance' requires LuaTeX. It will be ignored. on input line 204.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 206.
+tance' requires LuaTeX. It will be ignored. on input line 210.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 206.
+stance' requires LuaTeX. It will be ignored. on input line 210.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 206.
+distance' requires LuaTeX. It will be ignored. on input line 210.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 219.
+tance' requires LuaTeX. It will be ignored. on input line 223.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 219.
+stance' requires LuaTeX. It will be ignored. on input line 223.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 219.
+distance' requires LuaTeX. It will be ignored. on input line 223.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 226.
+tance' requires LuaTeX. It will be ignored. on input line 230.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 226.
+stance' requires LuaTeX. It will be ignored. on input line 230.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 226.
+distance' requires LuaTeX. It will be ignored. on input line 230.
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 197--236
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 201--240
 []$[]$ $[]$ 
  []
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 243.
+tance' requires LuaTeX. It will be ignored. on input line 247.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 243.
+stance' requires LuaTeX. It will be ignored. on input line 247.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 243.
+distance' requires LuaTeX. It will be ignored. on input line 247.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 255.
+tance' requires LuaTeX. It will be ignored. on input line 259.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 255.
+stance' requires LuaTeX. It will be ignored. on input line 259.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 255.
+distance' requires LuaTeX. It will be ignored. on input line 259.
 
-[9] [10] [11]) [12]
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11])
+[12] [13]
 \openout2 = `Measurement_Boosted.aux'.
 
- (./Measurement_Boosted.tex
+ (./Measurement_Boosted.tex [14
+
+
+
+
+]
 Chapter 3.
 
-Overfull \hbox (9.15344pt too wide) in paragraph at lines 1--1
+Overfull \hbox (9.15344pt too wide) in paragraph at lines 2--2
 |\T1/ptm/b/n/24.88 3  []|[]  Mea-sure-ment of the Top Quark Mass| 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13
-
-
-
-
-]
-[14]
-<../Plots/Torben/Torben_result_paper.pdf, id=522, 569.12625pt x 569.12625pt>
+ [15]
+[16]
+<../Plots/Torben/Torben_result_paper.pdf, id=532, 569.12625pt x 569.12625pt>
 File: ../Plots/Torben/Torben_result_paper.pdf Graphic file (type pdf)
 
 <use ../Plots/Torben/Torben_result_paper.pdf>
 Package pdftex.def Info: ../Plots/Torben/Torben_result_paper.pdf used on input 
-line 21.
+line 22.
 (pdftex.def)             Requested size: 224.06548pt x 224.06859pt.
 
-<../Plots/Torben/Torben_error_paper.pdf, id=523, 569.12625pt x 569.12625pt>
+<../Plots/Torben/Torben_error_paper.pdf, id=533, 569.12625pt x 569.12625pt>
 File: ../Plots/Torben/Torben_error_paper.pdf Graphic file (type pdf)
 
 <use ../Plots/Torben/Torben_error_paper.pdf>
 Package pdftex.def Info: ../Plots/Torben/Torben_error_paper.pdf used on input l
-ine 27.
+ine 28.
 (pdftex.def)             Requested size: 224.06548pt x 224.06859pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 19--31
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 20--32
 []$[]$ $[]$ 
  []
 
-) [15 <../Plots/Torben/Torben_result_paper.pdf> <../Plots/Torben/Torben_error_p
+) [17 <../Plots/Torben/Torben_result_paper.pdf> <../Plots/Torben/Torben_error_p
 aper.pdf>]
 \openout2 = `Experiment.aux'.
 
- (./Experiment.tex [16
+ (./Experiment.tex [18
 
 
 
@@ -1903,35 +1907,35 @@ aper.pdf>]
 ]
 Chapter 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-<../Images/lhc.jpg, id=629, 1040.688pt x 735.7086pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+<../Images/lhc.jpg, id=640, 1040.688pt x 735.7086pt>
 File: ../Images/lhc.jpg Graphic file (type jpg)
  <use ../Images/lhc.jpg>
-Package pdftex.def Info: ../Images/lhc.jpg used on input line 9.
+Package pdftex.def Info: ../Images/lhc.jpg used on input line 10.
 (pdftex.def)             Requested size: 448.13095pt x 316.80879pt.
 
-[17]
+[19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18 <../Images/lhc.jpg>] <../Plots/LHC_Lumi.png, id=656, 578.16pt x 433.62pt>
+ [20 <../Images/lhc.jpg>] <../Plots/LHC_Lumi.png, id=666, 578.16pt x 433.62pt>
 File: ../Plots/LHC_Lumi.png Graphic file (type png)
 
 <use ../Plots/LHC_Lumi.png>
 Package pdftex.def Info: ../Plots/LHC_Lumi.png used on input line 31.
 (pdftex.def)             Requested size: 358.50612pt x 268.8747pt.
 
-<../Images/CMS_Full.png, id=664, 3189.9175pt x 2253.41875pt>
+<../Images/CMS_Full.png, id=674, 3189.9175pt x 2253.41875pt>
 File: ../Images/CMS_Full.png Graphic file (type png)
 
 <use ../Images/CMS_Full.png>
 Package pdftex.def Info: ../Images/CMS_Full.png used on input line 42.
 (pdftex.def)             Requested size: 425.72302pt x 300.72559pt.
- [19 <../Plots/LHC_Lumi.png>] [20 <../Images/CMS_Full.png>] <../Images/Tracker.
-png, id=688, 1718.42pt x 831.105pt>
+ [21 <../Plots/LHC_Lumi.png>] [22 <../Images/CMS_Full.png>] <../Images/Tracker.
+png, id=698, 1718.42pt x 831.105pt>
 File: ../Images/Tracker.png Graphic file (type png)
 
 <use ../Images/Tracker.png>
@@ -1940,472 +1944,470 @@ Package pdftex.def Info: ../Images/Tracker.png used on input line 71.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-[22 <../Images/Tracker.png>] [23] [24]) [25]
+ [23]
+[24 <../Images/Tracker.png>] [25] [26]) [27]
 \openout2 = `Reconstruction.aux'.
 
- (./Reconstruction.tex [26
+ (./Reconstruction.tex [28
 
 
 
 
 ]
 Chapter 5.
-<../Images/CMS_Slice_white.png, id=732, 6022.5pt x 3982.88pt>
+<../Images/CMS_Slice_white.png, id=742, 6022.5pt x 3982.88pt>
 File: ../Images/CMS_Slice_white.png Graphic file (type png)
 
 <use ../Images/CMS_Slice_white.png>
-Package pdftex.def Info: ../Images/CMS_Slice_white.png used on input line 12.
+Package pdftex.def Info: ../Images/CMS_Slice_white.png used on input line 13.
 (pdftex.def)             Requested size: 336.0982pt x 222.2497pt.
- [27] [28 <../Images/CMS_Slice_white.png>]
-[29]
+ [29] [30 <../Images/CMS_Slice_white.png>]
+[31]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 48.
+(hyperref)                removing `math shift' on input line 49.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 48.
+(hyperref)                removing `subscript' on input line 49.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 48.
+(hyperref)                removing `math shift' on input line 49.
 
-<../Plots/AK_jetshape.png, id=763, 552.0625pt x 425.59pt>
+<../Plots/AK_jetshape.png, id=773, 552.0625pt x 425.59pt>
 File: ../Plots/AK_jetshape.png Graphic file (type png)
 
 <use ../Plots/AK_jetshape.png>
-Package pdftex.def Info: ../Plots/AK_jetshape.png used on input line 62.
+Package pdftex.def Info: ../Plots/AK_jetshape.png used on input line 63.
 (pdftex.def)             Requested size: 224.06548pt x 172.73315pt.
 
-<../Plots/CA_jetshape.png, id=764, 575.14874pt x 436.63126pt>
+<../Plots/CA_jetshape.png, id=774, 575.14874pt x 436.63126pt>
 File: ../Plots/CA_jetshape.png Graphic file (type png)
 
 <use ../Plots/CA_jetshape.png>
-Package pdftex.def Info: ../Plots/CA_jetshape.png used on input line 68.
+Package pdftex.def Info: ../Plots/CA_jetshape.png used on input line 69.
 (pdftex.def)             Requested size: 224.06548pt x 169.007pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 60--72
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 61--73
 []$[]$ $[]$ 
  []
 
-[30]
+[32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <../Plots/CA_jetshape.png> <../Plots/AK_jetshape.png>] [32]
-<../Plots/XCone_Overlap.png, id=806, 867.24pt x 758.835pt>
+ [33 <../Plots/CA_jetshape.png> <../Plots/AK_jetshape.png>] [34]
+<../Plots/XCone_Overlap.png, id=816, 867.24pt x 758.835pt>
 File: ../Plots/XCone_Overlap.png Graphic file (type png)
 
 <use ../Plots/XCone_Overlap.png>
-Package pdftex.def Info: ../Plots/XCone_Overlap.png used on input line 125.
+Package pdftex.def Info: ../Plots/XCone_Overlap.png used on input line 126.
 (pdftex.def)             Requested size: 268.8813pt x 235.27115pt.
- [33 <../Plots/XCone_Overlap.png>]
+ [35 <../Plots/XCone_Overlap.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34])
-[35]
+ [36])
+[37]
 \openout2 = `Data_MC.aux'.
 
- (./Data_MC.tex [36
+ (./Data_MC.tex [38
 
 
 
 
 ]
 Chapter 6.
-<../Plots/CMS_Lumi.pdf, id=843, 578.16pt x 433.62pt>
+<../Plots/CMS_Lumi.pdf, id=853, 578.16pt x 433.62pt>
 File: ../Plots/CMS_Lumi.pdf Graphic file (type pdf)
 
 <use ../Plots/CMS_Lumi.pdf>
-Package pdftex.def Info: ../Plots/CMS_Lumi.pdf used on input line 8.
+Package pdftex.def Info: ../Plots/CMS_Lumi.pdf used on input line 9.
 (pdftex.def)             Requested size: 224.06548pt x 168.04585pt.
 
-Overfull \hbox (30.26929pt too wide) in paragraph at lines 19--65
+Overfull \hbox (30.26929pt too wide) in paragraph at lines 20--66
  [][] 
  []
 
 )
 Underfull \vbox (badness 3058) has occurred while \output is active []
 
- [37 <../Plots/CMS_Lumi.pdf>] [38] [39]
+ [39 <../Plots/CMS_Lumi.pdf>] [40] [41]
 \openout2 = `Analysis.aux'.
 
- (./Analysis.tex [40
+ (./Analysis.tex [42
 
 
 
 
 ]
 Chapter 7.
-[41]
+[43] [44]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 29.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 29.
+(hyperref)                removing `math shift' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 29.
+(hyperref)                removing `subscript' on input line 31.
 
-[42] <../Plots/GenStudies/AK08_matching.pdf, id=964, 569.12625pt x 546.04pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 31.
+
+<../Plots/GenStudies/AK08_matching.pdf, id=974, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/AK08_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/AK08_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/AK08_matching.pdf used on input li
-ne 36.
+ne 38.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/AK12_matching.pdf, id=965, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/AK12_matching.pdf, id=975, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/AK12_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/AK12_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/AK12_matching.pdf used on input li
-ne 42.
+ne 44.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 34--46
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 36--48
 []$[]$ $[]$ 
  []
 
 
-<../Plots/GenStudies/AK08softdrop_matching.pdf, id=966, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/AK08softdrop_matching.pdf, id=976, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/AK08softdrop_matching.pdf Graphic file (type pdf)
 <use ../Plots/GenStudies/AK08softdrop_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/AK08softdrop_matching.pdf used on 
-input line 52.
+input line 54.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 File: ../Plots/GenStudies/AK08_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/AK08_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/AK08_matching.pdf used on input li
-ne 58.
+ne 60.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 50--62
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 52--64
 []$[]$ $[]$ 
  []
 
-[43] <../Plots/GenStudies/HOTVR_matching.pdf, id=978, 569.12625pt x 546.04pt>
+[45] [46 <../Plots/GenStudies/AK08_matching.pdf, page is rotated 90 degrees> <.
+./Plots/GenStudies/AK12_matching.pdf, page is rotated 90 degrees> <../Plots/Gen
+Studies/AK08softdrop_matching.pdf, page is rotated 90 degrees>]
+<../Plots/GenStudies/HOTVR_matching.pdf, id=1121, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/HOTVR_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/HOTVR_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/HOTVR_matching.pdf used on input l
-ine 72.
-(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
+ine 75.
+(pdftex.def)             Requested size: 268.8813pt x 257.98027pt.
 
-<../Plots/GenStudies/HOTVRrho600_matching.pdf, id=979, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/HOTVRrho600_matching.pdf, id=1122, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/HOTVRrho600_matching.pdf Graphic file (type pdf)
-
 <use ../Plots/GenStudies/HOTVRrho600_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/HOTVRrho600_matching.pdf used on i
-nput line 80.
+nput line 83.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/HOTVRrho500_matching.pdf, id=980, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/HOTVRrho500_matching.pdf, id=1123, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/HOTVRrho500_matching.pdf Graphic file (type pdf)
-
 <use ../Plots/GenStudies/HOTVRrho500_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/HOTVRrho500_matching.pdf used on i
-nput line 86.
+nput line 89.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/HOTVRrho400_matching.pdf, id=981, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/HOTVRrho400_matching.pdf, id=1124, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/HOTVRrho400_matching.pdf Graphic file (type pdf)
-
 <use ../Plots/GenStudies/HOTVRrho400_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/HOTVRrho400_matching.pdf used on i
-nput line 92.
+nput line 95.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/GenStudies/HOTVRrho300_matching.pdf, id=982, 569.12625pt x 546.04pt>
+<../Plots/GenStudies/HOTVRrho300_matching.pdf, id=1125, 569.12625pt x 546.04pt>
 File: ../Plots/GenStudies/HOTVRrho300_matching.pdf Graphic file (type pdf)
-
 <use ../Plots/GenStudies/HOTVRrho300_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/HOTVRrho300_matching.pdf used on i
-nput line 98.
+nput line 101.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 78--102
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 81--105
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 78--102
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 81--105
 []$ $[]$ 
- []
-
-[44 <../Plots/GenStudies/AK08_matching.pdf, page is rotated 90 degrees> <../Plo
-ts/GenStudies/AK12_matching.pdf, page is rotated 90 degrees>] [45 <../Plots/Gen
-Studies/AK08softdrop_matching.pdf, page is rotated 90 degrees> <../Plots/GenStu
-dies/HOTVR_matching.pdf, page is rotated 90 degrees>] [46 <../Plots/GenStudies/
-HOTVRrho600_matching.pdf, page is rotated 90 degrees> <../Plots/GenStudies/HOTV
-Rrho500_matching.pdf, page is rotated 90 degrees> <../Plots/GenStudies/HOTVRrho
-400_matching.pdf, page is rotated 90 degrees> <../Plots/GenStudies/HOTVRrho300_
-matching.pdf, page is rotated 90 degrees>]
-<../Plots/GenStudies/XCone_dR_GEN_R20.pdf, id=1348, 569.12625pt x 546.04pt>
-File: ../Plots/GenStudies/XCone_dR_GEN_R20.pdf Graphic file (type pdf)
-
-<use ../Plots/GenStudies/XCone_dR_GEN_R20.pdf>
-Package pdftex.def Info: ../Plots/GenStudies/XCone_dR_GEN_R20.pdf used on input
- line 113.
-(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
-
-<../Plots/JetDisplayR15/xcone_incjets_event04.pdf, id=1349, 569.12625pt x 541.0
-2126pt>
-File: ../Plots/JetDisplayR15/xcone_incjets_event04.pdf Graphic file (type pdf)
- <use ../Plots/JetDisplayR15/xcone_incjets_event04.pdf>
-Package pdftex.def Info: ../Plots/JetDisplayR15/xcone_incjets_event04.pdf used 
-on input line 120.
-(pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
-
-<../Plots/JetDisplayR15/xcone_subjets_event04.pdf, id=1350, 569.12625pt x 541.0
-2126pt>
-File: ../Plots/JetDisplayR15/xcone_subjets_event04.pdf Graphic file (type pdf)
- <use ../Plots/JetDisplayR15/xcone_subjets_event04.pdf>
-Package pdftex.def Info: ../Plots/JetDisplayR15/xcone_subjets_event04.pdf used 
-on input line 126.
-(pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 118--130
-[]$[]$ $[]$ 
- []
-
-
-<../Plots/JetDisplayR10/xcone_subjets_event09.pdf, id=1354, 569.12625pt x 541.0
-2126pt>
-File: ../Plots/JetDisplayR10/xcone_subjets_event09.pdf Graphic file (type pdf)
- <use ../Plots/JetDisplayR10/xcone_subjets_event09.pdf>
-Package pdftex.def Info: ../Plots/JetDisplayR10/xcone_subjets_event09.pdf used 
-on input line 140.
-(pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
-
-<../Plots/JetDisplayR20/xcone_subjets_event09.pdf, id=1355, 569.12625pt x 541.0
-2126pt>
-File: ../Plots/JetDisplayR20/xcone_subjets_event09.pdf Graphic file (type pdf)
- <use ../Plots/JetDisplayR20/xcone_subjets_event09.pdf>
-Package pdftex.def Info: ../Plots/JetDisplayR20/xcone_subjets_event09.pdf used 
-on input line 145.
-(pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 138--148
-[]$[]$ $[]$ 
- []
-
-<../Plots/GenStudies/XCone_GEN_R10.pdf, id=1356, 569.12625pt x 546.04pt>
-File: ../Plots/GenStudies/XCone_GEN_R10.pdf Graphic file (type pdf)
-
-<use ../Plots/GenStudies/XCone_GEN_R10.pdf>
-Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R10.pdf used on input li
-ne 155.
-(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
-
-<../Plots/GenStudies/XCone_GEN_R12.pdf, id=1357, 569.12625pt x 546.04pt>
-File: ../Plots/GenStudies/XCone_GEN_R12.pdf Graphic file (type pdf)
-
-<use ../Plots/GenStudies/XCone_GEN_R12.pdf>
-Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R12.pdf used on input li
-ne 160.
-(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
-
-<../Plots/GenStudies/XCone_GEN_R15.pdf, id=1358, 569.12625pt x 546.04pt>
-File: ../Plots/GenStudies/XCone_GEN_R15.pdf Graphic file (type pdf)
-
-<use ../Plots/GenStudies/XCone_GEN_R15.pdf>
-Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R15.pdf used on input li
-ne 165.
-(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
-
-<../Plots/GenStudies/XCone_GEN_R20.pdf, id=1359, 569.12625pt x 546.04pt>
-File: ../Plots/GenStudies/XCone_GEN_R20.pdf Graphic file (type pdf)
-
-<use ../Plots/GenStudies/XCone_GEN_R20.pdf>
-Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R20.pdf used on input li
-ne 170.
-(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 153--173
-[]$[]$ $[]$
- []
-
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 153--173
-[]$ $[]$ 
- []
-
-<../Plots/GenStudies/XCone23_matching.pdf, id=1360, 569.12625pt x 546.04pt>
-File: ../Plots/GenStudies/XCone23_matching.pdf Graphic file (type pdf)
-
-<use ../Plots/GenStudies/XCone23_matching.pdf>
-Package pdftex.def Info: ../Plots/GenStudies/XCone23_matching.pdf used on input
- line 181.
-(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
-
-<../Plots/GenStudies/XCone33_matching.pdf, id=1361, 569.12625pt x 546.04pt>
-File: ../Plots/GenStudies/XCone33_matching.pdf Graphic file (type pdf)
-
-<use ../Plots/GenStudies/XCone33_matching.pdf>
-Package pdftex.def Info: ../Plots/GenStudies/XCone33_matching.pdf used on input
- line 187.
-(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 179--191
-[]$[]$ $[]$ 
  []
 
 [47
 
-] [48 <../Plots/GenStudies/XCone_dR_GEN_R20.pdf, page is rotated 90 degrees> <.
+ <../Plots/GenStudies/HOTVR_matching.pdf, page is rotated 90 degrees>]
+[48 <../Plots/GenStudies/HOTVRrho600_matching.pdf, page is rotated 90 degrees> 
+<../Plots/GenStudies/HOTVRrho500_matching.pdf, page is rotated 90 degrees> <../
+Plots/GenStudies/HOTVRrho400_matching.pdf, page is rotated 90 degrees> <../Plot
+s/GenStudies/HOTVRrho300_matching.pdf, page is rotated 90 degrees>]
+<../Plots/GenStudies/XCone_dR_GEN_R20.pdf, id=1359, 569.12625pt x 546.04pt>
+File: ../Plots/GenStudies/XCone_dR_GEN_R20.pdf Graphic file (type pdf)
+
+<use ../Plots/GenStudies/XCone_dR_GEN_R20.pdf>
+Package pdftex.def Info: ../Plots/GenStudies/XCone_dR_GEN_R20.pdf used on input
+ line 115.
+(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
+
+<../Plots/JetDisplayR15/xcone_incjets_event04.pdf, id=1360, 569.12625pt x 541.0
+2126pt>
+File: ../Plots/JetDisplayR15/xcone_incjets_event04.pdf Graphic file (type pdf)
+ <use ../Plots/JetDisplayR15/xcone_incjets_event04.pdf>
+Package pdftex.def Info: ../Plots/JetDisplayR15/xcone_incjets_event04.pdf used 
+on input line 122.
+(pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
+
+<../Plots/JetDisplayR15/xcone_subjets_event04.pdf, id=1361, 569.12625pt x 541.0
+2126pt>
+File: ../Plots/JetDisplayR15/xcone_subjets_event04.pdf Graphic file (type pdf)
+ <use ../Plots/JetDisplayR15/xcone_subjets_event04.pdf>
+Package pdftex.def Info: ../Plots/JetDisplayR15/xcone_subjets_event04.pdf used 
+on input line 128.
+(pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 120--132
+[]$[]$ $[]$ 
+ []
+
+
+<../Plots/JetDisplayR10/xcone_subjets_event09.pdf, id=1367, 569.12625pt x 541.0
+2126pt>
+File: ../Plots/JetDisplayR10/xcone_subjets_event09.pdf Graphic file (type pdf)
+ <use ../Plots/JetDisplayR10/xcone_subjets_event09.pdf>
+Package pdftex.def Info: ../Plots/JetDisplayR10/xcone_subjets_event09.pdf used 
+on input line 141.
+(pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
+
+<../Plots/JetDisplayR20/xcone_subjets_event09.pdf, id=1368, 569.12625pt x 541.0
+2126pt>
+File: ../Plots/JetDisplayR20/xcone_subjets_event09.pdf Graphic file (type pdf)
+ <use ../Plots/JetDisplayR20/xcone_subjets_event09.pdf>
+Package pdftex.def Info: ../Plots/JetDisplayR20/xcone_subjets_event09.pdf used 
+on input line 147.
+(pdftex.def)             Requested size: 224.06548pt x 213.00348pt.
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 139--151
+[]$[]$ $[]$ 
+ []
+
+<../Plots/GenStudies/XCone_GEN_R10.pdf, id=1369, 569.12625pt x 546.04pt>
+File: ../Plots/GenStudies/XCone_GEN_R10.pdf Graphic file (type pdf)
+
+<use ../Plots/GenStudies/XCone_GEN_R10.pdf>
+Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R10.pdf used on input li
+ne 158.
+(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
+
+<../Plots/GenStudies/XCone_GEN_R12.pdf, id=1370, 569.12625pt x 546.04pt>
+File: ../Plots/GenStudies/XCone_GEN_R12.pdf Graphic file (type pdf)
+
+<use ../Plots/GenStudies/XCone_GEN_R12.pdf>
+Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R12.pdf used on input li
+ne 163.
+(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
+
+<../Plots/GenStudies/XCone_GEN_R15.pdf, id=1371, 569.12625pt x 546.04pt>
+File: ../Plots/GenStudies/XCone_GEN_R15.pdf Graphic file (type pdf)
+
+<use ../Plots/GenStudies/XCone_GEN_R15.pdf>
+Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R15.pdf used on input li
+ne 168.
+(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
+
+<../Plots/GenStudies/XCone_GEN_R20.pdf, id=1372, 569.12625pt x 546.04pt>
+File: ../Plots/GenStudies/XCone_GEN_R20.pdf Graphic file (type pdf)
+
+<use ../Plots/GenStudies/XCone_GEN_R20.pdf>
+Package pdftex.def Info: ../Plots/GenStudies/XCone_GEN_R20.pdf used on input li
+ne 173.
+(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 156--176
+[]$[]$ $[]$
+ []
+
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 156--176
+[]$ $[]$ 
+ []
+
+<../Plots/GenStudies/XCone23_matching.pdf, id=1373, 569.12625pt x 546.04pt>
+File: ../Plots/GenStudies/XCone23_matching.pdf Graphic file (type pdf)
+
+<use ../Plots/GenStudies/XCone23_matching.pdf>
+Package pdftex.def Info: ../Plots/GenStudies/XCone23_matching.pdf used on input
+ line 184.
+(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
+
+<../Plots/GenStudies/XCone33_matching.pdf, id=1374, 569.12625pt x 546.04pt>
+File: ../Plots/GenStudies/XCone33_matching.pdf Graphic file (type pdf)
+
+<use ../Plots/GenStudies/XCone33_matching.pdf>
+Package pdftex.def Info: ../Plots/GenStudies/XCone33_matching.pdf used on input
+ line 190.
+(pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 182--194
+[]$[]$ $[]$ 
+ []
+
+[49
+
+] [50 <../Plots/GenStudies/XCone_dR_GEN_R20.pdf, page is rotated 90 degrees> <.
 ./Plots/JetDisplayR15/xcone_incjets_event04.pdf, page is rotated 90 degrees> <.
 ./Plots/JetDisplayR15/xcone_subjets_event04.pdf, page is rotated 90 degrees>] [
-49 <../Plots/JetDisplayR10/xcone_subjets_event09.pdf, page is rotated 90 degree
+51 <../Plots/JetDisplayR10/xcone_subjets_event09.pdf, page is rotated 90 degree
 s> <../Plots/JetDisplayR20/xcone_subjets_event09.pdf, page is rotated 90 degree
-s>] [50 <../Plots/GenStudies/XCone_GEN_R10.pdf, page is rotated 90 degrees> <..
+s>] [52 <../Plots/GenStudies/XCone_GEN_R10.pdf, page is rotated 90 degrees> <..
 /Plots/GenStudies/XCone_GEN_R12.pdf, page is rotated 90 degrees> <../Plots/GenS
 tudies/XCone_GEN_R15.pdf, page is rotated 90 degrees> <../Plots/GenStudies/XCon
-e_GEN_R20.pdf, page is rotated 90 degrees>] [51 <../Plots/GenStudies/XCone23_ma
+e_GEN_R20.pdf, page is rotated 90 degrees>] [53 <../Plots/GenStudies/XCone23_ma
 tching.pdf, page is rotated 90 degrees> <../Plots/GenStudies/XCone33_matching.p
 df, page is rotated 90 degrees>]
 File: ../Plots/GenStudies/AK08softdrop_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/AK08softdrop_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/AK08softdrop_matching.pdf used on 
-input line 203.
+input line 206.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 File: ../Plots/GenStudies/HOTVRrho400_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/HOTVRrho400_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/HOTVRrho400_matching.pdf used on i
-nput line 209.
+nput line 212.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 File: ../Plots/GenStudies/XCone33_matching.pdf Graphic file (type pdf)
 
 <use ../Plots/GenStudies/XCone33_matching.pdf>
 Package pdftex.def Info: ../Plots/GenStudies/XCone33_matching.pdf used on input
- line 215.
+ line 218.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 201--219
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 204--222
 []$[]$ $[]$
  []
 
-[52
+[54
 
-] [53] [54
-
-] <../Plots/TwoD_QCD.pdf, id=1885, 569.12625pt x 386.44376pt>
+] [55] <../Plots/TwoD_QCD.pdf, id=1892, 569.12625pt x 386.44376pt>
 File: ../Plots/TwoD_QCD.pdf Graphic file (type pdf)
 
 <use ../Plots/TwoD_QCD.pdf>
-Package pdftex.def Info: ../Plots/TwoD_QCD.pdf used on input line 248.
+Package pdftex.def Info: ../Plots/TwoD_QCD.pdf used on input line 247.
 (pdftex.def)             Requested size: 224.06548pt x 152.14534pt.
 
-<../Plots/TwoD_TTbar.pdf, id=1886, 569.12625pt x 386.44376pt>
+<../Plots/TwoD_TTbar.pdf, id=1893, 569.12625pt x 386.44376pt>
 File: ../Plots/TwoD_TTbar.pdf Graphic file (type pdf)
 
 <use ../Plots/TwoD_TTbar.pdf>
-Package pdftex.def Info: ../Plots/TwoD_TTbar.pdf used on input line 253.
+Package pdftex.def Info: ../Plots/TwoD_TTbar.pdf used on input line 252.
 (pdftex.def)             Requested size: 224.06548pt x 152.14534pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 246--256
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 245--255
 []$[]$ $[]$ 
  []
 
+[56
 
-<../Plots/../Plots/PreSel/08_bTag_jets/pt_jet_log.pdf, id=1892, 569.12625pt x 3
+]
+<../Plots/../Plots/PreSel/08_bTag_jets/pt_jet_log.pdf, id=1904, 569.12625pt x 3
 87.4475pt>
 File: ../Plots/../Plots/PreSel/08_bTag_jets/pt_jet_log.pdf Graphic file (type p
 df)
  <use ../Plots/../Plots/PreSel/08_bTag_jets/pt_jet_log.pdf>
 Package pdftex.def Info: ../Plots/../Plots/PreSel/08_bTag_jets/pt_jet_log.pdf u
-sed on input line 264.
+sed on input line 262.
 (pdftex.def)             Requested size: 291.28238pt x 198.30504pt.
 
-<../Plots/top_reweight.pdf, id=1894, 144.0582pt x 138.5175pt>
+<../Plots/top_reweight.pdf, id=1906, 144.0582pt x 138.5175pt>
 File: ../Plots/top_reweight.pdf Graphic file (type pdf)
 
 <use ../Plots/top_reweight.pdf>
-Package pdftex.def Info: ../Plots/top_reweight.pdf used on input line 271.
+Package pdftex.def Info: ../Plots/top_reweight.pdf used on input line 269.
 (pdftex.def)             Requested size: 224.06548pt x 215.46289pt.
 
-<../Plots/PreSel/ttbar_reweight_Muon/number_lin.pdf, id=1897, 569.12625pt x 387
+<../Plots/PreSel/ttbar_reweight_Muon/number_lin.pdf, id=1909, 569.12625pt x 387
 .4475pt>
 File: ../Plots/PreSel/ttbar_reweight_Muon/number_lin.pdf Graphic file (type pdf
 )
  <use ../Plots/PreSel/ttbar_reweight_Muon/number_lin.pdf>
 Package pdftex.def Info: ../Plots/PreSel/ttbar_reweight_Muon/number_lin.pdf use
-d on input line 279.
+d on input line 277.
 (pdftex.def)             Requested size: 224.06548pt x 152.54051pt.
 
-<../Plots/PreSel/ttbar_reweight_Muon/pt_1_log.pdf, id=1899, 569.12625pt x 387.4
+<../Plots/PreSel/ttbar_reweight_Muon/pt_1_log.pdf, id=1911, 569.12625pt x 387.4
 475pt>
 File: ../Plots/PreSel/ttbar_reweight_Muon/pt_1_log.pdf Graphic file (type pdf)
  <use ../Plots/PreSel/ttbar_reweight_Muon/pt_1_log.pdf>
 Package pdftex.def Info: ../Plots/PreSel/ttbar_reweight_Muon/pt_1_log.pdf used 
-on input line 284.
+on input line 282.
 (pdftex.def)             Requested size: 224.06548pt x 152.54051pt.
 
-<../Plots/PreSel/ttbar_reweight_Jets/number_lin.pdf, id=1901, 569.12625pt x 387
+<../Plots/PreSel/ttbar_reweight_Jets/number_lin.pdf, id=1913, 569.12625pt x 387
 .4475pt>
 File: ../Plots/PreSel/ttbar_reweight_Jets/number_lin.pdf Graphic file (type pdf
 )
  <use ../Plots/PreSel/ttbar_reweight_Jets/number_lin.pdf>
 Package pdftex.def Info: ../Plots/PreSel/ttbar_reweight_Jets/number_lin.pdf use
-d on input line 289.
+d on input line 287.
 (pdftex.def)             Requested size: 224.06548pt x 152.54051pt.
 
-<../Plots/PreSel/ttbar_reweight_Jets/pt_jet_log.pdf, id=1903, 569.12625pt x 387
+<../Plots/PreSel/ttbar_reweight_Jets/pt_jet_log.pdf, id=1915, 569.12625pt x 387
 .4475pt>
 File: ../Plots/PreSel/ttbar_reweight_Jets/pt_jet_log.pdf Graphic file (type pdf
 )
  <use ../Plots/PreSel/ttbar_reweight_Jets/pt_jet_log.pdf>
 Package pdftex.def Info: ../Plots/PreSel/ttbar_reweight_Jets/pt_jet_log.pdf use
-d on input line 294.
+d on input line 292.
 (pdftex.def)             Requested size: 224.06548pt x 152.54051pt.
 
-<../Plots/PreSel/ttbar_reweight_Event/BTAG_T_lin.pdf, id=1905, 569.12625pt x 38
+<../Plots/PreSel/ttbar_reweight_Event/BTAG_T_lin.pdf, id=1917, 569.12625pt x 38
 7.4475pt>
 File: ../Plots/PreSel/ttbar_reweight_Event/BTAG_T_lin.pdf Graphic file (type pd
 f)
  <use ../Plots/PreSel/ttbar_reweight_Event/BTAG_T_lin.pdf>
 Package pdftex.def Info: ../Plots/PreSel/ttbar_reweight_Event/BTAG_T_lin.pdf us
-ed on input line 299.
+ed on input line 297.
 (pdftex.def)             Requested size: 224.06548pt x 152.54051pt.
 
-<../Plots/PreSel/ttbar_reweight_Event/MET_log.pdf, id=1907, 569.12625pt x 387.4
+<../Plots/PreSel/ttbar_reweight_Event/MET_log.pdf, id=1919, 569.12625pt x 387.4
 475pt>
 File: ../Plots/PreSel/ttbar_reweight_Event/MET_log.pdf Graphic file (type pdf)
  <use ../Plots/PreSel/ttbar_reweight_Event/MET_log.pdf>
 Package pdftex.def Info: ../Plots/PreSel/ttbar_reweight_Event/MET_log.pdf used 
-on input line 304.
+on input line 302.
 (pdftex.def)             Requested size: 224.06548pt x 152.54051pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 277--307
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 275--305
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 277--307
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 275--305
 []$ $[]$
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 277--307
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 275--305
 []$ $[]$ 
  []
 
-[55 <../Plots/TwoD_QCD.pdf, page is rotated 90 degrees> <../Plots/TwoD_TTbar.pd
-f, page is rotated 90 degrees>] [56 <../Plots/../Plots/PreSel/08_bTag_jets/pt_j
-et_log.pdf, page is rotated 90 degrees> <../Plots/top_reweight.pdf>] [57 <../Pl
+[57 <../Plots/TwoD_QCD.pdf, page is rotated 90 degrees> <../Plots/TwoD_TTbar.pd
+f, page is rotated 90 degrees>] [58 <../Plots/../Plots/PreSel/08_bTag_jets/pt_j
+et_log.pdf, page is rotated 90 degrees> <../Plots/top_reweight.pdf>] [59 <../Pl
 ots/PreSel/ttbar_reweight_Muon/number_lin.pdf, page is rotated 90 degrees> <../
 Plots/PreSel/ttbar_reweight_Muon/pt_1_log.pdf, page is rotated 90 degrees> <../
 Plots/PreSel/ttbar_reweight_Jets/number_lin.pdf, page is rotated 90 degrees> <.
@@ -2413,244 +2415,243 @@ Plots/PreSel/ttbar_reweight_Jets/number_lin.pdf, page is rotated 90 degrees> <.
 <../Plots/PreSel/ttbar_reweight_Event/BTAG_T_lin.pdf, page is rotated 90 degree
 s> <../Plots/PreSel/ttbar_reweight_Event/MET_log.pdf, page is rotated 90 degree
 s>]
-<../Plots/PostSel/XCone_raw/M_jet1__lin.pdf, id=2330, 569.12625pt x 387.4475pt>
+<../Plots/PostSel/XCone_raw/M_jet1__lin.pdf, id=2343, 569.12625pt x 387.4475pt>
 File: ../Plots/PostSel/XCone_raw/M_jet1__lin.pdf Graphic file (type pdf)
 <use ../Plots/PostSel/XCone_raw/M_jet1__lin.pdf>
 Package pdftex.def Info: ../Plots/PostSel/XCone_raw/M_jet1__lin.pdf used on inp
-ut line 324.
+ut line 322.
 (pdftex.def)             Requested size: 224.06548pt x 179.45178pt.
 
-<../Plots/PostSel/XCone_raw_SF/M_jet1__lin.pdf, id=2332, 569.12625pt x 387.4475
+<../Plots/PostSel/XCone_raw_SF/M_jet1__lin.pdf, id=2345, 569.12625pt x 387.4475
 pt>
 File: ../Plots/PostSel/XCone_raw_SF/M_jet1__lin.pdf Graphic file (type pdf)
  <use ../Plots/PostSel/XCone_raw_SF/M_jet1__lin.pdf>
 Package pdftex.def Info: ../Plots/PostSel/XCone_raw_SF/M_jet1__lin.pdf used on 
-input line 332.
+input line 330.
 (pdftex.def)             Requested size: 224.06548pt x 179.45178pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 333.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 331.
 
-<../Plots/PostSel/XCone_raw_SF/SoftdropMass_had_lin.pdf, id=2334, 569.12625pt x
+<../Plots/PostSel/XCone_raw_SF/SoftdropMass_had_lin.pdf, id=2347, 569.12625pt x
  387.4475pt>
 File: ../Plots/PostSel/XCone_raw_SF/SoftdropMass_had_lin.pdf Graphic file (type
  pdf)
  <use ../Plots/PostSel/XCone_raw_SF/SoftdropMass_had_lin.pdf>
 Package pdftex.def Info: ../Plots/PostSel/XCone_raw_SF/SoftdropMass_had_lin.pdf
- used on input line 342.
+ used on input line 340.
 (pdftex.def)             Requested size: 224.06548pt x 179.45178pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 322--348
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 320--346
 []$[]$ $[]$
  []
 
-[58
+[60
 
-] [59 <../Plots/PostSel/XCone_raw/M_jet1__lin.pdf, page is rotated 90 degrees> 
+] [61 <../Plots/PostSel/XCone_raw/M_jet1__lin.pdf, page is rotated 90 degrees> 
 <../Plots/PostSel/XCone_raw_SF/M_jet1__lin.pdf, page is rotated 90 degrees> <..
 /Plots/PostSel/XCone_raw_SF/SoftdropMass_had_lin.pdf, page is rotated 90 degree
 s>]
 File: ../Plots/PostSel/XCone_raw_SF/M_jet1__lin.pdf Graphic file (type pdf)
  <use ../Plots/PostSel/XCone_raw_SF/M_jet1__lin.pdf>
 Package pdftex.def Info: ../Plots/PostSel/XCone_raw_SF/M_jet1__lin.pdf used on 
-input line 360.
+input line 358.
 (pdftex.def)             Requested size: 224.06548pt x 179.45178pt.
 
-<../Plots/PostSel/XCone_jec_SF/M_jet1__lin.pdf, id=2482, 569.12625pt x 387.4475
+<../Plots/PostSel/XCone_jec_SF/M_jet1__lin.pdf, id=2494, 569.12625pt x 387.4475
 pt>
 File: ../Plots/PostSel/XCone_jec_SF/M_jet1__lin.pdf Graphic file (type pdf)
  <use ../Plots/PostSel/XCone_jec_SF/M_jet1__lin.pdf>
 Package pdftex.def Info: ../Plots/PostSel/XCone_jec_SF/M_jet1__lin.pdf used on 
-input line 370.
+input line 368.
 (pdftex.def)             Requested size: 224.06548pt x 179.45178pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 356--376
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 354--374
 []$[]$ $[]$ 
  []
 
 
-<../Plots/PostSel/XCone_raw_subjets_SF/min_mass_Wjet_zoom_lin.pdf, id=2486, 569
+<../Plots/PostSel/XCone_raw_subjets_SF/min_mass_Wjet_zoom_lin.pdf, id=2498, 569
 .12625pt x 387.4475pt>
 File: ../Plots/PostSel/XCone_raw_subjets_SF/min_mass_Wjet_zoom_lin.pdf Graphic 
 file (type pdf)
 
 <use ../Plots/PostSel/XCone_raw_subjets_SF/min_mass_Wjet_zoom_lin.pdf>
 Package pdftex.def Info: ../Plots/PostSel/XCone_raw_subjets_SF/min_mass_Wjet_zo
-om_lin.pdf used on input line 385.
+om_lin.pdf used on input line 383.
 (pdftex.def)             Requested size: 224.06548pt x 179.45178pt.
 
-<../Plots/PostSel/XCone_jec_subjets_SF/min_mass_Wjet_zoom_lin.pdf, id=2488, 569
+<../Plots/PostSel/XCone_jec_subjets_SF/min_mass_Wjet_zoom_lin.pdf, id=2500, 569
 .12625pt x 387.4475pt>
 File: ../Plots/PostSel/XCone_jec_subjets_SF/min_mass_Wjet_zoom_lin.pdf Graphic 
 file (type pdf)
 
 <use ../Plots/PostSel/XCone_jec_subjets_SF/min_mass_Wjet_zoom_lin.pdf>
 Package pdftex.def Info: ../Plots/PostSel/XCone_jec_subjets_SF/min_mass_Wjet_zo
-om_lin.pdf used on input line 395.
+om_lin.pdf used on input line 393.
 (pdftex.def)             Requested size: 224.06548pt x 179.45178pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 381--401
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 379--399
 []$[]$ $[]$ 
  []
 
-<../Plots/Correction/Mean_numbers.pdf, id=2492, 569.12625pt x 386.44376pt>
+<../Plots/Correction/Mean_numbers.pdf, id=2505, 569.12625pt x 386.44376pt>
 File: ../Plots/Correction/Mean_numbers.pdf Graphic file (type pdf)
 
 <use ../Plots/Correction/Mean_numbers.pdf>
 Package pdftex.def Info: ../Plots/Correction/Mean_numbers.pdf used on input lin
-e 407.
+e 405.
 (pdftex.def)             Requested size: 313.69029pt x 213.01056pt.
 
-<../Plots/Correction/Fits_example.pdf, id=2495, 569.12625pt x 569.12625pt>
+<../Plots/Correction/Fits_example.pdf, id=2508, 569.12625pt x 569.12625pt>
 File: ../Plots/Correction/Fits_example.pdf Graphic file (type pdf)
 
 <use ../Plots/Correction/Fits_example.pdf>
 Package pdftex.def Info: ../Plots/Correction/Fits_example.pdf used on input lin
-e 414.
+e 412.
 (pdftex.def)             Requested size: 224.06548pt x 224.06859pt.
 
-<../Plots/PostSel/XCone_cor_subjets_SF/min_mass_Wjet_zoom_lin.pdf, id=2499, 569
+<../Plots/PostSel/XCone_cor_subjets_SF/min_mass_Wjet_zoom_lin.pdf, id=2512, 569
 .12625pt x 387.4475pt>
 File: ../Plots/PostSel/XCone_cor_subjets_SF/min_mass_Wjet_zoom_lin.pdf Graphic 
 file (type pdf)
 
 <use ../Plots/PostSel/XCone_cor_subjets_SF/min_mass_Wjet_zoom_lin.pdf>
 Package pdftex.def Info: ../Plots/PostSel/XCone_cor_subjets_SF/min_mass_Wjet_zo
-om_lin.pdf used on input line 423.
+om_lin.pdf used on input line 421.
 (pdftex.def)             Requested size: 313.69029pt x 251.24077pt.
-
-Underfull \vbox (badness 3428) has occurred while \output is active []
-
- [60
+ [62
 
 ]
-<../Plots/Resolution_Subjets/pt_mean_rec_after.pdf, id=2516, 569.12625pt x 386.
+<../Plots/Resolution_Subjets/pt_mean_rec_after.pdf, id=2529, 569.12625pt x 386.
 44376pt>
 File: ../Plots/Resolution_Subjets/pt_mean_rec_after.pdf Graphic file (type pdf)
 
  <use ../Plots/Resolution_Subjets/pt_mean_rec_after.pdf>
 Package pdftex.def Info: ../Plots/Resolution_Subjets/pt_mean_rec_after.pdf used
- on input line 434.
+ on input line 432.
 (pdftex.def)             Requested size: 224.06548pt x 152.14534pt.
 
-<../Plots/Resolution_Subjets/pt_rms_rec_after.pdf, id=2517, 569.12625pt x 386.4
+<../Plots/Resolution_Subjets/pt_rms_rec_after.pdf, id=2530, 569.12625pt x 386.4
 4376pt>
 File: ../Plots/Resolution_Subjets/pt_rms_rec_after.pdf Graphic file (type pdf)
  <use ../Plots/Resolution_Subjets/pt_rms_rec_after.pdf>
 Package pdftex.def Info: ../Plots/Resolution_Subjets/pt_rms_rec_after.pdf used 
-on input line 440.
+on input line 438.
 (pdftex.def)             Requested size: 224.06548pt x 152.14534pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 432--444
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 430--442
 []$[]$ $[]$ 
  []
 
-[61 <../Plots/PostSel/XCone_jec_SF/M_jet1__lin.pdf, page is rotated 90 degrees>
-] [62 <../Plots/PostSel/XCone_raw_subjets_SF/min_mass_Wjet_zoom_lin.pdf, page i
+[63 <../Plots/PostSel/XCone_jec_SF/M_jet1__lin.pdf, page is rotated 90 degrees>
+] [64 <../Plots/PostSel/XCone_raw_subjets_SF/min_mass_Wjet_zoom_lin.pdf, page i
 s rotated 90 degrees> <../Plots/PostSel/XCone_jec_subjets_SF/min_mass_Wjet_zoom
 _lin.pdf, page is rotated 90 degrees> <../Plots/Correction/Mean_numbers.pdf, pa
-ge is rotated 90 degrees>] [63 <../Plots/PostSel/XCone_cor_subjets_SF/min_mass_
+ge is rotated 90 degrees>] [65 <../Plots/PostSel/XCone_cor_subjets_SF/min_mass_
 Wjet_zoom_lin.pdf, page is rotated 90 degrees> <../Plots/Correction/Fits_exampl
-e.pdf>] [64 <../Plots/Resolution_Subjets/pt_mean_rec_after.pdf, page is rotated
+e.pdf>] [66 <../Plots/Resolution_Subjets/pt_mean_rec_after.pdf, page is rotated
  90 degrees> <../Plots/Resolution_Subjets/pt_rms_rec_after.pdf, page is rotated
  90 degrees>]
-<../Plots/PostSel/XCone_cor_SF/M_jet1__lin.pdf, id=2889, 569.12625pt x 387.4475
+<../Plots/PostSel/XCone_cor_SF/M_jet1__lin.pdf, id=2902, 569.12625pt x 387.4475
 pt>
 File: ../Plots/PostSel/XCone_cor_SF/M_jet1__lin.pdf Graphic file (type pdf)
  <use ../Plots/PostSel/XCone_cor_SF/M_jet1__lin.pdf>
 Package pdftex.def Info: ../Plots/PostSel/XCone_cor_SF/M_jet1__lin.pdf used on 
-input line 456.
+input line 454.
 (pdftex.def)             Requested size: 358.50612pt x 287.13231pt.
 
-<../Plots/Torben/Torben_data_paper.pdf, id=2891, 569.12625pt x 534.99875pt>
+<../Plots/Torben/Torben_data_paper.pdf, id=2904, 569.12625pt x 534.99875pt>
 File: ../Plots/Torben/Torben_data_paper.pdf Graphic file (type pdf)
 
 <use ../Plots/Torben/Torben_data_paper.pdf>
 Package pdftex.def Info: ../Plots/Torben/Torben_data_paper.pdf used on input li
-ne 465.
+ne 463.
 (pdftex.def)             Requested size: 268.8813pt x 252.76375pt.
- [65
+ [67
 
  <../Plots/PostSel/XCone_cor_SF/M_jet1__lin.pdf, page is rotated 90 degrees>]
-<../Images/Unfolding.png, id=2946, 1053.9375pt x 791.95876pt>
+<../Images/Unfolding.png, id=2958, 1053.9375pt x 791.95876pt>
 File: ../Images/Unfolding.png Graphic file (type png)
 
 <use ../Images/Unfolding.png>
-Package pdftex.def Info: ../Images/Unfolding.png used on input line 475.
+Package pdftex.def Info: ../Images/Unfolding.png used on input line 473.
 (pdftex.def)             Requested size: 268.8813pt x 202.04953pt.
 
 Underfull \vbox (badness 7256) has occurred while \output is active []
 
- [66 <../Plots/Torben/Torben_data_paper.pdf>] [67 <../Images/Unfolding.png>]
-<../Plots/Unfolding/Data/Migration_prob.pdf, id=2975, 569.12625pt x 546.04pt>
+ [68 <../Plots/Torben/Torben_data_paper.pdf>] [69 <../Images/Unfolding.png>]
+<../Plots/Unfolding/Data/Migration_prob.pdf, id=2986, 569.12625pt x 546.04pt>
 File: ../Plots/Unfolding/Data/Migration_prob.pdf Graphic file (type pdf)
 
 <use ../Plots/Unfolding/Data/Migration_prob.pdf>
 Package pdftex.def Info: ../Plots/Unfolding/Data/Migration_prob.pdf used on inp
-ut line 520.
+ut line 523.
 (pdftex.def)             Requested size: 268.8813pt x 257.98027pt.
- [68]
-<../Plots/Unfolding/MC_Same/Unfold.pdf, id=2987, 569.12625pt x 546.04pt>
+ [70]
+Underfull \vbox (badness 3769) has occurred while \output is active []
+
+ [71 <../Plots/Unfolding/Data/Migration_prob.pdf, page is rotated 90 degrees>]
+<../Plots/Unfolding/MC_Same/Unfold.pdf, id=3049, 569.12625pt x 546.04pt>
 File: ../Plots/Unfolding/MC_Same/Unfold.pdf Graphic file (type pdf)
 
 <use ../Plots/Unfolding/MC_Same/Unfold.pdf>
 Package pdftex.def Info: ../Plots/Unfolding/MC_Same/Unfold.pdf used on input li
-ne 533.
+ne 535.
 (pdftex.def)             Requested size: 246.47339pt x 236.47566pt.
 
-<../Plots/Unfolding/MC_Split_all/Unfold.pdf, id=2988, 569.12625pt x 546.04pt>
+<../Plots/Unfolding/MC_Split_all/Unfold.pdf, id=3050, 569.12625pt x 546.04pt>
 File: ../Plots/Unfolding/MC_Split_all/Unfold.pdf Graphic file (type pdf)
 
 <use ../Plots/Unfolding/MC_Split_all/Unfold.pdf>
 Package pdftex.def Info: ../Plots/Unfolding/MC_Split_all/Unfold.pdf used on inp
-ut line 542.
+ut line 544.
 (pdftex.def)             Requested size: 246.47339pt x 236.47566pt.
 
-<../Plots/Unfolding/MC_Split_up/Unfold.pdf, id=2989, 569.12625pt x 546.04pt>
+<../Plots/Unfolding/MC_Split_up/Unfold.pdf, id=3051, 569.12625pt x 546.04pt>
 File: ../Plots/Unfolding/MC_Split_up/Unfold.pdf Graphic file (type pdf)
 
 <use ../Plots/Unfolding/MC_Split_up/Unfold.pdf>
 Package pdftex.def Info: ../Plots/Unfolding/MC_Split_up/Unfold.pdf used on inpu
-t line 550.
+t line 552.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/Unfolding/MC_Split_down/Unfold.pdf, id=2990, 569.12625pt x 546.04pt>
+<../Plots/Unfolding/MC_Split_down/Unfold.pdf, id=3052, 569.12625pt x 546.04pt>
 File: ../Plots/Unfolding/MC_Split_down/Unfold.pdf Graphic file (type pdf)
 
 <use ../Plots/Unfolding/MC_Split_down/Unfold.pdf>
 Package pdftex.def Info: ../Plots/Unfolding/MC_Split_down/Unfold.pdf used on in
-put line 556.
+put line 558.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 548--560
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 550--562
 []$[]$ $[]$ 
  []
 
-[69 <../Plots/Unfolding/Data/Migration_prob.pdf, page is rotated 90 degrees>]
-[70 <../Plots/Unfolding/MC_Same/Unfold.pdf, page is rotated 90 degrees> <../Plo
-ts/Unfolding/MC_Split_all/Unfold.pdf, page is rotated 90 degrees>] [71 <../Plot
-s/Unfolding/MC_Split_up/Unfold.pdf, page is rotated 90 degrees> <../Plots/Unfol
-ding/MC_Split_down/Unfold.pdf, page is rotated 90 degrees>]
-<../Plots/Unfolding/Data/Unfold.pdf, id=3224, 569.12625pt x 546.04pt>
+[72 <../Plots/Unfolding/MC_Same/Unfold.pdf, page is rotated 90 degrees>]
+[73 <../Plots/Unfolding/MC_Split_all/Unfold.pdf, page is rotated 90 degrees> <.
+./Plots/Unfolding/MC_Split_up/Unfold.pdf, page is rotated 90 degrees> <../Plots
+/Unfolding/MC_Split_down/Unfold.pdf, page is rotated 90 degrees>]
+<../Plots/Unfolding/Data/Unfold.pdf, id=3236, 569.12625pt x 546.04pt>
 File: ../Plots/Unfolding/Data/Unfold.pdf Graphic file (type pdf)
 
 <use ../Plots/Unfolding/Data/Unfold.pdf>
 Package pdftex.def Info: ../Plots/Unfolding/Data/Unfold.pdf used on input line 
-571.
+573.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-<../Plots/Unfolding/Data/Correlations.pdf, id=3225, 569.12625pt x 546.04pt>
+<../Plots/Unfolding/Data/Correlations.pdf, id=3237, 569.12625pt x 546.04pt>
 File: ../Plots/Unfolding/Data/Correlations.pdf Graphic file (type pdf)
 
 <use ../Plots/Unfolding/Data/Correlations.pdf>
 Package pdftex.def Info: ../Plots/Unfolding/Data/Correlations.pdf used on input
- line 577.
+ line 579.
 (pdftex.def)             Requested size: 224.06548pt x 214.97939pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 569--581
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 571--583
 []$[]$ $[]$ 
  []
 
-[72
+[74
 
  <../Plots/Unfolding/Data/Unfold.pdf, page is rotated 90 degrees> <../Plots/Unf
 olding/Data/Correlations.pdf, page is rotated 90 degrees>]
@@ -2658,34 +2659,34 @@ File: ../Plots/PostSel/XCone_cor_SF/M_jet1__lin.pdf Graphic file (type pdf)
 
 <use ../Plots/PostSel/XCone_cor_SF/M_jet1__lin.pdf>
 Package pdftex.def Info: ../Plots/PostSel/XCone_cor_SF/M_jet1__lin.pdf used on 
-input line 597.
+input line 599.
 (pdftex.def)             Requested size: 235.26942pt x 213.54608pt.
 
-Overfull \hbox (11.20395pt too wide) in paragraph at lines 597--598
+Overfull \hbox (11.20395pt too wide) in paragraph at lines 599--600
  [][] 
  []
 
 File: ../Plots/Unfolding/Data/Unfold.pdf Graphic file (type pdf)
 <use ../Plots/Unfolding/Data/Unfold.pdf>
 Package pdftex.def Info: ../Plots/Unfolding/Data/Unfold.pdf used on input line 
-603.
+605.
 (pdftex.def)             Requested size: 212.86151pt x 199.97453pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 595--607
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 597--609
 []$[]$ $[]$ 
  []
 
-) [73]
+) [75]
 \openout2 = `Summary.aux'.
 
- (./Summary.tex [74
+ (./Summary.tex [76
 
 
 
 
 ]
 Chapter 8.
-) [75] [76]
+) [77] [78]
 \openout2 = `Appendix.aux'.
 
  (./Appendix.tex
@@ -2693,44 +2694,44 @@ Appendix A.
 File: ../Plots/Correction/Mean_numbers.pdf Graphic file (type pdf)
 <use ../Plots/Correction/Mean_numbers.pdf>
 Package pdftex.def Info: ../Plots/Correction/Mean_numbers.pdf used on input lin
-e 7.
-(pdftex.def)             Requested size: 268.8813pt x 182.57794pt.
+e 9.
+(pdftex.def)             Requested size: 403.31511pt x 273.86987pt.
 
-<../Plots/Correction/RMS_numbers.pdf, id=3346, 569.12625pt x 386.44376pt>
+<../Plots/Correction/RMS_numbers.pdf, id=3359, 569.12625pt x 386.44376pt>
 File: ../Plots/Correction/RMS_numbers.pdf Graphic file (type pdf)
 
 <use ../Plots/Correction/RMS_numbers.pdf>
 Package pdftex.def Info: ../Plots/Correction/RMS_numbers.pdf used on input line
- 14.
-(pdftex.def)             Requested size: 268.8813pt x 182.57794pt.
+ 15.
+(pdftex.def)             Requested size: 403.31511pt x 273.86987pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../Plots/Correction/Fits.pdf, id=3347, 492.84125pt x 739.76375pt>
+<../Plots/Correction/Fits.pdf, id=3360, 492.84125pt x 739.76375pt>
 File: ../Plots/Correction/Fits.pdf Graphic file (type pdf)
 
 <use ../Plots/Correction/Fits.pdf>
-Package pdftex.def Info: ../Plots/Correction/Fits.pdf used on input line 21.
+Package pdftex.def Info: ../Plots/Correction/Fits.pdf used on input line 23.
 (pdftex.def)             Requested size: 434.68756pt x 644.97762pt.
 
 
-LaTeX Warning: Float too large for page by 56.67146pt on input line 24.
+LaTeX Warning: Float too large for page by 56.67146pt on input line 26.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [77
+) [79
 
 
 
 
-] [78 <../Plots/Correction/RMS_numbers.pdf, page is rotated 90 degrees>]
-[79 <../Plots/Correction/Fits.pdf>] [80
+] [80 <../Plots/Correction/RMS_numbers.pdf, page is rotated 90 degrees>]
+[81 <../Plots/Correction/Fits.pdf>] [82
 
 
 
-] [81]
+] [83]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 149.
 
 
@@ -2741,14 +2742,14 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [82]
+ [84]
 Overfull \hbox (8.27939pt too wide) in paragraph at lines 155--155
 []\T1/ptm/m/n/12 (-20) A. J. Larkoski, S. Marzani, G. Soyez, \T1/ptm/m/it/12 (-
 20) et al.\T1/ptm/m/n/12 (-20) , ^^P  Soft drop^^Q, 2014. \T1/ptm/m/sc/12 (-20)
  doi\T1/ptm/m/n/12 (-20) : []$10 . 1007 / JHEP05(2014 )
  []
 
-[83]
+[85]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2757,7 +2758,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 156.
- [84]
+ [86]
 Underfull \hbox (badness 10000) in alignment at lines 161--164
 [][][]
  []
@@ -2785,7 +2786,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 166.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 166.
-[85
+[87
 
 
 ]
@@ -2797,7 +2798,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 166.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 166.
- [86
+ [88
 
 
 ]
@@ -2812,7 +2813,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 176.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 176.
- [87]
+ [89]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
  (./Master_Thesis.aux (./Titlepage.aux) (./Introduction.aux)
@@ -2822,19 +2823,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
 Package rerunfilecheck Info: File `Master_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8C8654616922A5B84456E93E06D1C4A7;4215.
+(rerunfilecheck)             Checksum: 3C7F1216667B663209681DB8948518F8;4215.
 Package logreq Info: Writing requests to 'Master_Thesis.run.xml'.
 \openout1 = `Master_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34245 strings out of 493013
- 661323 string characters out of 6133787
- 1177828 words of memory out of 5000000
- 36389 multiletter control sequences out of 15000+600000
+ 34256 strings out of 493013
+ 661517 string characters out of 6133787
+ 1166828 words of memory out of 5000000
+ 36397 multiletter control sequences out of 15000+600000
  134706 words of font info for 350 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 68i,15n,100p,2322b,3306s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,15n,100p,2357b,3306s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/home/schwarzd/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
 /home/schwarzd/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</home/schwarzd/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/schwarzd/tex
@@ -2849,10 +2850,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></home/schwarzd/texlive/texmf-dist/fonts/ty
 pe1/urw/symbol/usyr.pfb></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></home/schwarzd/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Master_Thesis.pdf (95 pages, 5804813 bytes).
+Output written on Master_Thesis.pdf (97 pages, 5808935 bytes).
 PDF statistics:
- 3690 PDF objects out of 4296 (max. 8388607)
- 2146 compressed objects within 22 object streams
- 299 named destinations out of 1000 (max. 500000)
+ 3703 PDF objects out of 4296 (max. 8388607)
+ 2157 compressed objects within 22 object streams
+ 302 named destinations out of 1000 (max. 500000)
  63420 words of extra memory for PDF output out of 74296 (max. 10000000)
 
