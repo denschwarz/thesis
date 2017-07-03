@@ -4,6 +4,7 @@
 %
 %  Modified version of utcaps.bst from the University of Texas
 %
+%  2011/01/04: Add URL processing from APS revtex bib style
 %  2005/06/30: Added arXiv: for arXiv references. Added doi as another form of eprint archive (only for articles so far).
 %              See http://www.crossref.org/ and http://www.doi.org/hb.html for information on doi's (Digital Object Identifiers). G. Alverson.
 %  2005/05/12: re-adapted for the UT style (http://golem.ph.utexas.edu/~distler/TeXstuff/utcaps.bst) from the unsrt style. G. Alverson.
@@ -100,6 +101,7 @@ ENTRY
     archive
     eprint
     doi
+    url
     report
     collaboration
     SLACcitation
@@ -158,6 +160,10 @@ FUNCTION {output}
     'pop$
     'output.nonnull
   if$
+}
+FUNCTION {output.nopunct}
+{
+  write$
 }
 
 FUNCTION {output.check}
@@ -255,7 +261,7 @@ FUNCTION {field.or.null}
 FUNCTION {emphasize}
 { duplicate$ empty$
     { pop$ "" }
-    { "{\em " swap$ * "}" * }
+    { "\textit{ " swap$ * "}" * }
   if$
 }
 
@@ -325,9 +331,9 @@ FUNCTION {format.eprint}
      { ""}
      { archive empty$
           {"\href{http://www.arXiv.org/abs/" eprint * "}" *
-             "{{\tt arXiv:" * eprint * "}}" *}
+             "{\texttt{ arXiv:" * eprint * "}}" *}
           {"\href{" archive *  "/" * eprint * "}" *
-             "{{\tt " * eprint * "}}" *}
+             "{\texttt{ " * eprint * "}}" *}
        if$
      }
      if$
@@ -336,7 +342,7 @@ FUNCTION {format.eprint}
 FUNCTION {format.doi}
 { doi empty$
      { ""}
-     {"\href{http://dx.doi.org/" doi * "}{{\tt doi:" * doi * "}}" *}
+     {"\href{http://dx.doi.org/" doi * "}{\doi{" * doi * "}}" *}
      if$
 }
 
@@ -633,7 +639,7 @@ FUNCTION {format.pages.nopp}
 FUNCTION {format.volume}
 { volume empty$
     { "" }
-    { "{\bf " volume * "}" * }
+    { "\textbf{ " volume * "}" * }
   if$
 }
 
@@ -694,7 +700,7 @@ FUNCTION {empty.misc.check}
 
 FUNCTION {format.tr.number}
 { type empty$
-    { "Technical Report" } %---------------- Modified (GA) was: Tech. Rep.
+    { " " } %---------------- Modified (GA) was: Tech. Rep.
     'type
   if$
   number empty$
@@ -717,7 +723,7 @@ FUNCTION {format.article.crossref}
       warning$
       ""
     }
-    { "in {\em " journal * "\/}" * }
+    { "in \textit{ " journal * "\/}" * }
       if$
     }
     { "in " key * }
@@ -729,11 +735,11 @@ FUNCTION {format.crossref.editor}
 { editor #1 "{vv~}{ll}" format.name$
   editor num.names$ duplicate$
   #2 >
-    { pop$ " {\em et.~al.}" * }
+    { pop$ " {et.~al.}" * }
     { #2 <
     'skip$
     { editor #2 "{ff }{vv }{ll}{ jj}" format.name$ "others" =
-        { " {\em et.~al.}" * }
+        { " {et.~al.}" * }
         { " and " * editor #2 "{vv~}{ll}" format.name$ * }
       if$
     }
@@ -760,7 +766,7 @@ FUNCTION {format.book.crossref}
           crossref * warning$
           "" *
         }
-        { "{\em " * series * "\/}" * }
+        { "\textit{ " * series * "\/}" * }
       if$
     }
     { key * }
@@ -781,7 +787,7 @@ FUNCTION {format.incoll.inproc.crossref}
           crossref * warning$
           ""
         }
-        { "in {\em " booktitle * "\/}" * }
+        { "in \textit{" booktitle * "\/}" * }
       if$
     }
     { "in " key * }
@@ -792,6 +798,59 @@ FUNCTION {format.incoll.inproc.crossref}
   " \cite{" * crossref * "}" *
 }
 
+FUNCTION {format.url}
+{
+  url duplicate$ empty$
+    { pop$ "" }
+    {
+      "\url "
+      "{" * swap$ * "}" *
+    }
+  if$
+}
+FUNCTION {href.command}
+{
+  "\href "
+}
+FUNCTION {noop.command}
+{
+  "\hrefCMSnoop "
+}
+FUNCTION {link.tag.open}
+{
+  doi duplicate$ empty$
+    {
+      pop$
+      url duplicate$ empty$
+        {
+          pop$ "" noop.command
+        }{
+          href.command
+        }
+      if$
+    }
+    {
+      pop$ "" noop.command
+    }
+  if$
+  "{" * swap$ * "} {" *
+}
+FUNCTION {link.tag.shut}
+{
+  "}"
+}
+FUNCTION {link.open}
+{
+  link.tag.open output.nopunct
+}
+FUNCTION {link.shut}
+{
+  link.tag.shut *
+}
+FUNCTION {add.doi}
+{
+  link.tag.open swap$ * link.tag.shut *
+}
 FUNCTION {article}
 { output.bibitem
   format.collaboration output
@@ -801,7 +860,9 @@ FUNCTION {article}
     }
    {}
   if$  
+  link.open
   format.title "title" output.check
+  link.shut
   blank.sep
   crossref missing$
     {  journal missing$
@@ -820,19 +881,18 @@ FUNCTION {article}
        }
        if$
        report missing$
-         { format.eprint output }
-         { blank.sep format.report output format.eprint output }
+         { format.doi output format.eprint output }
+         { blank.sep format.report output format.doi output format.eprint output }
        if$
     }
     { format.article.crossref output.nonnull
       format.pages output
+      format.doi output
       format.eprint output
     }
   if$
   new.sentence
   note output
-  new.sentence
-  format.doi output
   new.sentence
   format.SLACcitation output
   fin.entry
@@ -911,7 +971,9 @@ FUNCTION {inbook}
       if$
     }
   if$
+  link.open
   format.btitle "title" output.check
+  link.shut
   crossref missing$
     { format.bvolume output
       format.chapter.pages "chapter and pages" output.check
@@ -933,6 +995,8 @@ FUNCTION {inbook}
   new.block
   note output
   new.sentence
+  format.doi output
+  new.sentence
   format.SLACcitation output
   fin.entry
 }
@@ -941,7 +1005,9 @@ FUNCTION {incollection}
 { output.bibitem
   format.collaboration output
   format.authors "author" output.check
+  link.open
   format.title "title" output.check
+  link.shut
   blank.sep
   crossref missing$
     { format.in.ed.booktitle "booktitle" output.check
@@ -971,7 +1037,9 @@ FUNCTION {inproceedings}
 { output.bibitem
   format.collaboration output
   format.authors "author" output.check
+  link.open
   format.title "title" output.check
+  link.shut
   blank.sep
   crossref missing$
     { format.in.ed.booktitle "booktitle" output.check
@@ -992,6 +1060,8 @@ FUNCTION {inproceedings}
   format.eprint output
   new.block
   note output
+  new.sentence
+  format.doi output
   new.sentence
   format.SLACcitation output
   fin.entry
@@ -1036,7 +1106,9 @@ FUNCTION {manual}
 FUNCTION {mastersthesis}
 { output.bibitem
   format.authors "author" output.check
+  link.open
   format.title "title" output.check
+  link.shut
   blank.sep
   "Master's thesis" format.thesis.type output.nonnull
   school "school" output.check
@@ -1051,6 +1123,7 @@ FUNCTION {misc}
 { output.bibitem
   format.collaboration output
   format.authors output
+  link.open
   title empty$
     { howpublished new.sentence.checka }
     { howpublished empty$ not
@@ -1062,6 +1135,7 @@ FUNCTION {misc}
       blank.sep
     }
   if$
+  link.shut
   howpublished output
   format.date output
   new.block
@@ -1075,7 +1149,9 @@ FUNCTION {misc}
 FUNCTION {phdthesis}
 { output.bibitem
   format.authors "author" output.check
+  link.open
   format.btitle "title" output.check
+  link.shut
   new.block
   "PhD thesis" format.thesis.type output.nonnull
   school "school" output.check
@@ -1085,6 +1161,8 @@ FUNCTION {phdthesis}
   format.eprint output
   new.block
   note output
+  new.sentence
+  format.doi output
   new.sentence
   format.SLACcitation output
   fin.entry
@@ -1096,9 +1174,11 @@ FUNCTION {proceedings}
     { organization output }
     { format.editors output.nonnull }
   if$
+  link.open
   format.btitle "title" output.check
   format.bvolume output
   format.number.series output
+  link.shut
   editor empty$
     'skip$
     { organization output }
@@ -1106,8 +1186,9 @@ FUNCTION {proceedings}
   new.block
   publisher output
   address output
-  format.date "year" output.check
+  format.date.paren "year" output.check
   new.block
+  format.eprint output
   note output
   new.sentence
   format.SLACcitation output
@@ -1116,14 +1197,22 @@ FUNCTION {proceedings}
 
 FUNCTION {techreport}
 { output.bibitem
-  format.collaboration output
+  collaboration empty$
+    {
   format.authors "author" output.check
+    }
+    {
+      format.collaboration output
+   }
+  if$  
+  link.open
   format.title "title" output.check
+  link.shut
   blank.sep
   format.tr.number output.nonnull
   institution "institution" output.check
   address output
-  format.date "year" output.check
+  format.date.paren "year" output.check
   new.block
   note output
   fin.entry
@@ -1132,11 +1221,21 @@ FUNCTION {techreport}
 FUNCTION {unpublished}
 { output.bibitem
   format.collaboration output
-  format.authors "author" output.check
-  format.title.p "title" output.check
+  collaboration empty$
+    {
+      format.authors "author" output.check
+    }
+   {}
+  if$  
+  link.open
+  format.title "title" output.check
+  link.shut
   blank.sep
+  format.date.paren "year"  output.check
+  new.sentence
+  format.eprint output
+  new.sentence
   note "note" output.check
-  format.date output
   new.sentence
   format.SLACcitation output
   fin.entry
@@ -1268,7 +1367,12 @@ FUNCTION {begin.bib}
   if$
   "\providecommand{\href}[2]{#2}"
   "\begingroup\raggedright\begin{thebibliography}{" * longest.label  *
-  "}" * write$ newline$ }
+  "}%" * write$ newline$
+  "\makeatletter" write$ newline$
+  "\providecommand{" noop.command "}[0]{\@secondoftwo}%" * * write$ newline$
+  "\makeatother" write$ newline$
+  "\providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}" write$ newline$
+}
 
 EXECUTE {begin.bib}
 
@@ -1282,3 +1386,4 @@ FUNCTION {end.bib}
 }
 
 EXECUTE {end.bib}
+

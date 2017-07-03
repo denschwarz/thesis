@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Master_Thesis.aux
-The style file: biblatex.bst
+The style file: lucas_unsrt.bst
 A level-1 auxiliary file: Titlepage.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Theory.aux
@@ -12,64 +12,49 @@ A level-1 auxiliary file: Data_MC.aux
 A level-1 auxiliary file: Analysis.aux
 A level-1 auxiliary file: Summary.aux
 A level-1 auxiliary file: Appendix.aux
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11950 items from 5000.
-Database file #1: Master_Thesis-blx.bib
-Database file #2: MasterBib.bib
-Biblatex version: 3.3
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 50 entries,
-            6256 wiz_defined-function locations,
-            1468 strings with 16704 characters,
-and the built_in function-call counts, 203572 in all, are:
-= -- 12371
-> -- 4367
-< -- 930
-+ -- 3886
-- -- 1651
-* -- 14008
-:= -- 18657
-add.period$ -- 0
-call.type$ -- 50
-change.case$ -- 388
-chr.to.int$ -- 30
-cite$ -- 98
-duplicate$ -- 21796
-empty$ -- 20937
-format.name$ -- 2693
-if$ -- 43258
+Database file #1: MasterBib.bib
+Warning--empty journal in lhc
+Warning--empty publisher in L1
+Warning--empty year in L1
+You've used 49 entries,
+            2517 wiz_defined-function locations,
+            911 strings with 12896 characters,
+and the built_in function-call counts, 8962 in all, are:
+= -- 812
+> -- 346
+< -- 2
++ -- 125
+- -- 76
+* -- 777
+:= -- 1182
+add.period$ -- 65
+call.type$ -- 49
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 52
+duplicate$ -- 500
+empty$ -- 1037
+format.name$ -- 68
+if$ -- 2251
 int.to.chr$ -- 0
-int.to.str$ -- 135
-missing$ -- 0
-newline$ -- 1236
-num.names$ -- 1959
-pop$ -- 16334
+int.to.str$ -- 49
+missing$ -- 93
+newline$ -- 170
+num.names$ -- 44
+pop$ -- 333
 preamble$ -- 1
-purify$ -- 617
+purify$ -- 0
 quote$ -- 0
-skip$ -- 7297
+skip$ -- 178
 stack$ -- 0
-substring$ -- 19430
-swap$ -- 5431
-text.length$ -- 967
-text.prefix$ -- 1
-top$ -- 1
-type$ -- 1686
-warning$ -- 0
-while$ -- 2170
-width$ -- 0
-write$ -- 1187
+substring$ -- 70
+swap$ -- 104
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 50
+width$ -- 51
+write$ -- 472
+(There were 3 warnings)

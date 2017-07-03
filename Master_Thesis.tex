@@ -37,7 +37,10 @@
 \usepackage{fancyhdr}		%new head and foot lines
 \usepackage[babel, german=quotes]{csquotes}
 \usepackage{hyperref}
-\usepackage[style=ieee, maxbibnames=100, sorting=none, backend=bibtex]{biblatex}
+%\usepackage[style=lucas_unsrt, maxbibnames=100, sorting=none, backend=bibtex]{biblatex}
+%\usepackage{biblatex}
+\usepackage{bibgerm}
+\bibliographystyle{lucas_unsrt}
 % ===========================================================
 % ======================== new commands =====================
 % ===========================================================
@@ -88,13 +91,13 @@
 \counterwithin{equation}{chapter}
 % ======================= 
 % bibliography stuff
-\addbibresource{MasterBib.bib}
-\ExecuteBibliographyOptions{% 
-firstinits=true, 
-maxbibnames=3, % Alle Autoren (kein et al.) 
-minalphanames=3, 
-maxalphanames=3, 
-}% 
+%\addbibresource{MasterBib.bib}
+%\ExecuteBibliographyOptions{% 
+%firstinits=true, 
+%maxbibnames=3, % Alle Autoren (kein et al.) 
+%minalphanames=3, 
+%maxalphanames=3, 
+%}% 
 
 
 \urlstyle{same}
@@ -115,7 +118,7 @@ maxalphanames=3,
 
 \selectlanguage{english}
 \section*{Abstract}
-The presented analysis aims at a measurement of the jet mass in collimated top quark decays, where the top quark is reconstructed within one single jet. The jet mass is sensitive to the top quark mass and therefore an essential jet substructure variable for top quark identification. Studies with various jet clustering algorithm are presented to find most suitable method of reconstruction. Consequently, the exclusive jet clustering algorithm XCone shows a great performance and is used to obtain a jet mass distribution that is unfolded to particle level. An unfolding is applied to be able to compare with theory calculations and measure a top quark mass without relying on Monte Carlo simulations. Proving the method of this analysis, an unfolded jet mass distribution is presented as result. The measurement is performed in the lepton+jets channel, which offers a good suppression of non-$t\bar{t}$ backgrounds while retaining a high selection efficiency and uses data recorded by the CMS detector at a centre-of-mass energy of 13 TeV.
+The presented analysis aims at a measurement of the jet mass in collimated top quark decays, where the top quark is reconstructed within one single jet. The jet mass is sensitive to the top quark mass and therefore an essential jet substructure variable for top quark identification. Studies with various jet clustering algorithms are presented to find the most suitable method of reconstruction. Consequently, the exclusive jet clustering algorithm XCone shows a great performance and is used to obtain a jet mass distribution that is unfolded to particle level. An unfolding is applied to be able to compare with theory calculations and measure a top quark mass without relying on Monte Carlo simulations. Proving the method of this analysis, an unfolded jet mass distribution is presented as result. The measurement is performed in the lepton+jets channel, which offers a good suppression of non-$t\bar{t}$ backgrounds while retaining a high selection efficiency and uses data recorded by the CMS detector at a centre-of-mass energy of 13 TeV.
 
 
 \clearpage
@@ -146,14 +149,16 @@ The presented analysis aims at a measurement of the jet mass in collimated top q
 % ======================== Literaturverzeichnis =============
 % ===========================================================
 % Einträge erscheinen nur, wenn sie auch zitiert werden!!!
-\printbibliography
+%\printbibliography
+\bibliography{MasterBib}
+
 %todo in bib style formatieren. z.B. darf "CMS Collaboration" nicht C. Collaboration werden
-%todo D0 richtig formatiert? 
 %----------------------------------------------------------------
 %------------------Unterschrift----------------------------------
 %----------------------------------------------------------------
 \selectlanguage{ngerman}
 \cleardoublepage
+%todo einverstanden/nicht einverstanden??
 \noindent Hiermit bestätige ich, dass die vorliegende Arbeit von mir selbstst"andig verfasst wurde und ich keine anderen als die angegebenen Hilfsmittel -- insbesondere keine im Quellenverzeichnis nicht benannten Internet-Quellen -- benutzt habe und die Arbeit von mir vorher nicht einem anderen Prüfungsverfahren eingereicht wurde. Die eingereichte schriftliche Fassung entspricht der auf dem elektronischen Speichermedium. Ich bin damit einverstanden, dass die Masterarbeit veröffentlicht wird.\\
 \newline
 \newline
@@ -168,10 +173,7 @@ The presented analysis aims at a measurement of the jet mass in collimated top q
 %---------------------Danksagung---------------------------------
 %----------------------------------------------------------------
 \section*{Danksagung}
-Zun"achst m"ochte ich Prof. Dr. Johannes Haller daf"ur danken, dass ich die M"oglichkeit hatte, meine Masterarbeit in seiner Forschungsgruppe "uber dieses interessante Thema zu schreiben. Desweiteren bedanke ich mich f"ur die vielen R"ucksprachen und Denkanst"o"se, die meine Arbeit stets bereichert haben.\\
-Prof. Dr. Peter Schleper m"ochte ich daf"ur danken das Zweitgutachten meiner Arbeit zu "ubernehmen.\\
-Ein besonderer Dank gilt Dr. Roman Kogler, der viel Zeit in die Betreuung meiner Analyse, zahlreiche Diskussionen "uber Jets und die Korrektur meiner Arbeit gesteckt hat. \\
-Au"serdem danke ich allen Mitgliedern der Arbeitsgruppe f"ur die Menge an gekl"arte Fragen, eine nette Atmosph"are und erhellende Gespr"ache in und abseits der Teilchenphysik. Zuletzt m"ochte ich meiner Familie und vor allem Inga danken, die mich immer unterst"utzt haben. 
+Zun"achst m"ochte ich Prof. Dr. Johannes Haller daf"ur danken, dass ich die M"oglichkeit hatte, meine Masterarbeit in seiner Forschungsgruppe "uber dieses interessante Thema zu schreiben. Desweiteren bedanke ich mich f"ur die vielen R"ucksprachen und Denkanst"o"se, die meine Arbeit stets bereichert haben. Prof. Dr. Peter Schleper m"ochte ich daf"ur danken, dass er das Zweitgutachten meiner Arbeit "ubernehnommen hat. Ein besonderer Dank gilt Dr. Roman Kogler, der viel Zeit in die Betreuung meiner Analyse, zahlreiche Diskussionen "uber Jets und die Korrektur meiner Arbeit gesteckt hat. Au"serdem danke ich allen Mitgliedern der Arbeitsgruppe und insbesondere meinen B"uronachbarinnen und -nachbarn f"ur die Menge an gekl"arten Fragen, eine nette Atmosph"are und erhellende Gespr"ache in und abseits der Teilchenphysik. Zuletzt m"ochte ich meiner Familie und vor allem Inga danken, die mich immer unterst"utzt haben. 
 
 \end{document}  
 %----------------------------------------------------------------

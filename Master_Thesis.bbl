@@ -1,1268 +1,296 @@
-% $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.8 $
-% Do not modify the above lines!
-%
-% This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated as
-% required.
-%
-\begingroup
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}%
 \makeatletter
-\@ifundefined{ver@biblatex.sty}
-  {\@latex@error
-     {Missing 'biblatex' package}
-     {The bibliography requires the 'biblatex' package.}
-      \aftergroup\endinput}
-  {}
-\endgroup
+\providecommand{\hrefCMSnoop }[0]{\@secondoftwo}%
+\makeatother
+\providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
 
-\sortlist[entry]{none/global/}
-  \entry{SM}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=W}{%
-         family={{Wikimedia Commons}},
-         familyi={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url
-  {https://commons.wikimedia.org/wiki/File:Standard_Model_of_Elementary_Particles.svg}}
-    \field{note}{[Online; accessed April 28, 2017]}
-    \field{title}{{The Standard Model of elementary particles}}
-  \endentry
+\bibitem{SM}
+\hrefCMSnoop {} {{Wikimedia Commons}, ``{The Standard Model of elementary
+  particles}''.} \url
+  {https://commons.wikimedia.org/wiki/File:Standard_Model_of_Elementary_Particles.svg}.
+\newblock [Online; accessed April 28, 2017].
 
-  \entry{ModernParticlePhysics}{book}{}
-    \name{author}{1}{}{%
-      {{hash=TM}{%
-         family={Thomson},
-         familyi={T\bibinitperiod},
-         given={Mark},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Cambridge University Press}%
-    }
-    \strng{namehash}{TM1}
-    \strng{fullhash}{TM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{isbn}{9781107034266}
-    \field{title}{{Modern Particle Physics}}
-    \field{year}{2013}
-  \endentry
+\bibitem{ModernParticlePhysics}
+M.~Thomson, ``{Modern Particle Physics}''.
+\newblock Cambridge University Press, 2013.
 
-  \entry{pdg2016}{article}{}
-    \true{moreauthor}
-    \name{author}{1}{}{%
-      {{hash=PC}{%
-         family={Patrignani},
-         familyi={P\bibinitperiod},
-         given={C.},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PC+1}
-    \strng{fullhash}{PC+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1088/1674-1137/40/10/100001
-    \endverb
-    \field{number}{10}
-    \field{title}{{Review of Particle Physics}}
-    \field{volume}{C40}
-    \field{journaltitle}{Chin. Phys.}
-    \field{year}{2016}
-  \endentry
+\bibitem{pdg2016}
+\hrefCMSnoop {} {{ Particle Data Group} Collaboration, ``{Review of Particle
+  Physics}'',} \textit{ Chin. Phys.} \textbf{ C40} (2016), no.~10,
+  \href{http://dx.doi.org/10.1088/1674-1137/40/10/100001}{\doi{10.1088/1674-1137/40/10/100001}}.
 
-  \entry{topPredict}{article}{}
-    \name{author}{2}{}{%
-      {{hash=KM}{%
-         family={Kobayashi},
-         familyi={K\bibinitperiod},
-         given={Makoto},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=MT}{%
-         family={Maskawa},
-         familyi={M\bibinitperiod},
-         given={Toshihide},
-         giveni={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KMMT1}
-    \strng{fullhash}{KMMT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1143/PTP.49.652
-    \endverb
-    \verb{eprint}
-    \verb /oup/backfile/content_public/journal/ptp/49/2/10.1143/ptp.49.652/2/49
-    \verb -2-652.pdf
-    \endverb
-    \field{number}{2}
-    \field{pages}{652}
-    \field{title}{CP-Violation in the Renormalizable Theory of Weak
-  Interaction}
-    \verb{url}
-    \verb + http://dx.doi.org/10.1143/PTP.49.652
-    \endverb
-    \field{volume}{49}
-    \field{journaltitle}{Progress of Theoretical Physics}
-    \field{year}{1973}
-  \endentry
+\bibitem{topPredict}
+\hrefCMSnoop {} {M.~Kobayashi and T.~Maskawa, ``CP-Violation in the
+  Renormalizable Theory of Weak Interaction'',} \textit{ Progress of
+  Theoretical Physics} \textbf{ 49} (1973), no.~2, 652,
+  \href{http://dx.doi.org/10.1143/PTP.49.652}{\doi{10.1143/PTP.49.652}}.
 
-  \entry{topCDF}{article}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CDF Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T3}
-    \strng{fullhash}{T3}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevLett.74.2626
-    \endverb
-    \verb{eprint}
-    \verb arXiv:hep-ex/9503002
-    \endverb
-    \field{howpublished}{Phys.Rev.Lett.74:2626-2631,1995}
-    \field{title}{Observation of Top Quark Production in Pbar-P Collisions}
-    \field{year}{1995}
-  \endentry
+\bibitem{topCDF}
+\hrefCMSnoop {} {{The CDF Collaboration}, ``Observation of Top Quark Production
+  in Pbar-P Collisions'',}
+  \href{http://dx.doi.org/10.1103/PhysRevLett.74.2626}{\doi{10.1103/PhysRevLett.74.2626}},
+  \href{http://www.arXiv.org/abs/arXiv:hep-ex/9503002}{\texttt{
+  arXiv:arXiv:hep-ex/9503002}}.
 
-  \entry{topD0}{article}{}
-    \name{author}{1}{}{%
-      {{hash=S}{%
-         family={{S. Abachi, et al. (The D0 Collaboration)}},
-         familyi={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{S1}
-    \strng{fullhash}{S1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevLett.74.2422
-    \endverb
-    \verb{eprint}
-    \verb arXiv:hep-ex/9411001
-    \endverb
-    \field{howpublished}{Phys.Rev.Lett.74:2422-2426,1995}
-    \field{title}{Search for High Mass Top Quark Production in p anti-p
-  Collisions at S**(1/2) = 1.8 {TeV}}
-    \field{year}{1994}
-  \endentry
+\bibitem{topD0}
+\hrefCMSnoop {} {{S. Abachi, et al. (The D0 Collaboration)}, ``Search for High
+  Mass Top Quark Production in p anti-p Collisions at S**(1/2) = 1.8 {TeV}'',}
+  \href{http://dx.doi.org/10.1103/PhysRevLett.74.2422}{\doi{10.1103/PhysRevLett.74.2422}},
+  \href{http://www.arXiv.org/abs/arXiv:hep-ex/9411001}{\texttt{
+  arXiv:arXiv:hep-ex/9411001}}.
 
-  \entry{feynman}{article}{}
-    \name{author}{1}{}{%
-      {{hash=EJ}{%
-         family={Ellis},
-         familyi={E\bibinitperiod},
-         given={Joshua},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{EJ1}
-    \strng{fullhash}{EJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1016/j.cpc.2016.08.019
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1601.05437
-    \endverb
-    \field{title}{{TikZ-Feynman: Feynman diagrams with TikZ}}
-    \field{year}{2016}
-  \endentry
+\bibitem{feynman}
+\hrefCMSnoop {} {J.~Ellis, ``{TikZ-Feynman: Feynman diagrams with TikZ}'',}
+  \href{http://dx.doi.org/10.1016/j.cpc.2016.08.019}{\doi{10.1016/j.cpc.2016.08.019}},
+  \href{http://www.arXiv.org/abs/arXiv:1601.05437}{\texttt{
+  arXiv:arXiv:1601.05437}}.
 
-  \entry{pdf}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=R}{%
-         family={{Ringaile Placakyte, for the H1 Collaboration, for the ZEUS
-  Collaboration}},
-         familyi={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb arXiv:1111.5452
-    \endverb
-    \field{title}{Parton Distribution Functions}
-    \field{year}{2011}
-  \endentry
+\bibitem{pdf}
+\hrefCMSnoop {} {{Ringaile Placakyte, for the H1 Collaboration, for the ZEUS
+  Collaboration}, ``Parton Distribution Functions'',} 2011.
 
-  \entry{madgraph}{article}{}
-    \name{author}{5}{}{%
-      {{hash=AJ}{%
-         family={Alwall},
-         familyi={A\bibinitperiod},
-         given={Johan},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=HM}{%
-         family={Herquet},
-         familyi={H\bibinitperiod},
-         given={Michel},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=MF}{%
-         family={Maltoni},
-         familyi={M\bibinitperiod},
-         given={Fabio},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=MO}{%
-         family={Mattelaer},
-         familyi={M\bibinitperiod},
-         given={Olivier},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=ST}{%
-         family={Stelzer},
-         familyi={S\bibinitperiod},
-         given={Tim},
-         giveni={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{AJHMMF+1}
-    \strng{fullhash}{AJHMMFMOST1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1007/JHEP06(2011)128
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1106.0522
-    \endverb
-    \field{title}{MadGraph 5 : Going Beyond}
-    \field{year}{2011}
-  \endentry
+\bibitem{madgraph}
+\hrefCMSnoop {} {J.~Alwall, M.~Herquet, F.~Maltoni{ et~al.}, ``MadGraph 5 :
+  Going Beyond'',}
+  \href{http://dx.doi.org/10.1007/JHEP06(2011)128}{\doi{10.1007/JHEP06(2011)128}},
+  \href{http://www.arXiv.org/abs/arXiv:1106.0522}{\texttt{
+  arXiv:arXiv:1106.0522}}.
 
-  \entry{powheg}{article}{}
-    \name{author}{4}{}{%
-      {{hash=AS}{%
-         family={Alioli},
-         familyi={A\bibinitperiod},
-         given={Simone},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=NP}{%
-         family={Nason},
-         familyi={N\bibinitperiod},
-         given={Paolo},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=OC}{%
-         family={Oleari},
-         familyi={O\bibinitperiod},
-         given={Carlo},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=RE}{%
-         family={Re},
-         familyi={R\bibinitperiod},
-         given={Emanuele},
-         giveni={E\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{ASNPOC+1}
-    \strng{fullhash}{ASNPOCRE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1007/JHEP06(2010)043
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1002.2581
-    \endverb
-    \field{howpublished}{JHEP 1006:043,2010}
-    \field{title}{A general framework for implementing NLO calculations in
-  shower Monte Carlo programs: the POWHEG BOX}
-    \field{year}{2010}
-  \endentry
+\bibitem{powheg}
+\hrefCMSnoop {} {S.~Alioli, P.~Nason, C.~Oleari{ et~al.}, ``A general framework
+  for implementing NLO calculations in shower Monte Carlo programs: the POWHEG
+  BOX'',}
+  \href{http://dx.doi.org/10.1007/JHEP06(2010)043}{\doi{10.1007/JHEP06(2010)043}},
+  \href{http://www.arXiv.org/abs/arXiv:1002.2581}{\texttt{
+  arXiv:arXiv:1002.2581}}.
 
-  \entry{pythia8}{article}{}
-    \name{author}{3}{}{%
-      {{hash=ST}{%
-         family={Sj\"{o}strand},
-         familyi={S\bibinitperiod},
-         given={Torbj\"{o}rn},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Mrenna},
-         familyi={M\bibinitperiod},
-         given={Stephen},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SP}{%
-         family={Skands},
-         familyi={S\bibinitperiod},
-         given={Peter},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{STMSSP1}
-    \strng{fullhash}{STMSSP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1016/j.cpc.2008.01.036
-    \endverb
-    \verb{eprint}
-    \verb arXiv:0710.3820
-    \endverb
-    \field{howpublished}{Comput.Phys.Commun.178:852-867,2008}
-    \field{title}{A Brief Introduction to PYTHIA 8.1}
-    \field{year}{2007}
-  \endentry
+\bibitem{pythia8}
+\hrefCMSnoop {} {T.~Sj\"{o}strand, S.~Mrenna, and P.~Skands, ``A Brief
+  Introduction to PYTHIA 8.1'',}
+  \href{http://dx.doi.org/10.1016/j.cpc.2008.01.036}{\doi{10.1016/j.cpc.2008.01.036}},
+  \href{http://www.arXiv.org/abs/arXiv:0710.3820}{\texttt{
+  arXiv:arXiv:0710.3820}}.
 
-  \entry{geant4}{article}{}
-    \true{moreauthor}
-    \name{author}{1}{}{%
-      {{hash=AS}{%
-         family={Agostinelli},
-         familyi={A\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{AS+1}
-    \strng{fullhash}{AS+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1016/S0168-9002(03)01368-8
-    \endverb
-    \field{pages}{250\bibrangedash 303}
-    \field{title}{{GEANT4: A Simulation toolkit}}
-    \field{volume}{A506}
-    \field{journaltitle}{Nucl. Instrum. Meth.}
-    \field{year}{2003}
-  \endentry
+\bibitem{geant4}
+\hrefCMSnoop {} {{ GEANT4} Collaboration, ``{GEANT4: A Simulation toolkit}'',}
+  \textit{ Nucl. Instrum. Meth.} \textbf{ A506} (2003) 250--303,
+\href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{\doi{10.1016/S0168-9002(03)01368-8}}.
+%%CITATION = NUIMA,A506,250;%%.
 
-  \entry{ewfit}{misc}{}
-    \name{author}{2}{}{%
-      {{hash=BM}{%
-         family={Baak},
-         familyi={B\bibinitperiod},
-         given={Max},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=KR}{%
-         family={Kogler},
-         familyi={K\bibinitperiod},
-         given={Roman},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BMKR1}
-    \strng{fullhash}{BMKR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb arXiv:1306.0571
-    \endverb
-    \field{title}{The global electroweak Standard Model fit after the Higgs
-  discovery}
-    \field{year}{2013}
-  \endentry
+\bibitem{ewfit}
+\hrefCMSnoop {} {M.~Baak and R.~Kogler, ``The global electroweak Standard Model
+  fit after the Higgs discovery'',} 2013.
 
-  \entry{topmass_combination}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{ The ATLAS and CDF and CMS and D0 Collaborations}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T1}
-    \strng{fullhash}{T1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb arXiv:1403.4427
-    \endverb
-    \field{title}{First combination of Tevatron and LHC measurements of the
-  top-quark mass}
-    \field{year}{2014}
-  \endentry
+\bibitem{topmass_combination}
+\hrefCMSnoop {} {{ The ATLAS and CDF and CMS and D0 Collaborations}, ``First
+  combination of Tevatron and LHC measurements of the top-quark mass'',} 2014.
 
-  \entry{nonperturbative}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SP}{%
-         family={Skands},
-         familyi={S\bibinitperiod},
-         given={Peter},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=WD}{%
-         family={Wicke},
-         familyi={W\bibinitperiod},
-         given={Daniel},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SPWD1}
-    \strng{fullhash}{SPWD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1140/epjc/s10052-007-0352-1
-    \endverb
-    \verb{eprint}
-    \verb arXiv:hep-ph/0703081
-    \endverb
-    \field{howpublished}{Eur.Phys.J.C52:133-140,2007}
-    \field{title}{Non-perturbative QCD Effects and the Top Mass at the
-  Tevatron}
-    \field{year}{2007}
-  \endentry
+\bibitem{nonperturbative}
+\hrefCMSnoop {} {P.~Skands and D.~Wicke, ``Non-perturbative QCD Effects and the
+  Top Mass at the Tevatron'',}
+  \href{http://dx.doi.org/10.1140/epjc/s10052-007-0352-1}{\doi{10.1140/epjc/s10052-007-0352-1}},
+  \href{http://www.arXiv.org/abs/arXiv:hep-ph/0703081}{\texttt{
+  arXiv:arXiv:hep-ph/0703081}}.
 
-  \entry{cutoff}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=SB}{%
-         family={Stieger},
-         familyi={S\bibinitperiod},
-         given={Benjamin},
-         giveni={B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SB1}
-    \strng{fullhash}{SB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb arXiv:1606.02482
-    \endverb
-    \field{title}{New Methods for Top-Quark Mass Measurements at the LHC}
-    \field{year}{2016}
-  \endentry
+\bibitem{cutoff}
+\hrefCMSnoop {} {B.~Stieger, ``New Methods for Top-Quark Mass Measurements at
+  the LHC'',} 2016.
 
-  \entry{eejetmass}{article}{}
-    \name{author}{4}{}{%
-      {{hash=FS}{%
-         family={Fleming},
-         familyi={F\bibinitperiod},
-         given={Sean},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=HAH}{%
-         family={Hoang},
-         familyi={H\bibinitperiod},
-         given={Andre\bibnamedelima H.},
-         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Mantry},
-         familyi={M\bibinitperiod},
-         given={Sonny},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SIW}{%
-         family={Stewart},
-         familyi={S\bibinitperiod},
-         given={Iain\bibnamedelima W.},
-         giveni={I\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FSHAHMS+1}
-    \strng{fullhash}{FSHAHMSSIW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevD.77.114003
-    \endverb
-    \verb{eprint}
-    \verb arXiv:0711.2079
-    \endverb
-    \field{howpublished}{Phys.Rev.D77:114003,2008}
-    \field{title}{Top Jets in the Peak Region: Factorization Analysis with NLL
-  Resummation}
-    \field{year}{2007}
-  \endentry
+\bibitem{eejetmass}
+\hrefCMSnoop {} {S.~Fleming, A.~H. Hoang, S.~Mantry{ et~al.}, ``Top Jets in the
+  Peak Region: Factorization Analysis with NLL Resummation'',}
+  \href{http://dx.doi.org/10.1103/PhysRevD.77.114003}{\doi{10.1103/PhysRevD.77.114003}},
+  \href{http://www.arXiv.org/abs/arXiv:0711.2079}{\texttt{
+  arXiv:arXiv:0711.2079}}.
 
-  \entry{torben_paper}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb arXiv:1703.06330
-    \endverb
-    \field{title}{Measurement of the jet mass in highly boosted t-tbar events
-  from pp collisions at sqrt(s) = 8 {TeV}}
-    \field{year}{2017}
-  \endentry
+\bibitem{torben_paper}
+\hrefCMSnoop {} {{The CMS Collaboration}, ``Measurement of the jet mass in
+  highly boosted t-tbar events from pp collisions at sqrt(s) = 8 {TeV}'',}
+  2017.
 
-  \entry{lhc}{article}{}
-    \name{author}{1}{}{%
-      {{hash=MF}{%
-         family={Marcastel},
-         familyi={M\bibinitperiod},
-         given={Fabienne},
-         giveni={F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MF1}
-    \strng{fullhash}{MF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-  \field{note}{\href{https://cds.cern.ch/record/1621583}{\texttt{OPEN-PHO-CHART-2013-001}}}
-    \field{title}{{CERN's Accelerator Complex. La chaîne des accélérateurs
-  du CERN}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/1621583
-    \endverb
-    \field{year}{2013}
-  \endentry
+\bibitem{lhc}
+\href {https://cds.cern.ch/record/1621583} {F.~Marcastel, ``{CERN's Accelerator
+  Complex. La chaine des accelerateurs du CERN}'',} (2013).
+  \href{https://cds.cern.ch/record/1621583}{\texttt{OPEN-PHO-CHART-2013-001}}.
 
-  \entry{luminosity}{article}{}
-    \name{author}{2}{}{%
-      {{hash=HW}{%
-         family={Herr},
-         familyi={H\bibinitperiod},
-         given={Werner},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=MB}{%
-         family={Muratori},
-         familyi={M\bibinitperiod},
-         given={B},
-         giveni={B},
-      }}%
-    }
-    \strng{namehash}{HWMB1}
-    \strng{fullhash}{HWMB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{{Concept of luminosity}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/941318
-    \endverb
-    \field{year}{2006}
-  \endentry
+\bibitem{luminosity}
+\href {https://cds.cern.ch/record/941318} {W.~Herr and B.~Muratori, ``{Concept
+  of luminosity}'',}.
 
-  \entry{LHClumi}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-  \field{howpublished}{\url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}}
-    \field{note}{[Cern Twiki; Topic revision: r121 - 2017-06-26]}
-    \field{title}{{Delivered Luminosity versus time for 2010, 2011, 2012, 2015
-  and 2016}}
-  \endentry
+\bibitem{LHClumi}
+\hrefCMSnoop {} {{The CMS Collaboration}, ``{Delivered Luminosity versus time
+  for 2010, 2011, 2012, 2015 and 2016}''.}
+  \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}.
+\newblock [Cern Twiki; Topic revision: r121 - 2017-06-26].
 
-  \entry{HiggsATLAS}{article}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The ATLAS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T2}
-    \strng{fullhash}{T2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1016/j.physletb.2012.08.020
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1207.7214
-    \endverb
-    \field{howpublished}{Phys.Lett. B716 (2012) 1-29}
-    \field{title}{Observation of a new particle in the search for the Standard
-  Model Higgs boson with the ATLAS detector at the LHC}
-    \field{year}{2012}
-  \endentry
+\bibitem{HiggsATLAS}
+\hrefCMSnoop {} {{The ATLAS Collaboration}, ``Observation of a new particle in
+  the search for the Standard Model Higgs boson with the ATLAS detector at the
+  LHC'',}
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{\doi{10.1016/j.physletb.2012.08.020}},
+  \href{http://www.arXiv.org/abs/arXiv:1207.7214}{\texttt{
+  arXiv:arXiv:1207.7214}}.
 
-  \entry{HiggsCMS}{article}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1016/j.physletb.2012.08.021
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1207.7235
-    \endverb
-    \field{howpublished}{Phys. Lett. B 716 (2012) 30}
-    \field{title}{Observation of a new boson at a mass of 125 GeV with the CMS
-  experiment at the LHC}
-    \field{year}{2012}
-  \endentry
+\bibitem{HiggsCMS}
+\hrefCMSnoop {} {{The CMS Collaboration}, ``Observation of a new boson at a
+  mass of 125 GeV with the CMS experiment at the LHC'',}
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{\doi{10.1016/j.physletb.2012.08.021}},
+  \href{http://www.arXiv.org/abs/arXiv:1207.7235}{\texttt{
+  arXiv:arXiv:1207.7235}}.
 
-  \entry{CMSfull}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url{http://cms.web.cern.ch/news/cms-detector-design}}
-    \field{note}{[Online; accessed May 03, 2017]}
-    \field{title}{{CMS detctor design}}
-  \endentry
+\bibitem{CMSfull}
+\hrefCMSnoop {} {{The CMS Collaboration}, ``{CMS detctor design}''.}
+  \url{http://cms.web.cern.ch/news/cms-detector-design}.
+\newblock [Online; accessed May 03, 2017].
 
-  \entry{CMSdetector}{article}{}
-    \true{moreauthor}
-    \name{author}{1}{}{%
-      {{hash=CS}{%
-         family={Chatrchyan},
-         familyi={C\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CS+1}
-    \strng{fullhash}{CS+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1088/1748-0221/3/08/S08004
-    \endverb
-    \field{pages}{S08004}
-    \field{title}{{The CMS Experiment at the CERN LHC}}
-    \field{volume}{3}
-    \field{journaltitle}{JINST}
-    \field{year}{2008}
-  \endentry
+\bibitem{CMSdetector}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``{The CMS Experiment at the CERN
+  LHC}'',} \textit{ JINST} \textbf{ 3} (2008) S08004,
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{\doi{10.1088/1748-0221/3/08/S08004}}.
+%%CITATION = JINST,3,S08004;%%.
 
-  \entry{EGammaPerformance}{article}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1088/1748-0221/8/09/P09009
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1306.2016
-    \endverb
-    \field{howpublished}{JINST 8 (2013) P09009}
-    \field{title}{Energy calibration and resolution of the CMS electromagnetic
-  calorimeter in pp collisions at sqrt(s) = 7 {TeV}}
-    \field{year}{2013}
-  \endentry
+\bibitem{EGammaPerformance}
+\hrefCMSnoop {} {{The CMS Collaboration}, ``Energy calibration and resolution
+  of the CMS electromagnetic calorimeter in pp collisions at sqrt(s) = 7
+  {TeV}'',}
+  \href{http://dx.doi.org/10.1088/1748-0221/8/09/P09009}{\doi{10.1088/1748-0221/8/09/P09009}},
+  \href{http://www.arXiv.org/abs/arXiv:1306.2016}{\texttt{
+  arXiv:arXiv:1306.2016}}.
 
-  \entry{L1}{book}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{series}{Technical Design Report CMS}
-    \field{title}{{CMS TriDAS project: Technical Design Report, Volume 1: The
-  Trigger Systems}}
-    \verb{url}
-    \verb http://cds.cern.ch/record/706847
-    \endverb
-  \endentry
+\bibitem{L1}
+{The CMS Collaboration}, ``{CMS TriDAS project: Technical Design Report, Volume
+  1: The Trigger Systems}''.
+\newblock Technical Design Report CMS.
 
-  \entry{HLT}{book}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {CERN}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{series}{Technical Design Report CMS}
-    \field{title}{{CMS The TriDAS Project: Technical Design Report, Volume 2:
-  Data Acquisition and High-Level Trigger. CMS trigger and data-acquisition
-  project}}
-    \verb{url}
-    \verb http://cds.cern.ch/record/578006
-    \endverb
-    \list{location}{1}{%
-      {Geneva}%
-    }
-    \field{year}{2002}
-  \endentry
+\bibitem{HLT}
+{The CMS Collaboration}, ``{CMS The TriDAS Project: Technical Design Report,
+  Volume 2: Data Acquisition and High-Level Trigger. CMS trigger and
+  data-acquisition project}''.
+\newblock Technical Design Report CMS. CERN, Geneva, 2002.
 
-  \entry{particleflow}{article}{}
-    \name{author}{1}{}{%
-      {{hash=BF}{%
-         family={Beaudette},
-         familyi={B\bibinitperiod},
-         given={Florian},
-         giveni={F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BF1}
-    \strng{fullhash}{BF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb arXiv:1401.8155
-    \endverb
-    \field{howpublished}{Proceedings of the CHEF2013 Conference - Eds. J.C.
-  Brient, R. Salerno, and Y. Sirois - p295 (2013), ISBN 978-2-7302-1624-1}
-    \field{title}{{The CMS Particle Flow Algorithm}}
-    \field{year}{2014}
-  \endentry
+\bibitem{particleflow}
+\hrefCMSnoop {} {F.~Beaudette, ``{The CMS Particle Flow Algorithm}'',}
+  \href{http://www.arXiv.org/abs/arXiv:1401.8155}{\texttt{
+  arXiv:arXiv:1401.8155}}.
 
-  \entry{CMSslicewhite}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=BD}{%
-         family={Barney},
-         familyi={B\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BD1}
-    \strng{fullhash}{BD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url {http://cds.cern.ch/record/2120661/?ln=de}}
-    \field{note}{[Online; accessed May 16, 2017]}
-    \field{title}{{CMS slice}}
-  \endentry
+\bibitem{CMSslicewhite}
+\hrefCMSnoop {} {D.~Barney, ``{CMS slice}''.} \url
+  {http://cds.cern.ch/record/2120661/?ln=de}.
+\newblock [Online; accessed May 16, 2017].
 
-  \entry{MuonID}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url
-  {https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideMuonIdRun2}}
-    \field{note}{[Cern Twiki; Topic revision: r28 - 2017-01-09]}
-    \field{title}{{Muon ID}}
-  \endentry
+\bibitem{MuonID}
+\hrefCMSnoop {} {{The CMS Collaboration}, ``{Muon ID}''.} \url
+  {https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideMuonIdRun2}.
+\newblock [Cern Twiki; Topic revision: r28 - 2017-01-09].
 
-  \entry{ElecID}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url
-  {https://twiki.cern.ch/twiki/bin/view/CMSPublic/EgammaPublicData}}
-    \field{note}{[Cern Twiki; Topic revision: r5 - 2016-04-22]}
-    \field{title}{{Electron ID}}
-  \endentry
+\bibitem{ElecID}
+\hrefCMSnoop {} {{The CMS Collaboration}, ``{Electron ID}''.} \url
+  {https://twiki.cern.ch/twiki/bin/view/CMSPublic/EgammaPublicData}.
+\newblock [Cern Twiki; Topic revision: r5 - 2016-04-22].
 
-  \entry{antikt}{article}{}
-    \name{author}{3}{}{%
-      {{hash=CM}{%
-         family={Cacciari},
-         familyi={C\bibinitperiod},
-         given={Matteo},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=SGP}{%
-         family={Salam},
-         familyi={S\bibinitperiod},
-         given={Gavin\bibnamedelima P.},
-         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=SG}{%
-         family={Soyez},
-         familyi={S\bibinitperiod},
-         given={Gregory},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CMSGPSG1}
-    \strng{fullhash}{CMSGPSG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1088/1126-6708/2008/04/063
-    \endverb
-    \verb{eprint}
-    \verb arXiv:0802.1189
-    \endverb
-    \field{howpublished}{JHEP 0804:063,2008}
-    \field{title}{{The anti-kt jet clustering algorithm}}
-    \field{year}{2008}
-  \endentry
+\bibitem{antikt}
+\hrefCMSnoop {} {M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{The anti-kt jet
+  clustering algorithm}'',}
+  \href{http://dx.doi.org/10.1088/1126-6708/2008/04/063}{\doi{10.1088/1126-6708/2008/04/063}},
+  \href{http://www.arXiv.org/abs/arXiv:0802.1189}{\texttt{
+  arXiv:arXiv:0802.1189}}.
 
-  \entry{CA1}{misc}{}
-    \name{author}{2}{}{%
-      {{hash=WM}{%
-         family={Wobisch},
-         familyi={W\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=WT}{%
-         family={Wengler},
-         familyi={W\bibinitperiod},
-         given={T.},
-         giveni={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WMWT1}
-    \strng{fullhash}{WMWT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb arXiv:hep-ph/9907280
-    \endverb
-    \field{title}{{Hadronization Corrections to Jet Cross Sections in
-  Deep-Inelastic Scattering}}
-    \field{year}{1999}
-  \endentry
+\bibitem{CA1}
+\hrefCMSnoop {} {M.~Wobisch and T.~Wengler, ``{Hadronization Corrections to Jet
+  Cross Sections in Deep-Inelastic Scattering}'',} 1999.
 
-  \entry{CA2}{article}{}
-    \name{author}{4}{}{%
-      {{hash=DYL}{%
-         family={Dokshitzer},
-         familyi={D\bibinitperiod},
-         given={Yu.\bibnamedelima L.},
-         giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=LGD}{%
-         family={Leder},
-         familyi={L\bibinitperiod},
-         given={G.\bibnamedelima D.},
-         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Moretti},
-         familyi={M\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=WBR}{%
-         family={Webber},
-         familyi={W\bibinitperiod},
-         given={B.\bibnamedelima R.},
-         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DYLLGDMS+1}
-    \strng{fullhash}{DYLLGDMSWBR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1088/1126-6708/1997/08/001
-    \endverb
-    \verb{eprint}
-    \verb arXiv:hep-ph/9707323
-    \endverb
-    \field{howpublished}{JHEP 9708:001,1997}
-    \field{title}{{Better Jet Clustering Algorithms}}
-    \field{year}{1997}
-  \endentry
+\bibitem{CA2}
+\hrefCMSnoop {} {Y.~L. Dokshitzer, G.~D. Leder, S.~Moretti{ et~al.}, ``{Better
+  Jet Clustering Algorithms}'',}
+  \href{http://dx.doi.org/10.1088/1126-6708/1997/08/001}{\doi{10.1088/1126-6708/1997/08/001}},
+  \href{http://www.arXiv.org/abs/arXiv:hep-ph/9707323}{\texttt{
+  arXiv:arXiv:hep-ph/9707323}}.
 
-  \entry{softdrop}{article}{}
-    \name{author}{4}{}{%
-      {{hash=LAJ}{%
-         family={Larkoski},
-         familyi={L\bibinitperiod},
-         given={Andrew\bibnamedelima J.},
-         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Marzani},
-         familyi={M\bibinitperiod},
-         given={Simone},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SG}{%
-         family={Soyez},
-         familyi={S\bibinitperiod},
-         given={Gregory},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=TJ}{%
-         family={Thaler},
-         familyi={T\bibinitperiod},
-         given={Jesse},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LAJMSSG+1}
-    \strng{fullhash}{LAJMSSGTJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1007/JHEP05(2014)146
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1402.2657
-    \endverb
-    \field{howpublished}{JHEP 1405 (2014) 146}
-    \field{title}{Soft Drop}
-    \field{year}{2014}
-  \endentry
+\bibitem{softdrop}
+\hrefCMSnoop {} {A.~J. Larkoski, S.~Marzani, G.~Soyez{ et~al.}, ``Soft Drop'',}
+  \href{http://dx.doi.org/10.1007/JHEP05(2014)146}{\doi{10.1007/JHEP05(2014)146}},
+  \href{http://www.arXiv.org/abs/arXiv:1402.2657}{\texttt{
+  arXiv:arXiv:1402.2657}}.
 
-  \entry{softdropvalues}{report}{}
-    \field{labeltitlesource}{title}
-    \field{number}{CMS-PAS-JME-15-002}
-    \field{title}{{Top Tagging with New Approaches}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/2126325
-    \endverb
-    \list{location}{1}{%
-      {Geneva}%
-    }
-    \list{institution}{1}{%
-      {CERN}%
-    }
-    \field{type}{techreport}
-    \field{year}{2016}
-  \endentry
+\bibitem{softdropvalues}
+\href {https://cds.cern.ch/record/2126325} {{ CMS Collaboration} Collaboration,
+  ``{Top Tagging with New Approaches}'',}   CMS-PAS-JME-15-002, CERN, Geneva,
+  (2016).
 
-  \entry{hotvr}{article}{}
-    \name{author}{3}{}{%
-      {{hash=LT}{%
-         family={Lapsien},
-         familyi={L\bibinitperiod},
-         given={Tobias},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=KR}{%
-         family={Kogler},
-         familyi={K\bibinitperiod},
-         given={Roman},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=HJ}{%
-         family={Haller},
-         familyi={H\bibinitperiod},
-         given={Johannes},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LTKRHJ1}
-    \strng{fullhash}{LTKRHJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1140/epjc/s10052-016-4443-8
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1606.04961
-    \endverb
-    \field{howpublished}{Eur. Phys. J. C 76, 600 (2016)}
-    \field{title}{{A new tagger for hadronically decaying heavy particles at
-  the LHC}}
-    \field{year}{2016}
-  \endentry
+\bibitem{hotvr}
+\hrefCMSnoop {} {T.~Lapsien, R.~Kogler, and J.~Haller, ``{A new tagger for
+  hadronically decaying heavy particles at the LHC}'',}
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4443-8}{\doi{10.1140/epjc/s10052-016-4443-8}},
+  \href{http://www.arXiv.org/abs/arXiv:1606.04961}{\texttt{
+  arXiv:arXiv:1606.04961}}.
 
-  \entry{xcone}{article}{}
-    \name{author}{5}{}{%
-      {{hash=SIW}{%
-         family={Stewart},
-         familyi={S\bibinitperiod},
-         given={Iain\bibnamedelima W.},
-         giveni={I\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-      {{hash=TFJ}{%
-         family={Tackmann},
-         familyi={T\bibinitperiod},
-         given={Frank\bibnamedelima J.},
-         giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=TJ}{%
-         family={Thaler},
-         familyi={T\bibinitperiod},
-         given={Jesse},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=VCK}{%
-         family={Vermilion},
-         familyi={V\bibinitperiod},
-         given={Christopher\bibnamedelima K.},
-         giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=WTF}{%
-         family={Wilkason},
-         familyi={W\bibinitperiod},
-         given={Thomas\bibnamedelima F.},
-         giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SIWTFJTJ+1}
-    \strng{fullhash}{SIWTFJTJVCKWTF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1007/JHEP11(2015)072
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1508.01516
-    \endverb
-    \field{title}{{XCone: N-jettiness as an Exclusive Cone Jet Algorithm}}
-    \field{year}{2015}
-  \endentry
+\bibitem{xcone}
+\hrefCMSnoop {} {I.~W. Stewart, F.~J. Tackmann, J.~Thaler{ et~al.}, ``{XCone:
+  N-jettiness as an Exclusive Cone Jet Algorithm}'',}
+  \href{http://dx.doi.org/10.1007/JHEP11(2015)072}{\doi{10.1007/JHEP11(2015)072}},
+  \href{http://www.arXiv.org/abs/arXiv:1508.01516}{\texttt{
+  arXiv:arXiv:1508.01516}}.
 
-  \entry{JEC}{article}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{11}
-    \field{pages}{P11002}
-    \field{title}{{Determination of jet energy calibration and transverse
-  momentum resolution in CMS}}
-    \verb{url}
-    \verb http://stacks.iop.org/1748-0221/6/i=11/a=P11002
-    \endverb
-    \field{volume}{6}
-    \field{journaltitle}{Journal of Instrumentation}
-    \field{year}{2011}
-  \endentry
+\bibitem{JEC}
+\href {http://stacks.iop.org/1748-0221/6/i=11/a=P11002} {{The CMS
+  Collaboration}, ``{Determination of jet energy calibration and transverse
+  momentum resolution in CMS}'',} \textit{ Journal of Instrumentation} \textbf{
+  6} (2011), no.~11, P11002.
 
-  \entry{csv}{article}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{04}
-    \field{pages}{P04013}
-    \field{title}{{Identification of b-quark jets with the CMS experiment}}
-    \verb{url}
-    \verb http://stacks.iop.org/1748-0221/8/i=04/a=P04013
-    \endverb
-    \field{volume}{8}
-    \field{journaltitle}{Journal of Instrumentation}
-    \field{year}{2013}
-  \endentry
+\bibitem{csv}
+\href {http://stacks.iop.org/1748-0221/8/i=04/a=P04013} {{The CMS
+  Collaboration}, ``{Identification of b-quark jets with the CMS
+  experiment}'',} \textit{ Journal of Instrumentation} \textbf{ 8} (2013),
+  no.~04, P04013.
 
-  \entry{btag}{report}{}
-    \field{labeltitlesource}{title}
-    \field{number}{CMS-PAS-BTV-15-001}
-    \field{title}{{Identification of b quark jets at the CMS Experiment in the
-  LHC Run 2}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/2138504
-    \endverb
-    \list{location}{1}{%
-      {Geneva}%
-    }
-    \list{institution}{1}{%
-      {CERN}%
-    }
-    \field{type}{techreport}
-    \field{year}{2016}
-  \endentry
+\bibitem{btag}
+\href {https://cds.cern.ch/record/2138504} {{ {CMS Collaboration}}
+  Collaboration, ``{Identification of b quark jets at the CMS Experiment in the
+  LHC Run 2}'',}   CMS-PAS-BTV-15-001, CERN, Geneva, (2016).
 
-  \entry{btagperf}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-  \field{howpublished}{\url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagRecommendation}}
-    \field{note}{[Cern Twiki; Topic revision: r23 - 2016-12-14]}
-    \field{title}{{Btag Recommendation}}
-  \endentry
+\bibitem{btagperf}
+\hrefCMSnoop {} {{The CMS Collaboration}, ``{Btag Recommendation}''.}
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagRecommendation}.
+\newblock [Cern Twiki; Topic revision: r23 - 2016-12-14].
 
-  \entry{CMSlumi}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS Collaboration}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T4}
-    \strng{fullhash}{T4}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-  \field{howpublished}{\url{https://cms-service-lumi.web.cern.ch/cms-service-lumi/publicplots/int_lumi_per_day_cumulative_pp_2016.png}}
-    \field{note}{[Online; accessed May 03, 2017]}
-    \field{title}{{Luminosity versus day}}
-  \endentry
+\bibitem{CMSlumi}
+\hrefCMSnoop {} {{The CMS Collaboration}, ``{Luminosity versus day}''.}
+  \url{https://cms-service-lumi.web.cern.ch/cms-service-lumi/publicplots/int_lumi_per_day_cumulative_pp_2016.png}.
+\newblock [Online; accessed May 03, 2017].
 
-  \entry{tunfold}{article}{}
-    \name{author}{1}{}{%
-      {{hash=SS}{%
-         family={Schmitt},
-         familyi={S\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SS1}
-    \strng{fullhash}{SS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1088/1748-0221/7/10/T10003
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1205.6201
-    \endverb
-    \field{title}{TUnfold: an algorithm for correcting migration effects in
-  high energy physics}
-    \field{year}{2012}
-  \endentry
+\bibitem{tunfold}
+\hrefCMSnoop {} {S.~Schmitt, ``TUnfold: an algorithm for correcting migration
+  effects in high energy physics'',}
+  \href{http://dx.doi.org/10.1088/1748-0221/7/10/T10003}{\doi{10.1088/1748-0221/7/10/T10003}},
+  \href{http://www.arXiv.org/abs/arXiv:1205.6201}{\texttt{
+  arXiv:arXiv:1205.6201}}.
 
-  \entry{xconetop}{article}{}
-    \name{author}{2}{}{%
-      {{hash=TJ}{%
-         family={Thaler},
-         familyi={T\bibinitperiod},
-         given={Jesse},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=WTF}{%
-         family={Wilkason},
-         familyi={W\bibinitperiod},
-         given={Thomas\bibnamedelima F.},
-         giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{TJWTF1}
-    \strng{fullhash}{TJWTF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1007/JHEP12(2015)051
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1508.01518
-    \endverb
-    \field{title}{{Resolving Boosted Jets with XCone}}
-    \field{year}{2015}
-  \endentry
+\bibitem{xconetop}
+\hrefCMSnoop {} {J.~Thaler and T.~F. Wilkason, ``{Resolving Boosted Jets with
+  XCone}'',}
+  \href{http://dx.doi.org/10.1007/JHEP12(2015)051}{\doi{10.1007/JHEP12(2015)051}},
+  \href{http://www.arXiv.org/abs/arXiv:1508.01518}{\texttt{
+  arXiv:arXiv:1508.01518}}.
 
-  \entry{ttreweight}{article}{}
-    \name{author}{1}{}{%
-      {{hash=C}{%
-         family={{CMS Collaboration}},
-         familyi={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{C1}
-    \strng{fullhash}{C1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevD.95.092001
-    \endverb
-    \verb{eprint}
-    \verb arXiv:1610.04191
-    \endverb
-    \field{howpublished}{Phys. Rev. D 95, 092001 (2017)}
-    \field{title}{Measurement of differential cross sections for top quark pair
-  production using the lepton+jets final state in proton-proton collisions at
-  13 {TeV}}
-    \field{year}{2016}
-  \endentry
+\bibitem{ttreweight}
+\hrefCMSnoop {} {{CMS Collaboration}, ``Measurement of differential cross
+  sections for top quark pair production using the lepton+jets final state in
+  proton-proton collisions at 13 {TeV}'',}
+  \href{http://dx.doi.org/10.1103/PhysRevD.95.092001}{\doi{10.1103/PhysRevD.95.092001}},
+  \href{http://www.arXiv.org/abs/arXiv:1610.04191}{\texttt{
+  arXiv:arXiv:1610.04191}}.
 
-  \entry{topreweight}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=C}{%
-         family={{CMS Collaboration}},
-         familyi={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{C1}
-    \strng{fullhash}{C1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url
-  {https://twiki.cern.ch/twiki/pub/CMSPublic/PhysicsResultsTOPSummaryFigures/TopPt\_DATA\_PWHGP8.pdf}}
-    \field{note}{[Cern Twiki; Topic revision: r370 - 2017-02-07]}
-    \field{title}{{Ratio between 13 TeV data and Powheg+Pythia8 simulation for
-  the differential top quark pair cross section as a function of pT of the top
-  quark. }}
-  \endentry
+\bibitem{topreweight}
+\hrefCMSnoop {} {{CMS Collaboration}, ``{Ratio between 13 TeV data and
+  Powheg+Pythia8 simulation for the differential top quark pair cross section
+  as a function of pT of the top quark. }''.} \url
+  {https://twiki.cern.ch/twiki/pub/CMSPublic/PhysicsResultsTOPSummaryFigures/TopPt\_DATA\_PWHGP8.pdf}.
+\newblock [Cern Twiki; Topic revision: r370 - 2017-02-07].
 
-  \entry{Wmass}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb arXiv:1701.07240
-    \endverb
-    \field{title}{Measurement of the {$W$}-boson mass in pp collisions at
-  {$\sqrt{s}=7$} {TeV} with the ATLAS detector}
-    \field{year}{2017}
-  \endentry
-\endsortlist
-\endinput
+\bibitem{Wmass}
+\hrefCMSnoop {} {{ATLAS Collaboration}, ``Measurement of the {$W$}-boson mass
+  in pp collisions at {$\sqrt{s}=7$} {TeV} with the ATLAS detector'',}
+  \href{http://www.arXiv.org/abs/arXiv:1701.07240}{\texttt{
+  arXiv:arXiv:1701.07240}}.
+
+\end{thebibliography}\endgroup
