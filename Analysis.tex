@@ -458,7 +458,7 @@
   	
 \FloatBarrier %draw figures of previous section before the new one starts	
 \subsection{Final Jet Mass Distribution}
-	After the events passed the baseline selection, the measurement phase space requirement and the newly derived jet energy correction, the final jet mass distribution is presented in Fig.~\ref{fig:MJet_final}. Data and Monte Carlo prediction agree very well after scaling $t\bar{t}$ simulation with a normalisation factor of $0.75$. A jet mass distribution from the $8\;\text{TeV}$ analysis is shown in Fig.~\ref{fig:Torben_MJet} to compare both results. Cambridge/Aachen jets with a radius parameter of $1.2$ are used, selecting events with one jet with $p_T > 500\;\text{GeV}$. A drastic improvement in peak resolution and statistics is visible in the XCone distribution, promising higher statistics, a finer binning and less influence from pile-up when unfolding the data in the $13\;\text{TeV}$ analysis
+	After the events passed the baseline selection, the measurement phase space requirement and the newly derived jet energy correction, the final jet mass distribution is presented in Fig.~\ref{fig:MJet_final}. Data and Monte Carlo prediction agree very well after scaling $t\bar{t}$ simulation with a normalisation factor of $0.75$. The dependence on pile-up is studied in Fig.~\ref{fig:Mass_PU}. The orange band, consisting the majority of events, shows an almost flat distribution over the number of primary vertices per event. A slight trend, that high pile-up leads to higher masses is observed. However, this effect is not dominant since the red line, indicating a top quark mass of $173\;\text{GeV}$ is still in agreement with the region where jets accumulate. A jet mass distribution from the $8\;\text{TeV}$ analysis is shown in Fig.~\ref{fig:Torben_MJet} to compare both results. Cambridge/Aachen jets with a radius parameter of $1.2$ are used, selecting events with one jet with $p_T > 500\;\text{GeV}$. A drastic improvement in peak resolution and statistics is visible in the XCone distribution, promising higher statistics, a finer binning and less influence from pile-up when unfolding the data in the $13\;\text{TeV}$ analysis
 	\begin{figure}[h]
   		\centering
  		\begin{tikzpicture}
@@ -468,8 +468,15 @@
  		\end{tikzpicture} 
   		\caption{Jet mass distribution of the corrected jets clustered with XCone. This distribution will be used as input in the unfolding.} 
   		\label{fig:MJet_final}
-  	\end{figure}	
-  	
+  	\end{figure}
+  		
+	\begin{figure}[tb]
+		\centering
+		\includegraphics [width=.8\textwidth]{../Plots/Mass_PileUp_2D.pdf}
+		\caption{Dependence of the jet mass on the number of primary vertices in $t\bar{t}$ simulation. A slight trend is observed that higher pile-up generates higher jet masses. Every column is normalized to unity. The red line is drawn at a top quark mass of $173\;\text{GeV}$ as a reference.}
+		\label{fig:Mass_PU}
+	\end{figure}
+	  	
 	\begin{figure}[tb]
 		\centering
 		\includegraphics [width=.6\textwidth]{../Plots/Torben/Torben_data_paper.pdf}
@@ -477,6 +484,7 @@
 		\label{fig:Torben_MJet}
 	\end{figure}
 
+	
 \section{Unfolding}
 \label{sec:unfolding}
 	Most analyses at the LHC measure distributions in appropriate variables and then compare the obtained results in data with simulations. In this method the MC samples also include detector effects. What one measures in this case is the real distribution on particle level folded with a detector response simulated in detail for each event. Studying the difference in MC between particle level and reconstruction level, it is possible to calculate the probabilities that a measured value in a bin $y_i$ is originating from bin $x_i$ on particle level. A visualisation of this problem is drawn in Fig.~\ref{fig:Unfolding}.	
