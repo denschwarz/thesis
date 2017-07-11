@@ -56,17 +56,17 @@
 \contentsline {subsection}{\numberline {7.2.3}Studies with HOTVR}{47}{subsection.7.2.3}
 \contentsline {subsection}{\numberline {7.2.4}Studies with XCone}{49}{subsection.7.2.4}
 \contentsline {subsection}{\numberline {7.2.5}Comparing Jet Algorithms}{54}{subsection.7.2.5}
-\contentsline {section}{\numberline {7.3}Studies on Reconstruction Level}{56}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Baseline Selection}{56}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Measurement Phase Space}{60}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Jet Energy Corrections for XCone Jets}{62}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Final Jet Mass Distribution}{67}{subsection.7.3.4}
-\contentsline {section}{\numberline {7.4}Unfolding}{69}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Regularised Unfolding with TUnfold}{69}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Migration Matrix}{70}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Closure Tests}{72}{subsection.7.4.3}
-\contentsline {subsection}{\numberline {7.4.4}Unfolding of Data}{75}{subsection.7.4.4}
-\contentsline {section}{\numberline {7.5}Summary of Results}{76}{section.7.5}
-\contentsline {chapter}{\numberline {8}Summary and Outlook}{79}{chapter.8}
-\contentsline {chapter}{\numberline {A}Jet Energy Corrections for XCone}{81}{appendix.A}
+\contentsline {section}{\numberline {7.3}Studies on Reconstruction Level}{57}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Baseline Selection}{57}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Measurement Phase Space}{61}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Jet Energy Corrections for XCone Jets}{63}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Final Jet Mass Distribution}{69}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}Unfolding}{71}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Regularised Unfolding with TUnfold}{71}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Migration Matrix}{72}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Closure Tests}{74}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.4}Unfolding of Data}{77}{subsection.7.4.4}
+\contentsline {section}{\numberline {7.5}Summary of Results}{78}{section.7.5}
+\contentsline {chapter}{\numberline {8}Summary and Outlook}{81}{chapter.8}
+\contentsline {chapter}{\numberline {A}Jet Energy Corrections for XCone}{83}{appendix.A}
 \select@language {ngerman}
