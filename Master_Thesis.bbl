@@ -14,10 +14,31 @@
 M.~Thomson, ``{Modern Particle Physics}''.
 \newblock Cambridge University Press, 2013.
 
+\bibitem{EW}
+\hrefCMSnoop {} {A.~Pich, ``The Standard Model of Electroweak Interactions'',}
+  2005.
+
+\bibitem{CKM}
+\hrefCMSnoop {} {M.~Kobayashi and T.~Maskawa, ``CP-Violation in the
+  Renormalizable Theory of Weak Interaction'',} \textit{ Progress of
+  Theoretical Physics} (1973)
+  \href{http://dx.doi.org/10.1143/PTP.49.652}{\doi{10.1143/PTP.49.652}}.
+
 \bibitem{pdg2016}
 \hrefCMSnoop {} {{ Particle Data Group} Collaboration, ``{Review of Particle
   Physics}'',} \textit{ Chin. Phys.} \textbf{ C40} (2016), no.~10,
   \href{http://dx.doi.org/10.1088/1674-1137/40/10/100001}{\doi{10.1088/1674-1137/40/10/100001}}.
+
+\bibitem{Englert}
+\hrefCMSnoop {} {F.~Englert and R.~Brout, ``Broken Symmetry and the Mass of
+  Gauge Vector Mesons'',} \textit{ Phys. Rev. Lett.} \textbf{ 13} (Aug, 1964)
+  321--323,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.13.321}{\doi{10.1103/PhysRevLett.13.321}}.
+
+\bibitem{Higgs}
+\hrefCMSnoop {} {P.~W. Higgs, ``Broken Symmetries and the Masses of Gauge
+  Bosons'',} \textit{ Phys. Rev. Lett.} \textbf{ 13} (Oct, 1964) 508--509,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.13.508}{\doi{10.1103/PhysRevLett.13.508}}.
 
 \bibitem{topPredict}
 \hrefCMSnoop {} {M.~Kobayashi and T.~Maskawa, ``CP-Violation in the
@@ -77,6 +98,17 @@ M.~Thomson, ``{Modern Particle Physics}''.
 \href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{\doi{10.1016/S0168-9002(03)01368-8}}.
 %%CITATION = NUIMA,A506,250;%%.
 
+\bibitem{MCsteps}
+\href {https://inspirehep.net/record/1231737/files/arXiv:1305.0346.pdf}
+  {R.~Hirosky, ``{Jet Production Studies at Colliders}'',} in \textit{
+  {Proceedings, 32nd International Symposium on Physics in Collision (PIC
+  2012): Strbske Pleso, Slovakia, September 12-15, 2012}}, pp.~65--78.
+\newblock 2013.
+\newblock
+\href{http://www.arXiv.org/abs/1305.0346}{\texttt{ arXiv:1305.0346}}.
+\newblock
+%%CITATION = ARXIV:1305.0346;%%.
+
 \bibitem{ewfit}
 \hrefCMSnoop {} {M.~Baak and R.~Kogler, ``The global electroweak Standard Model
   fit after the Higgs discovery'',} 2013.
@@ -84,6 +116,13 @@ M.~Thomson, ``{Modern Particle Physics}''.
 \bibitem{topmass_combination}
 \hrefCMSnoop {} {{ The ATLAS and CDF and CMS and D0 Collaborations}, ``First
   combination of Tevatron and LHC measurements of the top-quark mass'',} 2014.
+
+\bibitem{tevjetmass}
+\hrefCMSnoop {} {A.~H. Hoang and I.~W. Stewart, ``Top Mass Measurements from
+  Jets and the Tevatron Top-Quark Mass'',}
+  \href{http://dx.doi.org/10.1016/j.nuclphysbps.2008.10.028}{\doi{10.1016/j.nuclphysbps.2008.10.028}},
+  \href{http://www.arXiv.org/abs/arXiv:0808.0222}{\texttt{
+  arXiv:arXiv:0808.0222}}.
 
 \bibitem{nonperturbative}
 \hrefCMSnoop {} {P.~Skands and D.~Wicke, ``Non-perturbative QCD Effects and the
@@ -95,6 +134,12 @@ M.~Thomson, ``{Modern Particle Physics}''.
 \bibitem{cutoff}
 \hrefCMSnoop {} {B.~Stieger, ``New Methods for Top-Quark Mass Measurements at
   the LHC'',} 2016.
+
+\bibitem{TopMasses}
+\hrefCMSnoop {} {{The CMS Collaboration}, ``{Top Quark Mass Measurements}''.}
+  \url
+  {http://cms-results.web.cern.ch/cms-results/public-results/publications/TOP/index.html}.
+\newblock [Online; accessed July 10, 2017].
 
 \bibitem{eejetmass}
 \hrefCMSnoop {} {S.~Fleming, A.~H. Hoang, S.~Mantry{ et~al.}, ``Top Jets in the
@@ -156,6 +201,9 @@ M.~Thomson, ``{Modern Particle Physics}''.
   \href{http://dx.doi.org/10.1088/1748-0221/8/09/P09009}{\doi{10.1088/1748-0221/8/09/P09009}},
   \href{http://www.arXiv.org/abs/arXiv:1306.2016}{\texttt{
   arXiv:arXiv:1306.2016}}.
+
+\bibitem{HCALperf}
+\hrefCMSnoop {} {G.~Baiatian, A.~M. Sirunyan, I.~Emeliantchik{ et~al.}}  .
 
 \bibitem{L1}
 {The CMS Collaboration}, ``{CMS TriDAS project: Technical Design Report, Volume
@@ -271,6 +319,12 @@ M.~Thomson, ``{Modern Particle Physics}''.
   \href{http://dx.doi.org/10.1007/JHEP12(2015)051}{\doi{10.1007/JHEP12(2015)051}},
   \href{http://www.arXiv.org/abs/arXiv:1508.01518}{\texttt{
   arXiv:arXiv:1508.01518}}.
+
+\bibitem{Zprime}
+\href {http://cds.cern.ch/record/2138345} {{ CMS Collaboration} Collaboration,
+  ``{Search for $\mathrm{t\bar{t}}$ resonances in boosted semileptonic final
+  states in pp collisions at $\sqrt{s}=13~\mathrm{TeV}$}'',}
+  CMS-PAS-B2G-15-002, CERN, Geneva, (2016).
 
 \bibitem{ttreweight}
 \hrefCMSnoop {} {{CMS Collaboration}, ``Measurement of differential cross

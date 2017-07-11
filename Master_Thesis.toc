@@ -8,20 +8,20 @@
 \contentsline {chapter}{\numberline {2}Theory}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Standard Model of Particle Physics}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Quantum Electro Dynamics (QED)}{5}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Quantum Chromo Dynamics (QCD)}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Quantum Chromo Dynamics (QCD)}{6}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Weak Interaction}{6}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Electroweak Unification}{7}{subsection.2.1.4}
 \contentsline {subsection}{\numberline {2.1.5}Higgs Mechanism and Spontaneous Symmetry Breaking}{7}{subsection.2.1.5}
 \contentsline {section}{\numberline {2.2}Top Quark}{8}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Production in Hadron Colliders and Decay}{9}{subsection.2.2.1}
 \contentsline {section}{\numberline {2.3}Physics of Proton-Proton Collisions}{11}{section.2.3}
-\contentsline {subsubsection}{Pile-Up}{12}{equation.2.17}
+\contentsline {subsubsection}{Pile-Up}{11}{equation.2.17}
 \contentsline {subsubsection}{Underlying Event}{12}{equation.2.17}
 \contentsline {section}{\numberline {2.4}Event Generator and Parton Shower}{12}{section.2.4}
 \contentsline {chapter}{\numberline {3}Measurement of the Top Quark Mass}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}Conventional Mass Measurements}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Measurement in Boosted Decays}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}Previous Results}{16}{section.3.3}
+\contentsline {section}{\numberline {3.2}Measurement in Boosted Decays}{17}{section.3.2}
+\contentsline {section}{\numberline {3.3}Previous Results}{17}{section.3.3}
 \contentsline {chapter}{\numberline {4}Experiment}{19}{chapter.4}
 \contentsline {section}{\numberline {4.1}Large Hadron Collider}{19}{section.4.1}
 \contentsline {section}{\numberline {4.2}CMS Detector}{21}{section.4.2}
@@ -30,9 +30,9 @@
 \contentsline {subsection}{\numberline {4.2.3}Tracker}{23}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}Calorimeters}{25}{subsection.4.2.4}
 \contentsline {subsubsection}{Electromagnetic Calorimeter}{25}{equation.4.7}
-\contentsline {subsubsection}{Hadronic Calorimeter}{26}{equation.4.7}
+\contentsline {subsubsection}{Hadronic Calorimeter}{26}{equation.4.8}
 \contentsline {subsection}{\numberline {4.2.5}Muon System}{26}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Trigger}{26}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.6}Trigger}{27}{subsection.4.2.6}
 \contentsline {chapter}{\numberline {5}Reconstruction of Objects}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}Particle Flow Algorithm}{29}{section.5.1}
 \contentsline {section}{\numberline {5.2}Muon Identification}{30}{section.5.2}
@@ -52,7 +52,7 @@
 \contentsline {section}{\numberline {7.1}Analysis Strategy}{43}{section.7.1}
 \contentsline {section}{\numberline {7.2}Jet Studies on Particle Level}{43}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Selection on Particle Level}{44}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Studies with Anti-$k_T$}{45}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.2}Studies with the Anti-$k_T$ algorithm}{45}{subsection.7.2.2}
 \contentsline {subsection}{\numberline {7.2.3}Studies with HOTVR}{47}{subsection.7.2.3}
 \contentsline {subsection}{\numberline {7.2.4}Studies with XCone}{49}{subsection.7.2.4}
 \contentsline {subsection}{\numberline {7.2.5}Comparing Jet Algorithms}{54}{subsection.7.2.5}

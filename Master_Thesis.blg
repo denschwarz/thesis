@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Master_Thesis.aux
 The style file: lucas_unsrt.bst
 A level-1 auxiliary file: Titlepage.aux
@@ -13,48 +13,56 @@ A level-1 auxiliary file: Analysis.aux
 A level-1 auxiliary file: Summary.aux
 A level-1 auxiliary file: Appendix.aux
 Database file #1: MasterBib.bib
+I was expecting a `,' or a `}'---line 527 of file MasterBib.bib
+ :       
+ :       title         = "{Design, Performance, and Calibration of CMS Hadron-Barrel
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty journal in lhc
+Warning--empty title in HCALperf
+Warning--empty institution in HCALperf
+Warning--empty year in HCALperf
 Warning--empty publisher in L1
 Warning--empty year in L1
-You've used 49 entries,
+You've used 58 entries,
             2517 wiz_defined-function locations,
-            911 strings with 12896 characters,
-and the built_in function-call counts, 8962 in all, are:
-= -- 812
-> -- 346
-< -- 2
-+ -- 125
-- -- 76
-* -- 777
-:= -- 1182
-add.period$ -- 65
-call.type$ -- 49
-change.case$ -- 0
+            966 strings with 14491 characters,
+and the built_in function-call counts, 11179 in all, are:
+= -- 1019
+> -- 432
+< -- 3
++ -- 158
+- -- 100
+* -- 959
+:= -- 1477
+add.period$ -- 78
+call.type$ -- 58
+change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 52
-duplicate$ -- 500
-empty$ -- 1037
-format.name$ -- 68
-if$ -- 2251
+cite$ -- 64
+duplicate$ -- 623
+empty$ -- 1279
+format.name$ -- 81
+if$ -- 2798
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 93
-newline$ -- 170
-num.names$ -- 44
-pop$ -- 333
+int.to.str$ -- 58
+missing$ -- 106
+newline$ -- 203
+num.names$ -- 52
+pop$ -- 397
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 178
+skip$ -- 237
 stack$ -- 0
-substring$ -- 70
-swap$ -- 104
-text.length$ -- 2
+substring$ -- 154
+swap$ -- 140
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 50
-width$ -- 51
-write$ -- 472
-(There were 3 warnings)
+warning$ -- 6
+while$ -- 66
+width$ -- 60
+write$ -- 566
+(There was 1 error message)
